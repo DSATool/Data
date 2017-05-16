@@ -1,0 +1,15 @@
+{
+	"Nahkampftalente" : { "Probe" : ["GE", "GE", "KK"], "Ableiten" : 5 },
+	"Fernkampftalente" : { "Probe" : ["FF", "GE", "KK"], "Ableiten" : 5 },
+	"Körperliche Talente" : { "Steigerung" : 4, "Ableiten" : 10 },
+	"Gesellschaftliche Talente" : { "Steigerung" : 2, "Ableiten" : 10 },
+	"Natur-Talente" : { "Steigerung" : 2, "Ableiten" : 10 },
+	"Wissenstalente" : { "Steigerung" : 2, "Ableiten" : 10 },
+	"Handwerkstalente" : { "Steigerung" : 2, "Ableiten" : 10 },
+	"Sprachen und Schriften" : { "Sprachen" : { "Probe" : ["KL", "IN", "CH"], "Steigerung" : 2 },	"Schriften" : { "Probe" : ["KL", "KL", "FF"], "Steigerung" : 2 } },
+	"Gaben" : { "Steigerung" : 6 },
+	"Ritualkenntnis" : { "Steigerung" : 5 },
+	"Liturgiekenntnis" : { "Probe" : ["MU", "IN", "CH"], "Steigerung" : 6 }
+}
+	
+	

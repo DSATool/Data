@@ -1,0 +1,57 @@
+{	
+	"Allgemeine Rituale" : {},
+	"Stabzauber" : {
+		"Ritualobjekt" : "Magierstab",
+		"Volumen" : 24,
+		"Material" : ["Blutulme", "Bosparanie", "Steineiche", "Eisenbaum", "Mohagoni", "Zyklopenzeder", "Raschtulszeder", "Mammutbaum", "Walnussbaum", "Baum der Reisenden"]
+	},
+	"Kugelzauber" : {
+		"Ritualobjekt" : "Kristallkugel",
+		"Volumen" : 4,
+		"Material" : ["Glas", "Bergkristall", "echter Bergkristall"]
+	},
+	"Schalenzauber" : {
+		"Ritualobjekt" : "Schale der Alchimie",
+		"Volumen" : 7,
+		"Material" : ["Silber", "Mondsilber"]
+	},
+	"Flüche" : {},
+	"Schlangenring-Zauber" : {
+		"Ritualobjekt" : "Ring des Lebens",
+		"Volumen" : 6
+	},
+	"Geodenrituale" : {},
+	"Geodische Sichelrituale" : {
+		"Ritualobjekt" : "Goldsichel",
+		"Volumen" : 7
+	},
+	"Herrschaftsrituale" : {},
+	"Druidische Dolchrituale" : {
+		"Ritualobjekt" : "Vulkanglasdolch",
+		"Volumen" : 7
+	},
+	"Elfenlieder" : {},
+	"Kristallomanten-Rituale" : {},
+	"Schuppenbeutel" : {
+		"Ritualobjekt" : "Schuppenbeutel"
+	},
+	"Zaubertänze" : {},
+	"Zibilja-Rituale" : {},
+	"Keulenrituale" : {
+		"Ritualobjekt" : "Knochenkeule",
+		"pAsP" : true
+	},
+	"Odûn-Gaben" : {},
+	"Derwisch-Rituale" : {},
+	"Zauberzeichen" : {},
+	"Bann- und Schutzkreise" : {},
+	"Runen" : {},
+	"Runenrituale" : {
+		"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 11 }
+	},
+	"Szepterzauber" : {
+		"Bücher" : { "Ordnung ins Chaos" : 58 },
+		"Ritualobjekt" : "Szepter der Macht",
+		"pAsP" : true
+	}
+}

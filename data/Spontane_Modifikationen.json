@@ -1,0 +1,13 @@
+{
+	"Veränderte Technik" : { "Erschwernis" : { "Additiv" : 7 }, "Zauberdauer" : { "Additiv" : 3, "Einheit" : "Aktion" }, "Mehrfach" : true },
+	"Veränderte Technik, zentral" : { "Erschwernis" : { "Additiv" : 12 }, "Zauberdauer" : { "Additiv" : 3, "Einheit" : "Aktion" }, "Mehrfach" : true },
+	"Zauberdauer" : { "Abkürzung" : "Zd", "Varianten" : { "Halbierte Zauberdauer" : { "Erschwernis" : { "Additiv" : 5 }, "Zauberdauer" : { "Multiplikativ" : 0.5 }, "Mehrfach" : true }, "Verdoppelte Zauberdauer" : { "Erschwernis" : { "Additiv" : -3 }, "Zauberdauer" : { "Multiplikativ" : 2 } } } },
+	"Erzwingen" : { "Abkürzung" : "Ez", "Erschwernis" : { "Text" : "-1/2/4/8/…" }, "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Mehrfach" : true },
+	"Kosten" : { "Abkürzung" : "Ks", "Erschwernis" : { "Multiplikativ" : 3, "Grundmenge" : "10% AsP" }, "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Mehrfach" : true, "Varianten" : { "Kosten sparen" : {} } },
+	"Zielobjekt" : { "Abkürzung" : "Zo", "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Varianten" : { "Unfreiwillig statt freiwillig" : { "Erschwernis" : { "Additiv" : 5, "Multiplikativ" : 1, "Basis" : "MR" } }, "Freiwillig statt unfreiwillig" : { "Erschwernis" : { "Additiv" : 2, "Divisor" : 2, "Basis" : "MR" } } } },
+	"Zielobjekt (mehrere)" : { "Abkürzung" : "ZM", "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Varianten" : { "Mehrere freiwillig" : { "Erschwernis" : { "Additiv" : 3, "Multiplikativ" : 1, "Grundmenge" : "Person" } }, "Mehrere unfreiwillig" : { "Erschwernis" : { "Summanden" : [{ "Multiplikativ" : 1, "Basis" : "MRMax" }, { "Multiplikativ" : 1, "Grundmenge" : "Person" }] } } } },
+	"Reichweite" : { "Abkürzung" : "Rw", "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Mehrfach" : true, "Varianten" : { "Vergrößerung der Reichweite" : { "Erschwernis" : { "Additiv" : 5 } }, "Verkleinerung der Reichweite" : { "Erschwernis" : { "Additiv" : 3 } } } },
+	"Reichweite (Selbst)" : { "Abkürzung" : "RS", "Erschwernis" : { "Additiv" : 3 }, "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" } },
+	"Reichweite (Berührung)" : { "Abkürzung" : "RB", "Erschwernis" : { "Additiv" : 5 }, "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" } },
+	"Wirkungsdauer" : { "Abkürzung" : "Wd", "Zauberdauer" : { "Additiv" : 1, "Einheit" : "Aktion" }, "Varianten" : { "Verdoppelung der Wirkungsdauer" : { "Erschwernis" : { "Additiv" : 7 }, "Mehrfach" : true }, "Halbierung der Wirkungsdauer" : { "Erschwernis" : { "Additiv" : 3 }, "Mehrfach" : true }, "Aufrechterhalten auf feste Dauer" : { "Erschwernis" : { "Additiv" : 7 } } } }
+}

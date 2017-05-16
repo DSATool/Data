@@ -1,0 +1,386 @@
+{
+	"Nahkampftalente" : {
+		"Raufen" : { "Steigerung" : 3, "BEMultiplikativ" : 1, "Basis" : true },
+		"Ringen" : { "Steigerung" : 4, "BEMultiplikativ" : 1, "Basis" : true },
+		"Dolche" : { "Steigerung" : 4, "BEAdditiv" : -1, "Basis" : true, "Ableiten" : { "Fechtwaffen" : {}, "Raufen" : {} } },
+		"Hiebwaffen" : { "Steigerung" : 4, "BEAdditiv" : -4, "Basis" : true, "Ableiten" : { "Säbel" : {} } },
+		"Säbel" : { "Steigerung" : 4, "BEAdditiv" : -2, "Basis" : true, "Ableiten" : { "Hiebwaffen" : {}, "Schwerter" : {} } },
+		"Anderthalbhänder" : { "Steigerung" : 5, "BEAdditiv" : -2, "Ableiten" : { "Schwerter" : {}, "Zweihandschwerter/-säbel" : {} } },
+		"Fechtwaffen" : { "Steigerung" : 5, "BEAdditiv" : -1, "Ableiten" : { "Dolche" : {}, "Schwerter" : {} } },
+		"Infanteriewaffen" : { "Steigerung" : 4, "BEAdditiv" : -4, "Ableiten" : { "Speere" : {}, "Zweihand-Hiebwaffen" : {} } },
+		"Kettenstäbe" : { "Steigerung" : 5, "BEAdditiv" : -1, "Ableiten" : { "Kettenwaffen" : {}, "Zweihandflegel" : {} } },
+		"Kettenwaffen" : { "Steigerung" : 4, "BEAdditiv" : -3, "Ableiten" : { "Kettenstäbe" : {}, "Zweihandflegel" : {} } },
+		"Lanzenreiten" : { "Steigerung" : 5, "NurAT" : true },
+		"Peitsche" : { "Steigerung" : 5, "BEAdditiv" : -1, "NurAT" : true },
+		"Schwerter" : { "Steigerung" : 5, "BEAdditiv" : -2, "Ableiten" : { "Anderhalbhänder" : {}, "Fechtwaffen" : {}, "Säbel" : {} } },
+		"Speere" : { "Steigerung" : 4, "BEAdditiv" : -3, "Ableiten" : { "Infanteriewaffen" : {} } },
+		"Stäbe" : { "Steigerung" : 4, "BEAdditiv" : -2, "Ableiten" : { "Speere" : {} } },
+		"Zweihandflegel" : { "Steigerung" : 4, "BEAdditiv" : -3, "Ableiten" : { "Infanteriewaffen" : {}, "Kettenwaffen" : {} } },
+		"Zweihand-Hiebwaffen" : { "Steigerung" : 4, "BEAdditiv" : -3, "Ableiten" : { "Hiebwaffen" : {}, "Infanteriewaffen" : {} } },
+		"Zweihandschwerter/-säbel" : { "Steigerung" : 5, "BEAdditiv" : -2, "Ableiten" : { "Anderhalbhänder" : {}, "Schwerter" : {}, "Säbel" : {} } }
+	},
+	"Fernkampftalente" : {
+		"Wurfmesser" : { "Steigerung" : 3, "BEAdditiv" : -3, "FK" : true, "Basis" : true, "Ableiten" : { "Wurfbeile" : {}, "Wurfspeere" : {} } },
+		"Armbrust" : { "Steigerung" : 3, "BEAdditiv" : -5, "FK" : true, "Ableiten" : { "Bogen" : {} } },
+		"Belagerungswaffen" : { "Steigerung" : 4, "FK" : true },
+		"Blasrohr" : { "Steigerung" : 4, "BEAdditiv" : -5, "FK" : true },
+		"Bogen" : { "Steigerung" : 5, "BEAdditiv" : -3, "FK" : true },
+		"Diskus" : { "Steigerung" : 4, "BEAdditiv" : -2, "FK" : true },
+		"Schleuder" : { "Steigerung" : 5, "BEAdditiv" : -2, "FK" : true },
+		"Wurfbeile" : { "Steigerung" : 4, "BEAdditiv" : -2, "FK" : true, "Ableiten" : { "Wurfmesser" : {}, "Wurfspeere" : {} } },
+		"Wurfspeere" : { "Steigerung" : 3, "BEAdditiv" : -2, "FK" : true, "Ableiten" : { "Wurfbeile" : {} } }
+	},
+	"Körperliche Talente" : {
+		"Athletik" : { "Probe" : ["GE", "KO", "KK"], "BEMultiplikativ" : 2, "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Hochsprung", "Kraftakte", "Langlauf", "Sprint", "Weitsprung"], "Ableiten" : { "Akrobatik" : {}, "Körperbeherrschung" : { "Erschwernis" : 5 } } },
+		"Klettern" : { "Probe" : ["MU", "GE", "KK"], "BEMultiplikativ" : 2, "Basis" : true, "Spezialisierungen" : ["Bergsteigen", "Eisklettern", "Freiklettern", "Seilklettern"], "Ableiten" : { "Akrobatik" : { "Erschwernis" : 5 }, "Athletik" : { "Erschwernis" : 5 }, "Körperbeherrschung" : {} } },
+		"Körperbeherrschung" : { "Probe" : ["MU", "IN", "GE"], "BEMultiplikativ" : 2, "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Fallen", "Sprünge", "Standfestigkeit"], "Ableiten" : { "Akrobatik" : { "Erschwernis" : 5 } }, "Athletik" : {} },
+		"Schleichen" : { "Probe" : ["MU", "IN", "GE"], "BEMultiplikativ" : 1, "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Eis/Schnee", "Gebäude", "Geröll", "Straßen", "Wald/Dschungel"], "Ableiten" : { "Körperbeherrschung" : {}, "Sich Verstecken" : {} } },
+		"Schwimmen" : { "Probe" : ["GE", "KO", "KK"], "BEMultiplikativ" : 2, "Basis" : true, "Spezialisierungen" : ["Langstreckenschwimmen", "Schnellschwimmen", "Tauchen", "Unterwasserkampf"], "Ableiten" : { "Athletik" : {} } },
+		"Selbstbeherrschung" : { "Probe" : ["MU", "KO", "KK"], "Basis" : true, "Spezialisierungen" : ["Erschöpfung Ignorieren", "Schmerz Unterdrücken", "Störungen Ignorieren", "Wunden Ignorieren"] },
+		"Sich Verstecken" : { "Probe" : ["MU", "IN", "GE"], "BEAdditiv" : -2, "Basis" : true, "Spezialisierungen" : ["Gebäude", "Gebirge", "Grasland", "Eis/Schnee", "Stadt", "Wald/Dschungel", "Wüste"], "Ableiten" : { "Körperbeherrschung" : { "Erschwernis" : 15 }, "Schleichen" : {} } },
+		"Singen" : { "Probe" : ["IN", "CH", "CH"], "BEAdditiv" : -3, "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Balladenvortrag", "Chorgesang", "Mehrstimmigkeit", "Operngesang"] },
+		"Sinnenschärfe" : { "Probe" : ["KL", "IN", "IN"], "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Hören", "Riechen/Schmecken", "Sehen", "Tasten"] },
+		"Tanzen" : { "Probe" : ["CH", "GE", "GE"], "BEMultiplikativ" : 2, "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Ausdruckstänze", "Formationstänze", "Höfische Tänze", "Kulttänze", "Meditationstänze"], "Ableiten" : { "Akrobatik" : { "Erschwernis" : 5 }, "Körperbeherrschung" : { "Erschwernis" : 5 } } },
+		"Zechen" : { "Probe" : ["IN", "KO", "KK"], "Basis" : true },
+		"Akrobatik" : { "Probe" : ["MU", "GE", "KK"], "BEMultiplikativ" : 2, "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Körperbeherrschung" : 4 } } } ], "Spezialisierungen" : ["Balancieren", "Bodenakrobatik", "Schwingen", "Sprünge", "Winden"], "Ableiten" : { "Athletik" : {}, "Körperbeherrschung" : { "Erschwernis" : 5 } } },
+		"Fliegen" : { "Probe" : ["MU", "IN", "GE"], "BEMultiplikativ" : 1, "Spezialisierungen" : ["Hexenbesen", "Fliegender Teppich"], "Ableiten" : { "Akrobatik" : {} } },
+		"Gaukeleien" : { "Probe" : ["MU", "CH", "FF"], "BEMultiplikativ" : 2, "Spezialisierungen" : ["Bauchreden", "Feuerkust", "Jonglieren", "Possenreißen", "Taschenspielereien"], "Ableiten" : { "Taschendiebstahl" : {}, "Falschspiel" : {} } },
+		"Reiten" : { "Probe" : ["CH", "GE", "KK"], "BEAdditiv" : -2, "Spezialisierungen" : ["Pferd/Esel/Muli", "Kamel", "Strauß", "Reitechse", "Flugechse", "Hiffogriff", "goblinisches Reit-Wildschwein"], "Ableiten" : { "Akrobatik" : { "Erschwernis" : 15 }, "Körperbeherrschung" : {} } },
+		"Skifahren" : { "Probe" : ["GE", "GE", "KO"], "BEAdditiv" : -2, "Ableiten" : { "Athletik" : {}, "Körperbeherrschung" : { "Erschwernis" : 15 } } },
+		"Stimmen Imitieren" : { "Probe" : ["KL", "IN", "CH"], "BEAdditiv" : -4, "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Sinnenschärfe" : 4 } } } ], "Spezialisierungen" : ["Haustiere", "Jagdwild", "Menschliche Stimmen", "Raubtiere", "Vögel"], "Ableiten" : { "Gaukeleien" : { "Spezialisierung" : { "Bauchreden" : 5 } } } },
+		"Taschendiebstahl" : { "Probe" : ["MU", "IN", "FF"], "BEMultiplikativ" : 2, "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Menschenkenntnis" : 4 } } } ], "Ableiten" : { "Gaukeleien" : { "Spezialisierung" : { "Taschenspielereien" : 10 } } } }
+	},
+	"Gesellschaftliche Talente" : {
+		"Menschenkenntnis" : { "Probe" : ["KL", "IN", "CH"], "Basis" : true, "Ableiten" : { "Heilkunde Seele" : { "Erschwernis" : 5 } } },
+		"Überreden" : { "Probe" : ["MU", "IN", "CH"], "Basis" : true, "Spezialisierungen" : ["Aufwiegeln", "Betteln", "Einschüchtern", "Feilschen", "Lügen"], "Ableiten" : { "Überzeugen" : {} } },
+		"Betören" : { "Probe" : ["IN", "CH", "CH"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Menschenkenntnis" : 4 } } } ], "Spezialisierungen" : ["Festgestaltung", "Rahjakünste"], "Ableiten" : { "Überreden" : {}, "Überzeugen" : {} } },
+		"Etikette" : { "Probe" : ["KL", "IN", "CH"] },
+		"Gassenwissen" : { "Probe" : ["KL", "IN", "CH"], "Spezialisierungen" : ["Beschatten", "Hehlerei", "Kontakte", "Ortseinschätzung"], "Ableiten" : { "Menschenkenntnis" : {} } },
+		"Lehren" : { "Probe" : ["KL", "IN", "CH"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Menschenkenntnis" : 4 } } } ], "Spezialisierungen" : ["Kampftalente", "Körperliche Talente", "Gesellschaftliche Talente", "Natur-Talente", "Wissenstalente", "Handwerkstalente", "Sprachen und Schriften"], "Ableiten" : { "Überzeugen" : {} } },
+		"Schauspielerei" : { "Probe" : ["MU", "KL", "CH"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Singen" : 4, "Etikette" : 4, "Sich Verkleiden" : 4, "Überreden" : 4, "Überzeugen" : 4 } } } ], "Spezialisierungen" : ["Komödie", "Posse", "Tragödie"], "Ableiten" : { "Überreden" : {} } },
+		"Schriftlicher Ausdruck" : { "Probe" : ["KL", "IN", "IN"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } } ], "Spezialisierungen" : ["Schreiber", "Schriftsteller"], "Ableiten" : { "Überzeugen" : { "Spezialisierung" : { "schriftliche Rhetorik" : 5 } }, "Lesen/Schreiben" : {} } },
+		"Sich Verkleiden" : { "Probe" : ["MU", "CH", "GE"], "Spezialisierungen" : ["anderer Stand", "anderes Geschlecht", "andere Rasse", "fremde Kultur"], "Ableiten" : { "Schauspielerei" : {} } },
+		"Überzeugen" : { "Probe" : ["KL", "IN", "CH"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Menschenkenntnis" : 4 } } } ], "Spezialisierungen" : ["Öffentliche Rede (Demagogie, Plädoyer, Predigt)", "Einzelgespräch (Verhör, Bekehrung)", "Diskussions-Rhetorik", "schriftliche Rhetorik"], "Ableiten" : { "Überreden" : {} } }
+	},
+	"Natur-Talente" : {
+		"Fährtensuchen" : { "Probe" : ["KL", "IN", "KO"], "Basis" : true, "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Sinnenschärfe" : 4 } } } ], "Spezialisierungen" : ["Eis/Schnee", "Gebirge", "Grasland", "Stadt", "Sumpf", "Unterirdisch", "Wald/Dschungel", "Wüste"], "Ableiten" : { "Sinnenschärfe" : {} } },
+		"Orientierung" : { "Probe" : ["KL", "IN", "IN"], "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Dschungel", "Eis/Schnee", "Gebirge", "Grasland", "Meer", "Stadt", "Unterirdisch", "Wald", "Wüste"], "Ableiten" : { "Sternkunde" : {} } },
+		"Wildnisleben" : { "Probe" : ["IN", "GE", "KO"], "Basis" : true, "Spezialisierungen" : ["Dschungel", "Eis/Schnee", "Gebirge", "Meer", "Steppe", "Sumpf", "Wald", "Wüste"], "Ableiten" : { "Pflanzenkunde" : {}, "Tierkunde" : {} } },
+		"Fallenstellen" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Wildnisleben" : 4 } } } ], "Spezialisierungen" : ["Gruben", "Schlingen", "Speere"], "Ableiten" : { "Wildnisleben" : {} } },
+		"Fesseln/Entfesseln" : { "Probe" : ["FF", "GE", "KK"], "Spezialisierungen" : ["Entfesseln", "Fesseln", "Knotenkunde", "Taue Spleißen", "Netze Knüpfen"], "Ableiten" : { "Seefahrt" : {}, "Seiler" : {}, "Akrobatik" : { "Spezialisierung" : { "Winden" : 5 } }, "Gaukeleien" : { "Spezialisierung" : { "Spez." : 10 } }, "Taschendiebstahl" : {}, "Ringen" : { "Spezialisierung" : { "PA" : 10 } } } },
+		"Fischen/Angeln" : { "Probe" : ["IN", "FF", "KK"], "Spezialisierungen" : ["Flüsse/Bäche", "Hochseeangeln", "Seen/Sumpf/Brackwasser", "Strand/Riff", "Seefischerei"], "Ableiten" : { "Wildnisleben" : {} } },
+		"Wettervorhersage" : { "Probe" : ["KL", "IN", "IN"], "Leittalent" : true, "Ableiten" : { "Wildnisleben" : {} } }
+	},
+	"Wissenstalente" : {
+		"Götter/Kulte" : { "Probe" : ["KL", "KL", "IN"], "Basis" : true, "Ableiten" : { "Geschichtswissen" : {}, "Sagen/Legenden" : {} } },
+		"Rechnen" : { "Probe" : ["KL", "KL", "IN"], "Basis" : true, "Spezialisierungen" : ["Arithmetik", "Buchführung", "Geometrie"] },
+		"Sagen/Legenden" : { "Probe" : ["KL", "IN", "CH"], "Basis" : true, "Ableiten" : { "Geschichtswissen" : {}, "Götter/Kulte" : {} } },
+		"Anatomie" : { "Probe" : ["MU", "KL", "FF"], "Voraussetzungen" : [ { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } } ], "Ableiten" : { "Heilkunde Krankheiten" : {}, "Heilkunde Wunden" : { "Erschwernis" : 5 } } },
+		"Baukunst" : { "Probe" : ["KL", "KL", "FF"], "Voraussetzungen" : [ { "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 4 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Rechnen" : 5, "Malen/Zeichnen" : 5 } } } ], "Spezialisierungen" : ["Hochbau (Wohn- und Repräsentationsgebäude)", "Tiefbau (Brücken, Kanäle, Straßen)", "Wehranlagen"], "Ableiten" : { "Maurer" : {}, "Steinmetz" : {}, "Zimmermann" : {} } },
+		"Brett-/Kartenspiel" : { "Probe" : ["KL", "KL", "IN"], "Ableiten" : { "Kriegskunst" : { "Spezialisierung" : { "Strategie" : 10 } }, "Rechnen" : {} } },
+		"Deuten der Zeichen" : { "Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 11 }, "Probe" : ["KL", "IN", "FF"] },
+		"Geographie" : { "Probe" : ["KL", "KL", "IN"], "Ableiten" : { "Sagen/Legenden" : {} } },
+		"Geschichtswissen" : { "Probe" : ["KL", "KL", "IN"], "Voraussetzungen" : [{ "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 4 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]] }], "Spezialisierungen" : ["Bau- und Kunstgeschichte", "Militärgeschichte", "Religionsgeschichte", "Wissenschaftsgeschichte"], "Ableiten" : { "Sagen/Legenden" : {} } },
+		"Gesteinskunde" : { "Probe" : ["KL", "IN", "FF"], "Spezialisierungen" : ["Baugestein", "Edelmetalle", "Edelsteine"], "Ableiten" : { "Baukunst" : {}, "Hüttenkunde" : {}, "Bergbau" : {}, "Steinmetz" : { "Erschernis" : 5 }, "Steinschneider/Juwelier" : {} } },
+		"Heraldik" : { "Probe" : ["KL", "KL", "FF"], "Ableiten" : { "Etikette" : {} } },
+		"Hüttenkunde" : { "Probe" : ["KL", "IN", "KO"], "Spezialisierungen" : ["Edelmetalle", "Eisen/Stahl", "Kupfer/Bronze/Messing", "Zinn", "Magische Metalle"], "Ableiten" : { "Alchimie" : {}, "Grobschmied" : { "Erschwernis" : 15 }, "Metallguss" : {} } },
+		"Kriegskunst" : { "Probe" : ["MU", "KL", "CH"], "Spezialisierungen" : ["Logistig", "Militärgeschichte", "Monstren", "Seegefechte", "Strategie", "Taktik", "Drachen und deren Bekämpfung"], "Ableiten" : { "Menschenkenntnis" : {}, "Brett-/Kartenspiel" : {}, "Rechnen" : {}, "Tierkunde" : {} } },
+		"Kryptographie" : { "Probe" : ["KL", "KL", "IN"], "Voraussetzungen" : [ { "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Rechnen" : 6, "Sprachenkunde" : 4, "Malen/Zeichnen" : 4 } } } ], "Ableiten" : { "Rechnen" : {}, "Sprachenkunde" : {} } },
+		"Magiekunde" : { "Probe" : ["KL", "KL", "IN"], "Voraussetzungen" : [ { "Ab" : 10, "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]] } ], "Spezialisierungen" : ["Artefaktherstellung", "Dämonologie", "Elementarismus", "Magiehistorie", "Magietheorie", "Magische Analyse", "Sphärologie", "Zauberpraxis", "Zauberwerkstatt"], "Ableiten" : { "Sagen/Legenden" : {}, "Götter/Kulte" : {} } },
+		"Mechanik" : { "Probe" : ["KL", "KL", "FF"], "Voraussetzungen" : [ { "Ab" : 10, "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Rechnen" : 6, "Malen/Zeichnen" : 6 } } } ], "Spezialisierungen" : ["Belagerungswaffen", "Kräne/Hebewerke/Mahlwerke", "Materialkunde", "Pumpen und Wasserkraft", "Windkraft"], "Ableiten" : { "Feinmechanik" : {} } },
+		"Pflanzenkunde" : { "Probe" : ["KL", "IN", "FF"], "Spezialisierungen" : ["Dschungel", "Gebirge", "Grasland", "Meer", "Steppe", "Sumpf", "Tundra", "Wald", "Wüste"], "Ableiten" : { "Wildnisleben" : {} } },
+		"Philosophie" : { "Probe" : ["KL", "KL", "IN"], "Ableiten" : { "Geschichtswissen" : { "Erschwernis" : 15 }, "Götter/Kulte" : {}, "Magiekunde" : {}, "Sagen/Legenden" : { "Erschwernis" : 15 } } },
+		"Rechtskunde" : { "Probe" : ["KL", "KL", "IN"], "Spezialisierungen" : ["Gildenrecht", "Kirchenrecht", "Strafrecht", "Stattsrecht"], "Ableiten" : { "Etikette" : {}, "Staatskunst" : {} } },
+		"Schätzen" : { "Probe" : ["KL", "IN", "IN"], "Spezialisierungen" : ["Antiquitäten", "Materialwert", "Schmuck", "Handwerksgüter"], "Ableiten" : { "Feinmechanik" : { "Spezialisierung" : { "Goldschmied" : 5 } }, "Handel" : { "Erschwernis" : 5 }, "Steinschneider/Juwelier" : { "Erschwernis" : 5 } } },
+		"Sprachenkunde" : { "Probe" : ["KL", "KL", "IN"], "Spezialisierungen" : ["Garethi-Familie", "Tulamidya-Familie", "Thorwalsch-Familie", "Elfisch-Familie", "Zwergisch-Familie", "Orkisch-Familie", "Rissoal-Familie"] },
+		"Staatskunst" : { "Probe" : ["KL", "IN", "CH"], "Spezialisierungen" : ["Diplomatie", "Intrige", "Verwaltung"], "Ableiten" : { "Rechtskunde" : { "Spezialisierung" : { "Staatsrecht" : 10 } }, "Hauswirtschaft" : {} } },
+		"Sternkunde" : { "Probe" : ["KL", "KL", "IN"], "Voraussetzungen" : [ { "Ab" : 10, "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Sinnenschärfe" : 6, "Rechnen" : 6 } } } ], "Spezialisierungen" : ["Himmelskartographie", "Horoskope", "Navigation", "Zeitbestimmung"], "Ableiten" : { "Prophezeien" : { "Spezialisierung" : { "Astrologie" : 5 } } } },
+		"Tierkunde" : { "Probe" : ["MU", "KL", "IN"], "Spezialisierungen" : ["Drachen", "Jagdwild", "Meeresgetier", "Monstren", "Nutztiere", "Raubtiere", "Schädlinge", "Vielbeiner", "Vögel"], "Ableiten" : { "Reiten" : {}, "Wildnisleben" : {}, "Viehzucht" : {} } }
+	},
+	"Handwerkstalente" : {
+		"Heilkunde Wunden" : { "Probe" : ["KL", "CH", "FF"], "Basis" : true, "Spezialisierungen" : ["Brüche/Quetschungen", "Innere Verletzungen", "Schnitte", "Tierheilkunde", "Verbrennungen", "Zahnleiden"], "Ableiten" : { "Anatomie" : {} } },
+		"Holzbearbeitung" : { "Probe" : ["KL", "FF", "KK"], "Basis" : true, "Spezialisierungen" : ["Beinschnitzerei", "Holzkunde", "Holzwaffen", "Küfer/Wagner", "Möbelschreiner/Tischlerei", "Schnitzen"], "Ableiten" : { "Zimmermann" : { "Erschwernis" : 5 } } },
+		"Kochen" : { "Probe" : ["KL", "IN", "FF"], "Basis" : true, "Spezialisierungen" : ["Backen/Braten", "Festmahle", "Haltbarmachen", "Marschversorgung", "Tränke", "Vorkoster"], "Ableiten" : { "Fischen/Angeln" : {}, "Wildnisleben" : {}, "Fleischer" : {} } },
+		"Lederarbeiten" : { "Probe" : ["KL", "FF", "FF"], "Basis" : true, "Spezialisierungen" : ["Gurte/Riemen", "Lederkleidung", "Lederrüstungen", "Sättel", "Schuhwerk"], "Ableiten" : { "Gerber/Kürschner" : {}, "Schneidern" : {} } },
+		"Malen/Zeichnen" : { "Probe" : ["KL", "IN", "FF"], "Basis" : true, "Leittalent" : true, "Spezialisierungen" : ["Architektur", "Landschaften", "Porträt", "technische Skizze"], "Ableiten" : { "Kartographie" : {}, "Steinmetz" : { "Spezialisierung" : { "Bildhauer" : 10 } }, "Tätowieren" : { "Erschwernis" : 5 } } },
+		"Schneidern" : { "Probe" : ["KL", "FF", "FF"], "Basis" : true, "Spezialisierungen" : ["Entwurf/Festgewänder", "Flick-/Gebrauchsschneiderei", "Maßschneidern", "Tuchrüstungen"], "Ableiten" : { "Lederarbeiten" : {}, "Webkunst" : {} } },
+		"Abrichten" : { "Probe" : ["MU", "IN", "CH"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Tierkunde" : 4 } } } ], "Spezialisierungen" : ["Dompteur", "Echsenbändiger", "Falkner", "Hundeführer", "Zureiter"], "Ableiten" : { "Reiten" : {}, "Tierkunde" : {}, "Viehzucht" : {} } },
+		"Ackerbau" : { "Probe" : ["IN", "FF", "KO"], "Spezialisierungen" : ["zwergische Pilzzucht"], "Ableiten" : { "Pflanzenkunde" : {}, "Viehzucht" : {} } },
+		"Alchimie" : { "Probe" : ["MU", "KL", "FF"], "Voraussetzungen" : [ { "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 4 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Rechnen" : 4 } } } ], "Spezialisierungen" : ["Brandmittel", "Gifte", "Laborpraxis", "Zauber-Elixiere", "Farben/Lacke", "Materialveredelung (Gläser, Porzellan, besondere Legierungen, Goldmacherei)", "Theoretische Alchimie (Elementarismus und Sympathetik)"], "Ableiten" : { "Pflanzenkunde" : {}, "Kochen" : { "Spezialisierung" : { "Tränke" : 10 } } } },
+		"Bergbau" : { "Probe" : ["IN", "KO", "KK"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Gesteinskunde" : 4 } } } ], "Spezialisierungen" : ["Bergwerke", "Kanalisation", "natürliche Höhlen", "Sappeur", "unterirdische Städte"], "Ableiten" : { "Baukunst" : {}, "Gesteinskunde" : {}, "Maurer" : {}, "Steinmetz" : {} } },
+		"Bogenbau" : { "Probe" : ["KL", "IN", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Holzbearbeitung" : 4 } } } ], "Spezialisierungen" : ["Armbrust", "Bogen", "Bolzen/Pfeile", "Torsionswaffen"], "Ableiten" : { "Holzbearbeitung" : {}, "Feinmechanik" : {}, "Grobschmied" : { "Erschwernis" : 15 } } },
+		"Boote Fahren" : { "Probe" : ["GE", "KO", "KK"], "Spezialisierungen" : ["Einmaster (Segeln)", "Flöße (Staken)", "Kanus/Kajaks (Paddeln)", "Ruderboote (Rudern)", "Eissegler"], "Ableiten" : { "Seefahrt" : { "Erschwernis" : 5 } } },
+		"Brauer" : { "Probe" : ["KL", "FF", "KK"], "Ableiten" : { "Alchimie" : {} } },
+		"Drucker" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [ { "Wahl" : [[{ "Talente" : { "Muss" : { "Lesen/Schreiben" : 6 } } }, { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Eidetisches Gedächtnis" : {} } } }]], "Talente" : { "Muss" : { "Mechanik" : 4, "Malen/Zeichnen" : 4 } } } ], "Spezialisierungen" : ["Buchdruck", "Druckereitechnik", "Pamphlete", "Typographie"], "Ableiten" : { "Mechanik" : {}, "Alchimie" : {}, "Metallguss" : { "Erschwernis" : 15 }, "Stoffe Färben" : {} } },
+		"Fahrzeug Lenken" : { "Probe" : ["IN", "CH", "FF"], "Spezialisierungen" : ["Lastkarren", "Streitwagen", "Zuggespanne", "Hunde- und Dachsschlitten"] },
+		"Falschspiel" : { "Probe" : ["MU", "CH", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Menschenkenntnis" : 4 } } } ], "Spezialisierungen" : ["Würfel", "Karten"], "Ableiten" : { "Gaukeleien" : { "Spezialisierung" : { "Taschenspielereien" : 10 } } } },
+		"Feinmechanik" : { "Probe" : ["KL", "FF", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Malen/Zeichnen" : 4 } } } ], "Spezialisierungen" : ["Gold- und Silberschmied", "Gravieren", "Schlösser", "Siegelstöcke", "Trickwaffen/Fallen", "Uhrwerke"] },
+		"Feuersteinbearbeitung" : { "Probe" : ["KL", "FF", "FF"], "Ableiten" : { "Steinmetz" : {} } },
+		"Fleischer" : { "Probe" : ["KL", "FF", "KK"], "Spezialisierungen" : ["Fische", "Geflügel", "Reptilien", "Säugetiere"], "Ableiten" : { "Fischen/Angeln" : {}, "Anatomie" : {}, "Tierkunde" : {}, "Gerber/Kürschner" : { "Spezialisierung" : { "Trophäen" : 10 } }, "Kochen" : {}, "Viehzucht" : {} } },
+		"Gerber/Kürschner" : { "Probe" : ["KL", "FF", "KO"], "Spezialisierungen" : ["Gerber", "Kürschner", "Trophäen"], "Ableiten" : { "Alchimie" : {}, "Fleischer" : {} } },
+		"Glaskunst" : { "Probe" : ["FF", "FF", "KO"], "Spezialisierungen" : ["Fensterscheiben", "Glasbläserei", "Linsenschleifen", "Spiegel"], "Ableiten" : { "Steinschneider/Juwelier" : {} } },
+		"Grobschmied" : { "Probe" : ["FF", "KO", "KK"], "Spezialisierungen" : ["Drahtzieher/Sarwirker", "Hufschmied", "Plättner", "Schwarzschmied", "Spengler", "Waffenschmied"], "Ableiten" : { "Metallguss" : { "Erschwernis" : 15 } } },
+		"Handel" : { "Probe" : ["KL", "IN", "CH"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Rechnen" : 4 } } } ], "Spezialisierungen" : ["Korn", "Metalle", "Sklaven", "Geldwechsel"], "Ableiten" : { "Geographie" : { "Erschwernis" : 15 }, "Schätzen" : { "Erschwernis" : 15 }, "Hauswirtschaft" : {} } },
+		"Hauswirtschaft" : { "Probe" : ["IN", "CH", "FF"], "Spezialisierungen" : ["Bewirtung/Feiern", "Personal", "Vorratshaltung"], "Ableiten" : { "Rechnen" : { "Spezialisierung" : { "Buchführung" : 10 } } } },
+		"Heilkunde Gift" : { "Probe" : ["MU", "KL", "IN"], "Spezialisierungen" : ["alchimistische/Zaubergifte", "mineralische Gifte", "pflanzliche Gifte", "Atemgifte", "Einnahmegifte", "Kontaktgifte", "Waffengifte", "Tierheilkunde"], "Ableiten" : { "Alchimie" : { "Spezialisierung" : { "Gifte" : 5 } }, "Heilkunde Krankheiten" : {}, "Kochen" : { "Spezialisierung" : { "Tränke" : 10 } } } },
+		"Heilkunde Krankheiten" : { "Probe" : ["MU", "KL", "CH"], "Spezialisierungen" : ["Tierheilkunde"], "Ableiten" : { "Heilkunde Gift" : {} } },
+		"Heilkunde Seele" : { "Probe" : ["IN", "CH", "CH"], "Ableiten" : { "Menschenkenntnis" : {}, "Überzeugen" : {} } },
+		"Instrumentenbauer" : { "Probe" : ["KL", "IN", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Holzbearbeitung" : 4, "Feinmechanik" : 4, "Musizieren" : 4 } } } ], "Spezialisierungen" : ["Blasinstrumente", "Saiteninstrumente", "Tasteninstrumente", "Trommeln"], "Ableiten" : { "Feinmechanik" : {}, "Holzbearbeitung" : {} } },
+		"Kartographie" : { "Probe" : ["KL", "KL", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Malen/Zeichnen" : 4 } } } ], "Spezialisierungen" : ["Gebäude", "Höhlen/Tunnel", "Küsten/Meere", "Landschaften", "Stadt"], "Ableiten" : { "Orientierung" : {}, "Sternkunde" : {} } },
+		"Kristallzucht" : { "Probe" : ["KL", "IN", "FF"], "Ableiten" : { "Alchimie" : { "Erschwernis" : 15 } } },
+		"Maurer" : { "Probe" : ["FF", "GE", "KK"], "Spezialisierungen" : ["Steinbau", "Steinguss", "Ziegelbau"], "Ableiten" : { "Baukunst" : {} } },
+		"Metallguss" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Hüttenkunde" : 4 } } } ], "Spezialisierungen" : ["Klangkörper", "Rohre", "Reliefplatten/Statuen"], "Ableiten" : { "Hüttenkunde" : {}, "Grobschmied" : {} } },
+		"Musizieren" : { "Probe" : ["IN", "CH", "FF"], "Leittalent" : true, "Spezialisierungen" : ["Blechblasinstrumente", "Flöten", "Harfen", "Kapellmeister/Dirigent", "Lauten", "Rhythmusinstrumente", "Streichinstrumente", "Tasteninstrumente"] },
+		"Schlösser Knacken" : { "Probe" : ["IN", "FF", "FF"], "Spezialisierungen" : ["Fallen", "Schlösser"], "Ableiten" : { "Feinmechanik" : { "Erschwernis" : 5 } } },
+		"Schnaps Brennen" : { "Probe" : ["KL", "IN", "FF"], "Spezialisierungen" : ["alchimistische Destillation", "Beeren-/Obstbrände", "Kornbrände", "Kräuterschnäpse", "Lagerung"], "Ableiten" : { "Alchimie" : { "Erschwernis" : 5 }, "Brauer" : {}, "Winzer" : {} } },
+		"Seefahrt" : { "Probe" : ["FF", "GE", "KK"], "Spezialisierungen" : ["Ruderschiff", "Segelschiff", "Steuermann"], "Ableiten" : { "Boote Fahren" : {} } },
+		"Seiler" : { "Probe" : ["FF", "FF", "KK"], "Ableiten" : { "Fesseln/Entfesseln" : { "Spezialisierung" : { "Taue spleißen" : 10 } } } },
+		"Steinmetz" : { "Probe" : ["FF", "FF", "KK"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Gesteinskunde" : 4 } } } ], "Spezialisierungen" : ["Baugestein", "Reliefs", "Statuen"], "Ableiten" : { "Baukunst" : {}, "Bergbau" : {}, "Malen/Zeichnen" : {}, "Maurer" : {} } },
+		"Steinschneider/Juwelier" : { "Probe" : ["IN", "FF", "FF"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Gesteinskunde" : 4 } } } ], "Ableiten" : { "Feinmechanik" : {}, "Kristallzüchter" : {} } },
+		"Stellmacher" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Holzbearbeitung" : 4, "Lederarbeiten" : 4, "Grobschmied" : 4 } } } ], "Spezialisierungen" : ["Karren/Wagen", "Schlitten", "Streitwagen"], "Ableiten" : { "Zimmermann" : {} } },
+		"Stoffe Färben" : { "Probe" : ["KL", "FF", "KK"], "Spezialisierungen" : ["alchimistische Farben", "mineralische Farben", "pflanzliche Farben", "tierische Farben", "Stoffdruck"], "Ableiten" : { "Alchimie" : {}, "Drucker" : {} } },
+		"Tätowieren" : { "Probe" : ["IN", "FF", "FF"], "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Malen/Zeichnen" : 4 } } } ], "Spezialisierungen" : ["Naturalistische Darstellung", "Ornamente", "Zaubertätowierungen"], "Ableiten" : { "Malen/Zeichnen" : {} } },
+		"Töpfern" : { "Probe" : ["KL", "FF", "FF"], "Spezialisierungen" : ["Gefäße", "Statuetten", "Ziegelei"], "Ableiten" : { "Maurer" : {}, "Steinmetz" : {} } },
+		"Viehzucht" : { "Probe" : ["KL", "IN", "KK"], "Spezialisierungen" : ["Rind", "Schaf/Ziege", "Schwein", "Pferd", "Hund"], "Ableiten" : { "Tierkunde" : {} } },
+		"Webkunst" : { "Probe" : ["FF", "FF", "KK"], "Spezialisierungen" : ["Häkeln", "Klöppeln", "Stricken", "Teppichknüpfen", "Weben"], "Ableiten" : { "Schneidern" : {} } },
+		"Winzer" : { "Probe" : ["KL", "FF", "KK"], "Spezialisierungen" : ["Wein", "Fruchtweine", "Schaumweine", "Weinkenner"] },
+		"Zimmermann" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Holzbearbeitung" : 4 } } } ], "Spezialisierungen" : ["Dachdecker", "Holzkonstruktionen", "Schiffszimmermann", "Schiffbau"], "Ableiten" : { "Holzbearbeitung" : {} } }
+	},
+	"Sprachen und Schriften" : {
+		"Garethi" : { "Komplexität" : 18, "Sprachfamilien" : [ "Garethi", "Garethi-Thorwalsch" ], "Schriften" : [ "Kusliker Zeichen" ] },
+		"Bosparano" : { "Komplexität" : 21, "Sprachfamilien" : [ "Garethi" ], "Schriften" : [ "Kusliker Zeichen", "Imperiale Zeichen" ] },
+		"Aureliani" : { "Komplexität" : 21, "Sprachfamilien" : [ "Garethi" ], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } } ], "Schriften" : [ "Imperiale Zeichen" ] },
+		"Zyklopäisch" : { "Komplexität" : 18, "Sprachfamilien" : [ "Garethi" ], "Schriften" : [ "Kusliker Zeichen" ] },
+		"Tulamidya" : { "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ], "Schriften" : [ "Tulamidya (Schrift)", "Geheiligte Glyphen von Unau", "Kusliker Zeichen" ] },
+		"Ur-Tulamidya" : { "Komplexität" : 21, "Sprachfamilien" : [ "Tulamidya" ], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } } ], "Schriften" : [ "Tulamidya (Schrift)", "Ur-Tulamidya (Schrift)", "Chrmk" ] },
+		"Zelemja" : { "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ], "Schriften" : [ "Chrmk" ] },
+		"Alaani" : { "Komplexität" : 21, "Sprachfamilien" : [ "Tulamidya", "Alaani-Gjalskisch" ], "Schriften" : [ "Kusliker Zeichen", "Altes Alaani (Schrift)" ] },
+		"Zhulchammaqra" : { "Komplexität" : 15, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Ferkina" : { "Komplexität" : 16, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Ruuz" : { "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ], "Schriften" : [ "Ur-Tulamidya (Schrift)" ] },
+		"Altes Kemi" : { "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ], "Schriften" : [ "Altes Kemi (Schrift)" ] },
+		"Rabensprache" : { "Komplexität" : 15, "Sprachfamilien" : [ "Tulamidya" ], "Schriften" : [ "Kusliker Zeichen", "Tulamidya (Schrift)" ] },
+		"Nujuka" : { "Komplexität" : 15 },
+		"Mohisch" : { "Komplexität" : 15 },
+		"Thorwalsch" : { "Komplexität" : 18, "Sprachfamilien" : [ "Thorwalsch", "Garethi-Thorwalsch" ], "Schriften" : [ "Kusliker Zeichen" ] },
+		"Gjalskisch" : { "Komplexität" : 18, "Sprachfamilien" : [ "Thorwalsch", "Alaani-Gjalskisch" ], "Schriften" : [ "Kusliker Zeichen", "Gjalskisch (Schrift)" ] },
+		"Fjarningsch" : { "Komplexität" : 18, "Sprachfamilien" : [ "Thorwalsch" ], "Schriften" : [ "Kusliker Zeichen" ] },
+		"Hjaldingsch" : { "Komplexität" : 18, "Sprachfamilien" : [ "Thorwalsch" ], "Schriften" : [ "Hjaldingsche Runen" ] },
+		"Isdira" : { "Komplexität" : 21, "Leittalent" : true, "Sprachfamilien" : [ "Elfisch" ], "Voraussetzungen" : [ { "Ab" : 15, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Zweistimmiger Gesang" : {} } } } ], "Schriften" : [ "Isdira (Schrift)" ] },
+		"Asdharia" : { "Komplexität" : 24, "Leittalent" : true, "Sprachfamilien" : [ "Elfisch" ], "Steigerung" : 1, "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } }, { "Ab" : 15, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Zweistimmiger Gesang" : {} } } } ], "Schriften" : [ "Asdharia (Schrift)" ] },
+		"Rogolan" : { "Komplexität" : 21, "Sprachfamilien" : [ "Zwergisch" ], "Schriften" : [ "Rogolan (Schrift)" ] },
+		"Angram" : { "Komplexität" : 21, "Sprachfamilien" : [ "Zwergisch" ], "Voraussetzungen" : [ { "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } } ], "Schriften" : [ "Angram (Schrift)" ] },
+		"Ologhaijan" : { "Komplexität" : 15, "Sprachfamilien" : [ "Orkisch" ] },
+		"Oloarkh" : { "Komplexität" : 10, "Sprachfamilien" : [ "Orkisch" ] },
+		"Goblinisch" : { "Komplexität" : 12 },
+		"Trollisch" : { "Komplexität" : 15, "Steigerung" : 1, "Schriften" : [ "Raumbilderschrift" ] },
+		"Rssahh" : { "Komplexität" : 18, "Beschränkung" : 9, "Steigerung" : 1, "Voraussetzungen" : [ { "Ab" : 9, "Rassen" : { "Muss" : { "Achaz" : {} } } } ], "Schriften" : [ "Chrmk" ] },
+		"Mahrisch" : { "Komplexität" : 20, "Sprachfamilien" : [ "Rissoal" ], "Schriften" : [ "Mahrische Glyphen" ] },
+		"Rissoal" : { "Komplexität" : 20, "Sprachfamilien" : [ "Rissoal" ] },
+		"Molochisch" : { "Komplexität" : 17 },
+		"Neckergesang" : { "Komplexität" : 24, "Voraussetzungen" : [ { "Ab" : 18, "Talente" : { "Muss" : { "Gedankenbilder Elfenruf" : 0 } } } ] },
+		"Grolmisch" : { "Komplexität" : 17 },
+		"Z'Lit" : { "Komplexität" : 17, "Voraussetzungen" : [ { "Text" : "Kiemen" } ] },
+		"Koboldisch" : { "Komplexität" : 15, "Voraussetzungen" : [ { "Wahl" : [ [ { "Professionen" : { "Muss" : { "Schelm" : {} } } }, { "Talente" : { "Muss" : { "Axxeleratus Blitzgeschwind" : 0 } } } ] ], "Text" : "evtl. Koboldfreund" } ] },
+		"Drachisch" : { "Komplexität" : 21, "Voraussetzungen" : [ { "Talente" : { "Muss" : { "Blick in die Gedanken" : 7, "Gedankenbilder Elfenruf" : 7 } } } ] },
+		"Zhayad" : { "Komplexität" : 15, "Schriften" : [ "Zhayad (Schrift)" ] },
+		"Atak" : { "Komplexität" : 12, "Steigerung" : -1 },
+		"Füchsisch" : { "Komplexität" : 12, "Steigerung" : -1 },
+		"Altes Alaani" : { "Schrift" : true, "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Altes Kemi (Schrift)" : { "Schrift" : true, "Komplexität" : 21, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Kusliker Zeichen" : { "Schrift" : true, "Komplexität" : 10, "Sprachfamilien" : [ "Garethi" ] },
+		"Imperiale Zeichen" : { "Schrift" : true, "Komplexität" : 12, "Sprachfamilien" : [ "Garethi" ] },
+		"Tulamidya (Schrift)" : { "Schrift" : true, "Komplexität" : 14, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Ur-Tulamidya (Schrift)" : { "Schrift" : true, "Komplexität" : 16, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Geheiligte Glyphen von Unau" : { "Schrift" : true, "Komplexität" : 13, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Chrmk" : { "Schrift" : true, "Komplexität" : 18, "Sprachfamilien" : [ "Tulamidya" ] },
+		"Hjaldingsche Runen" : { "Schrift" : true, "Komplexität" : 16, "Sprachfamilien" : [ "Thorwalsch" ] },
+		"Gjalskisch (Schrift)" : { "Schrift" : true, "Komplexität" : 14, "Sprachfamilien" : [ "Thorwalsch" ] },
+		"Isdira (Schrift)" : { "Schrift" : true, "Komplexität" : 15, "Leittalent" : true, "Sprachfamilien" : [ "Elfisch" ] },
+		"Asdharia (Schrift)" : { "Schrift" : true, "Komplexität" : 18, "Leittalent" : true, "Sprachfamilien" : [ "Elfisch" ] },
+		"Rogolan (Schrift)" : { "Schrift" : true, "Komplexität" : 11, "Sprachfamilien" : [ "Zwergisch" ] },
+		"Angram (Schrift)" : { "Schrift" : true, "Komplexität" : 21, "Sprachfamilien" : [ "Zwergisch" ] },
+		"Mahrische Glyphen" : { "Schrift" : true, "Komplexität" : 15, "Steigerung" : 1 },
+		"Drakned-Glyphen" : { "Schrift" : true, "Komplexität" : 15, "Steigerung" : 1 },
+		"Chuchas" : { "Schrift" : true, "Komplexität" : 24, "Steigerung" : 1 },
+		"Raumbilderschrift" : { "Schrift" : true, "Komplexität" : 24, "Steigerung" : 2 },
+		"Zhayad (Schrift)" : { "Schrift" : true, "Komplexität" : 18 },
+		"Gimaril" : { "Schrift" : true, "Komplexität" : 10 },
+		"Nanduria" : { "Schrift" : true, "Komplexität" : 10 },
+		"Amulashtra" : { "Schrift" : true, "Komplexität" : 17 },
+		"Arkanil" : { "Schrift" : true, "Komplexität" : 24, "Steigerung" : 2 },
+		"Drakhard-Zinken" : { "Schrift" : true, "Komplexität" : 9 }
+	},
+	"Gaben" : {
+		"Empathie" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
+		"Gefahreninstinkt" : { "Probe" : ["KL", "IN", "IN"], "Leittalent" : true },
+		"Geräuschhexerei" : { "Probe" : ["IN", "CH", "KO"], "Leittalent" : true },
+		"Magiegespür" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
+		"Prophezeien" : { "Probe" : ["IN", "IN", "CH"], "Leittalent" : true },
+		"Tierempathie" : { "Probe" : ["MU", "IN", "CH"], "Leittalent" : true },
+		"Zwergennase" : { "Probe" : ["IN", "IN", "FF"], "Leittalent" : true }
+	},
+	"Meta-Talente" : {
+		"Ansitzjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Sich Verstecken", "Fährtensuchen", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
+		"Hetzjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Reiten", "Reiten", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
+		"Kräuter Suchen" : { "Probe" : ["MU", "IN", "FF"], "Berechnung" : ["Sinnenschärfe", "Wildnisleben", "Pflanzenkunde"] },
+		"Nahrung Sammeln" : { "Probe" : ["MU", "IN", "FF"], "Berechnung" : ["Sinnenschärfe", "Wildnisleben", "Pflanzenkunde"] },
+		"Pirschjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Schleichen", "Fährtensuchen", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
+		"Speerfischen" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Selbstbeherrschung", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Speere", "Wurfspeere"] },
+		"Tierfallen Stellen" : { "Probe" : ["KL", "IN", "FF"], "Berechnung" : ["Fallenstellen", "Fallenstellen", "Fährtensuchen", "Wildnisleben", "Tierkunde"] }
+	},
+	"Ritualkenntnis" : {
+		"Gildenmagisch" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Gildenmagie" } } } } }] },
+		"Scharlatanisch" : { "Leiteigenschaft" : "KL", "Steigerung" : -1, "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Scharlatanerie" } } } } }] },
+		"Alchimist" : { "Leiteigenschaft" : "KL", "Steigerung" : -1, "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Alchimie" } } } } }] },
+		"Kristallomantisch" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Kristallomantie" } } } } }] },
+		"Hexisch" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Hexenmagie" } } } } }] },
+		"Druidisch" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Druidenmagie" } } } } }] },
+		"Geodisch (Herr der Erde)" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geodenmagie (Herren der Erde)" } } } } }] },
+		"Geodisch (Diener Sumus)" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geodenmagie (Diener Sumus)" } } } } }] },
+		"Zibilja" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Zibilja" } } } } }] },
+		"Durro-Dûn" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Durro-Dûn" } } } } }] },
+		"Derwische" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Derwische" } } } } }] },
+		"Zaubertänze" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Zaubertänze" } } } } }] },
+		"Geister rufen" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister rufen" } } } } }] },
+		"Geister binden" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister binden" } } } } }] },
+		"Geister bannen" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister bannen" } } } } }] },
+		"Geister aufnehmen" : { "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister aufnehmen" } } } } }] },
+		"Petromantie" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Petromantie" } } } } }] },
+		"Runenzauberei" : { "Probe" : ["KL", "IN", "FF"], "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Runenkunde" : { } } } }] },
+		"Seher" : { "Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 11 }, "Steigerung" : -1 },
+		"Güldenländisch" : { "Bücher" : { "Ordnung ins Chaos" : 50 }, "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Güldenländisch" } } } } }] },
+		"Kophtanisch" : { "Bücher" : { "Ordnung ins Chaos" : 50 }, "Leiteigenschaft" : "CH", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Kophtanisch" } } } } }] },
+		"Mudramulisch" : { "Bücher" : { "Ordnung ins Chaos" : 50 }, "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Mudramulisch" } } } } }] },
+		"Alhanisch" : { "Bücher" : { "Ordnung ins Chaos" : 49 }, "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Alhanisch" } } } } }] },
+		"Satuarisch" : { "Bücher" : { "Ordnung ins Chaos" : 51 }, "Leiteigenschaft" : "IN", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Satuarisch" } } } } }] }
+	},
+	"Liturgiekenntnis" : {
+		"Praios" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "MR"], "Talente" : ["Selbstbeherrschung", "Etikette", "Lehren", "Menschenkenntnis", "Überzeugen", "Götter/Kulte", "Rechtskunde", "Staatskunst", "4 aus: Abrichten, Baukunst, Brett-/Kartenspiel, Hauswirtschaft, Heilkunde Seele, Heraldik, Magiekunde"] },
+			"Mirakel-" : { "Talente" : ["Fliegen", "Gaukeleien", "Schleichen", "Sich Verstecken", "Stimmen Imitieren", "Taschendiebstahl", "Überreden (Betteln)", "Überreden (Lügen)", "Sich Verkleiden", "Falschspiel", "Schlösser Knacken"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Praios" } } } } }]
+		},
+		"Rondra" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Athletik", "Körperbeherrschung", "Reiten", "Selbstbeherrschung", "Kriegskunst", "5 aus Brett-/Kartenspiel, Fahrzeug Lenken, Grobschmied, Heilkunde Wunden, Heraldik, Rechtskunde, Sinnenschärfe, Staatskunst, Überzeugen", "2 Nahkampftalente:                 "] },
+			"Mirakel-" : { "Talente" : ["Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Schleichen", "Sich Verstecken", "Sich Verkleiden", "Überreden", "Bogenbau", "Falschspiel"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Rondra" } } } } }]
+		},
+		"Efferd" : {
+			"Mirakel+" : { "Eigenschaften" : ["IN", "GE", "KO", "KK"], "Talente" : ["Schwimmen", "Sinnenschärfe", "Überzeugen", "Fesseln/Entfesseln", "Fischen/Angeln", "Orientierung", "Wettervorhersage", "Boote Fahren", "Seefahrt", "Zimmermann"] },
+			"Mirakel-" : { "Talente": ["Alchimie", "Glaskunst", "Grobschmied", "Hüttenkunde", "Kochen", "Metallguss"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Efferd" } } } } }]
+		},
+		"Travia" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "FF"], "Talente" : ["Selbstbeherrschung", "Sinnenschärfe", "Zechen", "Lehren", "Menschenkenntnis", "Überzeugen", "Sagen/Legenden", "Hauswirtschaft", "Heilkunde Krankheiten", "Heilkunde Seele", "Kochen", "Viehzucht"] },
+			"Mirakel-" : { "Talente" : ["Schleichen", "Taschendiebstahl", "Betören", "Überreden (Lügen)", "Bogenbau", "Falschspiel"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Travia" } } } } }]
+		},
+		"Boron (Punin)" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH", "MR"], "Talente" : ["Prophezeien", "Schleichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Pflanzenkunde", "Alchimie", "Heilkunde Krankheiten", "Heilkunde Seele"] },
+			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Stimmen Imitieren", "Tanzen", "Betören", "Schauspielerei", "Instrumentenbauer", "Musizieren"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Boron (Punin)" } } } } }]
+		},
+		"Boron (Al'Anfa)" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH", "MR"], "Talente" : ["Prophezeien", "Schleichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Pflanzenkunde", "Alchimie", "Heilkunde Krankheiten", "Heilkunde Seele"] },
+			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Stimmen Imitieren", "Tanzen", "Betören", "Schauspielerei", "Instrumentenbauer", "Musizieren"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Boron (Al'Anfa)" } } } } }]
+		},
+		"Hesinde" : {
+			"Mirakel+" : { "Eigenschaften" : ["KL", "IN", "CH", "MR"], "Talente" : ["Etikette", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Magiekunde", "Pflanzenkunde", "Sternkunde", "Tierkunde", "Alchimie", "Wissenstalent:                 "] },
+			"Mirakel-" : { "Talente" : ["Zechen", "Überreden (Lügen)"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Hesinde" } } } } }]
+		},
+		"Firun" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Gefahreninstinkt", "Fernkampftalent:                 ", "Körperbeherrschung", "Schleichen", "Selbstbeherrschung", "Sich Verstecken", "Sinnenschärfe", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben", "1 aus Fischen/Angeln, Pflanzenkunde, Tierkunde, Abrichten, Bogenbau, Boote Fahren, Fahrzeug Lenken, Feuersteinbearbeitung, Gerber/Kürschner, Heilkunde Wunden, Holzbearbeitung, Lederarbeiten, Seefahrt, Zimmermann"] },
+			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Tanzen", "Betören", "Etikette", "Gassenwissen", "Menschenkenntnis", "Schauspielerei", "Schriftlicher Ausdruck", "Sich Verkleiden", "Überreden", "Überzeugen", "Falschspiel", "Musizieren"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Firun" } } } } }]
+		},
+		"Tsa" : {
+			"Mirakel+" : { "Eigenschaften" : ["IN", "CH", "FF", "GE"], "Talente" : ["Sich Verkleiden", "Singen", "Tanzen", "Menschenkenntnis", "Überreden", "Überzeugen", "Philosophie", "Sagen/Legenden", "4 aus Abrichten, Brauer, Feinmechanik, Glaskunst, Grobschmied, Heilkunde Gifte, Heilkunde Krankheiten, Heilkunde Seele, Heilkunde Wunden, Holzbearbeitung, Instrumentenbauer, Lehren, Malen/Zeichnen, Maurer, Metallguss, Pflanzenkunde, Schätzen, Schnaps Brennen, Schneidern, Seiler, Steinmetz, Steinschneider/Juwelier, Stellmacher, Stoffe Färben, Tätowieren, Tierkunde, Töpfern, Webkunst, Winzer, Zimmermann"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Fallenstellen", "Fischen/Angeln", "Anatomie", "Kriegskunst", "Fleischer", "Gerber/Kürschner", "alle waffenherstellenden Handwerkstalente"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Tsa" } } } } }]
+		},
+		"Phex" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "FF", "GE"], "Talente" : ["Körperbeherrschung", "Schleichen", "Sich Verstecken", "Gassenwissen", "Menschenkenntnis", "Überreden", "Mechanik", "Rechtskunde", "Sternkunde", "Handel", "2 aus Betören, Falschspiel, Gaukeleien, Klettern, Schlösser Knacken, Sich Verkleiden, Taschendiebstahl"] },
+			"Mirakel-" : { "Talente": ["Talent:                 ", "Talent:                 ", "Talent:                 "] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Phex" } } } } }]
+		},
+		"Peraine" : {
+			"Mirakel+" : { "Eigenschaften" : ["KL", "IN", "CH", "FF", "Ausweichen"], "Talente" : ["Lehren", "Menschenkenntnis", "Überzeugen", "Pflanzenkunde", "Tierkunde", "Ackerbau", "Hauswirtschaft", "Heilkunde Krankheiten", "Heilkunde Wunden", "Kochen", "Viehzucht"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Betören", "Fallenstellen", "Kriegskunst", "Falschspiel", "Schlösser Knacken"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Peraine" } } } } }]
+		},
+		"Ingerimm" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Lehren", "Überzeugen", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "Bergbau", "Steinmetz", "2 aus Alchimie, Baukunst, Bogenbau, Feinmechanik, Glaskunst, Grobschmied, Holzbearbeitung, Instrumentenbauer, Maurer, Metallguss, Steinschneider/Juwelier, Zimmermann"] },
+			"Mirakel-" : { "Talente" : ["Fischen/Angeln", "Gaukeleien", "Schwimmen", "Seefahrt"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Ingerimm" } } } } }]
+		},
+		"Rahja" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "GE", "Ausweichen"], "Talente" : ["Körperbeherrschung", "Reiten", "Sinnenschärfe", "Zechen", "Betören", "Lehren", "Menschenkenntnis", "Überreden", "Überzeugen", "2 aus Abrichten, Akrobatik, Brauer, Etikette, Gaukeleien, Heilkunde Seele, Musizieren, Schnaps Brennen, Singen, Steinmetz, Steinschneider/Juwelier, Stoffe Färben, Tanzen, Tätowieren, Winzer"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Kriegskunst", "Grobes und Unschönes"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Rahja" } } } } }]
+		},
+		"Aves" : {
+			"Mirakel+" : { "Eigenschaften" : ["IN", "CH", "GE", "KO", "Ausweichen"], "Talente" : ["Gefahreninstinkt", "Athletik", "Klettern", "Sinnenschärfe", "Gassenwissen", "Menschenkenntnis", "Überreden", "Überzeugen", "Orientierung", "Wettervorhersage", "Wildnisleben", "Geographie", "Sprachenkunde", "Handel", "Instrumentenbauer", "Musizieren", "Kartographie"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Kriegskunst"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Aves" } } } } }]
+		},
+		"Kor" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Ausweichen", "Infanteriewaffen", "Athletik", "Körperbeherrschung", "Reiten", "Selbstbeherrschung", "Sinnenschärfe", "Menschenkenntnis", "Überzeugen", "Kriegskunst", "Fahrzeug Lenken (Streitwagen)", "Kampftalent:                 "] },
+			"Mirakel-" : { "Talente" : ["Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden", "Gefahreninstinkt"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Kor" } } } } }]
+		},
+		"Nandus" : {
+			"Mirakel+" : { "Eigenschaften" : ["KL", "IN", "CH", "FF"], "Talente" : ["Lehren", "Menschenkenntnis", "Überreden", "Überzeugen", "Kryptographie", "Philosophie", "Rechnen", "Sternkunde", "4 aus Alchimie, Brett-/Kartenspiel, Gassenwissen, Geschichtswissen, Götter/Kulte, Kartographie, Schriftlicher Ausdruck, Sprachenkunde"] },
+			"Mirakel-" : { "Talente" : ["Dolche", "Hiebwaffen", "Säbel", "Anderthalbhänder", "Fechtwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Nandus" } } } } }]
+		},
+		"Ifirn" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "GE"], "Talente" : ["Gefahreninstinkt", "11 Talente aus den Gruppen Körperlich und Natur"] },
+			"Mirakel-" : { "Talente" : ["Taschendiebstahl", "Falschspiel", "Feinmechanik"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Ifirn" } } } } }]
+		},
+		"Swafnir" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Raufen o. Ringen", "Körperbeherrschung", "Schwimmen", "Selbstbeherrschung", "Zechen", "Lehren", "Orientierung", "Wettervorhersage", "Seefahrt", "3 aus Athletik, Boote Fahren, Fesseln/Entfesseln, Fischen/Angeln, Rechtskunde, Sagen/Legenden, Tierkunde, Zimmermann"] },
+			"Mirakel-" : { "Talente" : ["Überreden (Lügen)", "Kryptographie", "Magiekunde", "Mechanik"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Swafnir" } } } } }]
+		},
+		"Angrosch" : {
+			"Mirakel+" : { "Eigenschaften" : ["KL", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Menschenkenntnis", "Überzeugen", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "4 aus Baukunst, Bogenbau, Feinmechanik, Feuersteinbearbeitung, Glaskunst, Grobschmied, Holzbearbeitung, Kristallzucht, Metallguss, Steinmetz, Steinschneider/Juwelier, Zimmermann"] },
+			"Mirakel-" : { "Talente" : ["Akrobatik", "Fliegen", "Gaukeleien", "Schwimmen", "Boote Fahren", "Seefahrt"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Angrosch" } } } } }]
+		},
+		"H'Szint" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH"], "Talente" : ["Lehren", "Menschenkenntnis", "Überzeugen", "Götter/Kulte", "Magiekunde", "Pflanzenkunde", "Rechnen", "Sternkunde", "Tierkunde", "3 aus Geschichtswissen, Gesteinskunde, Kryptographie, Alchimie, Heilkunde Gift, Heilkunde Krankheiten, Heilkunde Wunden, Holzbearbeitung, Lederarbeiten, Steinschneider/Juwelier, Töpfern"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Raufen", "Ringen", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Überreden (Lügen)"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "H'Szint" } } } } }]
+		},
+		"Zsahh" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "KO"], "Talente" : ["Ausweichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Anatomie", "Magiekunde", "Pflanzenkunde", "Tierkunde", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden"] },
+			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Raufen", "Ringen", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Zsahh" } } } } }]
+		},
+		"Gravesh" : {
+			"Mirakel+" : { "Eigenschaften" : ["IN", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Überreden", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "Feuersteinbearbeitung", "Grobschmied", "Holzbearbeitung", "Lederarbeiten", "Steinmetz"] },
+			"Mirakel-" : { "Talente" : ["Gaukeleien", "Etikette", "Falschspiel"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Gravesh" } } } } }]
+		},
+		"Himmelswölfe" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "GE", "KK"], "Talente" : ["Gefahreninstinkt", "Selbstbeherrschung", "Sinnenschärfe", "Stimmen Imitieren", "Lehren", "Menschenkenntnis", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben", "Sagen/Legenden", "Abrichten"] },
+			"Mirakel-" : { "Talente" : ["Falschspiel", "Kriegskunst", "Gerber/Kürschner", "Nivesen unbekannte Handwerkstalente"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Himmelswölfe" } } } } }]
+		},
+		"Kamaluq" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "KO"], "Talente" : ["Gefahreninstinkt", "Schleichen", "Selbstbeherrschung", "Sich Verstecken", "Sinnenschärfe", "Lehren", "Menschenkenntnis", "Überzeugen", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben"] },
+			"Mirakel-" : { "Talente" : ["Betören", "Falschspiel", "Überreden (Lügen)", "Feinmechanik", "Drucker", "technisch fortgeschrittene Handwerkstalente"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Kamaluq" } } } } }]
+		},
+		"Namenloser" : { "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Namenloser" } } } } }] },
+		"Tairach" : {
+			"Mirakel+" : { "Eigenschaften" : ["MU", "CH", "KO", "KK"], "Talente" : ["Hiebwaffen o. Zweihand-Hiebwaffen", "Athletik", "Selbstbeherrschung", "Sinnenschärfe", "Lehren", "Menschenkenntnis", "Überzeugen", "Orientierung", "Wettervorhersage", "Pflanzenkunde", "Sagen/Legenden", "Tierkunde"] },
+			"Mirakel-" : { "Talente" : ["Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden", "Überreden (Lügen)"] },
+			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Tairach" } } } } }]
+		}
+	}
+}

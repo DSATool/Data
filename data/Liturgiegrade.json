@@ -1,0 +1,11 @@
+{
+	"Grad 0" : { "KaP" : 2, "pKaP" : 0, "Probe" : -2, "Wirkung" : { "Divisor" : 2, "Basis" : "LkP*" }, "Kosten" : 0 },
+	"Grad 1" : { "KaP" : 5, "pKaP" : 0, "Probe" : 0, "Wirkung" : { "Divisor" : 2, "Basis" : "LkP*" }, "Kosten" : 50 },
+	"Grad 2" : { "KaP" : 10, "pKaP" : 0, "Probe" : 2, "Wirkung" : { "Additiv" : 5, "Divisor" : 2, "Basis" : "LkP*" }, "Kosten" : 100 },
+	"Grad 3" : { "KaP" : 15, "pKaP" : 0, "Probe" : 4, "Wirkung" : { "Additiv" : 5, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 150 },
+	"Grad 4" : { "KaP" : 20, "pKaP" : 0, "Probe" : 6, "Wirkung" : { "Additiv" : 10, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 200 },
+	"Grad 5" : { "KaP" : 25, "pKaP" : 1, "Probe" : 8, "Wirkung" : { "Additiv" : 15, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 250 },
+	"Grad 6" : { "KaP" : 30, "pKaP" : 3, "Probe" : 10, "Wirkung" : { "Additiv" : 20, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 300 },
+	"Grad 7" : { "KaP" : 35, "pKaP" : 5, "Probe" : 12, "Wirkung" : { "Additiv" : 25, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 350 },
+	"Grad 8" : { "KaP" : 40, "pKaP" : 7, "Probe" : 14, "Wirkung" : { "Additiv" : 30, "Multiplikativ" : 1, "Basis" : "LkP*" }, "Kosten" : 400 }
+}

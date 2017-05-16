@@ -1,0 +1,6 @@
+{
+	"releaseDate" : "@releaseDate@",
+	"previousReleaseDate" : "@previousReleaseDate@",
+	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_@previousReleaseDate@.zip",
+	"updateInfo" : "https://raw.githubusercontent.com/DSATool/Data/master/release/update-info.json"
+}

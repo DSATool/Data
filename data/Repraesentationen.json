@@ -1,0 +1,17 @@
+{
+	"Ach" : { "Name" : "Kristallomantisch" },
+	"Bor" : { "Name" : "Borbaradianisch" },
+	"Dru" : { "Name" : "Druidisch" },
+	"Elf" : { "Name" : "Elfisch" },
+	"Geo" : { "Name" : "Geodisch" },
+	"Mag" : { "Name" : "Gildenmagisch" },
+	"Hex" : { "Name" : "Hexisch" },
+	"Srl" : { "Name" : "Scharlatanisch" },
+	"Sch" : { "Name" : "Schelmisch" },
+	"Gül" : { "Name" : "Güldenländisch", "Bücher" : { "Ordnung ins Chaos" : 50 } },
+	"Kop" : { "Name" : "Kophtanisch", "Bücher" : { "Ordnung ins Chaos" : 50 } },
+	"Mud" : { "Name" : "Mudramulisch", "Bücher" : { "Ordnung ins Chaos" : 50 } },
+	"Gro" : { "Name" : "Grolmisch", "Bücher" : { "Ordnung ins Chaos" : 49 } },
+	"Sat" : { "Name" : "Satuarisch", "Bücher" : { "Ordnung ins Chaos" : 51 } },
+	"Alh" : { "Name" : "Alhanisch", "Bücher" : { "Ordnung ins Chaos" : 49 } }
+}

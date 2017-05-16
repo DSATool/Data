@@ -1,0 +1,4 @@
+{
+	"releaseDate" : "@releaseDate@",
+	"releaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_@releaseDate@.zip"
+}

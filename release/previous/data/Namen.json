@@ -1,0 +1,695 @@
+{
+	"Mittelländische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Adran", "Alarich", "Alrik", "Angrond", "Anjun", "Answin", "Angildbert", "Ardo", "Ardor", "Baltram", "Bardo", "Berman", "Bernhelm", "Bogumil", "Bomil", "Boromil", "Boronian", "Bosper", "Brin", "Burgol", "Burian", "Cassim", "Colgan", "Connar", "Cordovan", "Curthan", "Cyberian", "Dabbert", "Danos", "Darian", "Dirion", "Drego", "Eberhelm", "Eboreus", "Edo", "Edorian", "Efferdan", "Elbrecht", "Elgor", "Emmeran", "Eran", "Erlan", "Ernbrecht", "Erzian", "Ettel", "Falk", "Felian", "Fingorn", "Firunian", "Firu", "Firutin", "Folmian", "Fredo", "Frumol", "Geppert", "Gerding", "Gernot", "Gero", "Geron", "Gerrik", "Gerion", "Gilborn", "Gishelm", "Gorm", "Goswin", "Groben", "Grordan", "Grorthin", "Gumbald", "Hagen", "Hal", "Haldan", "Hakon", "Halman", "Hane", "Harad", "Helmar", "Helmbrecht", "Helme", "Hesindian", "Hilgert", "Iber", "Igalf", "Igan", "Ingalf", "Ingolf", "Irian", "Irion", "Jergan", "Jobdan", "Jost", "Kalman", "Karon", "Kedio", "Kulman", "Kvalor", "Lares", "Lechdan", "Leomar", "Linnert", "Losan", "Ludor", "Luidor", "Malzan", "Melcher", "Moribert", "Movert", "Odil", "Odilbert", "Odilon", "Ogdan", "Olger", "Olk", "Orelan", "Orlan", "Pagol", "Parainor", "Parinor", "Patras", "Peradan", "Perainor", "Perainian", "Perval", "Pisidian", "Polter", "Praiodan", "Praiodar", "Praioslob", "Praiosmar", "Quanion", "Quendan", "Quin", "Radulf", "Rahjadan", "Rahjan", "Raidri", "Rank", "Rauert", "Raul", "Raulbrin", "Refardeon", "Reo", "Reto", "Robak", "Roban", "Rondred", "Rondrian", "Ruhmrath", "Rukus", "Rumpo", "Sal", "Salix", "Savertin", "Sequin", "Sigerain", "Sigiswild", "Sigman", "Sindar", "Stipen", "Stordan", "Stordian", "Sumudan", "Thallian", "Thimorn", "Thisdan", "Timshal", "Torben", "Torm", "Trautman", "Travin", "Traviadan", "Travidan", "Tsafried", "Tsadan", "Udalf", "Udildor", "Ugalf", "Ugdalf", "Ugdan", "Ugo", "Ulfried", "Ungolf", "Valman", "Valpo", "Varman", "Viburn", "Vitus", "Voltan", "Vorlop", "Wahnfried", "Welf", "Wolf", "Wolfhart", "Wolfman", "Wulf", "Wulfhelm", "Xandros", "Xebbert", "Xeppert", "Xerber", "Xindan", "Yann", "Yantur", "Yendan", "Yendar", "Yendor", "Yerodin", "Yeto", "Zondan", "Zolthan", "Zordan"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adaque", "Alda", "Aldare", "Alena", "Alinde", "Alrike", "Alruna", "Alvide", "Alwene", "Alwine", "Arba", "Ardare", "Belona", "Bernika", "Berna", "Binya", "Birsel", "Boriane", "Caya", "Celissa", "Cella", "Charine", "Coris", "Coruna", "Dara", "Dari", "Daria", "Dela", "Derya", "Dhana", "Dilga", "Dimiona", "Dirione", "Donde", "Doride", "Dorlen", "Drala", "Dralina", "Dramina", "Duridanya", "Dythlind", "Dythlinde", "Edala", "Efferdane", "Elene", "Elida", "Elwene", "Emer", "Fenia", "Fiana", "Fina", "Firisa", "Firuna", "Franka", "Gala", "Gilia", "Ginaya", "Girte", "Gissa", "Glenna", "Gunelde", "Gurnhild", "Gwynna", "Hannafrid", "Harika", "Harka", "Heiltrud", "Heiltrude", "Hela", "Helke", "Hesindiane", "Hesine", "Hitta", "Idra", "Ifirnia", "Ilke", "Ingrimma", "Ingrimiane", "Isida", "Jadwiga", "Jadwina", "Jasinai", "Jette", "Josmine", "Jule", "Junivera", "Karima", "Khorena", "Krona", "Kysira", "Lana", "Larona", "Lechmin", "Leonore", "Leta", "Leuemuthe", "Lidda", "Livia", "Losiane", "Ludilla", "Lutisana", "Maline", "Maren", "Mirya", "Mo", "Mora", "Morena", "Nana", "Neetya", "Nella", "Niam", "Odelinde", "Ola", "Oleana", "Olorande", "Ondinai", "Ondwina", "Palinai", "Perdia", "Phexla", "Perainiane", "Praiadne", "Praiodane", "Praiosmin", "Prajosmin", "Quenia", "Quelina", "Quisira", "Rahjalieb", "Rahjada", "Rahjane", "Renzi", "Rhodena", "Roana", "Rohaja", "Rondirai", "Rondralieb", "Rondratreu", "Rondriane", "Rovena", "Rudane", "Saginta", "Sannah", "Sari", "Saria", "Selinde", "Seline", "Sumudai", "Susa", "Sylvette", "Tanit", "Thalionmel", "Thornia", "Thyria", "Tita", "Titina", "Tsaja", "Turike", "Udha", "Ulinai", "Ulmia", "Utsinde", "Uthjane", "Vana", "Viridia", "Vistella", "Wala", "Walburia", "Wina", "Wilimai", "Xaida", "Xaviera", "Xerane", "Xinda", "Yasinthe", "Yanis", "Yasmina", "Yassia", "Yelinde", "Yola", "Yolande", "Yolde", "Yosmia", "Yosmina", "Yppolita", "Ysilda", "Ysinthe", "Zekla", "Zelda", "Zidane", "Zidona", "Zita", "Zoe", "Zyla", "Zylva", "Zylya"]
+		},
+		{
+			"adlig" : true,
+			"männlich" : true,
+			"Wiederholung" : [0, 2, " ", 2, 2]
+		},
+		{
+			"adlig" : true,
+			"männlich" : false,
+			"Wiederholung" : [0, 2, " ", 2, 2]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"adlig" : true,
+			"Text" : "von "
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Adersin", "Aldebruck", "Algerein", "Alfaran", "Alff", "Angbarer", "Anjuhal", "Arberdan", "Arres", "Arsteener", "Babek", "Bachbauer", "Bachental", "Bagosch", "Ballurat", "Bartlenhaus", "Bellentor", "Berlind", "Bochsbansen", "Bodiak", "Brauer", "Bregelsaum", "Burkherdall", "Damotil", "Darben", "Dargel", "Darpater", "Daske", "Derp", "Derpel", "Dinckel", "Dorc", "Dorcken", "Dragentod", "Dreieichenbauer", "Durenald", "Ehrwald", "Engstrand", "Eslebon", "Fassmacher", "Fernel", "Fidian", "Folmin", "Fredor", "Fuxfell", "Galdifei", "Garether", "Garje", "Gemiol", "Gerdenwald", "Gerrich", "Gesse", "Ghune", "Glimmerdiek", "Gorbas", "Grabensalb", "Groterian", "Grunder", "Hainsate", "Harnischmacher", "Helmisch", "Hiligon", "Honorald", "Horger", "Horger", "Horigan", "Huisdorn", "Hullheimer", "Ilgur", "Inke", "Jochmeier", "Jolen", "Karolus", "Keres", "Korber", "Kormin", "Kornhofer", "Korninger", "Kremso", "Kuhhofer", "Kürzer", "Lassan", "Lederer", "Leinhofer", "Liegerfeld", "Lonnert", "Lowanger", "Marnion", "Maurenbrecher", "Meeltheuer", "Müller", "Musker", "Nattel", "Obernhofer", "Okdarn", "Okenheld", "Olben", "Oldenport", "Ottresker", "Peresen", "Plötzbogen", "Prem", "Prutz", "Pulether", "Quarzen", "Redo", "Rogel", "Rodiak", "Rundarek", "Ruttel", "Sandström", "Schlunder", "Seehoff", "Sonnfelder", "Spichbrecher", "Steinhauer", "Sturmfels", "Tannhaus", "Termoil", "Tiefhuser", "Timerlan", "Toberen", "Trallo", "Treublatt", "Triffon", "Tucher", "Tulop", "Ulfaran", "Unterbauer", "Wagenhalter", "Waldbauer", "Wenzelin", "Wertimol", "Westfal", "Winkelhauser", "Winterkalt", "Zornbold", "Zandor", "Zeel", "Zertel", "Zumbel"]
+		}
+	],
+	"Albernische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aedin", "Aelfwin", "Aneirin", "Annlir", "Ardach", "Ardis", "Banthoch", "Belfionn", "Bennwir", "Berynn", "Boronwyn", "Bran", "Branwin", "Brendan", "Callan", "Cathal", "Caye", "Cet", "Cethern", "Cian", "Cidris", "Conlai", "Conn", "Connar", "Coran", "Cuanu", "Cuil", "Cuilyn", "Cynwal", "Daerec", "Dhuachall", "Diarmait", "Ealgar", "Efferdwin", "Elfwin", "Eochaid", "Faerwyn", "Falkris", "Fin", "Finwaen", "Ghearn", "Gileach", "Glennir", "Gun", "Innon", "Jaemesh", "Firunwin", "Glarik", "Gial", "Gwyn", "Hjalbin", "Illaen", "Jendar", "Larric", "Lidhwaen", "Lienn", "Lomoch", "Lothur", "Melkom", "Meredin", "Morgan", "Muir", "Niamad", "Oisin", "Peranwyn", "Praioden", "Raidri", "Reochaid", "Rhonwian", "Rhys", "Ruadh", "Senach", "Shien", "Sidhric", "Sileach", "Stewain", "Targuin", "Tibraid", "Travien", "Toras", "Tsael", "Uallach", "Yann", "Ywain", "Yurris"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aedha", "Aedith", "Ailill", "Albhe", "Baerwen", "Betir", "Branwen", "Caillinnis", "Cell", "Cordaella", "Cuanna", "Cuib", "Daene", "Daire", "Danu", "Diarw", "Diarwen", "Earwen", "Efferlill", "Eillyn", "Emer", "Enid", "Ewaine", "Faelinn", "Fiall", "Finnla", "Finnabir", "Finris", "Geala", "Gennofaer", "Geselwen", "Gilia", "Glenna", "Hesindana", "Hylgwen", "Idra", "Ildha", "Invher", "Jarwen", "Kladdis", "Laille", "Larinu", "Linai", "Llean", "Lleanne", "Lyn", "Lynn", "Maerthe", "Maire", "Margoris", "Naena", "Neowen", "Niamh", "Nurinai", "Oarwen", "Padraigin", "Praiodain", "Praiolynna", "Phecalynn", "Raike", "Rahjalyn", "Rianod", "Riganna", "Rondraine", "Ruada", "Rudraighe", "Ruthe", "Saingla", "Saendren", "Shaewen", "Scanlail", "Sinjer", "Siona", "Swafne", "Tibraide", "Traviynla", "Tsaine", "Tuadh", "Uinin", "Vearne", "Yanna", "Ynlais", "Ysilt"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"adlig" : true,
+			"männlich" : true,
+			"Text" : "ui"
+		},
+		{
+			"adlig" : true,
+			"männlich" : false,
+			"Text" : "ni"
+		},
+		{
+			"adlig" : true,
+			"Wiederholung" : [1, 1, " ", 4, 5]
+		},
+		{
+			"adlig" : false,
+			"Auswahl" : ["Aendruw", "Aranol", "Arberdan", "Baernhold", "Braelghan", "Bruadhir", "Caelman", "Collen", "Cuifinn", "Engstrand", "Faic", "Fidian", "Fingorn", "Garje", "Gathris", "Gorbas", "Gwenlian", "Hollbeerer", "Inveric", "Kerkill", "Kevendoch", "Kurstan", "Machalich", "Ongswin", "Quent", "Rothair", "Sandström", "Sardubh", "Schladromir", "Seehoff", "Stewir", "Vialigh", "Wolter"]
+		}
+	],
+	"Almadanische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Alrico", "Alonso", "Almanzo", "Almanzor", "Amando", "Assavo", "Azulejo", "Bardojoz", "Balbiano", "Biscarat", "Bodar", "Boronathan", "Borondino", "Cahusac", "Caldaio", "Caldaios", "Cambados", "Cazorlenyo", "Danilo", "Eglamo", "Eglamor", "Escalio", "Eslam", "Eslamo", "Espejo", "Farugo", "Federigo", "Gaftaro", "Girolamo", "Gonzalo", "Gualdo", "Gujadal", "Hazanyo", "Hesindio", "Hillero", "Ingrimo", "Ippolito", "Isonzo", "Jacopo", "Joselito", "Kazanyo", "Lanvolo", "Laurenzio", "Lodovico", "Ludovigo", "Lumino", "Maquedar", "Moritatio", "Nazir", "Obidos", "Ordonyo", "Pelayo", "Perinyo", "Punino", "Rafik", "Rafim", "Rahjian", "Rahijano", "Rondrigo", "Rustam", "Rustamo", "Salvestro", "Sansovino", "Selindio", "Selindiano", "Servando", "Talfan", "Tassilo", "Tolak", "Tsayano", "Valdemoro", "Valpo", "Vencelao", "Viento", "Volapio", "Yalach", "Yanturio", "Zayano", "Zahir"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Ahumeda", "Aldea", "Aldonaza", "Antara", "Azila", "Baraya", "Boronya", "Caneya", "Caldaya", "Caldja", "Concabella", "Corvara", "Daroca", "Dunyaca", "Elea", "Escalada", "Esfera", "Eshilya", "Eslamida", "Eslamidia", "Esribeda", "Farfanya", "Fhadime", "Ghazalita", "Gonzaga", "Gujadanya", "Ilmice", "Ilmicea", "Ismeralda", "Jazemina", "Luciana", "Madalena", "Maqueda", "Mirandola", "Mirhaneba", "Morena", "Noiona", "Novara", "Olenga", "Olivenaca", "Pasqua", "Peliria", "Rahjada", "Rahjania", "Rhajineza", "Richeza", "Rifada", "Rinaya", "Rondrala","Rondralia", "Shahane", "Sefira", "Siguenza", "Simanca", "Solivai", "Solsona", "Travanca", "Tsaia", "Tsaya", "Ulzedona", "Usanza", "Unicornia", "Valposella", "Vanoza", "Vibora", "Viminyoza", "Vinyaza", "Yanis", "Yaquiria", "Yedra", "Yegua", "Yesabella", "Zafira", "Zalamea", "Zarpa", "Zarpada", "Zaya", "Zefira", "Zorilla", "Zulhaminea"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Auswahl" : ["Amado", "Desidero", "Glaciano", "Hilado", "Honorio", "Leovigildo", "Maldonado", "Merito", "Mero", "Misterio", "Promeso", "Valeroso", "Violanto", "Zonzo"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Amada", "Desidera", "Glaciana", "Hilada", "Honora", "Leovigilda", "Maldonada", "Merita", "Mera", "Misteria", "Promesa", "Valerosa", "Violanta", "Zonza"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"adlig" : false,
+			"Auswahl" : ["Adelbuhler", "Assiref", "Ballurat", "Brannofend", "Blaemendâl", "Bolongaro", "Castanyeda", "Cavazaro", "Contador", "Cronbiegler", "Degenhardt", "Dschadirez", "Fetthennen", "Frostwein", "Furlani", "Galandi", "Küferhilf", "Lamperez", "Lautenschläger", "Maltichio", "Manzanares", "Mirador", "Monzon", "Mudejar", "Muwallar", "Ossentani", "Pitanza", "Pipote", "Ragather", "Ragaza", "Rüdwein", "Schlehwein", "Sensendengler", "Sfalia", "Sfandini", "Sfapano", "Sforigan", "Sgirra", "Taubentanz", "Trapani", "Valdepenya", "Vascagni", "Zulhamidez", "Zurriaga"]
+		},
+		{
+			"adlig" : true,
+			"Auswahl" : ["Abundil", "Agum", "Alcorta", "Al’Faran", "Al’Kasim", "Al’Shirasgan", "Artésa", "Berg", "Bleichenwang", "Braast", "Culming", "Eschgeier", "Franfeld", "Harmamund", "Jurios", "di Lacara", "di Madjani", "Ragathsquell", "di Rastino", "Rebenthal", "Scheffelstein", "Streitzig", "Taladur", "da Vanya", "Viryamun"]
+		}
+	],
+	"Andergastsche Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Andraus", "Arnbold", "Bogumil", "Bogumislaus", "Borkfried", "Depold", "Detter", "Eichbald", "Eichward", "Erlmann", "Eulrich", "Firunislaus", "Firunz", "Gerwulf", "Gosthelm", "Gwinnling", "Havel", "Holmar", "Jagoslaus", "Jindrich", "Krusold", "Ludewich", "Marik", "Mispert", "Odoring", "Olderich", "Osgar", "Oswald", "Seffel", "Steinrich", "Trogar", "Ulfried", "Urichslaus", "Wendemar", "Wendolyn", "Wengelyn", "Wenzeslaus"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Andela", "Andra", "Arnhild", "Birsel", "Dorota", "Erlgard", "Farnlieb", "Freilinde", "Gerswide", "Gundel", "Hadwiga", "Hilda", "Holdtraude", "Ildaria", "Ifirngund", "Irmela", "Koscha", "Kunhuta", "Larja", "Ludmila", "Mina", "Mirnhild", "Silvana", "Trautgold", "Traviane", "Rusena", "Varena", "Waldegund", "Wendeline"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Alrikshuber", "Birgelbaum", "Bodiak", "Borkmeister", "Dreuber", "Eichinger", "Fassbender", "Flößler", "Haubeiler", "Holzhauer", "Joborner", "Karden", "Krück", "Kuhbauer", "Meeltheuer", "Ochsenbrecht", "Peutler", "Roskop", "Seffelgruber", "Seggenmund", "Straub", "Tannhauser", "Wenzelin", "Wulfen"]
+		},
+		{
+			"bürgerlich" : true,
+			"männlich" : false,
+			"Text" : "in"
+		}
+	],
+	"Bornländische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Albin", "Arvid", "Baerjan", "Baerow", "Berschin", "Birjew", "Bosjew", "Boutsen", "Daanje", "Dabbert", "Damian", "Danow", "Duchjo", "Dulgjew", "Dunjew", "Dunjoscha","Elkjow", "Elko", "Elkwin", "Ertzel", "Firnjan", "Firunjew", "Fredo", "Galjan", "Goljew", "Grimjan", "Hane", "Helmjew", "Hurdo", "Iber", "Ilmin", "Irjan", "Ischtan", "Jaakon", "Jasper", "Jarlow", "Joost", "Joschin", "Jucho", "Kolkja", "Larjan", "Linjan", "Littjew", "Ljasew", "Ljubow", "Maris", "Matajew", "Matjescha", "Meljow", "Mew", "Miljan", "Mjesko", "Nasjan", "Neerjan", "Neesdan", "Olko", "Orschin", "Oswin", "Panek", "Peraenjow", "Pedder", "Pettar", "Pitjow", "Pjerow", "Rowin", "Rudjew", "Semkin", "Stane", "Suscha", "Suschin", "Suschinka", "Tannjew", "Thezmar", "Tirulf", "Torjin", "Travin", "Ugo", "Ulmjan", "Ulmew", "Vigo", "Wassjew", "Wolpje", "Wulfen", "Wulfjew", "Xebben"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Alinja", "Alwinje", "Baernja", "Bernischa", "Danja", "Dorlin", "Duna", "Dunjascha", "Eljascha", "Elkwine", "Elmjescha", "Firunja", "Frinja", "Gari", "Geertja", "Grimje", "Grimjenka", "Gritten", "Gudwinja", "Helvja", "Hesinja", "Ifirnja", "Ilmjescha", "Irinja", "Isidra", "Jadvige", "Jadwige", "Jadwinja", "Janne", "Jassia", "Jedwinja", "Jella", "Karinja", "Kundra", "Libussa", "Luta", "Lysminja", "Maline", "Marja", "Marissja", "Moschane", "Nadjescha", "Nadschenka", "Nessa", "Nessaschka", "Nuschinja", "Olja", "Paale", "Peraenja", "Peranka", "Rabescha", "Rassia", "Rihinja", "Rowena", "Rowinja", "Rudwischa", "Selwine", "Sewjescha", "Sulja", "Tesbinja", "Thila", "Tineke", "Tjeika", "Travjescha", "Turiken", "Ulmjescha", "Urjelke", "Vanjescha", "Verisja", "Vestissja", "Warja", "Winja", "Wolpjanc", "Wulfjascha", "Xinja", "Yadwinja", "Yasinde", "Zidonje"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Alwinnen", "Arauken", "Baerensen", "Baerow", "Bornski", "Brinnske", "Dappersjen", "Dobelsteen", "Donsemkin", "Drulgosch", "Ebersen", "Eelkinnen", "Elkensen", "Elmsjen", "Firnske", "Firunkis", "Gartimpski", "Gerbensen", "Gerberow", "Grumpen", "Hinske", "Hollerow", "Ilmensen", "Ilumkis", "Jannerloff", "Jannske", "Juchski", "Karenkis", "Karjensen", "Kruschin", "Kunzke", "Laikis", "Larinow", "Luminoff", "Luminow", "Meskinske", "Miljes", "Muselken", "Nagragski", "Notjes", "Ouvensen", "Parenkis", "Peddersen", "Peddersjepen", "Perschoff", "Puschinske", "Puspersen", "Rodensen", "Ruderow", "Salderken", "Schorkin", "Sewerski", "Siveling", "Sjepensen", "Stipkow", "Timpski", "Tuljow", "Turjeleff", "Ulmensen", "Ulmski", "Walroder", "Walsjakow", "WalsarefT", "Wolpjes", "Wulfski"]
+		}
+	],
+	"Nostrische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Ablasion", "Alriklas", "Andaryn", "Basilio", "Droderon", "Esindio", "Frenglion", "Franio", "Fringlas", "Gasparyn", "Haldoryn", "Ingvalion", "Jasper", "Karmo", "Kasimir", "Kasparbald", "Linnerian", "Murro", "Niobald", "Orasilas", "Ornibian", "Pipo", "Praineryn", "Salvyron", "Sapertyn", "Toran", "Travino", "Urfaran", "Waldmiryn"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aaraloth", "Andariane", "Asmodette", "Belenoleth", "Caristhea", "Delusia", "Elida", "Elysmine", "Firunette", "Franiane", "Helasine", "lngvaline", "Islavia", "Jelspeth", "Jolantha", "Kasmyra", "Lynia", "Noraleth", "Nostriane", "Ronaya", "Senebiane", "Thalania", "Tommcliane", "Triumfina", "Urmeline", "Yasmina", "Zanya"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Abdecker", "Brachinger", "Bramhusen", "Damme", "Darbhork", "Deickmoler", "Elgeryn", "Fangeysen", "Garsinger", "Hugendam", "Ingvaler", "Kirschner", "Koyner", "Köpenvind", "Krennelsiek", "Liekenstek", "Linneweber", "Nietendeeler", "Notfink", "Onderbruk", "Oskin", "Pernstyn", "Riethard", "Rikvard", "Salzerin", "Schlachtrössler", "Siebenackern", "Spökenkieker", "Styper", "Tryming", "Turmer", "Visserad", "Wilmhold", "Wirth"]
+		}
+	],
+	"Weidener Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Ailfir", "Ailgrimm", "Alarwin", "Aldewein", "Angilbert", "Angrist", "Anshag", "Arbolf", "Arnöd", "Arnulf", "Bärfried", "Baeromar", "Bärung", "Bernhelm", "Binsbart", "Borckhardt", "Bunsenhold", "Dankward", "Darwolf", "Derling", "Dietrad", "Dolgon", "Drachwill", "Dreufang", "Edil", "Efferdin", "Eichbart", "Emmeran", "Erlwulf", "Falber", "Ferling", "Finglan", "Firl", "Firnmar", "Firutin", "Geldor", "Gerwulf", "Gille", "Giselhold", "Giselwulf", "Grimmfold", "Hargord", "Harmwulf", "Hartmann", "Hasrolf", "Heldar", "Herdan", "Ilmar", "Ilmbold", "Ingerman", "Jargold", "Jarlan", "Josold", "Karfang", "Kerling", "Knorrhold", "Lanzelund", "Lein", "Leueman", "Lingmar", "Marbert", "Marmwulf", "Meinhardt", "Menzel", "Nassing", "Nolle", "Norsold", "Odilbert", "Olin", "Pagol", "Perdan", "Phexlieb", "Radumar", "Rodunk", "Rondril", "Rondreich", "Sadelhold", "Sighelm", "Siltja", "Streitward", "Tannfried", "Terkol", "Tiro", "Thimorn", "Thordenan", "Thordenin", "Thorolf", "Tobor", "Ulfert", "Uldreich", "Waidhart", "Waldemar", "Weldmar", "Wilfing", "Wolfhelm", "Yann"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adilgunde", "Ailgrid", "Alwen", "Alwenwid", "Amselgunde", "Aartrude", "Arline", "Bormunde", "Danje", "Derlinde", "Dylga", "Dythlind", "Elftraut", "Elftraute", "Elfwid", "Elfwidde", "Ellmholda", "Enn", "Erlgard", "Erlinde", "Fann", "Farlgard", "Farline", "Farnlieb", "Feyenholde", "Fenia", "Firre", "Fiya", "Fredegunde", "Freugern", "Frohlinde", "Furgund", "Gernlind", "Gilamund", "Gun", "Gunelde", "Helchtrut", "Helchtrut", "Hennya", "Herdlind", "Hilmtrud", "Hilmtrude ", "Holdtraude", "Ilfwid", "Ilfwudd", "Ilme", "Irlgunde", "Kunn", "Kupunda", "Lann", "Lanzelind", "Linje", "Liebholde", "Luitperga", "Matissa", "May", "Maidholde", "Mirnhilde", "Nalle", "Neunhild", "Nifgunde", "Olginai", "Omwid", "Omwidda", "Peraindis", "Praida", "Raugunde", "Rondragabund", "Rechhilde", "Rinnfolde", "Sindaja", "Thargrln", "Traute", "Ullgreln", "Waidgunde", "Walderia", "Walbirg", "Walpurga", "Waldtraute", "Yandebirg"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Blaubinge", "Erlenfold", "Fälklin", "Nordfalk", "Schmiedefrau"]
+		}
+	],
+	"Horasische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Adaon", "Alborn", "Aldo", "Alessandro", "Alricilian", "Alricio", "Alverigo", "Alvin", "Amaldo", "Anselmo", "Argelione", "Ariano", "Ariosto", "Arn", "Ascanio", "Aurentian", "Avessandro", "Barjed", "Basilius", "Bembo", "Benvenuto", "Beppo", "Boldrino", "Bonnaro", "Borso", "Bosper", "Burian", "Cadron", "Caldor", "Cangrande", "Carolan", "Chiranor", "Ciro", "Cordovan", "Cornaro", "Croenar", "Curon", "Curthan", "Cusimo", "Damion", "Darian", "Delgado", "Dettmar", "Dorgando", "Draco", "Drugon", "Edorian", "Edo", "Efferdo", "Ferdo", "Eolan", "Erlan", "Ezzelino", "Faldor", "Fardenin", "Festo", "Folnor", "Gabrino", "Gardelan", "Gareno", "Geron", "Gilmon", "Gismondo", "Grifone", "Hakaan", "Haldan", "Haldur", "Hesindiego", "Hesindio", "Horasio", "Horathio", "Irian", "Irion", "Jaan", "Jaltek", "Kalman", "Kedor", "Khadan", "Landor", "Leomar", "Leonello", "Lessandero", "Lorion", "Luciano", "Ludolfo", "Lysander", "Malvolio", "Marbio", "Masaniello", "Midor", "Mondino", "Muracio", "Nepolemo", "Nitor", "Orsino", "Ostilio", "Pandolfo", "Pasquino", "Perainio", "Phederino", "Phedro", "Pirtho", "Polinaro", "Praias", "Pulpio", "Quendan", "Ralhion", "Rahjácomo", "Ralman", "Rassuan", "Refardeon", "Reo", "Reon", "Rimaldo", "Romin",	"Romualdo", "Rondraman", "Rondravio", "Rondrigo", "Salarino", "Salquirio", "Sal", "Sarastro", "Selinan", "Stordian", "Sumudan", "Sulvodan", "Talor", "Tanglan", "Tassilo", "Terdin", "Thalion", "Thisdan", "Thuan", "Timor", "Tolman", "Torvon", "Ugo", "Umbario", "Urras", "Usim", "Vascal", "Vermis", "Vicino", "Vitale", "Yarum", "Yerno", "Zadalon", "Zandor", "Zordan"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adaque", "Ada", "Adamante", "Aifingla", "Aldare", "Alda", "Alessandra", "Alrike", "Alvene", "Amaziella", "Amene", "Ardare", "Arissa", "Arvedua", "Asmodena", "Aurelia", "Avessandra", "Belena", "Bellarahja", "Bellarita", "Bellatrix", "Bonaventa", "Cavarya", "Caya", "Celissa", "Cirina", "Clarizia", "Coruna", "Dalida", "Daria", "Dara", "Desaya", "Dragontina", "Dulcinea", "Duridanya", "Efferdia", "Elanor", "Ela", "Elissa", "Elvene", "Erlgard", "Eronia", "Feodora", "Fiaga", "Fiagarete", "Fiammetta", "Findualia", "Gerone", "Gorrada", "Gylduria", "Gylda", "Gylvana", "Haldana", "Haricia", "Harika", "Hesine", "Hesindiaga", "Hesindiane", "Hesindora", "Horanthe", "Horasianne", "Imperia", "Ingrimmanda", "Irionya", "Isida", "Jatane", "Kusmara", "Lamea", "Larona", "Lelia", "Leomara", "Logistilla", "Lorietta", "Lovisa", "Lutisana", "Lyssandra", "Lucietta", "Madalea", "Maline", "Marbis", "Melisande", "Modesta", "Morena", "Mythraela", "Nanda", "Nandine", "Nandora", "Nevinia", "Niam", "Niothia", "Nita", "Odina", "Oleana", "Ola", "Oloranthe", "Pamina", "Perainella", "Phedre", "Phelicitas", "Phrosina", "Polissena", "Praiadne", "Premodia", "Prishya", "Rahjalina", "Rahjamande", "Rahjane", "Rahjanès", "Remira", "Rinaya", "Rondravia", "Rondriga", "Sabetta", "Salkya", "Savinya", "Silvana", "Simiona", "Svelinya", "Sylvette", "Synella", "Thalionmel", "Thespia", "Tilliane", "Travietta", "Tsabella", "Tsaida", "Udora", "Usvina", "Vanossa", "Viviona", "Xaviera", "Yalma", "Yasinthe", "Yesaria", "Yolande", "Zarya", "Zerline", "Zyrasia"]
+		},
+		{
+			"adlig" : true,
+			"männlich" : true,
+			"Wiederholung" : [0, 2, " ", 2, 2]
+		},
+		{
+			"adlig" : true,
+			"männlich" : false,
+			"Wiederholung" : [0, 2, " ", 2, 2]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"adlig" : true,
+			"konsonantisch" : true,
+			"Auswahl" : ["von ", "ya ", "de ", "di ", "du ", "della ", "delli ", "da ", "ay ", "ash ", ""]
+		},
+		{
+			"adlig" : true,
+			"konsonantisch" : false,
+			"Auswahl" : ["von ", "ya ", "del ", "dil ", "du ", "della ", "delli ", "da ", "ay ", "ash ", ""]
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Agricola", "Aldubhor", "Altrovis", "Anguissola", "Anzani", "Arbalista", "Arsago", "Ballurat", "Barberigo", "Bramstetter", "Berlînghan", "Berylli", "Bibbiena", "Boccalino", "Bomarzo", "Bosvani", "Botta", "Bronzino", "Buffarsis", "Cairano", "Calmo", "Caranda", "Casella", "Castellani", "Castracane", "Cavalcanti", "Cornamusa", "Corsini", "Cosentino", "Crassac", "Damotil", "Darneel", "Dolvarn", "Droste", "Durazzo", "Durenald",	"Eslebon", "Esthenar", "Falconier", "Falconieri", "Farfara", "Fernell", "Fiammingo", "Firdayon", "Floridan", "Forca", "Folango", "Fondolo", "Foscani", "Furbesca", "Gabbura", "Galletta", "Ghislieri", "Gilindor", "Gozzi", "Grangorer", "Gravura", "Graziani", "Grimani", "Grangorer", "Horrad", "Hortulani", "Ilsand", "Issefura", "Kalamal", "Kureon", "Lasca", "Lorvai", "Matarazzo", "Marmotte", "Marnion", "Mazarin", "Melior", "Menderath", "Mercator", "Merzari", "Monte", "Muratori", "Narveer", "Neethling", "Nestefan", "Novara", "Offantas", "Olhantur", "Pamphili", "Pelargon", "Peruzzi", "Piccinino", "Pontre", "Ponziani", "Prefudi", "Prosperi", "Quendillion", "Rabrunati", "Radostai", "Raffacani", "Regalado", "Regotis", "Rocambole", "Rochas", "Rubini", "Ruffo", "Rutella", "Salvian", "Samudo", "Sandoval", "Sbasiti", "Scacabarozzi", "Scala", "Scardeoni", "Scossavalli", "Scribani", "Serpoleth", "Sismondi", "Soranzo", "Spada", "Spillatori", "Stipenbrink", "Tebaldeo", "Tegalliani", "Terumaris", "Tharedion", "Torre", "Tortona", "Trabbacantes", "Trequona", "Tripalda", "Ulfaran", "Vansanti", "Vardeen", "Villani", "Westerfolden", "Willant", "Zampante", "Zoppino", "Zubertin"]
+		}
+	],
+	"Zyklopäische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aisyphan", "Alrikazander", "Alrikos", "Amenelaos", "Avasios", "Belemanias", "Dariÿon", "Dirimethos", "Efferdaïos", "Horakles", "Ingerydos", "Kalchas", "Madaïon", "Meneander", "Mermydion", "Mironos", "Okeandros", "Peleiston", "Pelmides", "Peraistos", "Praïokles", "Rahjenysios", "Rahjoros", "Seneb", "Stoëllios", "Thalanios", "Tykates", "Tyndareos", "Xeledonios", "Yidaÿion", "Zesrad"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aglaya", "Aldara", "Alrike", "Apogea", "Aurike", "Avesinna", "Belenike", "Boronike", "Efferdiana", "Garafania", "Harika", "Ingerydike", "Insina", "Iokaste", "Korina", "Kyklania", "Lanike", "Leonore", "Liaiëlla", "Menkirdes", "Mira", "Myrtale", "Nemekathe", "Nermaka", "Nautika", "Odenia", "Peraina", "Phylinna", "Phyllis", "Praïaste", "Rahjamandra", "Rondrike", "Sapeïdra", "Telemache", "Thalassandra", "Tsaëdra", "Xelena", "Yppodamea", "Zoïra", "Zyrasteia"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"adlig" : true,
+			"konsonantisch" : true,
+			"Auswahl" : ["dylli "]
+		},
+		{
+			"adlig" : true,
+			"konsonantisch" : false,
+			"Auswahl" : ["dyll "]
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Amranthis", "Antonomos", "Arÿios", "Atholios", "Beunerys", "Bupheistos", "Bythrios", "Chyrikos", "Daneios", "Doriandros", "Ertholis", "Gaumanthis", "Grapheios", "Gryphilos", "Hethmanios", "Kenkaukis", "Kolemaistos", "Kyrkandros", "Lorkis", "Lythalis", "Memnathis", "Moilusios", "Mÿiabulos", "Naumachis", "Olemanios", "Ozyreios", "Phyrikos", "Praiopoulos", "Pydoctis", "Pydoktis", "Sphareios", "Sphyritis", "Stygmalion", "Styrnikos", "Tantalias", "Thorgantas", "Tyrakis", "Ulÿios", "Uÿis", "Xanthalias", "Ykladis", "Zaturias"]
+		}
+	],
+	"Südländische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Adario", "Agusto", "Alondro", "Alriego", "Amirato", "Boromeo", "Coragon", "Diago", "Diamantes", "Dorio", "Efferdito", "Egiliano", "Enrisco", "Fiorenzo", "Firunando", "Flaminio", "Gaiomo", "Ghorio", "Gordo", "Hesindiego", "Imaculo", "Ingarin", "Jesidoro", "Kamillio", "Khalid", "Koloman", "Lirobal", "Lucan", "Mandolo", "Marboso", "Marno", "Micirio", "Morisys", "Nestario", "Nostromo", "Orelio", "Panfilo", "Pedresco", "Praiopio", "Quintilian", "Ramon", "Romero", "Rondrigo", "Salpico", "Sandro", "Simodo", "Tirato", "Trienco", "Tito", "Ulan", "Vitario", "Xenofero", "Yorge", "Yuan", "Zurbaran"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adaque", "Alara", "Avessandra", "Balatravis", "Boronaya", "Carimina", "Consuela", "Desiderya", "Diantha", "Dolorita", "Dominga", "Emerencia", "Esmeralda", "Fiorella", "Galindia", "Heliantha", "Imelde", "Inarés", "Jesabela", "Karianna", "Katalinya", "Korrassón", "Luisina", "Maryarita", "Marchesca", "Morisca", "Nicolasina", "Oralia", "Phelicitas", "Phelippa", "Praiociose", "Querinia", "Rahjadés", "Rayadés", "Rosinia", "Saranya", "Tomassina", "Ugolines", "Ulembina", "Ursania", "Vadoria", "Valería", "Xantilia", "Ximena", "Yvonya", "Zalinés", "Zephirina", "Zeradia"]
+		},
+		{
+			"männlich" : true,
+			"Wiederholung" : [1, 2, " ", 2, 2]
+		},
+		{
+			"männlich" : false,
+			"Wiederholung" : [1, 2, " ", 2, 2]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"bürgerlich" : true,
+			"Auswahl" : ["Anthos", "Beratas", "Cornio", "Delazar", "Erabenas", "Fontanoya", "Fiovarez", "Gonralas", "Gredo", "Inezano", "Jacobella", "Kalando", "Lupinez", "Malagro", "Monterey", "Nirrano", "Olibantin", "Piriones", "Queseda", "Ramirez", "Rivito", "Rivitoz", "Rondriguez", "Salmoranes", "Santana", "Tiamartin", "Uludaz"]
+		}
+	],
+	"Thorwalsche Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aki", "Ansgar", "Ansir", "Arngrim", "Asgrimm", "Askir", "Asleif", "Atli", "Atmaskott", "Beorn", "Beowulf", "Bjeri", "Bjarni", "Björn", "Brand", "Egil", "Eilif", "Eindrin", "Eirik", "Eldgrimm", "Faenwulf", "Firunjar", "Fjolnir", "Frenjar", "Garald", "Garulf", "Geir", "Gerskir", "Gunn", "Gunni", "Hakon", "Hallar", "Halfdan", "Hardger", "Hardred", "Hasgar", "Helgi", "Herolf", "Hjerolf", "Herm", "Hjall", "Hjalldi", "Hjore", "Halmar", "Hjalmar", "Haldar", "Hjaldar", "Hjelm", "Ingald", "Ingirid", "Ingibjörg", "Iskir", "Isleif", "Islif", "Jora", "Jurge", "Karven", "Kari", "Ketil", "Kjaskar", "Laske", "Leif", "Lif", "Liskolf", "Maednir", "Noerre", "Norri", "Olav", "Olgard", "Olgi", "Olvir", "Orgen", "Orozar", "Orm", "Ragnar", "Rangolf", "Raskir", "Rekki", "Röngvald", "Rodi", "Rorleif", "Rorlif", "Runolf", "Sigridur", "Sigrud", "Solvi", "Starkad", "Steinar", "Stirbjörn", "Swafgard", "Swafnan", "Swafleif", "Swaflif", "Sven", "Tevil", "Thinmar", "Thivar", "Tjalf", "Thorgun", "Thorkar", "Thorwulf", "Thurbold", "Thure", "Tjalf", "Torben", "Torbrand", "Tore", "Torfin", "Torgal", "Torkil", "Torlif", "Torstor", "Trollwulf", "Tronde", "Vandrad", "Walkir", "Wulfgrimm", "Yngvar"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Akja", "Aelfhild", "Alfhild", "Algrid", "Alvida", "Andra", "Anga", "Anhild", "Arva", "Asgerd", "Asgerda", "Asgrima", "Askra", "Beornhild", "Bera", "Bjarnilda", "Branda", "Bridgera", "Bryda", "Eilif", "Eindara", "Eldgrima", "Estrid", "Eyvin", "Firunja", "Frenja", "Fridger", "Fridgera", "Garhelt", "Garhilda", "Grima", "Gunbritt", "Gundrid", "Gunda", "Halda", "Hallbera", "Halma", "Hardsgera", "Helma", "Hilda", "Hjalda", "Hjalfrida", "Hjalka", "Hjalma", "Hjalda", "Hjaldis", "Hjalla", "Hjelgira", "Hjora", "Hrafnhild", "Ifirniane", "Ifirnslinda", "Ingira", "Isliv", "Isliva", "Jadra", "Janda", "Jurga", "Karva", "Katla", "Kjaska", "Korja", "Lialin", "Lingard", "Liflind", "Livka", "Marada", "Nellgard", "Norhild", "Odda", "Olburga", "Olgerda", "Olverja", "Ragna", "Ragnild", "Rangnid", "Raska", "Rorlif", "Rorlifa", "Salda", "Sigrid", "Sigrida", "Sigrun", "Solva", "Solveig", "Svala", "Svenna", "Svenja", "Swafgard", "Swafnild", "Swangard", "Tjalva", "Thora", "Thordis", "Thorfinna", "Thorhalla", "Torgard", "Torgrid", "Torlind", "Wulfgard", "Wulfgarda", "Wulflind", "Wulflinda", "Wulfhild", "Wulfhilda", "Yasma"]
+		},
+		{
+			"Wiederholung" : [1, 1, " ", 1, 2]
+		},
+		{
+			"männlich" : true,
+			"Text" : "sson"
+		},
+		{
+			"männlich" : false,
+			"Text" : "sdottir"
+		}
+	],
+	"Namen der Gjalskerländer" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Anchas", "Bradruch", "Branchan", "Dundoch", "Islogh", "Ifrunndoch", "Mjesgold", "Morghinach", "Struan", "Wladuch", "Yuchdan", "Yurrgold"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Andraga", "Bebann", "Dundana", "Dunyabra", "Hjalbeth", "Hjurrgat", "Megrim", "Milbeth", "Murraya", "Hagwa", "Shinnath", "Skrayana"]
+		},
+		{
+			"männlich" : true,
+			"Text" : " bren "
+		},
+		{
+			"männlich" : false,
+			"Text" : " brai "
+		},
+		{
+			"männlich" : true,
+			"Wiederholung" : [1, 1, "", 4, 4]
+		},
+		{
+			"männlich" : false,
+			"Wiederholung" : [1, 1, "", 4, 4]
+		}
+	],
+	"Namen der Fjarninger" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Asgold", "Blotgrim", "Blotulfur", "Bodvar", "Engur", "Fjallgart", "Frunobar", "Gjallur", "Havgrimur", "Pandur", "Raluf", "Steinthor", "Valbrand", "Valbrandar", "Waleif"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Arnthrud", "Arnthrudir", "Asgora", "Blotaxa", "Blotsaxa", "Dandagard", "Funudara", "Gunnlaug", "Halfga", "Jaldrud", "Rangra", "Rannveig", "Svannlaug", "Ulfgard", "Ylwa", "Yngheld"]
+		}
+	],
+	"Nivesische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Abjo", "Adjok", "Airujo", "Altanan", "Arjuk", "Arko", "Banuk", "Beranen", "Berko", "Binjok", "Danjuk", "Dernkjo", "Dragjo", "Ebnan", "Eikaljok", "Eiko", "Einuk", "Enan", "Enko", "Eno", "Enuk", "Erljuk", "Gaitjok", "Garnan", "Garnuk", "Genko", "Gjuternuk", "Gorfangnuk", "Gurjinen", "Hanko", "Hautan", "Hautanan", "Heimanuk", "Hietanen", "Honuk", "Horganan", "Hunjok", "Huno", "Janjuk", "Jorinen", "Jurtan", "Jurtanan", "Kaikanuk", "Kalkuk", "Kaunanan", "Kauno", "Keinjo", "Kervo", "Kilhjo", "Kilho", "Kinajo", "Kintan", "Kintanan", "Kuljuk", "Kumo", "Kylänjak", "Lanan", "Latu", "Leikinen", "Leksvalen", "Lieto", "Mada", "Madanan", "Maenan", "Matiljok", "Minkio", "Mouhuk", "Nantalin", "Nerkjo", "Niljo", "Nurmjo", "Nysjo", "Olainen", "Paimjo", "Parkanjuk", "Peltjo", "Pirtijok", "Rakjo", "Rasjuk", "Raumo", "Ruukjok", "Sandjo", "Seinjuk", "Seinuk", "Silkajok", "Simjok", "Svartjok", "Tamperen", "Toljok", "Tsaekal", "Turkunen", "Tyrjuk", "Uljok", "Ulo", "Valen", "Valjok", "Vik", "Ylsjok", "Zanuk", "Zeino"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Airaksela", "Airiksela", "Amuri", "Auka", "Aukaju", "Baituri", "Beri", "Bjanju", "Biniaki", "Burti", "Dakauju", "Dana", "Dionju", "Duri", "Eikaju", "Emela", "Eskola", "Falkja", "Ferturi", "Fidaju", "Fidju", "Gateiki", "Geika", "Godju", "Guaäna", "Hauka", "Hirolja", "Hikia", "Hyvinga", "Ikaju", "Ila", "Irti", "Isalmi", "Jalani", "Janaha", "Jokela", "Jokja", "Jonuri", "Jutila", "Jyla", "Kajani", "Kantala", "Karenju", "Karra", "Katimäki", "Kaukalathi", "Keitakju", "Kela", "Kelva", "Kisa", "Koski", "Kuopi", "Kura", "Lahti", "Lappila", "Lauka", "Lieksa", "Lieskaju", "Liskaju", "Loja", "Lojmaa", "Murula", "Myrra", "Naij", "Nakila", "Näljavena", "Neli", "Nirka", "Nivilaukaju", "Nujala", "Ojakalla", "Olu", "Paukaja", "Peltju", "Pori", "Purolju", "Rael", "Raela", "Rauma", "Roika", "Rukosari", "Saari", "Sarela", "Saviharju", "Savolina", "Sievi", "Sjunda", "Sotkia", "Takoja", "Tiali", "Tiensu", "Tolsa", "Torhola", "Tuira", "Turi", "Ulu", "Ulvila", "Ura", "Usi", "Vaala", "Valla", "Varpa", "Vatja", "Vedaju", "Vella", "Viala", "Vieki", "Vika", "Ylista", "Zurti"]
+		}
+	],
+	"Norbardische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Adrej", "Ahani", "Aikul", "Aleks", "Alriksej", "Amrun", "Arej", "Arljew", "Akhtaw", "Banjew", "Barin", "Barins", "Beril", "Bjuro", "Bogul", "Boril", "Bradrik", "Burgej", "Dagri", "Darbin", "Darjew", "Daswadan", "Dergej", "Dirgis", "Dorko", "Dorkoj", "Dorkow", "Ebran", "Ebrani", "Ebranj", "Elkman", "Erdoj", "Ergjew", "Etril", "Fadril", "Fagris", "Fargej", "Fenew", "Fjedril", "Fjinko", "Fogutil", "Fradrik", "Fredoj", "Ganew", "Ganri", "Glawnaj", "Gojelno", "Gossudar", "Gossudjar", "Guri", "Hamakil", "Janko", "Jaslaw", "Jenko", "Juchow", "Kargemil", "Kaspaj", "Kaspron", "Kergaj", "Kergil", "Kolaj", "Lankej", "Lari", "Laromir", "Leguslaw", "Lexej", "Lorsij", "Malmodir", "Mermadin", "Mija", "Mikail", "Mischajil", "Mjesko", "Mokosch", "Okil", "Okjadir", "Olboj", "Patril", "Perun", "Pjatril", "Raswedj", "Radul", "Respo", "Rogoff", "Rurtin", "Sajud", "Samjon", "Sildrojan", "Sildroyan", "Swantew", "Swiat", "Tassil", "Tatjan", "Teskisch", "Thundjar", "Tuljew", "Upraw", "Uriel", "Urjel", "Watelno", "Wlad", "Zanisch"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Abra", "Agnitha", "Aikulja", "Akilja", "Argja", "Banja", "Barina", "Berilja", "Besga", "Bilkis", "Birgat", "Bisminka", "Bite", "Bitescha", "Bogja", "Chrena", "Chrenja", "Dagris", "Dalkeshja", "Darka", "Dascha", "Datescha", "Derja", "Dirgisa", "Eborja", "Eika", "Elkja", "Etris", "Fana", "Fanja", "Fagrisa", "Felja", "Fetanka", "Finja", "Frankja", "Ganris", "Gerja", "Girtinka", "Gulja", "Hanija", "Haka", "Hashandra", "Hedja", "Helna", "Hetinka", "Hirja", "Huldja", "Hurta", "Hurtja", "Ibra", "Imja", "Imjaschala", "Ischa", "Ismenka", "Jalinka", "Jaina", "Jaminka", "Janka", "Jascha", "Jaunava", "Jelena", "Julenka", "Juminke", "Karena", "Katjenka", "Kerja", "Kitinka", "Kolja", "Koscha", "Kurja", "Lexaja", "Lenija", "Liminka", "Lorsija", "Mascha", "Merischa", "Merischja", "Minka", "Mischala", "Mokascha", "Murja", "Nunja", "Obanja", "Olgada", "Olgadja", "Olja", "Orinka", "Otja", "Pawla", "Pidescha", "Polita", "Potinka", "Rasescha", "Radra", "Reska", "Rika", "Rischinka", "Ruschane", "Sanja", "Slanka", "Soscha", "Talja", "Tat ja", "Terlaja", "Thesia", "Thesija", "Titanka", "Tuminka", "Umerike", "Upra", "Vesanka", "Wlada", "Yilbakis", "Zerinka"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Abrinken", "Aljeff", "Arlin", "Arrastin", "Atranzig", "Bagoltin", "Bartineff", "Barvedis", "Bilenzig", "Boischeff", "Burtinen", "Butanjeff", "Chadjeff", "Choprutin", "Daginen", "Dagoneff", "Dallentin", "Daprusek", "Dimrinen", "Dogeljeff", "Dukatajeff", "Elin", "Emaneff", "Erginen", "Etajeff", "Eugoltin", "Fagjeff", "Fantinen", "Ferjeff", "Filajeff", "Firnin", "Fogil", "Fogujeff", "Frantischeff", "Fruginen", "Gamajeff", "Garkinen", "Gerjeleff", "Gertainig", "Gorening", "Hardering", "Helajeff", "Horminen", "Hurlemaneff", "Ibrajeff", "Ijineff", "Imonin", "Itolojeff", "Janeff", "Janig", "Jeninen", "Jikajeff", "Jonkjeff", "Jurgavist", "Jataneff", "Kereling", "Koranzig", "Kowalejeff", "Lenejeff", "Linerajeff", "Loranin", "Lugoltin", "Mandragjeff", "Marginen", "Mogoljeff", "Nogil", "Nurkajeff", "Olscheff", "Otaninen", "Porgajeff", "Reschgin", "Sewerin", "Sievening", "Surjeloff", "Tsirkevist", "Tureljeff", "Ugradin", "Wodjadeff"]
+		}
+	],
+	"Tulamidische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Abdul", "Abu", "Achmad", "Achtev", "Alam", "Alev", "Ali", "Alrik", "Amaryd", "Amir", "Arkos", "Assaf", "Aytan", "Babur", "Benayman", "Bey", "Chadim", "Charef", "Cherek", "Dajin", "Deniz", "Dilhaban", "Djuned", "Dschadir", "Dscherid", "Dunchaban", "Emir", "Erkhaban", "Eslam", "Faizal", "Faramud", "Farid", "Farsid", "Faruk", "Feruzef", "Feyhach", "Ftaihif", "Gaftar", "Gulshev", "Habled", "Hadjiin", "Hahmud", "Haimamud", "Hairan", "Hamar", "Hamed", "Hamil", "Haschnabah", "Harabal", "Hasrabal", "Hilal", "Ismeth", "Jachman", "Jalif", "Jassafer", "Jedrech", "Jikhaban", "Jikhbar", "Kalkarib", "Karmal", "Kasim", "Kashban", "Kazan", "Khabla", "Khajid", "Khalid", "Khorim", "Khusrau", "Maharbal", "Mharbal", "Mahmud", "Marwan", "Mawud", "Melekh", "Mezzek", "Mhadul", "Mhanach", "Mhukkadin", "Mordai", "Muammar", "Mustafa", "Nadrash", "Najara", "Nareb", "Nasreddin", "Nazir", "Nebahath", "Neriman", "Nezahet", "Omar", "Omjaid", "Pakhizal", "Perhiman", "Rafid", "Rashid", "Rashim", "Rashman", "Rastafan", "Rechan", "Rezzan", "Rhayad", "Rhukeyef", "Rohal", "Ruban", "Ruchan", "Sahil", "Said", "Saiman", "Sanshied", "Sedef", "Selim", "Selo", "Seyshaban", "Shabob", "Shafir", "Shahîn", "Shanatir", "Shejk", "Sheranbil", "Sulman", "Surkan", "Tulachim", "Tulef", "Tuleyman", "Ukhraban", "Umran", "Yadail", "Yakuban", "Yali", "Yelmiz", "Yerdawan", "Yussuf", "Zachaban", "Zachan", "Zahir", "Zelhiman", "Zuhal", "Zulhamid"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Abrizah", "Aischa", "Aishulibeth", "Alhina", "Arika", "Ashaybith", "Ayla", "Ayrina", "Ayshal", "Azina", "Belima", "Belizeth", "Beychaliban", "Beysa", "Birshen", "Byalabeth", "Chalibah", "Chanya", "Dassareth", "Delilah", "Demeya", "Dilhabeth", "Dimiona", "Djamilla", "Dunja", "Emira", "Emiramis", "Erzibeth", "Eshila", "Esmalda", "Fadime", "Fahimja", "Fayrishe", "Ferushan", "Halima", "Harani", "Hennah", "Heyeshan", "Hidaybeth", "Isha", "Izmaban", "Jamilha", "Josmabith", "Jushibi", "Karhima", "Kemillja", "Kerime", "Laila", "Manjula", "Meriban", "Milhibeth", "Mirhiban", "Mirshan", "Moqtah", "Nahema", "Nassiban", "Nazmeya", "Nedime", "Neraida", "Nesliha", "Niobara", "Nurhan", "Onchabeth", "Oyan", "Oymira", "Palmeya", "Peribeth", "Perishan", "Perizel", "Ranchel", "Renahban", "Reshemin", "Riftah", "Sajida", "Sarjaban", "Sefira", "Selime", "Semirhija", "Shabra", "Shahane", "Shanhazadra", "Shanja", "Sharisad", "Shenny", "Sherizeth", "Sheydan", "Shila", "Shuhelja", "Shulam", "Sulibeth", "Tulameth", "Tulmyrja", "Yamira", "Yashima", "Yasine", "Yeshinna", "Yezemin", "Yilbalis", "Yosmabith", "Yullabeth", "Zahrabeth", "Zechiban", "Zulhamin"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Text" : "ibn "
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 0.5, 0.5],
+			"Text" : "saba "
+		},
+		{
+			"Wiederholung" : [1, 1, "", 5, 5]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 1, 0],
+			"Auswahl" : ["suni", "sunni", "sunya"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Wahrscheinlichkeit" : [2, 0.5, 0.5],
+			"Auswahl" : ["abu'l Ketab", "al'Ahjan", "al'Ahmad", "al'Alam", "al'Ankhra", "al'Fessir", "al'Kebîr", "al'Kira", "al'Rashid", "al'Rik", "al'Hashinnah"]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [2, 0.5, 0.5],
+			"Auswahl" : ["al'Azila", "al'Azizel", "al'Jamila", "al'Shabra", "ash'Shabra", "al'Shaya", "ash'Shaya", "al'Sarjaban", "as'Sarjaban", "al'Zahra", "az'Zahra", "bint'al'Laila", "bint'el'Buchâre", "el'Zitaqi", "ez'Zitaqi", "saba'Al'Buchâre", "saba'al'Laila", "saba'el'Sulef", "saba'es'Sulef"]
+		}
+	],
+	"Novadische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Abdul", "Abu", "Achmad", "Achtev", "Alam", "Alev", "Ali", "Alrik", "Amaryd", "Amir", "Arkos", "Assaf", "Aytan", "Babur", "Benayman", "Bey", "Chadim", "Charef", "Cherek", "Dajin", "Deniz", "Dilhaban", "Djuned", "Dschadir", "Dscherid", "Dunchaban", "Emir", "Erkhaban", "Eslam", "Faizal", "Faramud", "Farid", "Farsid", "Faruk", "Feruzef", "Feyhach", "Ftaihif", "Gaftar", "Gulshev", "Habled", "Hadjiin", "Hahmud", "Haimamud", "Hairan", "Hamar", "Hamed", "Hamil", "Haschnabah", "Harabal", "Hasrabal", "Hilal", "Ismeth", "Jachman", "Jalif", "Jassafer", "Jedrech", "Jikhaban", "Jikhbar", "Kalkarib", "Karmal", "Kasim", "Kashban", "Kazan", "Khabla", "Khajid", "Khalid", "Khorim", "Khusrau", "Maharbal", "Mharbal", "Mahmud", "Marwan", "Mawud", "Melekh", "Mezzek", "Mhadul", "Mhanach", "Mhukkadin", "Mordai", "Muammar", "Mustafa", "Nadrash", "Najara", "Nareb", "Nasreddin", "Nazir", "Nebahath", "Neriman", "Nezahet", "Omar", "Omjaid", "Pakhizal", "Perhiman", "Rafid", "Rashid", "Rashim", "Rashman", "Rastafan", "Rechan", "Rezzan", "Rhayad", "Rhukeyef", "Rohal", "Ruban", "Ruchan", "Sahil", "Said", "Saiman", "Sanshied", "Sedef", "Selim", "Selo", "Seyshaban", "Shabob", "Shafir", "Shahîn", "Shanatir", "Shejk", "Sheranbil", "Sulman", "Surkan", "Tulachim", "Tulef", "Tuleyman", "Ukhraban", "Umran", "Yadail", "Yakuban", "Yali", "Yelmiz", "Yerdawan", "Yussuf", "Zachaban", "Zachan", "Zahir", "Zelhiman", "Zuhal", "Zulhamid"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Abrizah", "Aischa", "Aishulibeth", "Alhina", "Arika", "Ashaybith", "Ayla", "Ayrina", "Ayshal", "Azina", "Belima", "Belizeth", "Beychaliban", "Beysa", "Birshen", "Byalabeth", "Chalibah", "Chanya", "Dassareth", "Delilah", "Demeya", "Dilhabeth", "Dimiona", "Djamilla", "Dunja", "Emira", "Emiramis", "Erzibeth", "Eshila", "Esmalda", "Fadime", "Fahimja", "Fayrishe", "Ferushan", "Halima", "Harani", "Hennah", "Heyeshan", "Hidaybeth", "Isha", "Izmaban", "Jamilha", "Josmabith", "Jushibi", "Karhima", "Kemillja", "Kerime", "Laila", "Manjula", "Meriban", "Milhibeth", "Mirhiban", "Mirshan", "Moqtah", "Nahema", "Nassiban", "Nazmeya", "Nedime", "Neraida", "Nesliha", "Niobara", "Nurhan", "Onchabeth", "Oyan", "Oymira", "Palmeya", "Peribeth", "Perishan", "Perizel", "Ranchel", "Renahban", "Reshemin", "Riftah", "Sajida", "Sarjaban", "Sefira", "Selime", "Semirhija", "Shabra", "Shahane", "Shanhazadra", "Shanja", "Sharisad", "Shenny", "Sherizeth", "Sheydan", "Shila", "Shuhelja", "Shulam", "Sulibeth", "Tulameth", "Tulmyrja", "Yamira", "Yashima", "Yasine", "Yeshinna", "Yezemin", "Yilbalis", "Yosmabith", "Yullabeth", "Zahrabeth", "Zechiban", "Zulhamin"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Text" : "ben "
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 0.5, 0.5],
+			"Text" : "saba "
+		},
+		{
+			"Wiederholung" : [1, 1, "", 5, 5]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 1, 0],
+			"Auswahl" : ["suni", "sunya"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Wahrscheinlichkeit" : [2, 0.5, 0.5],
+			"Auswahl" : ["abu'l Ketab", "al'Ahjan", "al'Ahmad", "al'Alam", "al'Ankhra", "al'Fessir", "al'Kebîr", "al'Kira", "al'Rashid", "al'Rik", "al'Hashinnah"]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [2, 0.5, 0.5],
+			"Auswahl" : ["al'Azila", "al'Azizel", "al'Jamila", "al'Shabra", "ash'Shabra", "al'Shaya", "ash'Shaya", "al'Sarjaban", "as'Sarjaban", "al'Zahra", "az'Zahra", "bint'al'Laila", "bint'el'Buchâre", "el'Zitaqi", "ez'Zitaqi", "saba'Al'Buchâre", "saba'al'Laila", "saba'el'Sulef", "saba'es'Sulef"]
+		}
+	],
+	"Aranische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Abubrecht", "Abdulon", "Amirwolf", "Beyhelm", "Djafardeon", "Dscheridan", "Farukol", "Hamarbald", "Harunian", "Jikhbald", "Marwamir", "Melekhelm", "Mukarribald", "Narbold", "Narebold", "Omjaralf", "Retoban", "Rohaldor", "Selimwar", "Shabobert", "Shafirio", "Sultanor", "Tuleffried", "Yussufried"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aischanka", "Aylalind", "Ayshulianne", "Azizelis", "Dunjanild", "Emerbeth", "Fayrieke", "Gazalinde", "Halimyanis", "Hildebeth", "Ishannah", "Jushiberta", "Lailalinde", "Nedimsira", "Neraidane", "Perainibith", "Rashpatane", "Rhayadaque", "Shilaldara", "Shulamunde", "Shulinai", "Sulajmaid", "Sybia", "Yullabethild", "Zulhaminai"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Text" : "ibn "
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 0.5, 0.5],
+			"Text" : "saba "
+		},
+		{
+			"männlich" : true,
+			"Wiederholung" : [1, 1, "", 5, 5]
+		},
+		{
+			"männlich" : false,
+			"Wiederholung" : [1, 1, "", 5, 5]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 1, 0],
+			"Auswahl" : ["suni", "sunni", "sunya"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Alahjan", "Alfaran", "Baburini", "Damotil", "Elyeshinnah", "Hainsaite", "Terekandi", "Zorgahani"]
+		}
+	],
+	"Namen der Ferkinas" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Abtuul", "Ardavan", "Ardesh", "Azad", "Bashur", "Burshuk", "Chosraw", "Devlekh", "Djershar", "Dschafur", "Dschalf", "Durjin", "Faruch", "Farzand", "Feridun", "Fervez", "Gulbad", "Hafiz", "Hamar", "Haydar", "Kaszan", "Kazh", "Kazûm", "Khordad", "Jikhab", "Madawan", "Mharbal", "Mirlam", "Muyanshîr", "Nashrath", "Rachwan", "Rashni", "Rustam", "Sharkhan", "Tsharik", "Tugril", "Tulsani", "Uchrab", "Umar", "Waqran", "Yabman", "Yistarrech", "Zakhaban", "Zhandur"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Ashu", "Azrubat", "Begum", "Chanum", "Chatun", "Chizuran", "Chorjan", "Chorshilan", "Dscheridocht", "Duncha", "Farah", "Faroshte", "Farsha", "Farzandeh", "Golbanu", "Golshan", "Hulya", "Jeleyin", "Khalila", "Khullat", "Laal", "Lahileh", "Massûdeh", "Mehrshan", "Nadam", "Nazrin", "Nuraya", "Nurjahan", "Peribanu", "Rashadocht", "Rôhila", "Rushan", "Shiringol", "Shmahba", "Sulefin", "Tamra", "Tarshabet", "Tebay", "Tulamin", "Zarbanu", "Zulecha", "Zuleycha"]
+		},
+		{
+			"männlich" : true,
+			"Text" : " iban "
+		},
+		{
+			"männlich" : false,
+			"Text" : " sabu "
+		},
+		{
+			"Wiederholung" : [1, 1, "", 4, 4]
+		}
+	],
+	"Namen der Trollzacker" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Achzul", "Azzadh", "Bashoth", "Bradrukh", "Dabrush", "Faraz", "Gandrosh", "Gandroshaq", "Ghonech", "Kchorech", "Khornan", "Rochan", "Shamsharb", "Shinmashaq", "Shinmashq", "Shulman", "Trachan", "Trauchan", "Zuldar", "Zuldhamach"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Ashirut", "Chulye", "Chumra", "Draneth", "Habiza", "Hachinah", "Hachnah", "Lahl'a", "Kcharra", "Kchodi", "Kchodima", "Khordha", "Manlochla", "Marchune", "Moqtah", "Perchi", "Rhana", "Uchazu", "Zul'artun", "Zulecha"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"männlich" : true,
+			"Wahrscheinlichkeit" : [1, 0.5, 0.5],
+			"Auswahl" : ["Amadacht", "Bal", "Grim", "Rôhil", "Rôhaschtu", "Zert’Zul"]
+		},
+		{
+			"männlich" : false,
+			"Wahrscheinlichkeit" : [1, 0.5, 0.5],
+			"Auswahl" : ["Amadhcha", "Balt", "Grima", "Rôhila", "Rôhaschta", "Zerta’Zul"]
+		}
+	],
+	"Namen der Zahori" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Ayano", "Bahilo", "Carryo", "Diluvio", "Ehin", "Fahi", "Garroti", "Hanshi", "Ippolito", "Jamin", "Ka'hashan", "Lumiro", "Majuelo", "Nadir", "Oatir", "Pashkir", "Qamal", "Rastafan", "Shafir", "Shafiro", "Ta'ir", "Uovolo", "Vadiro", "Xamal", "Ysfadir", "Zarrigo"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Avaris", "Bisfira", "Caleya", "Daya", "Esfera", "Gushim", "Hasfira", "Ippolita", "Jadira", "Korima", "Lailane", "Layana", "Madalya", "Madayana", "Nuerta", "Oya", "Pirana", "Qitana", "Raistfa", "Shayla", "Ta'ira", "Uviala", "Virashida", "Xafal", "Yala'say", "Zafira", "Zarpa", "Ziqati"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Alfahan", "Cruento", "Espadín", "Facundía", "Nevasca", "Pelágatos", "Silfide", "Soleado", "Vaharada", "Zhulhamor", "Zurriaga"]
+		}
+	],
+	"Maraskanische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Adran", "Alarich", "Alrik", "Angrond", "Anjun", "Answin", "Angildbert", "Ardo", "Ardor", "Baltram", "Bardo", "Berman", "Bernhelm", "Bogumil", "Bomil", "Boromil", "Boronian", "Bosper", "Brin", "Burgol", "Burian", "Cassim", "Colgan", "Connar", "Cordovan", "Curthan", "Cyberian", "Dabbert", "Danos", "Darian", "Dirion", "Drego", "Eberhelm", "Eboreus", "Edo", "Edorian", "Efferdan", "Elbrecht", "Elgor", "Emmeran", "Eran", "Erlan", "Ernbrecht", "Erzian", "Ettel", "Falk", "Felian", "Fingorn", "Firunian", "Firu", "Firutin", "Folmian", "Fredo", "Frumol", "Geppert", "Gerding", "Gernot", "Gero", "Geron", "Gerrik", "Gerion", "Gilborn", "Gishelm", "Gorm", "Goswin", "Groben", "Grordan", "Grorthin", "Gumbald", "Hagen", "Hal", "Haldan", "Hakon", "Halman", "Hane", "Harad", "Helmar", "Helmbrecht", "Helme", "Hesindian", "Hilgert", "Iber", "Igalf", "Igan", "Ingalf", "Ingolf", "Irian", "Irion", "Jergan", "Jobdan", "Jost", "Kalman", "Karon", "Kedio", "Kulman", "Kvalor", "Lares", "Lechdan", "Leomar", "Linnert", "Losan", "Ludor", "Luidor", "Malzan", "Melcher", "Moribert", "Movert", "Odil", "Odilbert", "Odilon", "Ogdan", "Olger", "Olk", "Orelan", "Orlan", "Pagol", "Parainor", "Parinor", "Patras", "Peradan", "Perainor", "Perainian", "Perval", "Pisidian", "Polter", "Praiodan", "Praiodar", "Praioslob", "Praiosmar", "Quanion", "Quendan", "Quin", "Radulf", "Rahjadan", "Rahjan", "Raidri", "Rank", "Rauert", "Raul", "Raulbrin", "Refardeon", "Reo", "Reto", "Robak", "Roban", "Rondred", "Rondrian", "Ruhmrath", "Rukus", "Rumpo", "Sal", "Salix", "Savertin", "Sequin", "Sigerain", "Sigiswild", "Sigman", "Sindar", "Stipen", "Stordan", "Stordian", "Sumudan", "Thallian", "Thimorn", "Thisdan", "Timshal", "Torben", "Torm", "Trautman", "Travin", "Traviadan", "Travidan", "Tsafried", "Tsadan", "Udalf", "Udildor", "Ugalf", "Ugdalf", "Ugdan", "Ugo", "Ulfried", "Ungolf", "Valman", "Valpo", "Varman", "Viburn", "Vitus", "Voltan", "Vorlop", "Wahnfried", "Welf", "Wolf", "Wolfhart", "Wolfman", "Wulf", "Wulfhelm", "Xandros", "Xebbert", "Xeppert", "Xerber", "Xindan", "Yann", "Yantur", "Yendan", "Yendar", "Yendor", "Yerodin", "Yeto", "Zondan", "Zolthan", "Zordan",
+				"Abdul", "Abu", "Achmad", "Achtev", "Alam", "Alev", "Ali", "Alrik", "Amaryd", "Amir", "Arkos", "Assaf", "Aytan", "Babur", "Benayman", "Bey", "Chadim", "Charef", "Cherek", "Dajin", "Deniz", "Dilhaban", "Djuned", "Dschadir", "Dscherid", "Dunchaban", "Emir", "Erkhaban", "Eslam", "Faizal", "Faramud", "Farid", "Farsid", "Faruk", "Feruzef", "Feyhach", "Ftaihif", "Gaftar", "Gulshev", "Habled", "Hadjiin", "Hahmud", "Haimamud", "Hairan", "Hamar", "Hamed", "Hamil", "Haschnabah", "Harabal", "Hasrabal", "Hilal", "Ismeth", "Jachman", "Jalif", "Jassafer", "Jedrech", "Jikhaban", "Jikhbar", "Kalkarib", "Karmal", "Kasim", "Kashban", "Kazan", "Khabla", "Khajid", "Khalid", "Khorim", "Khusrau", "Maharbal", "Mharbal", "Mahmud", "Marwan", "Mawud", "Melekh", "Mezzek", "Mhadul", "Mhanach", "Mhukkadin", "Mordai", "Muammar", "Mustafa", "Nadrash", "Najara", "Nareb", "Nasreddin", "Nazir", "Nebahath", "Neriman", "Nezahet", "Omar", "Omjaid", "Pakhizal", "Perhiman", "Rafid", "Rashid", "Rashim", "Rashman", "Rastafan", "Rechan", "Rezzan", "Rhayad", "Rhukeyef", "Rohal", "Ruban", "Ruchan", "Sahil", "Said", "Saiman", "Sanshied", "Sedef", "Selim", "Selo", "Seyshaban", "Shabob", "Shafir", "Shahîn", "Shanatir", "Shejk", "Sheranbil", "Sulman", "Surkan", "Tulachim", "Tulef", "Tuleyman", "Ukhraban", "Umran", "Yadail", "Yakuban", "Yali", "Yelmiz", "Yerdawan", "Yussuf", "Zachaban", "Zachan", "Zahir", "Zelhiman", "Zuhal", "Zulhamid"]
+		},
+		{
+			"männlich" : true,
+			"Auswahl" : ["eran", "oran", "jian", "jin", "mold", "ziber", "rech"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adaque", "Alda", "Aldare", "Alena", "Alinde", "Alrike", "Alruna", "Alvide", "Alwene", "Alwine", "Arba", "Ardare", "Belona", "Bernika", "Berna", "Binya", "Birsel", "Boriane", "Caya", "Celissa", "Cella", "Charine", "Coris", "Coruna", "Dara", "Dari", "Daria", "Dela", "Derya", "Dhana", "Dilga", "Dimiona", "Dirione", "Donde", "Doride", "Dorlen", "Drala", "Dralina", "Dramina", "Duridanya", "Dythlind", "Dythlinde", "Edala", "Efferdane", "Elene", "Elida", "Elwene", "Emer", "Fenia", "Fiana", "Fina", "Firisa", "Firuna", "Franka", "Gala", "Gilia", "Ginaya", "Girte", "Gissa", "Glenna", "Gunelde", "Gurnhild", "Gwynna", "Hannafrid", "Harika", "Harka", "Heiltrud", "Heiltrude", "Hela", "Helke", "Hesindiane", "Hesine", "Hitta", "Idra", "Ifirnia", "Ilke", "Ingrimma", "Ingrimiane", "Isida", "Jadwiga", "Jadwina", "Jasinai", "Jette", "Josmine", "Jule", "Junivera", "Karima", "Khorena", "Krona", "Kysira", "Lana", "Larona", "Lechmin", "Leonore", "Leta", "Leuemuthe", "Lidda", "Livia", "Losiane", "Ludilla", "Lutisana", "Maline", "Maren", "Mirya", "Mo", "Mora", "Morena", "Nana", "Neetya", "Nella", "Niam", "Odelinde", "Ola", "Oleana", "Olorande", "Ondinai", "Ondwina", "Palinai", "Perdia", "Phexla", "Perainiane", "Praiadne", "Praiodane", "Praiosmin", "Prajosmin", "Quenia", "Quelina", "Quisira", "Rahjalieb", "Rahjada", "Rahjane", "Renzi", "Rhodena", "Roana", "Rohaja", "Rondirai", "Rondralieb", "Rondratreu", "Rondriane", "Rovena", "Rudane", "Saginta", "Sannah", "Sari", "Saria", "Selinde", "Seline", "Sumudai", "Susa", "Sylvette", "Tanit", "Thalionmel", "Thornia", "Thyria", "Tita", "Titina", "Tsaja", "Turike", "Udha", "Ulinai", "Ulmia", "Utsinde", "Uthjane", "Vana", "Viridia", "Vistella", "Wala", "Walburia", "Wina", "Wilimai", "Xaida", "Xaviera", "Xerane", "Xinda", "Yasinthe", "Yanis", "Yasmina", "Yassia", "Yelinde", "Yola", "Yolande", "Yolde", "Yosmia", "Yosmina", "Yppolita", "Ysilda", "Ysinthe", "Zekla", "Zelda", "Zidane", "Zidona", "Zita", "Zoe", "Zyla", "Zylva", "Zylya",
+				"Abrizah", "Aischa", "Aishulibeth", "Alhina", "Arika", "Ashaybith", "Ayla", "Ayrina", "Ayshal", "Azina", "Belima", "Belizeth", "Beychaliban", "Beysa", "Birshen", "Byalabeth", "Chalibah", "Chanya", "Dassareth", "Delilah", "Demeya", "Dilhabeth", "Dimiona", "Djamilla", "Dunja", "Emira", "Emiramis", "Erzibeth", "Eshila", "Esmalda", "Fadime", "Fahimja", "Fayrishe", "Ferushan", "Halima", "Harani", "Hennah", "Heyeshan", "Hidaybeth", "Isha", "Izmaban", "Jamilha", "Josmabith", "Jushibi", "Karhima", "Kemillja", "Kerime", "Laila", "Manjula", "Meriban", "Milhibeth", "Mirhiban", "Mirshan", "Moqtah", "Nahema", "Nassiban", "Nazmeya", "Nedime", "Neraida", "Nesliha", "Niobara", "Nurhan", "Onchabeth", "Oyan", "Oymira", "Palmeya", "Peribeth", "Perishan", "Perizel", "Ranchel", "Renahban", "Reshemin", "Riftah", "Sajida", "Sarjaban", "Sefira", "Selime", "Semirhija", "Shabra", "Shahane", "Shanhazadra", "Shanja", "Sharisad", "Shenny", "Sherizeth", "Sheydan", "Shila", "Shuhelja", "Shulam", "Sulibeth", "Tulameth", "Tulmyrja", "Yamira", "Yashima", "Yasine", "Yeshinna", "Yezemin", "Yilbalis", "Yosmabith", "Yullabeth", "Zahrabeth", "Zechiban", "Zulhamin"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["jid", "jida", "sab", "sabu", "yscha"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Wahrscheinlichkeit" : [1, 0.2, 0.2],
+			"Auswahl" : ["Adersin", "Aldebruck", "Algerein", "Alfaran", "Alff", "Angbarer", "Anjuhal", "Arberdan", "Arres", "Arsteener", "Babek", "Bachbauer", "Bachental", "Bagosch", "Ballurat", "Bartlenhaus", "Bellentor", "Berlind", "Bochsbansen", "Bodiak", "Brauer", "Bregelsaum", "Burkherdall", "Damotil", "Darben", "Dargel", "Darpater", "Daske", "Derp", "Derpel", "Dinckel", "Dorc", "Dorcken", "Dragentod", "Dreieichenbauer", "Durenald", "Ehrwald", "Engstrand", "Eslebon", "Fassmacher", "Fernel", "Fidian", "Folmin", "Fredor", "Fuxfell", "Galdifei", "Garether", "Garje", "Gemiol", "Gerdenwald", "Gerrich", "Gesse", "Ghune", "Glimmerdiek", "Gorbas", "Grabensalb", "Groterian", "Grunder", "Hainsate", "Harnischmacher", "Helmisch", "Hiligon", "Honorald", "Horger", "Horger", "Horigan", "Huisdorn", "Hullheimer", "Ilgur", "Inke", "Jochmeier", "Jolen", "Karolus", "Keres", "Korber", "Kormin", "Kornhofer", "Korninger", "Kremso", "Kuhhofer", "Kürzer", "Lassan", "Lederer", "Leinhofer", "Liegerfeld", "Lonnert", "Lowanger", "Marnion", "Maurenbrecher", "Meeltheuer", "Müller", "Musker", "Nattel", "Obernhofer", "Okdarn", "Okenheld", "Olben", "Oldenport", "Ottresker", "Peresen", "Plötzbogen", "Prem", "Prutz", "Pulether", "Quarzen", "Redo", "Rogel", "Rodiak", "Rundarek", "Ruttel", "Sandström", "Schlunder", "Seehoff", "Sonnfelder", "Spichbrecher", "Steinhauer", "Sturmfels", "Tannhaus", "Termoil", "Tiefhuser", "Timerlan", "Toberen", "Trallo", "Treublatt", "Triffon", "Tucher", "Tulop", "Ulfaran", "Unterbauer", "Wagenhalter", "Waldbauer", "Wenzelin", "Wertimol", "Westfal", "Winkelhauser", "Winterkalt", "Zornbold", "Zandor", "Zeel", "Zertel", "Zumbel"]
+		},
+		{
+			"Wahrscheinlichkeit" : [1, 0, 1],
+			"Auswahl" : ["jibar", "jar", "jaar"]
+		}
+	],
+	"Namen der Waldmenschen" : [
+		{
+			"Auswahl" : ["Ake-Iya", "Anhe", "Anpa-Ha", "Cankuna", "Cante-Tinza", "Catka)", "Cekpa", "Eyapa-Tisa", "Hahatonwan", "Han-Hepi", "Hayatepe", "He-Sche", "Hey-Mo", "Hiye-Haja", "Ho-Iaya-Yo", "Huka", "Huka-Hey", "Isna-Inti", "Istima-Tonko", "Kehala", "Miniwatu", "Pahaha", "Panhahe", "Sica", "Takate", "Tapam-Wah)", "Tapo", "Taya-Zo", "Tokahe", "Tonkowan", "Wapiya", "Yako"]
+		}
+	],
+	"Namen der Utulus" : [
+		{
+			"Auswahl" : ["Bolotongo", "Cazembe", "Imaro", "Kalalu", "Kalimba", "Kingombo", "Kweli", "Labiwasene", "Mangabe", "Monebu", "Mopane", "Mulga", "Rumari", "Shasiwatu", "Shimenege", "Takate", "Tangawizi", "Tau", "Tenkile", "Usuthu"]
+		}
+	],
+	"Namen der Tocamuyac" : [
+		{
+			"Auswahl" : ["Akivi", "Anakena", "Ariki", "Ataranga", "Kiri", "Kupe", "Manutara", "Miru", "Rangi", "Rano", "Ratan", "Rawiri", "Riro", "Rotang", "Tahai", "Tare", "Temura", "Totora"]
+		}
+	],
+	"Elfische Namen" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aelindir", "Alarion", "Alanel", "Albion", "Amariel", "Amaryllion", "Aranel", "Ardarell", "Arikarion", "Avalarion", "Biundralar", "Calhenheri", "Calomiriel", "Ciryanil", "Delâma", "Delayar", "Dendayar", "Diundriel", "Ebereon", "Eberon", "Elbrenell", "Eldariel", "Eldarion", "Elsurion", "Faëlandel", "Faelindel", "Fanaion", "Fankoën", "Fanloën", "Farnion", "Felerian", "Feysiriel", "Floriel", "Gilion", "Hanyariel", "Ilcoron", "Ilmariel", "Imalayan", "Imion", "Imrayon", "Jyvindar", "Lamandrion", "Laryllan", "Lellindor", "Lindariel", "Lorindion", "Lorion", "Mandavar", "Mandrion", "Marnion", "Merdarion", "Nadyawin", "Navarion", "Nindariel", "Oiodin", "Olidir", "Ranarion", "Sanyadriel", "Sanyarin", "Valandriel", "Varlara", "Vindariel", "Visalyar"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Adailana", "Adailoë", "Adaloë", "Alaniel", "Alari", "Allacaya", "Amariel", "Arallian", "Asamandra", "Belimonë", "Biundrala", "Calenleya", "Ciryanil", "Daleonë", "Darindel", "Dialya", "Eiliniel", "Elayoë", "Eldalië", "Faelindel", "Feyaria", "Fianna", "Fiannon", "Filyina", "Florindel", "Gwen", "Gwendala", "Gwendel", "Gwenla", "Haleon", "Haleonë", "Haleonya", "Himiyana", "Ilmariel", "Ivrinel", "Lauriel", "Liasanya", "Lielil", "Liloë", "Lorindel", "Lorindië", "Lynissel", "Mandara", "Mayaharia", "Mayana", "Melaonë", "Milaileë", "Milmiria", "Miriyama", "Miriel", "Nindariel", "Odania", "Ohaia", "Olimonë", "Rhiannon", "Rileona", "Safiriel", "Sahanya", "Salinyomë", "Sanyadriel", "Shanaha", "Shayariel", "Silmariel", "Teleria", "Ufindel", "Valaria", "Valeriana"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Abend", "Ahorn", "Apfel", "Atem", "Auen", "Augen", "Bach", "Baum", "Bausch", "Berg", "Bienen", "Blau", "Blitz", "Blumen", "Blut", "Bogen", "Brauen", "Braun", "Brombeeren", "Buchen", "Busch", "Butterblumen", "Dämmer", "Donner", "Dornen", "Efeu", "Eiben", "Eichen", "Einhorn", "Eis", "Enten", "Erdbeeren", "Erden", "Erlen", "Erz", "Eschen", "Espen", "Eulen", "Farn", "Feld", "Feuer", "Fichten", "Fingerhut", "Firn", "Flammen", "Flieder", "Flöten", "Flügel", "Fluss", "Frühlings", "Funken", "Fuß", "Gipfel", "Gletscher", "Gold", "Gras", "Grillen", "Grün", "Haar", "Hain", "Hand", "Harfen", "Hasel", "Hauch", "Heidelbeeren", "Hemd", "Herbst", "Herz", "Himbeeren", "Himmel", "Horn", "Hügel", "Käfer", "Kirsch", "Kirschen", "Klee", "Kleid", "Klingen", "Königskerzen", "Krallen", "Kristall", "Kupfer", "Land", "Lauten", "Lavendel", "Leier", "Libellen", "Licht", "Lilien", "Linden", "Locken", "Lotos", "Löwenzahn", "Luft", "Mammut", "Mantel", "Minz", "Mistel", "Mittags", "Mohn", "Mond", "Moor", "Moos", "Morgen", "Nacht", "Nebel", "Nordlicht", "Ohren", "Pfeil", "Pilz", "Quellen", "Rauch", "Regen", "Regenbogen", "Reif", "Reiher", "Rosen", "Rot", "Schachtelhalm", "Scharlachkraut", "Schatten", "Schnee", "Schwalben", "Schwamm", "Schwanz", "Schwarz", "Schweif", "Schwingen", "Seen", "Silber", "Singvogel", "Sommer", "Sonnen", "Speer", "Spinnen", "Stein", "Stern", "Stirn", "Strauch", "Sturm", "Tag", "Tannen", "Tau", "Teich", "Tränen", "Traum", "Ulmen", "Veilchen", "Wald", "Waldmeister", "Wasser", "Wasserfall", "Weiden", "Weiß", "Wellen", "Wiesen", "Wiesel", "Wind", "Winter", "Wolken", "Zahn", "Zauber", "Zungen"]
+		},
+		{
+			"Auswahl" : ["kind", "freund", "sang", "lied", "tanz", "glanz", "klang", "ruf", "lachen", "gruß", "zweig", "blatt", "blüte", "blick", "sinn", "mut", "weg", "pfad", "lauf", "flug", "zeit", "sänger", "tänzer", "rufer", "träumer", "reiter", "hüter", "sucher", "bringer", "weber"]
+		}
+	],
+	"Namen der Zwerge" : [
+		{
+			"Auswahl" : ["And", "Andr", "Ang", "Angr", "Arg", "Arom", "Art", "Aur", "Bal", "Bar", "Basch", "Beng", "Bol", "Bolr", "Bor", "Brod", "Brodr", "Cad", "Cadr", "Cend", "Cendr", "Cobalt", "Cug", "Dab", "Dabr", "Dar", "Der", "Derg", "Dior", "Dor", "Dwar", "Eb", "Ebr", "Eng", "Engr", "Esbad", "Etosch", "Fad", "Fen", "Ferr", "Frat", "Gar", "Gand", "Gandr", "Grimm", "Grof", "Hal", "Ham", "Har", "Him", "Hog", "Ib", "Ibr", "Ing", "Ingr", "Irid", "Isch", "Jal", "Jand", "Jandr", "Jor", "Kag", "Kagr", "Kor", "Krim", "Ku", "Lag", "Law", "Lin", "Lub", "Lubr", "Lux", "Mag", "Mar", "Marn", "Mir", "Mok", "Mur", "Mut", "Nar", "Naur", "Nor", "Nort", "Olb", "Ord", "Org", "Ort", "Pag", "Pagl", "Per", "Perg", "Pir", "Ram", "Rog", "Rogl", "Rug", "Rum", "Sag", "Schro", "Seg", "Segr", "Sim", "Tar", "Ter", "Ther", "Thor", "Tor", "Top", "Tscho", "Tul", "Ubar", "Ug", "Ugr", "Xand", "Xandr", "Xeb", "Xebr", "Xet", "Xol", "Xor", "Zan", "Zink"]
+		},
+		{
+			"Auswahl" : ["ag", "am", "ang", "an", "ann", "asch", "ax", "ba", "bo", "do", "el", "esch", "gam", "gram", "gasch", "gat", "geln", "grim", "gro", "hir", "id", "il", "im", "itt", "ix", "lik", "losch", "masch", "man", "mox", "nax", "nim", "osch", "om", "on", "ral", "ram", "rim", "rix", "rog", "rosch", "rox", "sch", "tasch", "tax", "to", "tom", "tosch", "uk", "urr", "zag"]
+		},
+		{
+			"Wiederholung" : [0, 1, "", 1, 1]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["a", "e"]
+		},
+		{
+			"männlich" : true,
+			"Text" : " groscho "
+		},
+		{
+			"männlich" : false,
+			"Text" : " groschna "
+		},
+		{
+			"Wiederholung" : [1, 1, "", 6, 6]
+		},
+		{
+			"Wiederholung" : [0, 1, "", 6, 6]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["ax", "ex"]
+		},
+		{
+			"Text" : "in"
+		}
+	],
+	"Namen der Hügelzwerge" : [
+		{
+			"Auswahl" : ["And", "Andr", "Ang", "Angr", "Arg", "Arom", "Art", "Aur", "Bal", "Bar", "Basch", "Beng", "Bol", "Bolr", "Bor", "Brod", "Brodr", "Cad", "Cadr", "Cend", "Cendr", "Cobalt", "Cug", "Dab", "Dabr", "Dar", "Der", "Derg", "Dior", "Dor", "Dwar", "Eb", "Ebr", "Eng", "Engr", "Esbad", "Etosch", "Fad", "Fen", "Ferr", "Frat", "Gar", "Gand", "Gandr", "Grimm", "Grof", "Hal", "Ham", "Har", "Him", "Hog", "Ib", "Ibr", "Ing", "Ingr", "Irid", "Isch", "Jal", "Jand", "Jandr", "Jor", "Kag", "Kagr", "Kor", "Krim", "Ku", "Lag", "Law", "Lin", "Lub", "Lubr", "Lux", "Mag", "Mar", "Marn", "Mir", "Mok", "Mur", "Mut", "Nar", "Naur", "Nor", "Nort", "Olb", "Ord", "Org", "Ort", "Pag", "Pagl", "Per", "Perg", "Pir", "Ram", "Rog", "Rogl", "Rug", "Rum", "Sag", "Schro", "Seg", "Segr", "Sim", "Tar", "Ter", "Ther", "Thor", "Tor", "Top", "Tscho", "Tul", "Ubar", "Ug", "Ugr", "Xand", "Xandr", "Xeb", "Xebr", "Xet", "Xol", "Xor", "Zan", "Zink"]
+		},
+		{
+			"Auswahl" : ["ag", "am", "ang", "an", "ann", "asch", "ax", "ba", "bo", "do", "el", "esch", "gam", "gram", "gasch", "gat", "geln", "grim", "gro", "hir", "id", "il", "im", "itt", "ix", "lik", "losch", "masch", "man", "mox", "nax", "nim", "osch", "om", "on", "ral", "ram", "rim", "rix", "rog", "rosch", "rox", "sch", "tasch", "tax", "to", "tom", "tosch", "uk", "urr", "zag"]
+		},
+		{
+			"Wiederholung" : [0, 1, "", 1, 1]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["a", "e"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Apfelhalm", "Beutelsaum", "Bösfold", "Breitenklein", "Breitpfann", "Dumpfbrodt", "Eisenbart", "Grimsbart", "Grambax", "Grumling", "Hopfenwart", "Hüglinger", "Klappertopf", "Kleinenbreit", "Köchelbart", "Kupferblatt", "Labkraudt", "Meckerhas", "Sandsteiner", "Sauerklos", "Siebenrüb", "Silberhaar", "Sirbensack", "Sternhagel", "Wackerstrunk", "Zwiebelbock"]
+		}
+	],
+	"Namen der Orks" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Airakh", "Alrork", "Arbachzeg", "Aregz", "Ashim", "Azparuch", "Azzek", "Brazoch", "Burchai", "Buiruzz", "Byakkrak", "Drasok", "Drugh", "Elgork", "Ertugulk", "Gach", "Garch", "Garzlokh", "Gharrai", "Ghairazz", "Gharrz", "Hirkush", "Gorromp", "Gospodorkreg", "Graksch", "Gryazhai", "Gurshai", "Gushrogh", "Harkhash", "Hugur", "Hulgharuk", "Jurran", "Kempreg", "Kerschoi", "Khaidach", "Kharrechzek", "Kholzzsha", "Khurrach", "Khurraz", "Krurkatunga", "Kurruz", "Kurugoch", "Mardugh", "Marduk", "Marfogh", "Mohork", "Morak", "Morghinak", "Morrok", "Naggai", "Nargazz", "Ochozzog", "Ogrik", "Oigrunz", "Okorokr", "Olrik", "Olruk", "Orcheggz", "Orezzar", "Orgrosch", "Raszech", "Rulgargop", "Sadrak", "Schindzilarz", "Shardur", "Sharkak", "Sharraz", "Sholocham", "Shurrak", "Tairon", "Thukraz", "Trufagh", "Tuzzugh", "Ugur", "Ugurkan", "Uigar", "Upaatl", "Waldork", "Walduch", "Wosz", "Yagrizek", "Yagu", "Yaguch", "Yorrak", "Yrram", "Ziraitach", "Zurrok"]
+		}
+	],
+	"Namen der Stammesgoblins" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aargaal", "Barl", "Bluugh", "Bluurz", "Chraaz", "Chruuk", "Gnatz", "Gnupp", "Gorrwarrn", "Gragh", "Groggi", "Groink", "Groom", "Grootz", "Grul", "Gruum", "Gullinburst", "Guurk", "Jaak", "Juuksed", "Kwoork", "Norf", "Örf", "Paabertz", "Priidul", "Röff", "Sniigs", "Sulrik", "Suviini", "Traak", "Tschak", "Urmeg", "Uuzvaral", "Vurl", "Xeetsch", "Ziplim"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aada", "Bupuuscha", "Furka", "Griibna", "Jacuula", "Jamuutan", "Kashka", "Kasuukas", "Kergatai", "Khischa", "Leelos", "Maalis", "Mantka", "Mikdai", "Morka", "Naissuguun", "Oozols", "Porsa", "Rukuuka", "Russuula", "Ruulka", "Sakuuska", "Seenä", "Sieva", "Siisikai", "Suncuua", "Suviintan", "Treescha", "Triinuun", "Tschiiba", "Ushka", "Uukra", "Varmiias", "Viivelas", "Yaakscha", "Zooqa"]
+		}
+	],
+	"Namen der Goblinbanden" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Argal", "Aalrik", "Barl", "Brini", "Ceet", "Chraaz", "Chruuk", "Eslam", "Ettel", "Firunz", "Gnatz", "Gnupp", "Gorm", "Gragh", "Groben", "Groggi", "Groink", "Groom", "Grootz", "Grul", "Gruum", "Guurk", "Haal", "Jaak", "Jaast", "Kwörk", "Norf", "ärf", "Peer", "Phelix", "Polter", "Raul", "Sulrik", "Svinni", "Traak", "Tschak", "Urmek", "Vurl", "Xätsch"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aada", "Alda", "Cella", "Dorlen", "Eela", "Eillyn", "Furka", "Gribin", "Hela", "Hildis", "Iidra", "Khischa", "Leelos", "Linai", "Maalis", "Nana", "Phexliin", "Porsa", "Prähndis", "Schannä", "Seenä", "Sieva", "Sinjä", "Siskai", "Sunka", "Svintai", "Trescha", "Uinin", "Ushka", "Uukra", "Viivä", "Yaakscha", "Yaanis", "Yedra", "Zooqa"]
+		}
+	],
+	"Namen des Festumer Ghettos" : [
+		{
+			"männlich" : true,
+			"Auswahl" : ["Aargal", "Alrikwoork", "Bluugh", "Bluurz", "Bornz", "Borstjew", "Chraaz", "Dravuvo", "Dreggi", "Duchdo", "Ertzel", "Gnatzej", "Gnupp", "Gorrwarrn", "Gragh", "Griimow", "Groben", "Groggi", "Groink", "Groom", "Grul", "Gurkij", "Gruum", "Guurk", "Haag", "Haal", "Hurdo", "Iigor", "Joost", "Juchi", "Norfjew", "Oswiin", "Paabertz", "Paawel", "Pettark", "Priidul", "Röffjew", "Sulrik", "Sviini", "Traak", "Uugo", "Urjil", "Urmeg", "Volpo", "Xeebert", "Xeetsch"]
+		},
+		{
+			"männlich" : false,
+			"Auswahl" : ["Aada", "Aagnitas", "Danuutja", "Elkewiene", "Furkja", "Griibna", "Iriinja", "Jacuula", "Jadviken", "Jaunavai", "Kasuus", "Leelosinken", "Maaline", "Meriischja", "Morkajescha", "Oolja", "Oozolwine", "Porska", "Russuula", "Sakuuska", "Scherschai", "Seenai", "Sewijescha", "Sievaken", "Siisikai", "Sulje", "Suviintine", "Theeschja", "Tiineke", "Treeschke", "Triinuun", "Tschiiba", "Urjeelke", "Ushka", "Uukra", "Varmijescha", "Viivelas", "Wlaada", "Wyhlse", "Zokatja"]
+		},
+		{
+			"Text" : " "
+		},
+		{
+			"Auswahl" : ["Altlapper", "Bangra", "Bornske", "Borstensen", "Braunrot", "Drulga", "Fahlrot", "Festumske", "Feudelbees", "Feueroth", "Fleckenpelz", "Gerbensen", "Gerberow", "Glumske", "Grauroth", "Groopski", "Haritzka", "Heideroth", "llumske", "Kaiba", "Lederer", "Lettka", "Lohgar", "Okolka", "Ouvski", "Rödestrupp", "Sempelka", "Sirsinski", "Smuddelvlies", "Swereja", "Swinskij", "Walsachskij", "Wutzki"]
+		}
+	],
+	"Namen der Achaz" : [
+		{
+			"Auswahl" : ["Achatazz", "Antzzs", "Arssachz", "Aso'ZZrt", "Azll'Shrrr", "Chuszrr", "Crmichl", "Dj'Lzz'Zch", "Dschossr", "Fffssz", "He'Itsiz", "He'Schrr", "I'Gsss", "Iss'Izz", "Jia'Strr", "Jhi'Krtz", "Krmmkr", "Ku'Izz", "Ls'Wssin", "Nga'Churr", "Qiqqim", "Quttissnz", "Rschst", "Sarr Szzir'Tzz Serszch", "Sca'Sizssll", "Shashcha", "Shar'Kar", "Shkank'Wil", "Shrrz", "Sr'Riszs", "Ssirissa", "Szintiss", "Szzirrtr", "Tschak", "Tshitshn", "Turzass'Chr", "Tziktzal", "Tzz", "Urrch'Thar Zzu", "Wsffar", "Xad'Mal", "Xch'War", "Xzelfasr", "Yaschkuqqim", "Yatschpass", "Yatschpassach", "Yszassar", "Z'Fsir", "Zzahxel"]
+		}
+	]
+}

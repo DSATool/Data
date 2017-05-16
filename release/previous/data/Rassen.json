@@ -1,0 +1,464 @@
+{
+	"Mittelländer" : {
+		"Kosten" : 0,
+		"Haarfarbe" : { "schwarz" : 3, "braun" : 4, "dunkelblond" : 5, "blond" : 4, "weißblond" : 2, "rot" : 2 },
+		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 7, "grün" : 2, "blau" : 6, "grau" : 2, "schwarz" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 160, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -100 },
+		"Basiswerte" : { "Lebensenergie" : 10, "Ausdauer" : 10, "Magieresistenz" : -4 },
+		"Ungeeignete Vorteile" : { "Herausragende Balance" : {} },
+		"Ungeeignete Nachteile" : { "Nahrungsrestriktion" : [{}] },
+		"Übliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Andergast und Nostria", "Bornland", "Svellttal und Nordlande", "Almada", "Horasreich", "Zyklopeninseln", "Maraskan", "Südaventurien", "Bukanier"],
+		"Mögliche Kulturen" : ["Aranien", "Tulamidische Stadtstaaten", "Thorwal", "Mhanadistan", "Amazonenburg"]
+	},
+	"Tulamide" : {
+		"Kosten" : 0,
+		"Haarfarbe" : { "schwarz" : 6, "dunkelbraun" : 6, "mittelbraun" : 2, "hellbraun" : 3, "blond" : 2, "rot" : 1 },
+		"Augenfarbe" : { "schwarz" : 4, "dunkelbraun" : 8, "braun" : 4, "grau" : 2, "grün" : 1, "blau" : 1 },
+		"Hautfarbe" : ["hellbraun"],
+		"Größe" : { "Basis" : 155, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -105 },
+		"Basiswerte" : { "Lebensenergie" : 10, "Ausdauer" : 10, "Magieresistenz" : -4 },
+		"Ungeeignete Vorteile" : { "Herausragende Balance" : {} },
+		"Ungeeignete Nachteile" : { "Nahrungsrestriktion" : [{}] },
+		"Übliche Kulturen" : ["Aranien", "Mhanadistan", "Tulamidische Stadtstaaten", "Novadi", "Ferkina", "Zahori", "Maraskan", "Südaventurien", "Bukanier"],
+		"Mögliche Kulturen" : ["Mittelländische Städte", "Almada", "Amazonenburg"]
+	},
+	"Thorwaler" : {
+		"Kosten" : 5,
+		"Haarfarbe" : { "blond" : 8, "rot-blond" : 5, "weißblond" : 2, "rot" : 2, "dunkelblond" : 1, "braun" : 1, "schwarz" : 1 },
+		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 5, "grün" : 4, "blau" : 7, "grau" : 2 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 168, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -95 },
+		"Eigenschaften" : { "MU" : 1, "KO" : 1, "KK" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 11, "Ausdauer" : 10, "Magieresistenz" : -5 },
+		"Nachteile" : { "Jähzorn" : { "Stufe" : 6 } },
+		"Empfohlene Vorteile" : { "Eisern" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Kälteresistenz" : {}, "Kampfrausch" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Hitzeempfindlichkeit" : {} },
+		"Ungeeignete Vorteile" : { "Herausragende Balance" : {}, "Hohe Magieresistenz" : {} },
+		"Ungeeignete Nachteile" : { "Kleinwüchsig" : {}, "Nahrungsrestriktion" : [{}] },
+		"Übliche Kulturen" : ["Thorwal", "Fjarninger", "Gjalskerland"],
+		"Mögliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Andergast und Nostria", "Bornland", "Svellttal und Nordlande", "Südaventurien", "Tulamidische Stadtstaaten", "Bukanier"],
+		"Talente" : { "Athletik" : 1, "Sinnenschärfe" : 1, "Zechen" : 1, "Wettervorhersage" : 1 },
+		"Varianten" : {
+			"Thorwaler" : {},
+			"Fjarninger" : {
+				"Größe" : { "Basis" : 173, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] }
+			},
+			"Gjalskerländer" : {
+				"Haarfarbe" : { "blond" : 4, "rot-blond" : 4, "rot" : 7, "braun" : 2, "schwarz" : 3 },
+				"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 8, "grün" : 8, "blau" : 2 },
+				"Hautfarbe" : ["hellbraun"]
+			}
+		}
+	},
+	"Nivese" : {
+		"Kosten" : 4,
+		"Haarfarbe" : { "kupferrot" : 15, "blond" : 1, "braun" : 2, "dunkelblond" : 1, "schwarz" : 1 },
+		"Augenfarbe" : { "braun" : 2, "hellbraun" : 7, "bersteinfarben" : 5, "grün" : 3, "blau" : 2, "grau" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 155, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -110 },
+		"Eigenschaften" : { "IN" : 1, "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 9, "Ausdauer" : 12, "Magieresistenz" : -5 },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Innerer Kompass" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {}, "Wolfskind" : {}, "Wolfskind, freiwillige Verwandlung" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Hitzeempfindlichkeit" : {} },
+		"Ungeeignete Vorteile" : { "Herausragende Balance" : {}, "Hitzeresistenz" : {} },
+		"Ungeeignete Nachteile" : { "Kälteempfindlich" : {}, "Nahrungsrestriktion" : [{}], "Platzangst" : {} },
+		"Übliche Kulturen" : ["Nivesenstämme", "Nuanaä-Lie"],
+		"Mögliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Bornland", "Svellttal und Nordlande", "Thorwal", "Gjalskerland", "Fjarninger", "Norbardensippe"],
+		"Talente" : { "Schleichen" : 1, "Selbstbeherrschung" : 1, "Orientierung" : 1 }
+	},
+	"Norbarde" : {
+		"Kosten" : 3,
+		"Haarfarbe" : { "schwarz" : 17, "kupferrot" : 2, "blond" : 1 },
+		"Augenfarbe" : { "schwarz" : 3, "dunkelbraun" : 10, "braun" : 4, "grün" : 2, "blau" : 1 },
+		"Hautfarbe" : ["hellbraun"],
+		"Größe" : { "Basis" : 158, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -100 },
+		"Eigenschaften" : { "CH" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 11, "Ausdauer" : 10, "Magieresistenz" : -4 },
+		"Empfohlene Vorteile" : { "Gefahreninstinkt" : {}, "Gutes Gedächtnis" : {}, "Innerer Kompass" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Ungeeignete Vorteile" : { "Herausragende Balance" : {}, "Hitzeresistenz" : {} },
+		"Ungeeignete Nachteile" : { "Nahrungsrestriktion" : [{}], "Platzangst" : {} },
+		"Übliche Kulturen" : ["Norbardensippe"],
+		"Mögliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Bornland", "Thorwal", "Svellttal und Nordlande", "Nivesenstämme", "Gjalskerland"],
+		"Talente" : { "Schleichen" : 1, "Selbstbeherrschung" : 1, "Orientierung" : 1 }
+	},
+	"Trollzacker" : {
+		"Kosten" : 7,
+		"Haarfarbe" : { "schwarz" : 15, "dunkelbraun" : 2, "mittelbraun" : 1, "hellbraun" : 1, "dunkelblond" : 1 },
+		"Augenfarbe" : { "schwarz" : 16, "dunkelbraun" : 1, "braun" : 1, "grau" : 1, "grün" : 1 },
+		"Hautfarbe" : ["hellbraun"],
+		"Größe" : { "Basis" : 195, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 1 }] },
+		"Gewicht" : { "Modifikator" : -95 },
+		"Eigenschaften" : { "MU" : 2, "KL" : -1, "KO" : 1, "KK" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 12, "Ausdauer" : 20, "Magieresistenz" : -5 },
+		"Nachteile" : { "Platzangst" : { "Stufe" : 6 }, "Jähzorn" : { "Stufe" : 6 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Kampfrausch" : {}, "Resistenz gegen Gift" : [{}], "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Jähzorn" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Gut Aussehend" : {}, "Herausragende Balance" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Kleinwüchsig" : {}, "Nahrungsrestriktion" : [{}], "Schlechte Regeneration" : {} },
+		"Übliche Kulturen" : ["Trollzacken"],
+		"Mögliche Kulturen" : ["Ferkina", "Mittelländische Landbevölkerung", "Aranien"],
+		"Talente" : { "Athletik" : 1, "Klettern" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1 },
+		"Varianten" : {
+			"Trollzacker" : {},
+			"Rochshaz" : {
+				"Kosten" : 6,
+				"Größe" : { "Basis" : 215, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 1 }] },
+				"Gewicht" : { "Modifikator" : -95 },
+				"Eigenschaften" : { "GE" : -1, "FF" : -1, "KO" : 1, "KK" : 1 },
+				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
+				"Empfohlene Nachteile" : { "Blutrausch" : {}, "Jähzorn" : {}, "Randgruppe" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {} },
+				"Mögliche Kulturen" : [],
+				"Talente" : { "Athletik" : 1 }
+			}
+		}
+	},
+	"Waldmensch" : {
+		"Kosten" : 5,
+		"Haarfarbe" : { "schwarz" : 5, "blauschwarz" : 14, "dunkelbraun" : 1 },
+		"Augenfarbe" : { "hellbraun" : 3, "dunkelbraun" : 7, "schwarz" : 10 },
+		"Hautfarbe" : ["bronze", "kupferfarben", "braun"],
+		"Größe" : { "Basis" : 152, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+		"Gewicht" : { "Modifikator" : -110 },
+		"Eigenschaften" : { "CH" : 1, "GE" : 1, "KO" : 1, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 8, "Ausdauer" : 12, "Magieresistenz" : -6 },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Resistenz gegen Gift" : [{}], "Schlangenmensch" : {} },
+		"Empfohlene Nachteile" : { "Kältempfindlich" : {} },
+		"Ungeeignete Vorteile" : { "Hohe Magieresistenz" : {}, "Kälteresistenz" : {}, "Schwer zu verzaubern" : {} },
+		"Ungeeignete Nachteile" : { "Hitzeempfindlichkeit" : {}, "Nahrungsrestriktion" : [{}] },
+		"Übliche Kulturen" : ["Dschungelstämme", "Verlorene Stämme", "Miniwatu", "Darna", "Südaventurien", "Bukanier"],
+		"Mögliche Kulturen" : ["Tocamuyac", "Horasreich", "Aranien", "Tulamidische Stadtstaaten"],
+		"Talente" : { "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 2, "Sinnenschärfe" : 3, "Tanzen" : 1, "Orientierung" : 1 },
+		"Varianten" : {
+			"Waldmensch" : {},
+			"Tocamuyac" : {
+				"Kosten" : 3,
+				"Haarfarbe" : { "blauschwarz" : 2, "schwarz" : 2, "dunkelbraun" : 6, "mittelbraun" : 10 },
+				"Hautfarbe" : ["mittelbraun"],
+				"Größe" : { "Basis" : 142, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+				"Nachteile" : { "Kleinwüchsig" : {} },
+				"Ungeeignete Nachteile" : { "Hitzeempfindlichkeit" : {}, "Meeresangst" : {}, "Nahrungsrestriktion" : [{}] },
+				"Übliche Kulturen" : ["Tocamuyac"],
+				"Mögliche Kulturen" : ["Dschungelstämme", "Miniwatu", "Waldinsel-Utulus", "Südaventurien", "Bukanier", "Horasreich", "Aranien", "Tulamidische Stadtstaaten", "Mittelländische Städte"],
+				"Talente" : { "Klettern" : -1, "Körperbeherrschung" : 1, "Schleichen" : -2, "Schwimmen" : 3, "Tanzen" : -1 }
+			}
+		}
+	},
+	"Utulu" : {
+		"Kosten" : 9,
+		"Haarfarbe" : { "schwarz" : 17, "blauschwarz" : 3 },
+		"Augenfarbe" : { "hellbraun" : 3, "dunkelbraun" : 7, "schwarz" : 10 },
+		"Hautfarbe" : ["schwarz"],
+		"Größe" : { "Basis" : 165, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -110 },
+		"Eigenschaften" : { "GE" : 1, "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 11, "Ausdauer" : 12, "Magieresistenz" : -6 },
+		"Vorteile" : { "Hitzeresistenz" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Musizieren" }], "Gefahreninstinkt" : {}, "Gut Aussehend" : {}, "Resistenz gegen Gift" : [{}], "Schlangenmensch" : {}, "Wohlklang" : {} },
+		"Ungeeignete Vorteile" : { "Hohe Magieresistenz" : {}, "Kälteresistenz" : {}, "Schwer zu verzaubern" : {} },
+		"Ungeeignete Nachteile" : { "Hitzeempfindlichkeit" : {}, "Nahrungsrestriktion" : [{}] },
+		"Übliche Kulturen" : ["Waldinsel-Utulus", "Dschungelstämme", "Verlorene Stämme", "Südaventurien", "Bukanier"],
+		"Mögliche Kulturen" : ["Horasreich", "Aranien", "Tocamuyac", "Tulamidische Stadtstaaten"],
+		"Talente" : { "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 2, "Sinnenschärfe" : 3, "Tanzen" : 1, "Orientierung" : 1 }
+	},
+	"Auelf" : {
+		"Kosten" : 20,
+		"Haarfarbe" : { "blauschwarz" : 1, "schwarz" : 2, "silbern" : 2, "weißblond" : 2, "hellblond" : 4, "mittelblond" : 6, "dunkelblond" : 3 },
+		"Augenfarbe" : { "schwarzbraun" : 2, "graublau" : 2, "saphirblau" : 4, "smaragdgrün" : 4, "dunkelviolett" : 4, "bernsteinfarben" : 2, "goldgesprenkelt" : 1, "amethystfarben" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 168, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -120 },
+		"Eigenschaften" : { "KL" : -1, "IN" : 1, "GE" : 2, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 6, "Ausdauer" : 12, "Magieresistenz" : -4 },
+		"Vorteile" : { "Altersresistenz" : {}, "Dämmerungssicht" : {}, "Gut Aussehend" : {}, "Resistenz gegen Krankheiten" : {}, "Vollzauberer" : {}, "Wohlklang" : {}, "Zweistimmiger Gesang" : {}, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {}, "Herausragende Sicht" : {} }]},
+		"Nachteile" : { "Sensibler Geruchssinn" : { "Stufe" : 6 }, "Unfähigkeit für Talent" : [{ "Auswahl" : "Zechen" }] },
+		"Empfohlene Vorteile" : { "Astrale Regeneration I" : {}, "Astrale Regeneration II" : {}, "Astrale Regeneration III" : {}, "Astralmacht" : {}, "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Musizieren" }], "Beidhändig" : {}, "Feenfreund" : {}, "Flink" : {}, "Herausragende Balance" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Herausragendes Aussehen" : {}, "Nachtsicht" : {}, "Richtungssinn" : {}, "Schlangenmensch" : {} },
+		"Empfohlene Nachteile" : { "Nahrungsrestriktion" : [{}], "Raumangst" : {} },
+		"Ungeeignete Vorteile" : { "Kampfrausch" : {}, "Schwer zu verzaubern" : {}, "Vom Schicksal begünstigt" : {}, "Zwergennase" : {} },
+		"Ungeeignete Nachteile" : { "Behäbig" : {}, "Blutrausch" : {}, "Schwerhörig" : {}, "Kurzsichtig" : {}, "Eingeschränkter Tastsinn" : {}, "Eingeschränkter Geruchssinn" : {}, "Fettleibig" : {}, "Kleinwüchsig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Platzangst" : {}, "Übler Geruch" : {} },
+		"Übliche Kulturen" : ["Auelfische Sippe", "Steppenelfische Sippe", "Elfische Siedlung"],
+		"Mögliche Kulturen" : ["Waldelfische Sippe", "Andergast und Nostria", "Bornland", "Mittelländische Städte", "Mittelländische Landbevölkerung", "Norbardensippe", "Svellttal und Nordlande", "Almada"],
+		"Talente" : { "Körperbeherrschung" : 3, "Schleichen" : 2, "Singen" : 2, "Sinnenschärfe" : 5, "Tanzen" : 1, "Zechen" : -2 }
+	},
+	"Waldelf" : {
+		"Kosten" : 23,
+		"Haarfarbe" : { "blauschwarz" : 3, "schwarz" : 4, "silbern" : 3, "weißblond" : 1, "hellblond" : 2, "mittelblond" : 3, "dunkelblond" : 3, "goldblond" : 1 },
+		"Augenfarbe" : { "schwarz" : 2, "saphirblau" : 2, "smaragdgrün" : 4, "dunkelbraun" : 4, "bernsteinfarben" : 4, "goldgesprenkelt" : 1, "rubinrot" : 2, "amethystviolett" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 166, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 1 }, { "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] },
+		"Gewicht" : { "Modifikator" : -120 },
+		"Eigenschaften" : { "KL" : -1, "IN" : 2, "GE" : 2, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 6, "Ausdauer" : 10, "Magieresistenz" : -4 },
+		"Vorteile" : { "Altersresistenz" : {}, "Dämmerungssicht" : {}, "Gut Aussehend" : {}, "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Vollzauberer" : {}, "Wohlklang" : {}, "Zweistimmiger Gesang" : {}, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }]},
+		"Nachteile" : { "Sensibler Geruchssinn" : { "Stufe" : 6 }, "Unfähigkeit für Talent" : [{ "Auswahl" : "Zechen" }] },
+		"Empfohlene Vorteile" : { "Astrale Regeneration I" : {}, "Astrale Regeneration II" : {}, "Astrale Regeneration III" : {}, "Astralmacht" : {}, "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Musizieren" }], "Beidhändig" : {}, "Feenfreund" : {}, "Flink" : {}, "Herausragende Balance" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Herausragendes Aussehen" : {}, "Innerer Kompass" : {}, "Kälteresistenz" : {}, "Nachtsicht" : {}, "Schlangenmensch" : {} },
+		"Empfohlene Nachteile" : { "Nahrungsrestriktion" : [{}], "Raumangst" : {} },
+		"Ungeeignete Vorteile" : { "Hitzeresistenz" : {}, "Kampfrausch" : {}, "Schwer zu verzaubern" : {}, "Vom Schicksal begünstigt" : {}, "Zwergennase" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Schwerhörig" : {}, "Kurzsichtig" : {}, "Eingeschränkter Tastsinn" : {}, "Eingeschränkter Geruchssinn" : {}, "Fettleibig" : {}, "Höhenangst" : {}, "Kleinwüchsig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Platzangst" : {}, "Übler Geruch" : {} },
+		"Übliche Kulturen" : ["Waldelfische Sippe"],
+		"Mögliche Kulturen" : ["Auelfische Sippe", "Steppenelfische Sippe", "Elfische Siedlung", "Mittelländische Städte", "Mittelländische Landbevölkerung", "Norbardensippe", "Svellttal und Nordlande"],
+		"Talente" : { "Körperbeherrschung" : 4, "Schleichen" : 2, "Singen" : 2, "Sinnenschärfe" : 5, "Tanzen" : 1, "Zechen" : -2, "Orientierung" : 2 }
+	},
+	"Firnelf" : {
+		"Kosten" : 24,
+		"Haarfarbe" : { "blauschwarz" : 1, "schwarz" : 1, "silbern" : 3, "schneeweiß" : 4, "weißblond" : 5, "hellblond" : 3, "mittelblond" : 2, "dunkelblond" : 1 },
+		"Augenfarbe" : { "schwarz" : 1, "silbergrau" : 2, "eisgrau" : 4, "saphirblau" : 4, "smaragdgrün" : 4, "bernsteinfarben" : 3, "goldgesprenkelt" : 1, "rubinrot" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 156, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -120 },
+		"Eigenschaften" : { "KL" : -1, "IN" : 1, "GE" : 2, "KO" : 1, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 7, "Ausdauer" : 15, "Magieresistenz" : -3 },
+		"Vorteile" : { "Altersresistenz" : {}, "Dämmerungssicht" : {}, "Kälteresistenz" : {}, "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Vollzauberer" : {}, "Wohlklang" : {}, "Zweistimmiger Gesang" : {}, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {} }]},
+		"Nachteile" : { "Hitzeempfindlichkeit" : {}, "Sensibler Geruchssinn" : { "Stufe" : 6 }, "Unfähigkeit für Talent" : [{ "Auswahl" : "Zechen" }] },
+		"Empfohlene Vorteile" : { "Astrale Regeneration I" : {}, "Astrale Regeneration II" : {}, "Astrale Regeneration III" : {}, "Astralmacht" : {}, "Ausdauernd" : {}, "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Musizieren" }], "Beidhändig" : {}, "Feenfreund" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Gut Aussehend" : {}, "Herausragende Balance" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Innerer Kompass" : {}, "Nachtsicht" : {}, "Schlangenmensch" : {} },
+		"Empfohlene Nachteile" : { "Albino" : {}, "Farbenblind" : {}, "Nahrungsrestriktion" : [{}] },
+		"Ungeeignete Vorteile" : { "Hitzeresistenz" : {}, "Kampfrausch" : {}, "Schwer zu verzaubern" : {}, "Vom Schicksal begünstigt" : {}, "Zwergennase" : {} },
+		"Ungeeignete Nachteile" : { "Behäbig" : {}, "Schwerhörig" : {}, "Kurzsichtig" : {}, "Eingeschränkter Tastsinn" : {}, "Eingeschränkter Geruchssinn" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Kleinwüchsig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Platzangst" : {}, "Stubenhocker" : {}, "Übler Geruch" : {}, "Unansehnlich" : {} },
+		"Übliche Kulturen" : ["Firnelfische Sippe"],
+		"Mögliche Kulturen" : ["Auelfische Sippe", "Steppenelfische Sippe", "Elfische Siedlung", "Fjarninger", "Gjalskerländer", "Nivesenstämme", "Norbardensippe", "Thorwal"],
+		"Talente" : { "Athletik" : 1, "Körperbeherrschung" : 3, "Schleichen" : 2, "Singen" : 1, "Sinnenschärfe" : 5, "Zechen" : -2, "Orientierung" : 2 }
+	},
+	"Halbelf" : {
+		"Kosten" : 3,
+		"Haarfarbe" : { "rot" : 3, "braun" : 3, "dunkelblond" : 4, "hellblond" : 5, "weißblond" : 2, "schwarz" : 2, "blauschwarz" : 1 },
+		"Augenfarbe" : { "schwarz" : 3, "grau" : 3, "blau" : 4, "grün" : 4, "dunkelbraun" : 2, "hellbraun" : 2, "bernsteinfarben" : 1, "goldgesprenkelt" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 158, "Würfel" : [{ "Würfel:Typ" : 20, "Würfel:Anzahl" : 1 }, { "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] },
+		"Gewicht" : { "Modifikator" : -120 },
+		"Eigenschaften" : { "GE" : 1, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 8, "Ausdauer" : 10, "Magieresistenz" : -4 },
+		"Vorteile" : { "Gut Aussehend" : {}, "Viertelzauberer" : {} },
+		"Empfohlene Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Musizieren" }], "Beidhändig" : {}, "Dämmerungssicht" : {}, "Feenfreund" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Herausragendes Aussehen" : {}, "Magiegespür" : {}, "Schlangenmensch" : {}, "Wohlklang" : {}, "Zweistimmiger Gesang" : {} },
+		"Empfohlene Nachteile" : { "Nahrungsrestriktion" : [{}], "Sensibler Geruchssinn" : {} },
+		"Ungeeignete Vorteile" : { "Kampfrausch" : {}, "Schwer zu verzaubern" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Fettleibig" : {}, "Kleinwüchsig" : {}, "Krankheitsanfällig" : {}, "Unangenehme Stimme" : {} },
+		"Übliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Andergast und Nostria", "Almada", "Svellttal und Nordlande", "Nivesenstämme", "Norbardensippe"],
+		"Mögliche Kulturen" : ["Aranien", "Thorwal", "Bornland", "Horasreich", "Fjarninger", "Gjalskerländer"],
+		"Talente" : { "Körperbeherrschung" : 2, "Schleichen" : 1, "Singen" : 1, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : -1 },
+		"Varianten" : {
+			"Halbelf" : {},
+			"bei Elfen großgezogen" : {
+				"kombinierbar" : true,
+				"Kosten" : 7,
+				"Vorteile" : { "Gut Aussehend" : {}, "Vollzauberer" : {}, "Zweistimmiger Gesang" : {} },
+				"Übliche Kulturen" : ["Elfische Siedlung"],
+				"Mögliche Kulturen" : ["Auelfische Sippe", "Waldelfische Sippe", "Firnelfische Sippe"]
+			},
+			"Halbelf firnelfischer Abstammung" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Basiswerte" : { "Ausdauer" : 2, "Magieresistenz" : 1 },
+				"Vorteile" : { "Kälteresistenz" : {}, "Viertelzauberer" : {} },
+				"Empfohlene Nachteile" : { "Hitzeempfindlichkeit" : {}, "Nahrungsrestriktion" : [{}], "Sensibler Geruchssinn" : {} },
+				"Talente" : { "Orientierung" : 1 }
+			},
+			"Halbelf nivesischer Abstammung" : {
+				"Kosten" : 8,
+				"Eigenschaften" : { "IN" : 1 },
+				"Basiswerte" : { "Ausdauer" : 1 },
+				"Vorteile" : { "Gut Aussehend" : {}, "Viertelzauberer" : {}, "Wahl" : [{ "Wohlklang" : {}, "Zweistimmiger Gesang" : {} }] },
+				"Nachteile" : { "Unfähigkeit für Talent" : [{ "Auswahl" : "Zechen" }] }
+			},
+			"Halbelf thorwalscher Abstammung" : {
+				"Kosten" : 4,
+				"Eigenschaften" : { "GE" : -1, "KK" : 1 },
+				"Basiswerte" : { "Lebensenergie" : 1 }
+			}
+		}
+	},
+	"Zwerg" : {
+		"Kosten" : 12,
+		"Haarfarbe" : { "blond" : 5, "schwarz" : 4, "dunkelgrau" : 2, "hellgrau" : 2, "salzweiß" : 1, "silberweiß" : 1, "feuerrot" : 2, "kupferrot" : 3 },
+		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 3, "grün" : 4, "blau" : 1, "grau" : 4, "schwarz" : 6 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 128, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 2 }] },
+		"Gewicht" : { "Modifikator" : -80 },
+		"Eigenschaften" : { "FF" : 1, "GE" : -1, "KO" : 2, "KK" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 11, "Ausdauer" : 15, "Magieresistenz" : -4 },
+		"Vorteile" : { "Dämmerungssicht" : {}, "Resistenz gegen mineralische Gifte" : {}, "Resistenz gegen Krankheiten" : {}, "Schwer zu verzaubern" : {} },
+		"Nachteile" : { "Goldgier" : { "Stufe" : 5 }, "Unfähigkeit für Talent" : [{ "Auswahl" : "Schwimmen" }], "Zwergenwuchs" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Gutes Gedächtnis" : {}, "Hitzeresistenz" : {}, "Hohe Lebenskraft" : {}, "Hohe Magieresistenz" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Nachtsicht" : {}, "Resistenz gegen Gift" : [{}], "Immunität gegen Gift" : [{}], "Richtungssinn" : {}, "Zäher Hund" : {}, "Zwergennase" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Jähzorn" : {}, "Lichtscheu" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Herausragende Balance" : {}, "Herausragendes Aussehen" : {}, "Koboldfreund" : {}, "Magiegespür" : {}, "Schlangenmensch" : {}, "Vom Schicksal begünstigt" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Glasknochen" : {}, "Hitzeempfindlichkeit" : {}, "Nachtblind" : {}, "Niedrige Magieresistenz" : {}, "Raumangst" : {}, "Sucht" : [{ "Freitext" : "Alkohol" }], "Unstet" : {} },
+		"Mögliche Kulturen" : ["Ambosszwerge", "Brillantzwerge", "Erzzwerge", "Hügelzwerge", "Mittelländische Städte", "Mittelländische Landbevölkerung", "Horasreich", "Almada", "Thorwal", "Andergast und Nostria", "Tulamidische Stadtstaaten", "Svellttal und Nordlande"],
+		"Talente" : { "Ringen" : 1, "Akrobatik" : -3, "Reiten" : -1, "Schwimmen" : -3, "Selbstbeherrschung" : 2, "Zechen" : 1, "Orientierung" : 1, "Gesteinskunde" : 1 },
+		"Varianten" : {
+			"Erzzwerg" : {
+				"Übliche Kulturen" : ["Erzzwerge"]
+			},
+			"Hügelzwerg" : {
+				"Übliche Kulturen" : ["Hügelzwerge"]
+			},
+			"Brillantzwerg" : {
+				"Basiswerte" : { "Lebensenergie" : -1, "Ausdauer" : 3 },
+				"Übliche Kulturen" : ["Brillantzwerge"],
+				"Mögliche Kulturen" : ["Ambosszwerge", "Erzzwerge", "Hügelzwerge", "Mittelländische Städte", "Mittelländische Landbevölkerung", "Horasreich", "Almada", "Tulamidische Stadtstaaten"]
+			},
+			"Ambosszwerg" : {
+				"Kosten" : 16,
+				"Eigenschaften" : { "KK" : 1 },
+				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
+				"Übliche Kulturen" : ["Ambosszwerge"]
+			},
+			"Wilder Zwerg" : {
+				"Kosten" : 16,
+				"Eigenschaften" : { "FF" : -1, "KK" : 1 },
+				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
+				"Vorteile" : { "Dämmerungssicht" : {}, "Linkshänder" : {}, "Resistenz gegen mineralische Gifte" : {}, "Resistenz gegen Krankheiten" : {}, "Schwer zu verzaubern" : {} },
+				"Übliche Kulturen" : ["Brobim"],
+				"Mögliche Kulturen" : []
+			}
+		}
+	},
+	"Ork" : {
+		"Kosten" : 12,
+		"Voraussetzungen" : { "Geschlecht" : "männlich" },
+		"Haarfarbe" : { "dunkelbraun" : 5, "braun-schwarz" : 6, "tiefschwarz" : 8, "blauschwarz" : 1 },
+		"Augenfarbe" : { "gelb" : 4, "rot" : 8, "grau" : 4, "schwarz" : 4 },
+		"Hautfarbe" : ["braun", "grau", "schwarz"],
+		"Größe" : { "Basis" : 150, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+		"Gewicht" : { "Modifikator" : -95 },
+		"Eigenschaften" : { "MU" : 2, "KL" : -2, "CH" : -2, "FF" : -1, "KO" : 2, "KK" : 2 },
+		"Basiswerte" : { "Lebensenergie" : 12, "Ausdauer" : 18, "Magieresistenz" : -7 },
+		"Vorteile" : { "Dämmerungssicht" : {}, "Kälteresistenz" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 2 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Nachteile" : { "Jähzorn" : { "Stufe" : 6 }, "Randgruppe" : {}, "Raubtiergeruch" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Immunität gegen Gift" : [{}], "Innerer Kompass" : {}, "Kampfrausch" : {}, "Resistenz gegen Gift" : [{}] },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Hitzeempfindlichkeit" : {}, "Niedrige Magieresistenz" : {}, "Übler Geruch" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Gesellschaftliche Talente" }] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Herausragendes Aussehen" : {}, "Hohe Magieresistenz" : {}, "Koboldfreund" : {}, "Schlangenmensch" : {}, "Schwer zu verzaubern" : {}, "Tierfreund" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Nachtblind" : {}, "Schlechte Regeneration" : {} },
+		"Übliche Kulturen" : ["Orkland", "Yurach", "Svellttal-Besatzer"],
+		"Mögliche Kulturen" : ["Andergast und Nostria", "Mitelländische Städte", "Südaventurien", "Svellttal und Nordlande", "Thorwal"],
+		"Talente" : { "Raufen" : 1, "Ringen" : 1, "Athletik" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Singen" : -2, "Sinnenschärfe" : 2, "Orientierung" : 2, "Rechnen" : -1 },
+		"Sonderfertigkeiten" : { "Biss" : {} },
+		"Varianten" : {
+			"Korogai" : {},
+			"Mokolash" : {
+				"Haarfarbe" : { "braun" : 20 }
+			},
+			"Olochtai" : {
+				"Haarfarbe" : { "grau" : 20 }
+			},
+			"Orichai" : {},
+			"Truanzhai" : {},
+			"Tscharshal" : {},
+			"Zholochai" : {
+				"Haarfarbe" : { "braun-schwarz" : 3, "tiefschwarz" : 8, "blauschwarz" : 9 },
+				"Größe" : { "Basis" : 150, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] }
+			},
+			"Orkfrau" : {
+				"kombinierbar" : true,
+				"Kosten" : -10,
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Größe" : { "Basis" : 145, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+				"Gewicht" : { "Modifikator" : -90 },
+				"Eigenschaften" : { "MU" : -2, "KO" : -1, "KK" : -1 },
+				"Basiswerte" : { "Lebensenergie" : -2, "Ausdauer" : -3 },
+				"Nachteile" : { "Randgruppe" : {}, "Raubtiergeruch" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Sprachen" }, { "Auswahl" : "Schriften" }] }
+			}
+		}
+	},
+	"Halbork" : {
+		"Kosten" : 1,
+		"Haarfarbe" : { "blond" : 2, "rot" : 4, "braun" : 6, "schwarz" : 8 },
+		"Augenfarbe" : { "rot" : 5, "grün" : 3, "braun" : 5, "schwarz" : 7 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 160, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] },
+		"Gewicht" : { "Modifikator" : -100 },
+		"Eigenschaften" : { "MU" : 1, "KL" : -1, "CH" : -2, "KO" : 1, "KK" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 11, "Ausdauer" : 15, "Magieresistenz" : -6 },
+		"Vorteile" : { "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Nachteile" : { "Jähzorn" : { "Stufe" : 6 }, "Randgruppe" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Kälteresistenz" : {}, "Resistenz gegen Gift" : [{}], "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Niedrige Magieresistenz" : {}, "Übler Geruch" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Gut Aussehend" : {}, "Hohe Magieresistenz" : {}, "Koboldfreund" : {}, "Schwer zu verzaubern" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Glasknochen" : {}, "Nachtblind" : {}, "Schlechte Regeneration" : {} },
+		"Übliche Kulturen" : ["Yurach"],
+		"Mögliche Kulturen" : ["Svellttal-Besatzer", "Svellttal und Nordlande", "Andergast und Nostria", "Mittelländische Städte"],
+		"Talente" : { "Ringen" : 1, "Athletik" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Singen" : -2 }
+	},
+	"Goblin" : {
+		"Kosten" : 12,
+		"Voraussetzungen" : { "Geschlecht" : "männlich" },
+		"Haarfarbe" : { "orangerot" : 2, "feuerrot" : 5, "rotbraun" : 6, "dunkelrot" : 5, "rot-grau" : 2 },
+		"Augenfarbe" : { "grün" : 1, "gelb" : 4, "hellrot" : 6, "dunkelrot" : 6, "rotbraun" : 2, "rotviolett" : 1 },
+		"Hautfarbe" : ["weiß"],
+		"Größe" : { "Basis" : 135, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] },
+		"Gewicht" : { "Modifikator" : -100 },
+		"Eigenschaften" : { "MU" : -1, "KL" : -2, "FF" : 2, "GE" : 2, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 4, "Ausdauer" : 12, "Magieresistenz" : -5, "Initiative-Basis" : 2 },
+		"Vorteile" : { "Dämmerungssicht" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
+		"Nachteile" : { "Kleinwüchsig" : {}, "Randgruppe" : {}, "Unstet" : {} },
+		"Empfohlene Vorteile" : { "Balance" : {}, "Herausragende Balance" : {}, "Beidhändig" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Magiegespür" : {}, "Resistenz gegen Gift" : [{}], "Immunität gegen Gift" : [{}], "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Schlangenmensch" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Neugier" : {}, "Niedrige Magieresistenz" : {}, "Übler Geruch" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Herausragendes Aussehen" : {}, "Hohe Magieresistenz" : {}, "Linkshänder" : {}, "Schwer zu verzaubern" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Dunkelangst" : {}, "Glasknochen" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Nachtblind" : {}, "Nahrungsrestriktion" : [{}], "Raumangst" : {}, "Schlechte Regeneration" : {} },
+		"Übliche Kulturen" : ["Goblinstamm", "Goblinbande", "Festumer Ghetto", "Mittelländische Städte"],
+		"Mögliche Kulturen" : ["Svellttal und Nordlande", "Mittelländische Landbevölkerung", "Andergast und Nostria", "Orkland", "Yurach"],
+		"Talente" : { "Klettern" : 2, "Körperbeherrschung" : 1, "Schleichen" : 2, "Selbstbeherrschung" : -1, "Sich Verstecken" : 1, "Singen" : -1, "Sinnenschärfe" : 4, "Zechen" : -1, "Fährtensuchen" : 1, "Orientierung" : 1, "Rechnen" : -1 },
+		"Sonderfertigkeiten" : { "Biss" : {} },
+		"Varianten" : {
+			"Goblinfrau" : {
+				"kombinierbar" : true,
+				"Kosten" : 4,
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Eigenschaften" : { "IN" : 1 },
+				"Vorteile" : { "Flink" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Nachtsicht" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
+				"Talente" : { "Zechen" : -2 }
+			}
+		}
+	},
+	"Achaz" : {
+		"Kosten" : 14,
+		"Schuppenfarbe" : { "hellgrün" : 5, "olivgrün" : 5, "dunkelgrün" : 5, "braungrün" : 3, "braun" : 2 },
+		"Augenfarbe" : { "golden" : 2, "gelb" : 2, "hellgrün" : 5, "olivgrün" : 5, "dunkelgrün" : 3, "hellbraun" : 2, "kupfern" : 1 },
+		"Größe" : { "Basis" : 167, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+		"Gewicht" : { "Modifikator" : -120 },
+		"Eigenschaften" : { "MU" : -1, "IN" : 2, "FF" : 1, "GE" : 1, "KO" : 1, "KK" : -1 },
+		"Basiswerte" : { "Lebensenergie" : 8, "Ausdauer" : 7, "Magieresistenz" : -2 },
+		"Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Beidhändig" : {}, "Dämmerungssicht" : {}, "Herausragender Geruchssinn" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 0 }, "Natürliche Waffe (Schwanz)" : { "Stufe" : 0 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 2 }, "Richtungssinn" : {}, "Zusätzliche Gliedmaße (Schwanz)" : {} },
+		"Nachteile" : { "Dunkelangst" : { "Stufe" : 5 }, "Schwerhörig" : {}, "Kältestarre" : {}, "Randgruppe" : {}, "Raubtiergeruch" : {}, "Unfähigkeit für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Stimmen Imitieren" }, { "Auswahl" : "Musizieren" }] },
+		"Empfohlene Vorteile" : { "Gutes Gedächtnis" : {}, "Herausragende Balance" : {}, "Hohe Magieresistenz" : {}, "Innerer Kompass" : {}, "Resistenz gegen Gift" : [{}], "Immunität gegen Gift" : [{}], "Schlangenmensch" : {}, "Zeitgefühl" : {} },
+		"Empfohlene Nachteile" : { "Kurzatmig" : {}, "Nachtblind" : {}, "Nahrungsrestriktion" : [{}], "Sonnensucht" : {}, "Unangenehme Stimme" : {} },
+		"Ungeeignete Vorteile" : { "Ausdauernd" : {}, "Entfernungssinn" : {}, "Feenfreund" : {}, "Herausragendes Gehör" : {}, "Herausragender Tastsinn" : {}, "Herausragendes Aussehen" : {}, "Hitzeresistenz" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen" }], "Vom Schicksal begünstigt" : {}, "Wohlklang" : {} },
+		"Ungeeignete Nachteile" : { "Fettleibig" : {}, "Kleinwüchsig" : {}, "Krankheitsanfällig" : {}, "Lichtempfindlich" : {}, "Lichtscheu" : {} },
+		"Übliche Kulturen" : ["Stammes-Achaz", "Archaische Achaz"],
+		"Mögliche Kulturen" : ["Südaventurien", "Maraskan"],
+		"Talente" : { "Raufen" : 1, "Körperbeherrschung" : 1, "Schwimmen" : 5, "Sinnenschärfe" : 5, "Stimmen Imitieren" : -3, "Zechen" : -1, "Fährtensuchen" : 2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Musizieren" : -3 },
+		"Sonderfertigkeiten" : { "Biss" : {}, "Schwanzschlag" : {} },
+		"Varianten" : {
+			"Echsensumpf-Achaz" : {},
+			"Regenwald-Achaz" : {},
+			"Orkland-Achaz" : {
+				"Kosten" : 9,
+				"Größe" : { "Basis" : 159, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+				"Eigenschaften" : { "KO" : -1 },
+				"Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Beidhändig" : {}, "Dämmerungssicht" : {}, "Herausragender Geruchssinn" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 0 }, "Natürliche Waffe (Schwanz)" : { "Stufe" : 0 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Richtungssinn" : {}, "Zusätzliche Gliedmaße (Schwanz)" : {} },
+				"Nachteile" : { "Dunkelangst" : { "Stufe" : 5 }, "Schwerhörig" : {}, "Randgruppe" : {}, "Raubtiergeruch" : {}, "Unfähigkeit für Talent" : [{ "Auswahl" : "Singen" }, { "Auswahl" : "Stimmen Imitieren" }, { "Auswahl" : "Musizieren" }] },
+				"Übliche Kulturen" : ["Stammes-Achaz"],
+				"Mögliche Kulturen" : []
+			},
+			"Waldinsel-Achaz" : {
+				"Kosten" : 4,
+				"Größe" : { "Basis" : 207, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+				"Gewicht" : { "Modifikator" : -130 },
+				"Eigenschaften" : { "FF" : -3, "KO" : -1 },
+				"Basiswerte" : { "Lebensenergie" : -1 }
+			},
+			"Maraskan-Achaz" : {
+				"Kosten" : 16,
+				"Größe" : { "Basis" : 172, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 }] },
+				"Eigenschaften" : { "KO" : -1 },
+				"Basiswerte" : { "Lebensenergie" : -1 },
+				"Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Beidhändig" : {}, "Dämmerungssicht" : {}, "Herausragender Geruchssinn" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 0 }, "Natürliche Waffe (Schwanz)" : { "Stufe" : 0 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 2 }, "Richtungssinn" : {}, "Tierempathie (einzelne Tierart)" : [{ "Freitext" : "Reptilien" }], "Zusätzliche Gliedmaße (Schwanz)" : {} },
+				"Sonderfertigkeiten" : { "Biss" : {}, "Schwanzschlag" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Sinneschärfe", "Freitext" : "Geruch" }] },
+				"Verbilligte Sonderfertigkeiten" : { "Schwanzfeger" : {} }
+			}
+		}
+	}
+}

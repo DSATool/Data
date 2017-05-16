@@ -1,0 +1,15 @@
+{
+	"Lebensenergie" : {
+		"1/2" : { "Beschreibung:Kurz" : "Proben+1, Talente+3" },
+		"1/3" : { "Beschreibung:Kurz" : "Proben+2, Talente+6" },
+		"1/4" : { "Beschreibung:Kurz" : "Proben+3, Talente+9" },
+		"5-1" : { "Beschreibung:Kurz" : "kampfunfähig" },
+		"< 1" : { "Beschreibung:Kurz" : "Tod in W6*KO KR" },
+		"< -KO" : { "Beschreibung:Kurz" : "Tod" }
+	},
+	"Ausdauer" : {
+		"1/3" : { "Beschreibung:Kurz" : "Proben+1, Talente+3, 1 Ersch." },
+		"1/4" : { "Beschreibung:Kurz" : "Proben+2, Talente+6" },
+		"0" : { "Beschreibung:Kurz" : "kampfunfähig, W6 Erschöpfung\nAtem holen: 2 Akt., +KO AuP, 1 Erschöpfung, Orientieren möglich" }
+	}
+}

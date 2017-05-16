@@ -1,0 +1,10 @@
+{
+	"MU" : { "Name" : "Mut", "Eigenschaft" : "geistig", "Herausragende Eigenschaft" : "Herausragender Mut", "Miserable Eigenschaft" : "Miserabler Mut" },
+	"KL" : { "Name" : "Klugheit", "Eigenschaft" : "geistig", "Herausragende Eigenschaft" : "Herausragende Klugheit", "Miserable Eigenschaft" : "Miserable Klugheit" },
+	"IN" : { "Name" : "Intuition", "Eigenschaft" : "geistig", "Herausragende Eigenschaft" : "Herausragende Intuition", "Miserable Eigenschaft" : "Miserable Intuition" },
+	"CH" : { "Name" : "Charisma", "Eigenschaft" : "geistig", "Herausragende Eigenschaft" : "Herausragendes Charisma", "Miserable Eigenschaft" : "Miserables Charisma" },
+	"FF" : { "Name" : "Fingerfertigkeit", "Eigenschaft" : "körperlich", "Herausragende Eigenschaft" : "Herausragende Fingerfertigkeit", "Miserable Eigenschaft" : "Miserable Fingerfertigkeit" },
+	"GE" : { "Name" : "Gewandtheit", "Eigenschaft" : "körperlich", "Herausragende Eigenschaft" : "Herausragende Gewandtheit", "Miserable Eigenschaft" : "Miserable Gewandtheit" },
+	"KO" : { "Name" : "Konstitution", "Eigenschaft" : "körperlich", "Herausragende Eigenschaft" : "Herausragende Konstitution", "Miserable Eigenschaft" : "Miserable Konstitution" },
+	"KK" : { "Name" : "Körperkraft", "Eigenschaft" : "körperlich", "Herausragende Eigenschaft" : "Herausragende Körperkraft", "Miserable Eigenschaft" : "Miserable Körperkraft" }
+}

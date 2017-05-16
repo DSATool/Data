@@ -1,0 +1,33 @@
+{
+	"Längen" : {
+		"Irdisch" : { "Meter" : 1, "Kilometer" : 1000, "Millimeter" : 0.001, "Zentimeter" : 0.01, "Dezimeter" : 0.1, "Inch/Zoll" : 0.0254, "Foot/Fuß" : 0.3048, "Yard" :0.9144, "Meile" : 1609.344 },
+		"Mittelreich" : { "Schritt" : 1, "Meile" : 1000, "Spann" : 0.2, "Finger" : 0.02, "Halbfinger" : 0.01, "Lot" : 10 },
+		"Novadis" : { "Baryd" : 15000 },
+		"Nivesen" : { "Tagesreise" : 12000 }
+	},
+	"Flächen" : {
+		"Irdisch" : { "Quadratmeter" : 1, "Quadratkilometer" : 1000000, "Hektar" : 10000, "Ar" : 100, "Quadratzentimeter" : 0.0001 },
+		"Mittelreich" : { "Rechtschritt" : 1, "Rechtmeile" : 1000000, "Acker" : 10000, "Land" : 4000000, "Rechtspann" : 0.04, "Platz" : 625 },
+		"Aranien" : { "Morgen" : 3000 }
+	},
+	"Volumen" : {
+		"Irdisch" : { "Liter" : 1, "Milliliter/Kubikzentimeter" : 0.001, "Kubikmeter" : 1000 },
+		"Mittelreich" : { "Hohlfinger/Flux" : 0.008, "Hohlspann/Urn" : 8, "Maß" : 0.8, "Schank/Viertelmaß" : 0.2, "Fass" : 80, "Ox" : 960 }
+	},
+	"Gewichte" : {
+		"Irdisch" : { "Kilogramm" : 1000, "Gramm" : 1, "Pfund" : 500, "Zentner" : 50000, "Tonne" : 1000000, "Milligramm" : 0.001, "Mikrogramm" : 0.000001 },
+		"Mittelreich" : { "Stein" : 1000, "Skrupel" : 1, "Quader" : 1000000, "Unze" : 25, "Karat" : 0.2, "Gran" : 0.04 }
+	},
+	"Währungen" : {
+		"Mittelreich" : { "Dukaten" : 1000, "Silbertaler" : 100, "Heller" : 10, "Kreuzer" : 1 },
+		"Horasreich" : { "Horasdor" : 20000 },
+		"Mherwed" : { "Marawedi" : 2000, "Zechine" : 200, "Muwlat" : 5 },
+		"Al'Anfa" : { "Dublone" : 2000, "Oreal/Schilling" : 100, "Dirham" : 1 },
+		"Bornland" : { "Batzen" : 1000, "Groschen" : 100, "Deut" : 10 }
+	},
+	"Zeit" : {
+		"Irdisch" : { "Stunde" : 1, "Tag" : 24, "Woche" : 168, "Monat" : 720, "Jahr" : 8760, "Minute" : 0.016666, "Sekunde" : 0.0027777 },
+		"Mittelreich" : { "Praioslauf" : 24, "Mond" : 720, "Götterlauf" : 8760 },
+		"Regeltechnisch" : { "Aktion" : 0.000416666, "Kampfrunde" : 0.00083333, "Spielrunde" : 0.083333, "Zeiteinheit" : 2 }
+	}
+}

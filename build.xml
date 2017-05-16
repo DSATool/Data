@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="deploy" name="CharacterSheet">
+    <property name="DSATool.location" value="../DSATool"/>
+	<property name="PluginName" value="Data"/>
+	<property name="Includes" value="data/**"/>
+    <target name="deploy" description="Deploys data to DSATool data directory">
+    	<copy todir="${DSATool.location}">
+    		<fileset dir="." includes="${Includes}"/>        	
+    	</copy>
+    </target>
+	<target name="update" description="Creates a zip file for release" depends="deploy">
+		<delete dir="release/current"/>
+		<mkdir dir="release/current"/>
+		<copy todir="release/current" includeEmptyDirs="false">
+			<fileset dir="." includes="${Includes}">
+			    <different targetdir="release/previous"/>
+			</fileset>
+		</copy>
+		<fileset id="deleted" dir="release/previous" includes="${Includes}">
+			<present present="srconly" targetdir="."/>
+		</fileset>
+		<resourcecount property="hasDeleted" refId="deleted" when="greater" count="0"/>
+		<echo file="release/current/deleted.txt">${toString:deleted}</echo>
+		<delete>
+			<fileset file="release/current/deleted.txt">
+				<size value="3" when="less"/>
+			</fileset>
+		</delete>
+		<tstamp>
+			<format property="releaseDate" pattern="yyyy-MM-dd_HH-mm" />
+		</tstamp>
+		<loadfile srcfile="release/previous/release-info.json" property="previousReleaseDate">
+			<filterchain>
+				<linecontains>
+					<contains value="releaseDate"/>
+				</linecontains>
+				<tokenfilter>
+					<replaceregex pattern=".*: ."/>
+					<replaceregex pattern=".,"/>
+				</tokenfilter>
+				<striplinebreaks/>
+			</filterchain>
+		</loadfile>
+		<copy file="release/release-info.template" tofile="release/current/release-info.json"/>
+		<replace file="release/current/release-info.json" token="@releaseDate@" value="${releaseDate}"/>
+		<replace file="release/current/release-info.json" token="@previousReleaseDate@" value="${previousReleaseDate}"/>
+		<copy file="release/current/release-info.json" tofile="release/current/update/${PluginName}.json"/>
+		<copy file="release/current/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json"/>
+		<copy file="release/update-info.template" tofile="release/update-info.json" overwrite="true"/>
+		<replace file="release/update-info.json" token="@releaseDate@" value="${releaseDate}"/>
+		<zip destfile="release/${PluginName}_${releaseDate}.zip">
+			<fileset dir="release/current"/>
+		</zip>
+		<delete dir="release/previous"/>
+		<copy todir="release/previous" includeEmptyDirs="false">
+			<fileset dir="." includes="${Includes}"/>
+		</copy>
+		<copy file="release/current/release-info.json" todir="release/previous"/>
+		<delete dir="release/current"/>
+	</target>
+	<target name="release" description="Creates a full release as well as an update" depends="update">
+		<mkdir dir="update"/>
+		<copy file="release/release-info.template" tofile="update/${PluginName}.json"/>
+		<replace file="update/${PluginName}.json" token="@releaseDate@" value="${releaseDate}"/>
+		<replace file="update/${PluginName}.json" token="@previousReleaseDate@" value="${previousReleaseDate}"/>
+		<zip destfile="release/${PluginName}_${releaseDate}_full.zip">
+			<fileset dir="." includes="${Includes},update/${PluginName}.json"/>
+		</zip>
+		<delete dir="update"/>
+	</target>
+</project>

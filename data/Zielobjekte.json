@@ -1,0 +1,14 @@
+{
+	"Einzelperson, freiwillig" : { "Abkürzung" : "Pf" },
+	"Einzelperson" : { "Abkürzung" : "P" },
+	"Einzelwesen, freiwillig" : { "Abkürzung" : "Wf" },
+	"Einzelwesen" : { "Abkürzung" : "W" },
+	"Einzelobjekt" : { "Abkürzung" : "O" },
+	"Mehrere Personen, freiwillig" : { "Abkürzung" : "PPf" },
+	"Mehrere Personen" : { "Abkürzung" : "PP" },
+	"Mehrere Wesen, freiwillig" : { "Abkürzung" : "WWf" },
+	"Mehrere Wesen" : { "Abkürzung" : "WW" },
+	"Mehrere Objekte" : { "Abkürzung" : "OO" },
+	"Zone" : { "Abkürzung" : "Z" },
+	"Einzelner Zauber" : { "Abkürzung" : "1Z" }
+}

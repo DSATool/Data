@@ -1,0 +1,11 @@
+{
+	"Jagdpfeile/-bolzen" : { "Preis:Faktor" : 1, "Beschreibung:Kurz" : "Standardspitze, wiederverwendbar" },
+	"Gehärtete Pfeile/Bolzen" : { "Preis:Faktor" : 4, "Beschreibung:Kurz" : "Rüstungsschutz halbiert, wiederverwendbar" },
+	"Kriegspfeile/-bolzen" : { "Preis:Faktor" : 1.5, "Beschreibung:Kurz" : "Schadenswurf 5/6: W3SP(A)+1Ersch./KR Bewegung, Entf.: KK+W6+2SP o. HKW+W6-2SP" },
+	"Gehärtete Kriegspfeile/-bolzen" : { "Preis:Faktor" : 6, "Beschreibung:Kurz" : "RS/2, Schadensw. 5/6: W3SP(A)+1Ersch./KR Bewegung, Entf.: KK+W6+2SP o. HKW+W6-2SP" },
+	"Kettenbrecher" : { "Preis:Faktor" : 3, "Beschreibung:Kurz" : "RS von Kettenrüstungen ignoriert, RS/2 bei Mischrüstung" },
+	"Stumpfe Pfeile/Bolzen" : { "Preis:Faktor" : 2, "Beschreibung:Kurz" : "TP(A), RW/2, Gezielter Schuss+4: Niederwerfen (KK+TP(A)/2), wiederverwendbar" },
+	"Sehnen-/Seilschneider" : { "Preis:Faktor" : 3, "Beschreibung:Kurz" : "RW/2, RSx2, Schadensw. 5/6: W3SP(A)+1Ersch./KR Bewegung, Entf.: KK+W6+2SP o. HKW+W6-2SP" },
+	"Brandpfeile/-bolzen" : { "Preis:Faktor" : 8, "Beschreibung:Kurz" : "Reichweite halbiert, kann Brennmaterial tragen" },
+	"Singende Pfeile/Bolzen" : { "Preis:Faktor" : 2, "Beschreibung:Kurz" : "Geben beim Flug Töne von sich, evtl. TP-1/-2" }
+}

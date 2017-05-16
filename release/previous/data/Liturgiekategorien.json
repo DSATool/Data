@@ -1,0 +1,38 @@
+{
+	"Entfernung" : { 
+		"Selbst" : {},
+		"Berührung" : {},
+		"Sicht" : {},
+		"Fern" : {}
+	},
+	"Ritualdauer" : {
+		"Stoßgebet" : { "Text" : "2-20 Akt." },
+		"Gebet" : { "Text" : "1 SR" },
+		"Andacht" : { "Text" : "6 SR" },
+		"Zeremonie" : { "Text" : "mehrere Std." },
+		"Zyklus" : { "Text" : "mehrere Tage" }
+	},
+	"Wirkungsdauer" : {
+		"Augenblicklich" : {},
+		"LkP* KR" : {},
+		"10xLkP* KR" : {},
+		"LkP* SR" : {},
+		"LkP* h" : {},
+		"LkP* Tage" : {},
+		"LkP* Wochen" : {},
+		"LkP* Monate" : {},
+		"LkP* Jahre" : {},
+		"Permanent" : {}
+	},
+	"Ziel" : {
+		"G" : { "Text" : "Geweihter" },
+		"P" : { "Text" : "1 Pers./Obj." },
+		"PP" : { "Text" : "10 Pers./Obj." },
+		"PPP" : { "Text" : "100 Pers./Obj." },
+		"PPPP" : { "Text" : "1000 Pers./Obj." },
+		"Z" : { "Text" : "10 Schritt Radius" },
+		"ZZ" : { "Text" : "30 Schritt Radius" },
+		"ZZZ" : { "Text" : "100 Schritt Radius" },
+		"ZZZZ" : { "Text" : "300 Schritt Radius" }
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"Attacke-Basis" : { "Eigenschaften" : ["MU", "GE", "KK"], "Multiplikator" : 0.2 },
+	"Parade-Basis" : { "Eigenschaften" : ["IN", "GE", "KK"], "Multiplikator" : 0.2 },
+	"Fernkampf-Basis" : { "Eigenschaften" : ["IN", "FF", "KK"], "Multiplikator" : 0.2 },
+	"Initiative-Basis" : { "Eigenschaften" : ["MU", "MU", "IN", "GE"], "Multiplikator" : 0.2 },
+	"Wundschwelle" : { "Eigenschaften" : ["KO"], "Multiplikator" : 0.5 },
+	"Lebensenergie" : { "Eigenschaften" : ["KO", "KO", "KK"], "Multiplikator" : 0.5, "Zukauf" : 8, "Zukauf:Maximum" : { "Eigenschaften" : ["KO"], "Multiplikator" : 0.5 } },
+	"Ausdauer" : { "Eigenschaften" : ["MU", "GE", "KO"], "Multiplikator" : 0.5, "Zukauf" : 5, "Zukauf:Maximum" : { "Eigenschaften" : ["KO"], "Multiplikator" : 1 } },
+	"Astralenergie" : { "Eigenschaften" : ["MU", "IN", "CH"], "Multiplikator" : 0.5, "Zukauf" : 7, "Zukauf:Maximum" : { "Eigenschaften" : ["CH"], "Multiplikator" : 1 } },
+	"Karmaenergie" : {},
+	"Magieresistenz" : { "Eigenschaften" : ["MU", "KL", "KO"], "Multiplikator" : 0.2, "Zukauf" : 8, "Zukauf:Maximum" : { "Eigenschaften" : ["MU"], "Multiplikator" : 0.5 } },
+	"Geschwindigkeit" : {}
+}

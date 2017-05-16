@@ -1,0 +1,1866 @@
+{
+	"Mittelländische Städte" : {
+		"Kosten" : 0,
+		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {} },
+		"Ungeeignete Nachteile" : { "Angst vor" : [{ "Freitext" : "Menschenmassen" }], "Raumangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Ritter", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Druide", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Rahja-Kavalier"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfmesser"], "Werte" : [1] }, { "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [3] }, { "Wahl" : ["Ackerbau", "Hauswirtschaft"], "Werte" : [1] }], "Dolche" : 1, "Infanteriewaffen" : 1, "Raufen" : 1, "Zechen" : 1, "Etikette" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Götter/Kulte" : 2, "Heraldik" : 1, "Rechnen" : 1, "Rechtskunde" : 1, "Sagen/Legenden" : 2 },
+		"Sonderfertigkeiten" : { "Ortskenntnis" : [{}] },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Mittelreich",
+		"Namen" : ["Mittelländische Namen"],
+		"Varianten" : {
+			"Hafenstädte und Städte an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Schwimmen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Städte mit wichtigem Tempel/Pilgerstätte" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [4] }], "Überreden" : 2, "Geographie" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 2 }
+			},
+			"Siedlerstädte des Nordens" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Nujuka", "Alaani", "Oloarkh"], "Werte" : [3] }], "Wildnisleben" : 1, "Ackerbau" : 1, "Viehzucht" : 1 }			},
+			"Städtischer Adel" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Gassenwissen" : -1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
+			},
+			"Kannemünde/Mhanerhaven" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Boote Fahren", "Fischen/Angeln", "Kochen"], "Werte" : [1] }], "Menschenkenntnis" : 1, "Überreden" : 1, "Geographie" : 1, "Rechnen" : 1 },
+				"Sprachen" : { "Zweitsprache" : [["Tulamidya"]] },
+				"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : { "Auswahl" : "Tulamidenlande" } }				
+			},			
+			"Flüchtlinge aus borbaradianisch besetzten Gebieten" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Eigenschaften" : { "MU" : -1 },
+				"Empfohlene Vorteile" : { "Affinität zu Dämonen" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Magiegespür" : {}, "Resistenz gegen Krankheiten" : {} },
+				"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Dunkelangst" : {}, "Einbildungen" : [{}], "Goldgier" : {}, "Schlafstörungen I" : {}, "Schlafstörungen II" : {}, "Stigma" : [{}], "Unstet" : {}, "Wahnvorstellungen" : [{}] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch", "Zhayad", "Zhulchammaqra"], "Werte" : [3] }], "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Zechen" : 1, "Menschenkenntnis" : 1, "Götter/Kulte" : -1, "Magiekunde" : 1 }
+			},			
+			"Maraskanische Exilanten" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Basiswerte" : { "Magieresistenz" : 1 },
+				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+				"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Ritter", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Druide", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Rahja-Kavalier", "Tempelpriester von Rur und Gror", "Wanderpriester von Rur und Gror"],
+				"Talente" : { "Diskus" : 2, "Selbstbeherrschung" : 1, "Sich Verkleiden" : 1, "Götter/Kulte" : 1, "Philosophie" : 1, "Heilkunde Gift" : 1, "Stoffe Färben" : 1 },
+				"Sprachen" : { "Zweitsprache" : [["Tulamidya"]] },
+				"Namen" : ["Maraskanische Namen"]
+			}
+		}
+	},
+	"Mittelländische Landbevölkerung" : {
+		"Kosten" : 0,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Nachteile" : { "Platzangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Ritter", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Dieb", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Streuner", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Druide", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Infanteriewaffen", "Zweihand-Hiebwaffen"], "Werte" : [1] }, { "Wahl" : ["Tulamidya", "Rogolan", "Isdira", "Thorwalsch"], "Werte" : [3] }, { "Wahl" : ["Abrichten", "Brauer", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Kochen", "Seiler", "Stoffe Färben", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Werte" : [2, 1] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Athletik" : 1, "Selbstbeherrschung" : 1, "Zechen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fährtensuchen" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Götter/Kulte" : 1, "Sagen/Legenden" : 2, "Ackerbau" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Schneidern" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Mittelreich",
+		"Namen" : ["Mittelländische Namen"],
+		"Varianten" : {
+			"Küstengebiete oder an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"An einer wichtigen Handelsroute/Reichsstraße" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [2] }], "Etikette" : 1, "Menschenkenntnis" : 1, "Geographie" : 1, "Sagen/Legenden" : 1, "Fahrzeug Lenken" : 1 }
+			},
+			"Regionen Weiden und Greifenfurt" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Selbstbeherrschung" : 1, "Fallenstellen" : 1, "Wildnisleben" : 1, "Viehzucht" : 1 },
+				"Namen" : ["Mittelländische Namen", "Weidener Namen"]
+			},
+			"Gebirge" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Athletik" : 1, "Klettern" : 1, "Wildnisleben" : 1 }
+			},
+			"Fern der Zivilisation" : {
+				"kombinierbar" : true,
+				"Kosten" : 4,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Isdira", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Tulamidya", "Rogolan", "Isdira", "Thorwalsch", "Nujuka", "Oloarkh", "Goblinisch"], "Werte" : [3] }], "Athletik" : 1, "Menschenkenntnis" : -1, "Überreden" : -1, "Fährtensuchen" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 2, "Pflanzenkunde" : 1, "Tierkunde" : 1},
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" : {} }] }
+			},
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Infanteriewaffen", "Zweihand-Hiebwaffen"], "Werte" : [-1] }], "Schwerter" : 1, "Reiten" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen"  : 2 }
+			},
+			"Jilaskan" : {
+				"kombinierbar" : true,
+				"Kosten" : 4,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Isdira", "Thorwalsch"], "Werte" : [-3] }], "Dolche" : -1, "Hiebwaffen" : 1, "Selbstbeherrschung" : 2, "Singen" : 2, "Zechen" : -1, "Überreden" : -1, "Götter/Kulte" : 2, "Pflanzenkunde" : 1, "Rechtskunde" : 2, "Tierkunde" : 1, "Heilkunde Gift" : 1 },
+				"Verbilligte Sonderfertigkeiten" : { "Maraskankundig" : {} }
+			},
+			"Borbaradianisch besetzte Gebiete": {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Eigenschaften" : { "MU" : -1 },
+				"Empfohlene Vorteile" : { "Affinität zu Dämonen" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Magiegespür" : {}, "Resistenz gegen Krankheiten" : {} },
+				"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Dunkelangst" : {}, "Einbildungen" : [{}], "Goldgier" : {}, "Schlafstörungen I" : {}, "Schlafstörungen II" : {}, "Stigma" : [{}], "Unstet" : {}, "Wahnvorstellungen" : [{}] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch", "Zhayad", "Zhulchammaqra"], "Werte" : [3] }], "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Zechen" : 1, "Menschenkenntnis" : 1, "Götter/Kulte" : -1, "Magiekunde" : 1 }
+			}
+		}
+	},
+	"Andergast und Nostria" : {
+		"Kosten" : 6,
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 12,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Innerer Kompass" : {}, "Hohe Lebenskraft" : {}, "Magiegespür" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Tierfreund" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Prinzipientreue" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}], "Weltfremd" : [{}] },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig"  : {} },
+		"Professionen" : ["Fähnrich", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Ritter", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Haindruide", "Hüter der Macht", "Mehrer der Macht", "Sumupriester", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Oloarkh", "Ologhaijan", "Thorwalsch"], "Punkte" : 4 }, { "Wahl" : ["Abrichten", "Brauer", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Kochen", "Seiler", "Stoffe Färben", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Werte" : [1] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Speere" : 1, "Wurfspeere" : 1, "Athletik" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Zechen" : 1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Götter/Kulte" : 1, "Sagen/Legenden" : 2, "Ackerbau" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 2, "Lederarbeiten" : 1, "Schneidern" : 1 },
+		"Sonderfertigkeiten" : { "Meister der Improvisation" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Waldkundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Andergast und Nostria",
+		"Varianten" : {
+			"Andergast" : {
+				"Namen" : ["Andergastsche Namen"],
+				"Varianten" : {
+					"Gebirge" : {
+						"kombinierbar" : true,
+						"Kosten" : 1,
+						"Talente" : { "Athletik" : 1, "Klettern" : 1, "Fährtensuchen" : 1 },
+						"Verbilligte Sonderfertigkeiten" : { "Wahl": [{ "Waldkundig" : {}, "Gebirgskundig" : {} }] }
+					},
+					"Teshkalien" : {
+						"kombinierbar" : true,
+						"Kosten" : 4,
+						"Talente" : { "Reiten" : 2, "Fährtensuchen" : 2, "Fallenstellen" : 1, "Orientierung" : 1, "Abrichten" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {}, "Steppenkundig" : {} }
+					}
+				}
+			},
+			"Nostria" : {
+				"Namen" : ["Nostrische Namen"],
+				"Varianten" : {
+					"Küstengebiete" : {
+						"kombinierbar" : true,
+						"Kosten" : 2,
+						"Talente" : { "Wahl" : [{ "Wahl" : ["Seefahrt", "Boote Fahren"], "Werte" : [2] }], "Schwimmen" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 2 },
+						"Verbilligte Sonderfertigkeiten" : { "Wahl": [{ "Waldkundig" : {}, "Meereskundig" : {} }] }
+					}
+				}
+			},
+			"Stadt" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [1] }], "Wurfspeere" : -1, "Infanteriewaffen" : 1, "Speere" : -1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fallenstellen" : -1, "Wildnisleben" : -1 }
+			},
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Schwerter", "Hiebwaffen"], "Werte" : [1] }], "Speere" : -1, "Reiten" : 2, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen"  : 2 }
+			}
+		}
+	},
+	"Bornland" : {
+		"Kosten" : 0,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Hohe Lebenskraft" : {}, "Kälteresistenz" : {}, "Resisten gegen Krankheiten" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Platzangst" : {} },
+		"Professionen" : ["Fähnrich", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Krieger", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Haindruide", "Hüter der Macht", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Alaani", "Nujuka"], "Werte" : [6, 2] }], "Dolche" : 1, "Raufen" : 1, "Wurfmesser" : 1, "Tanzen" : 1, "Zechen" : 2, "Etikette" : 1, "Menschenkenntnis" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Götter/Kulte" : 1, "Sagen/Legenden" : 2, "Ackerbau" : 1, "Holzbearbeitung" : 2, "Kochen" : 1, "Lederarbeiten" : 1, "Schneidern" : 1 },
+		"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Sumpfkundig" : {}, "Waldkundig" : {} }], "Eiskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Bornland",
+		"Namen" : ["Bornländische Namen"],
+		"Varianten" : {
+			"Landstädte" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Abrichten", "Brauer", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Kochen", "Seiler", "Stoffe Färben", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Werte" : [2] }], "Bogen" : 1, "Infanteriewaffen" : 1, "Überreden" : 1, "Geographie" : 1 }
+			},
+			"Küstengebiete" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 5,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Professionen" : ["Fähnrich", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Ritter", "Krieger", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Haindruide", "Hüter der Macht", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Schwerter"], "Werte" : [1] }], "Bogen" : 1, "Reiten" : 2, "Zechen" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 2, "Hauswirtschaft" : 1 }
+			}
+		}
+	},
+	"Svellttal und Nordlande" : {
+		"Kosten" : 7,
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 10,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Raumangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Amtsadel" : {}, "Adlige Abstammung" : {}, "Adliges Erbe" : {} },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Platzangst" : {} },
+		"Professionen" : ["Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Schaukämpfer", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Haindruide", "Hüter der Macht", "Mehrer der Macht", "Sumupriester", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Geweihter der Ifirn"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Alaani", "Garethi", "Nujuka", "Ologhaijan", "Oloarkh", "Thorwalsch"], "Werte" : [4] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [1] }, { "Wahl" : ["Abrichten", "Ackerbau", "Brauer", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Kochen", "Seiler", "Stoffe Färben", "Töpfern", "Viehzucht", "Webkunst", "Zimmermann"], "Werte" : [1] }], "Bogen" : 1, "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Speere" : 1, "Athletik" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Schwimmen" : 1, "Selbstbeherrschung" : 1, "Zechen" : 1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Pflanzenkunde" : 1, "Sagen/Legenden" : 2, "Tierkunde" : 1, "Heilkunde Wunden" : 1, "Schneidern" : 1, "Viehzucht" : 1 },
+		"Verbilligte Sonderfertigkeiten" : { "Meister der Improvisation" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Garethi", "Alaani", "Nujuka", "Thorwalsch"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen", "Alaani" : "Kusliker Zeichen", "Thorwalsch" : "Kusliker Zeichen" } },
+		"Namen" : ["Mittelländische Namen", "Nivesische Namen", "Norbardische Namen"],
+		"Varianten" : {
+			"Svellttal" : {
+				"Kulturkunde" : "Svellttal"
+			},
+			"Nordlande" : {
+				"Kulturkunde" : "Nordlande"
+			},
+			"Stadt" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Talente" : { "Infanteriewaffen" : 1, "Speere" : -1, "Körperbeherrschung" : -1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fallenstellen" : -1, "Götter/Kulte" : 1 }
+			},
+			"Kleinstädte" : {
+				"kombinierbar" : true,
+				"Kosten" : -1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfmesser"], "Werte" : [1] }, { "Wahl" : ["Infanteriewaffen", "Speere"], "Werte" : [1] }], "Bogen" : -1, "Speere" : -1, "Körperbeherrschung" : -1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fallenstellen" : -1, "Götter/Kulte" : 1 }
+			},
+			"Küstengebiete oder an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : {  "Wahl" : [{ "Wahl" : ["Bogen", "Wurfbeile", "Wurfspeere"], "Werte" : [1] }], "Bogen" : -1, "Schwimmen" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Wettervorhersage" : 1, "Holzbearbeitung" : 1, "Boote Fahren" : 1 }
+			},
+			"Fern der Zivilisation" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Alaani", "Garethi", "Nujuka", "Ologhaijan", "Oloarkh", "Thorwalsch", "Goblinisch"], "Werte" : [2] }], "Athletik" : 1, "Reiten" : 1, "Fischen/Angeln" : 1, "Wettervorhersage" : 1, "Fahrzeug Lenken" : 1 }
+			},
+			"Flüchtlinge aus Glorania" : {
+				"kombinierbar" : true,
+				"Kosten" : -1,
+				"Eigenschaften" : { "MU" : -1 },
+				"Basiswerte" : { "Lebensenergie" : -1 },
+				"Talente" : { "Schwimmen" : -1, "Skifahren" : 2, "Sinnenschärfe" : 1, "Fährtensuchen" : 1, "Magiekunde" : 1, "Pflanzenkunde" : -1 },
+				"Sonderfertigkeiten" : { "Eiskundig" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Meister der Improvisation" : {}, "Steppenkundig" : {} }
+			}
+		}
+	},
+	"Almada" : {
+		"Kosten" : 3,
+		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Jähzorn" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Koboldfreund" : {} },
+		"Ungeeignete Nachteile" : { "Angst vor" : [{ "Freitext" : "Menschenmassen" }], "Raumangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Prospektor", "Schiffer", "Schmuggler", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Haindruide", "Mehrer der Macht", "Konzilsdruide", "Tochter der Erde", "Verschwiegene Schwester", "Seherin von Heute und Morgen", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer", "Rahja-Kavalier"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan"], "Werte" : [5] }, { "Wahl" : ["Ackerbau", "Hauswirtschaft", "Winzer"], "Werte" : [1] }], "Dolche" : 1, "Fechtwaffen" : 1, "Infanteriewaffen" : 1, "Raufen" : 1, "Säbel" : 1, "Reiten" : 2, "Schwimmen" : 1, "Tanzen" : 1, "Zechen" : 1, "Etikette" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 2, "Rechnen" : 1, "Sagen/Legenden" : 2, "Abrichten" : 1, "Musizieren" : 1, "Viehzucht" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Almada",
+		"Namen" : ["Almadanische Namen"],
+		"Varianten" : {
+			"Städte am Yaquir" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Schwimmen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Orte mit wichtigem Tempel/Pilgerstätte" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [4] }], "Überreden" : 2, "Geographie" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 2 }
+			},
+			"Städtischer Adel" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Geschichtswissen" : 1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
+			},
+			"An einer wichtigen Handelsroute" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [2] }], "Etikette" : 1, "Menschenkenntnis" : 1, "Geographie" : 1, "Sagen/Legenden" : 1, "Fahrzeug Lenken" : 1 }
+			},
+			"Gebirge" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Athletik" : 1, "Klettern" : 1, "Wildnisleben" : 1 }
+			},
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Schwerter" : 1, "Infanteriewaffen" : -1, "Reiten" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 4 }
+			}
+		}
+	},
+	"Horasreich" : {
+		"Kosten" : 3,
+		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Jähzorn" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Koboldfreund" : {} },
+		"Ungeeignete Nachteile" : { "Angst vor" : [{ "Freitext" : "Menschenmassen" }], "Raumangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Haindruide", "Mehrer der Macht", "Konzilsdruide", "Schöne der Nacht", "Verschwiegene Schwester", "Schwester des Wissens", "Seherin von Heute und Morgen", "Schwester der Fahrenden Gemeinschaft", "Schwarze Witwe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Rahja-Kavalier", "Geweihter des Aves", "Geweihter des Nandus"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan"], "Werte" : [5] }, { "Wahl" : ["Ackerbau", "Hauswirtschaft"], "Werte" : [1] }], "Armbrust" : 1, "Dolche" : 1, "Fechtwaffen" : 1, "Infanteriewaffen" : 1, "Raufen" : 1, "Schwimmen" : 1, "Tanzen" : 1, "Betören" : 1, "Etikette" : 2, "Gassenwissen" : 2, "Menschenkenntnis" : 2, "Überreden" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Mechanik" : 1, "Rechnen" : 2, "Rechtskunde" : 1, "Sagen/Legenden" : 2, "Kusliker Zeichen" : 2 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Horasreich",
+		"Namen" : ["Horasische Namen"],
+		"Verbilligte Sonderfertigkeiten" : { "Nandusgefälliges Wissen" : {} },
+		"Varianten" : {
+			"Hafenstädte/Städte an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Schwimmen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Städte mit wichtigem Tempel/mit Pilgerstätte" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [4] }], "Überreden" : 2, "Geographie" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 2 }
+			},
+			"Städtischer Adel" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Geschichtswissen" : 1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
+			},
+			"Dörfer an der Küste oder an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"An einer wichtigen Handelsroute" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Isdira", "Rogolan"], "Werte" : [2] }], "Etikette" : 1, "Menschenkenntnis" : 1, "Geographie" : 1, "Sagen/Legenden" : 1, "Fahrzeug Lenken" : 1 }
+			},
+			"Gebirge" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Athletik" : 1, "Klettern" : 1, "Wildnisleben" : 1 }
+			},
+			"Fernab der Zivilisation" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Armbrust"], "Werte" : [1] }, { "Wahl" : ["Tulamidya", "Mohisch"], "Werte" : [5] }, { "Wahl" : ["Tulamidya", "Rogolan"], "Werte" : [-5] }, { "Wahl" : ["Ackerbau", "Hauswirtschaft", "Viehzucht"], "Werte" : [1] }, { "Wahl" : ["Ackerbau", "Hauswirtschaft"], "Werte" : [-1] }], "Armbrust" : -1, "Speere" : 1, "Infanteriewaffen" : -1, "Raufen" : 1, "Ringen" : 1, "Fechtwaffen" : -1, "Athletik" : 1, "Etikette" : -1, "Gassenwissen" : -2, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Fischen/Angeln" : 1, "Wildnisleben" : 2, "Rechtskunde" : -1, "Holzbearbeitung" : 1 }
+			},
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Schwerter" : 1, "Infanteriewaffen" : -1, "Reiten" : 2, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
+			}
+		}
+	},
+	"Zyklopeninseln" : {
+		"Kosten" : 4,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Entfernungssinn" : {}, "Feenfreund" : {}, "Gut Aussehend" : {}, "Innerer Kompass" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Eitelkeit" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Nachteile" : { "Meeresangst" : {}, "Platzangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Haindruide", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Geweihter des Aves"],
+		"Talente" : { "Dolche" : 1, "Raufen" : 2, "Ringen" : 2, "Schleuder" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 2, "Schwimmen" : 2, "Tanzen" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Götter/Kulte" : 2, "Philosophie" : 1, "Sagen/Legenden" : 2, "Boote Fahren" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Seefahrt" : 1, "Viehzucht" : 1 },
+		"Verbilligte Sonderfertigkeiten" : { "Meereskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Garethi", "Zyklopäisch"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen", "Zyklopäisch" : "Kusliker Zeichen" }, "Zweitsprache" : [["Garethi", "Zyklopäisch"]] },
+		"Kulturkunde": "Zyklopeninseln",
+		"Namen" : ["Zyklopäische Namen"],
+		"Varianten" : {
+			"Landadel" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Bogen" : 1, "Schleuder" : -1, "Hiebwaffen" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
+			}
+		}
+	},
+	"Amazonenburg" : {
+		"Kosten" : 7,
+		"Eigenschaften" : { "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
+		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Vorurteile" : [{ "Freitext" : "Männer", "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Beidhändig" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Prinzipientreue" : [{}], "Weltfremd" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Kurzatmig" : {}, "Niedrige Lebenskraft" : {}, "Schlechte Regeneration" : {} },
+		"Professionen" : ["Amazone", "Kundschafter", "Plättner", "Sattler", "Schreiner", "Schuster", "Waffenschmied", "Zureiter", "Wundarzt", "Geweihter der Rondra", "Rondrageweihte Amazone"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Wurfspeere"], "Werte" : [4] }, { "Wahl" : ["Säbel", "Schwerter"], "Werte" : [2] }], "Dolche" : 2, "Raufen" : 2, "Ringen" : 2, "Stäbe" : 2, "Athletik" : 2, "Körperbeherrschung" : 3, "Reiten" : 3, "Selbstbeherrschung" : 3, "Etikette" : 1, "Gassenwissen" : -2, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 2, "Sagen/Legenden" : 2, "Abrichten" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Amazonen",
+		"Namen" : ["Mittelländische Namen", "Bornländische Namen", "Almadanische Namen"]
+	},
+	"Aranien" : {
+		"Kosten" : 2,
+		"Empfohlene Vorteile" : { "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Professionen" : ["Amazone", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Hexe", "Magier", "Scharlatan", "Schelm", "Aranischer Majuna", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Magiekunde", "Philosophie"], "Werte" : [1] }, { "Wahl" : ["Abrichten", "Musizieren", "Webkunst"], "Werte" : [1] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [3] }], "Dolche" : 1, "Raufen" : 1, "Ringen" : 1, "Säbel" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Tanzen" : 1, "Etikette" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Brett-/Kartenspiel" : 1, "Götter/Kulte" : 1, "Rechnen" : 1, "Sagen/Legenden" : 2, "Schätzen" : 1, "Hauswirtschaft" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi", "Tulamidya"]], "Zweitsprache" : [["Garethi", "Tulamidya"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen", "Tulamidya" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Aranien",
+		"Namen" : ["Aranische Namen"],
+		"Varianten" : {
+			"Frauen" : {
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Hexe", "Magier", "Scharlatan", "Schelm", "Aranischer Majuna", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
+				"Talente" : { "Etikette" : 1, "Menschenkenntnis" : 1 }
+			},
+			"Männer" : {
+				"Voraussetzungen" : { "Geschlecht" : "männlich" },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [1] }] }
+			},
+			"Stadt" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Gassenwissen" : 1, "Überreden" : 1 },
+				"Sonderfertigkeiten" : { "Ortskenntnis" : [{}] }
+			},
+			"Küstengebiete oder am Barun-Ulah" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Geographie" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Adel" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Reiten", "Fahrzeug Lenken"], "Werte" : [1] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [2] }], "Säbel" : 1, "Etikette" : 2, "Geschichtswissen" : 1, "Rechtskunde" : 1 }
+			}
+		}
+	},
+	"Mhanadistan" : {
+		"Kosten" : 0,
+		"Empfohlene Vorteile" : { "Hitzeresistenz" : {}, "Richtungssinn" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Koboldfreund" : {} },
+		"Professionen" : ["Amazone", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Druide", "Hexe", "Magier", "Scharlatan", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Speere"], "Werte" : [1] }, { "Wahl" : ["Abrichten", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Hauswirtschaft", "Stoffe Färben", "Töpfern", "Webkunst", "Winzer"], "Werte" : [1] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [3] }], "Dolche" : 1, "Raufen" : 1, "Ringen" : 1, "Tanzen" : 1, "Etikette" : 1, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Brett-/Kartenspiel" : 1, "Götter/Kulte" : 1, "Sagen/Legenden" : 3, "Ackerbau" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Viehzucht" : 2 },
+		"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Zweitsprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } },
+		"Kulturkunde" : "Tulamidenlande",
+		"Namen" : ["Tulamidische Namen"],
+		"Varianten" : {
+			"Mhanadistan" : {},
+			"An wichtigen Handelsrouten" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Etikette" : 1, "Menschenkenntnis" : 1, "Geographie" : 1, "Rechnen" : 1, "Schätzen" : 1 }
+			},
+			"Fern der Zivilisation" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Schleuder", "Zweihandflegel"], "Werte" : [1] }, { "Wahl" : ["Athletik", "Klettern"], "Werte" : [1] }], "Selbstbeherrschung" : 1, "Überreden" : -1, "Orientierung" : 1, "Wildnisleben" : 1, "Kochen" : 1 },
+				"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } }
+			},
+			"Küstengebiete oder an großen Flüssen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Seefahrt", "Boote Fahren"], "Werte" : [1] }], "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Wettervorhersage" : 1, "Geographie" : 1 }
+			},
+			"Tulamidische Nomadenstämme" : {
+				"kombinierbar" : true,
+				"Kosten" : 2,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Schleuder"], "Werte" : [1] }], "Athletik" : 1, "Körperbeherrschung" : 1, "Reiten" : 2, "Etikette" : -1, "Überreden" : -2, "Orientierung" : 1, "Wildnisleben" : 1, "Rechnen" : 1, "Ackerbau" : -1 },
+				"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Zweitsprache" : [["Garethi", "Ferkina"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } }
+			},
+			"Kasimiten" : {
+				"Kosten" : 1,
+				"Nachteile" : { "Vorurteile" : [{ "Freitext" : "jeder, der nicht aus der Khôm stammt", "Stufe" : 5 }] },
+				"Talente" : { "Ringen" : 2, "Götter/Kulte" : 2, "Rechtskunde" : 2, "Sagen/Legenden" : 2 },
+				"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } },
+				"Verbilligte Sonderfertigkeiten" : { "Unauer Schule" : {} },
+				"Varianten" : {
+					"Männer" : {
+						"Voraussetzungen" : { "Geschlecht" : "männlich" },
+						"Professionen" : ["Gardist", "Söldner", "Stammeskrieger", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Straßenräuber", "Alchimist", "Derwisch", "Stammeskrieger der Beni Dervez"]
+					},
+					"Frauen" : {
+						"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+						"Professionen" : ["Achmad'sunni", "Hirte", "Sammler", "Bauer", "Brot- und Zuckerbäcker", "Koch", "Schneider", "Töpfer", "Weber", "Wundarzt", "Tulamidische Sharisad"]
+					}
+				}
+			}
+		}
+	},
+	"Tulamidische Stadtstaaten" : {
+		"Kosten" : 3,
+		"Basiswerte" : { "Magieresistenz" : 1 },
+		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Glück" : {}, "Glück im Spiel" : {}, "Hitzeresistenz" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Eitelkeit" : {}, "Goldgier" : {}, "Jähzorn" : {}, "Neugier" : {}, "Schulden" : {}, "Speisegebote" : [{}], "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {} },
+		"Ungeeignete Nachteile" : { "Angst vor" : [{ "Freitext" : "Menschenmassen" }], "Raumangst" : {} },
+		"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Karawanenführer", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Schöne der Nacht", "Seherin von Heute und Morgen", "Magier", "Scharlatan", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Taschendiebstahl", "Gaukeleien"], "Werte" : [1] }], "Dolche" : 2, "Raufen" : 1, "Ringen" : 2, "Säbel" : 1, "Schleichen" : 1, "Sich Verstecken" : 1, "Tanzen" : 1, "Etikette" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Sich Verkleiden" : 1, "Überreden" : 1, "Brett-/Kartenspiel" : 2, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Rechnen" : 1, "Rechtskunde" : 1, "Sagen/Legenden" : 2, "Schätzen" : 2, "Hauswirtschaft" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Zweitsprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } },
+		"Kulturkunde" : "Tulamidenlande",
+		"Namen" : ["Tulamidische Namen"],
+		"Varianten" : {
+			"Männer" : {
+				"Voraussetzungen" : { "Geschlecht" : "männlich" }
+			},
+			"Frauen" : {
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Professionen" : ["Amazone", "Krieger", "Schwertgeselle", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Karawanenführer", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Schöne der Nacht", "Seherin von Heute und Morgen", "Magier", "Scharlatan", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"]
+			},
+			"See- oder Mhanadihafen" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Seefahrt", "Boote Fahren"], "Werte" : [1] }], "Schwimmen" : 2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Wettervorhersage" : 1, "Geographie" : 1 }
+			},
+			"Maraskanische Exilanten" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Basiswerte" : { "Magieresistenz" : 1 },
+				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+				"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Karawanenführer", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Schöne der Nacht", "Seherin von Heute und Morgen", "Magier", "Scharlatan", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer", "Tempelpriester von Rur und Gror", "Wanderpriester von Rur und Gror"],
+				"Talente" : { "Diskus" : 2, "Selbstbeherrschung" : 1, "Sich Verkleiden" : 1, "Götter/Kulte" : 1, "Philosophie" : 1 },
+				"Namen" : ["Maraskanische Namen"]
+			},
+			"Kasimiten" : {
+				"Kosten" : 4,
+				"Nachteile" : { "Vorurteile" : [{ "Freitext" : "jeder, der nicht aus der Khôm stammt", "Stufe" : 5 }] },
+				"Talente" : { "Ringen" : 2, "Götter/Kulte" : 2, "Rechtskunde" : 2, "Sagen/Legenden" : 2 },
+				"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } },
+				"Verbilligte Sonderfertigkeiten" : { "Unauer Schule" : {} },
+				"Varianten" : {
+					"Männer" : {
+						"Voraussetzungen" : { "Geschlecht" : "männlich" },
+						"Professionen" : ["Gardist", "Söldner", "Stammeskrieger", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Straßenräuber", "Alchimist", "Derwisch", "Stammeskrieger der Beni Dervez"]
+					},
+					"Frauen" : {
+						"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+						"Professionen" : ["Achmad'sunni", "Hirte", "Sammler", "Bauer", "Bäcker", "Koch", "Schneider", "Töpfer", "Weber", "Wundarzt", "Tulamidische Sharisad"]
+					}
+				}
+			}
+		}
+	},
+	"Novadi" : {
+		"Kosten" : 2,
+		"Eigenschaften" : { "MU" : 1 },
+		"Basiswerte" : { "Ausdauer" : 2 },
+		"Vorteile" : { "Hitzeresistenz" : {}, "Richtungssinn" : {} },
+		"Nachteile" : { "Wahl" : [{ "Arroganz" : { "Stufe" : 5 }, "Rachsucht" : { "Stufe" : 5 } }], "Jähzorn" : { "Stufe" : 6 }, "Raumangst" : { "Stufe" : 6 }, "Speisegebote" : [{}] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Schwer zu verzaubern" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Jähzorn" : {}, "Meeresangst" : {}, "Prinzipientreue" : [{ "Freitext" : "99 Gesetze" }], "Rachsucht" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Krankheitsanfällig" : {}, "Lichtempfindlich" : {}, "Lichtscheu" : {}, "Platzangst" : {} },
+		"Professionen" : ["Novadischer Wüstenkrieger", "Entdecker", "Fernhändler", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Bandit", "Erzähler", "Händler", "Bauer", "Domestik", "Anatom", "Historiker", "Mathematicus", "Mawdli", "Medicus", "Philosoph / Metaphysiker", "Sprachenkundler", "Sternkundiger", "Völkerkundler / Sagenkundler" , "Handwerker", "Tagelöhner", "Tierbändiger", "Wundarzt", "Derwisch", "Zauberschule des Kalifen zu Mherwed", "Stammeskrieger der Beni Dervez", "Hadjinim"],
+		"Talente" : { "Bogen" : 1, "Dolche" : 1, "Lanzenreiten" : 1, "Raufen" : 1, "Ringen" : 1, "Säbel" : 1, "Speere" : 1, "Wurfspeere" : 1, "Athletik" : 1, "Körperbeherrschung" : 1, "Reiten" : 3, "Schwimmen" : -1, "Sinnenschärfe" : 1, "Tanzen" : 1, "Orientierung" : 3, "Wildnisleben" : 1, "Brett-/Kartenspiel" : 2, "Götter/Kulte" : 1, "Rechnen" : 1, "Rechtskunde" : 1, "Sagen/Legenden" : 1, "Schätzen" : 1, "Sternkunde" : 1, "Boote Fahren" : -1, "Viehzucht" : 2 },
+		"Voraussetzungen" : { "Geschlecht" : "männlich" },
+		"Sonderfertigkeiten" : { "Wüstenkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Unauer Schule" : {} },
+		"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Muttersprache:Schrift" : { "Tulamidya" : "Geheiligte Glyphen von Unau" } },
+		"Kulturkunde" : "Novadi",
+		"Namen" : ["Novadische Namen"],
+		"Varianten" : {
+			"Männer" : {
+				"Varianten" : {
+					"Wüstenoase" : {
+						"kombinierbar" : true,
+						"Kosten" : -2,
+						"Talente" : { "Bogen" : -1, "Lanzenreiten" : -1, "Wurfspeere" : -1, "Klettern" : 2, "Reiten" : -2, "Menschenkenntnis" : 1, "Überreden" : 1, "Orientierung" : -2, "Ackerbau" : 1 }
+					}
+				}
+			},
+			"Achmad'Sunni" : {
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Varianten" : {
+					"Wüstenoase" : {
+						"kombinierbar" : true,
+						"Kosten" : -2,
+						"Talente" : { "Bogen" : -1, "Lanzenreiten" : -1, "Wurfspeere" : -1, "Klettern" : 2, "Reiten" : -2, "Menschenkenntnis" : 1, "Überreden" : 1, "Orientierung" : -2, "Ackerbau" : 1 }
+					}
+				}
+			},
+			"Frauen" : {
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Kosten" : -2,
+				"Eigenschaften" : { "MU" : -1 },
+				"Basiswerte" : { "Ausdauer" : -1 },				
+				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Schwer zu verzaubern" : {}, "Zäher Hund" : {} },
+				"Professionen" : ["Entdecker", "Fernhändler", "Hirte", "Kundschafter", "Prospektor", "Bandit", "Barde", "Gaukler", "Händler", "Streuner", "Bauer", "Domestik", "Tierbändiger", "Tagelöhner", "Wundarzt", "Novadische Sharisad"],
+				"Talente" : { "Bogen" : -1, "Lanzenreiten" : -1, "Raufen" : 1, "Ringen" : -1, "Säbel" : -1, "Speere" : -1, "Wurfspeere" : -1, "Reiten" : -1, "Schleichen" : 1, "Sich Verstecken" : 1, "Tanzen" : 2, "Betören" : 1, "Lehren" : 1, "Überreden" : 1, "Brett-/Kartenspiel" : 1, "Sagen/Legenden" : 2, "Heilkunde Gift" :1, "Heilkunde Krankheiten" : 1, "Heilkunde Seele" : 1, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 1, "Kochen" : 1, "Lederarbeiten" : 2, "Schneidern" : 1, "Viehzucht" : -2 },
+				"Verbilligte Sonderfertigkeiten" : {},
+				"Varianten" : {
+					"Wüstenoase" : {
+						"kombinierbar" : true,
+						"Kosten" : -1,
+						"Talente" : { "Athletik" : -1, "Körperbeherrschung" : -1, "Reiten" : -1, "Orientierung" : -2, "Ackerbau" : 1, "Hauswirtschaft" : 1, "Lederarbeiten" : 1 }
+					}
+				}
+			}
+		}
+	},
+	"Ferkina" : {
+		"Kosten" : 11,
+		"Eigenschaften" : { "MU" : 2, "KL" : -1, "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 5, "Magieresistenz" : -2 },
+		"Sozialstatus:Maximum" : 5,
+		"Nachteile" : { "Rachsucht" : { "Stufe" : 5 }, "Randgruppe" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Hohe Lebenskraft" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Blutrausch" : {}, "Jähzorn" : {}, "Meeresangst" : {}, "Speisegebote" : [{ "Freitext" : "keine Pflanzen außer Rauschmitteln" }], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}], "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Einbeinig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Niedrige Lebenskraft" : {}, "Schulden" : {} },
+		"Professionen" : ["Gladiator", "Söldner", "Stammeskrieger", "Botenreiter", "Großwildjäger", "Hirte", "Jäger", "Prospektor", "Schiffer", "Straßenräuber", "Barde", "Dieb", "Tauschhändler", "Streuner", "Archaische Handwerker der Ferkinas", "Viehzüchter", "Tierbändiger", "Wundarzt", "Druide", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Schleuder", "Wurfspeere", "Wurfbeile"], "Werte" : [1] }, { "Wahl" : ["Abrichten", "Fleischer", "Gerber/Kürschner", "Heilkunde Gift"], "Werte" : [2] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 2, "Ringen" : 2, "Athletik" : 1, "Klettern" : 2, "Körperbeherrschung" : 2, "Reiten" : 1, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Überreden" : 2, "Fährtensuchen" : 2, "Fallenstellen" : 1, "Orientierung" : 2, "Wettervorhersage" : 1, "Wildnisleben" : 3, "Gesteinskunde" : 1, "Götter/Kulte" : 1, "Pflanzenkunde" : 1, "Rechnen" : 1, "Sagen/Legenden" : 2, "Sternkunde" : 1, "Tierkunde" : 1, "Feuersteinbearbeitung" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Viehzucht" : 2 },
+		"Sonderfertigkeiten" : { "Gebirgskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Ferkina"]], "Zweitsprache" : [["Tulamidya"]] },
+		"Kulturkunde" : "Ferkina",
+		"Namen" : ["Namen der Ferkinas"]
+	},
+	"Zahori" : {
+		"Kosten" : 2,
+		"Eigenschaften" : { "CH" : 2 },
+		"Basiswerte" : { "Magieresistenz" : -1 },
+		"Sozialstatus:Maximum" : 8,
+		"Nachteile" : { "Rachsucht" : { "Stufe" : 5 }, "Randgruppe" : {} },
+		"Empfohlene Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Akrobatik" }, { "Auswahl" : "Athletik" }, { "Auswahl" : "Fliegen" }, { "Auswahl" : "Gaukeleien" }, { "Auswahl" : "Klettern" }, { "Auswahl" : "Körperbeherrschung" }, { "Auswahl" : "Reiten" }, { "Auswahl" : "Schleichen" }, { "Auswahl" : "Schwimmen" }, { "Auswahl" : "Selbstbeherrschung" }, { "Auswahl" : "Sich Verstecken" }, { "Auswahl" : "Singen" }, { "Auswahl" : "Sinnenschärfe" }, { "Auswahl" : "Skifahren" }, { "Auswahl" : "Stimmen Imitieren" }, { "Auswahl" : "Tanzen" }, { "Auswahl" : "Taschendiebstahl" }, { "Auswahl" : "Zechen" }], "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Breitgefächerte Bildung" : {}, "Glück" : {}, "Glück im Spiel" : {}, "Gut Aussehend" : {}, "Richtungssinn" : {}, "Soziale Anpassungsfähigkeit" : {}, "Vom Schicksal begünstigt" : {}, "Wohlklang" : {}, "Empathie" : {}, "Gefahreninstinkt" : {}, "Geräuschhexerei" : {}, "Magiegespür" : {}, "Prophezeien" : {}, "Tierempathie" : {}, "Zwergennase" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Eitelkeit" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Jähzorn" : {}, "Neugier" : {}, "Schulden" : {}, "Unstet" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Kampfrausch" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Prinzipientreue" : [{}] },
+		"Professionen" : ["Schaukämpfer", "Söldner", "Fernhändler", "Fuhrmann", "Hirte", "Karawanenführer", "Kräutersammler", "Schmuggler", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Fahrender Händler", "Hausierer", "Gesellschafter", "Streuner", "Bader", "Goldschmied", "Feinschmied", "Grobschmied", "Instrumentenbauer", "Sattler", "Schneider", "Schuster", "Stellmacher", "Tätowierer", "Tierbändiger", "Wirt", "Wundarzt", "Hazaqi", "Hexe", "Scharlatan", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Rahja", "Geweihter des Aves"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Akrobatik", "Gaukeleien", "Taschendiebstahl"], "Werte" : [2] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Wurfmesser" : 1, "Körperbeherrschung" : 2, "Schleichen" : 1, "Sich Verstecken" : 1, "Singen" : 1, "Tanzen" : 1, "Betören" : 1, "Menschenkenntnis" : 1, "Sich Verkleiden" : 1, "Überreden" : 2, "Orientierung" : 1, "Wildnisleben" : 1, "Götter/Kulte" : 1, "Geographie" : 1, "Sagen/Legenden" : 2, "Schätzen" : 1, "Sternkunde" : 1, "Atak" : 4, "Fahrzeug Lenken" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Schneidern" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Tulamidya"]], "Zweitsprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Tulamidya" : "Tulamidya (Schrift)" } },
+		"Kulturkunde" : "Zahori",
+		"Namen" : ["Namen der Zahori"]
+	},
+	"Thorwal" : {
+		"Kosten" : 4,
+		"Basiswerte" : { "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 10,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Neugier" : {}, "Rachsucht" : {}, "Raumangst" : {}, "Verpflichtungen" : [{ "Freitext" : "Ottajasko" }], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Meeresangst" : {}, "Platzangst" : {} },
+		"Professionen" : ["Krieger", "Soldat", "Söldner", "Entdecker", "Fernhändler", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Ausrufer", "Skalde", "Gaukler", "Händler", "Bader", "Bauer", "Bergmann", "Edelhandwerker", "Gelehrter", "Handwerker", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Haindruide", "Mehrer der Macht", "Sumupriester", "Godi", "Heilari", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Efferd", "Geweihter der Travia", "Geweihter des Firun", "Geweihter der Ifirn", "Geweihter des Swafnir"],
+		"Talente" : { "Hiebwaffen" : 1, "Raufen" : 2, "Wurfbeile" : 2, "Athletik" : 1, "Körperbeherrschung" : 1, "Schwimmen" : 3, "Zechen" : 3, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 3, "Orientierung" : 3, "Götter/Kulte" : 1, "Sagen/Legenden" : 4, "Sternkunde" : 1, "Boote Fahren" : 2, "Holzbearbeitung" : 1, "Seefahrt" : 2 },
+		"Verbilligte Sonderfertigkeiten" : { "Meereskundig" : {}, "Hammerfaust" : {} },
+		"Sprachen" : { "Muttersprache" : [["Thorwalsch"]], "Zweitsprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Thorwalsch" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Thorwal",
+		"Namen" : ["Thorwalsche Namen"],
+		"Varianten" : {
+			"Thorwal" : {},
+			"Binnenland" : {
+				"Kosten" : 5,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Brauer", "Grobschmied", "Holzbearbeitung", "Lederarbeiten", "Schneidern", "Stoffe Färben", "Viehzucht", "Webkunst"], "Werte" : [1, 1] }], "Zweihand-Hiebwaffen" : 1, "Athletik" : 1, "Klettern" : 1, "Schwimmen" : -1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Fischen/Angeln" : -2, "Orientierung" : -1, "Wildnisleben" : 2, "Boote Fahren" : -1, "Seefahrt" : -2 },
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Gebirgskundig" : {}, "Eiskundig" : {} }], "Hammerfaust" : {} }
+			},
+			"Sippe" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 1 },
+				"Kosten" : 4,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Verpflichtungen" : [{ "Freitext" : "Sippe" }] },
+				"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Unstet" : {} },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Reiten", "Skifahren"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Grobschmied", "Lederarbeiten", "Schneidern", "Seiler", "Viehzucht", "Webkunst", "Zimmermann"], "Werte" : [1, 1, 1] }], "Hiebwaffen" : 1, "Raufen" : 1, "Singen" : 1, "Götter/Kulte" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 1, "Wildnisleben" : 1, "Sternkunde" : -1, "Holzbearbeitung" : 1, "Kochen" : 1, "Seefahrt" : -1 },
+				"Varianten" : {
+					"Binnenland" : {
+						"kombinierbar" : true,
+						"Kosten" : 1,
+						"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Brauer", "Grobschmied", "Holzbearbeitung", "Lederarbeiten", "Schneidern", "Stoffe Färben", "Viehzucht", "Webkunst"], "Werte" : [1, 1] }], "Zweihand-Hiebwaffen" : 1, "Athletik" : 1, "Klettern" : 1, "Schwimmen" : -1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Fischen/Angeln" : -2, "Orientierung" : -1, "Wildnisleben" : 2, "Boote Fahren" : -1, "Seefahrt" : -2 },
+						"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Gebirgskundig" : {}, "Eiskundig" : {} }], "Hammerfaust" : {} }
+					}
+				}
+			},
+			"Ottajasko" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 2 },
+				"Kosten" : 5,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Verpflichtungen" : [{ "Freitext" : "Ottajasko" }] },
+				"Ungeeignete Nachteile" : { "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Lichtempfindlich" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Pechmagnet" : {}, "Unstet" : {} },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Grobschmied", "Lederarbeiten", "Seiler", "Zimmermann"], "Werte" : [1, 1] }], "Hiebwaffen" : 1, "Raufen" : 2, "Wurfbeile" : 1, "Wurfspeere" : 1, "Schwimmen" : 1, "Singen" : 1, "Fesseln/Entfesseln" : 1, "Orientierung" : 2, "Wettervorhersage" : 1, "Sternkunde" : 1, "Boote Fahren" : 2, "Holzbearbeitung" : 1, "Seefahrt" : 1, "Webkunst" : 1 }
+			},
+			"Söldnerottajasko Hammerfaust in Vinay/Brabak" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 2 },
+				"Kosten" : 4,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Verpflichtungen" : [{ "Freitext" : "Ottajasko" }] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Mohisch"], "Werte" : [4] }], "Hiebwaffen" : 1,  "Etikette" : 1, "Gassenwissen" : 1, "Sich Verkleiden" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Götter/Kulte" : 1, "Rechnen" : 1, "Sagen/Legenden" : 1, "Schätzen" : 1, "Boote Fahren" : 2, "Holzbearbeitung" : 1, "Seefahrt" : 1 }
+			},
+			"Söldnerottajasko Hammerfaust in Askja/Regenwald" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 2 },
+				"Kosten" : 5,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Verpflichtungen" : [{ "Freitext" : "Ottajasko" }] },
+				"Talente" : { "Hiebwaffen" : 1, "Wurfspeere" : 1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Götter/Kulte" : 1, "Sagen/Legenden" : 1, "Mohisch" : 4, "Boote Fahren" : 1, "Holzbearbeitung" : 2, "Seefahrt" : 1 },
+				"Verbilligte Sonderfertigkeiten" : { "Dschungelkundig" : {}, "Meereskundig" : {}, "Hammerfaust" : {} }
+			},
+			"Söldnerottajasko Bannerträger in Drôlsash/Drôl" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 2 },
+				"Kosten" : 7,
+				"Talente" : { "Armbrust" : 1, "Hiebwaffen" : 1, "Etikette" : 1, "Menschenkenntnis" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Rechnen" : 1, "Sagen/Legenden" : -1, "Kusliker Zeichen" : 2 },
+				"Verbilligte Sonderfertigkeiten" : { "Meereskundig" : {}, "Hammerfaust" : {}, "Schildkampf I" : {} }
+			},
+			"Söldnerottajasko Drachen von Llanka, heimatlos" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 2 },
+				"Kosten" : 4,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Rachsucht" : [{ "Stufe" : 5 }], "Verpflichtungen" : [{ "Freitext" : "Ottajasko und Tote" }] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [3] }], "Hiebwaffen" : 2, "Schwerter" : 1, "Wettervorhersage" : 3, "Magiekunde" : 1, "Rechnen" : 1, "Sagen/Legenden" : -1, "Schätzen" : 1, "Sternkunde" : 1, "Garethi" : 4, "Boote Fahren" : 2, "Seefahrt" : 2 },
+				"Sprachen" : {"Zweitsprache" : [["Tulamidya"]] }
+			}
+		}
+	},
+	"Gjalskerland" : {
+		"Kosten" : 9,
+		"Eigenschaften" : { "KO" : 1 },
+		"Basiswerte" : { "Ausdauer" : 5 },
+		"Sozialstatus:Maximum" : 6,
+		"Vorteile" : { "Kälteresistenz" : {} },
+		"Nachteile" : { "Meeresangst" : { "Stufe" : 5 }, "Totenangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Blutrausch" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Hitzeresistenz" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Einbeinig" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Lahm" : {}, "Nachtblind" : {}, "Niedrige Lebenskraft" : {}, "Platzangst" : {}, "Raumangst" : {}, "Schulden" : {}, "Verpflichtungen" : {} },
+		"Professionen" : ["Schaukämpfer", "Söldner", "Stammeskrieger", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Sammler", "Skalde", "Tauschhändler", "Viehzüchter", "Archaische Handwerker des Nordens", "Tierbändiger", "Wundarzt", "Brenoch-Dûn", "Durro-Dûn"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Fleischer", "Gerber/Kürschner", "Grobschmied", "Stoffe Färben", "Viehzucht"], "Werte" : [2] }], "Hiebwaffen" : 2, "Raufen" : 2, "Ringen" : 3, "Speere" : 2, "Zweihand-Hiebwaffen" : 1, "Athletik" : 2, "Klettern" : 1, "Körperbeherrschung" : 1, "Schwimmen" : 1, "Sinnenschärfe" : 1, "Fährtensuchen" : 2, "Fallenstellen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 2, "Wettervorhersage" : 1, "Wildnisleben" : 3, "Götter/Kulte" : 2, "Sagen/Legenden" : 2, "Ologhaijan" : 6, "Alaani" : 4, "Feuersteinbearbeitung" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Verbilligte Sonderfertigkeiten" : { "Sumpfkundig" : {}, "Gebirgskundig" : {}, "Eiskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Gjalskisch"]], "Muttersprache:Schrift" : { "Gjalskisch" : "Gjalskisch (Schrift)" } },
+		"Kulturkunde" : "Gjalskerländer",
+		"Namen" : ["Namen der Gjalskerländer"]
+	},
+	"Fjarninger" : {
+		"Kosten" : 11,
+		"Eigenschaften" : { "MU" : 1, "KL" : -1, "KO" : 1, "KK" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 6, "Magieresistenz" : -1 },
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Balance" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Meeresangst" : { "Stufe" : 5 }, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Gesellschaftliche Talente" }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Kampfrausch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Blutrausch" : {}, "Hitzeempfindlichkeit" : {}, "Jähzorn" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Feenfreund" : {}, "Hitzeresistenz" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Einbeinig" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Lahm" : {}, "Nachtblind" : {}, "Niedrige Lebenskraft" : {}, "Platzangst" : {}, "Raumangst" : {}, "Schulden" : {}, "Verpflichtungen" : {} },
+		"Professionen" : ["Söldner", "Stammeskrieger", "Jäger", "Kundschafter", "Tauschhändler", "Archaische Handwerker des Nordens", "Gerber", "Kürschner", "Grobschmied", "Schuster", "Sattler", "Skuldrun"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Alaani", "Nujuka", "Ologhaijan"], "Werte" : [4] }], "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 2, "Wurfspeere" : 1, "Zweihand-Hiebwaffen" : 2, "Athletik" : 1, "Klettern" : 2, "Körperbeherrschung" : 2, "Schwimmen" : -2, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Skifahren" : 1, "Zechen" : -1, "Fährtensuchen" : 1, "Orientierung" : 3, "Wildnisleben" : 4, "Götter/Kulte" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 1, "Feuersteinbearbeitung" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Fjarningsch"]], "Muttersprache:Schrift" : { "Fjarningsch" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Fjarninger",
+		"Namen" : ["Namen der Fjarninger"]
+	},
+	"Dschungelstämme" : {
+		"Kosten" : 11,
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Gefahreninstinkt" : {}, "Hitzeresistenz" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Eitelkeit" : { "Stufe" : 5 }, "Meeresangst" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Hohe Lebenskraft" : {}, "Resistenz gegen Gift" : [{}], "Richtungssinn" : {}, "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Platzangst" : {}, "Rachsucht" : {}, "Raumangst" : {}, "Totenangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }], "Unstet" : {} },
+		"Professionen" : ["Stammeskrieger", "Fischer", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 2, "Ringen" : 2, "Speere" : 2, "Klettern" : 2, "Körperbeherrschung" : 2, "Schleichen" : 3, "Schwimmen" : 1, "Sich Verstecken" : 3, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : -2, "Fährtensuchen" : 4, "Fallenstellen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 3, "Wildnisleben" : 5, "Pflanzenkunde" : 4, "Tierkunde" : 4, "Boote Fahren" : 1, "Feuersteinbearbeitung" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1 },
+		"Sonderfertigkeiten" : { "Dschungelkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Hruruzat" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Waldmenschen",
+		"Namen" : ["Namen der Waldmenschen"],
+		"Varianten" : {
+			"Dschungelstämme" : {},
+			"Tschopukikuha" : {
+				"Kosten" : 10,
+				"Vorteile" : { "Gefahreninstinkt" : {} },
+				"Talente" : { "Singen" : 1, "Musizieren" : 2 }
+			},
+			"Bergstämme" : {
+				"Kosten" : 10,
+				"Basiswerte" : { "Ausdauer" : 2 },
+				"Vorteile" : { "Gefahreninstinkt" : {} },
+				"Talente" : { "Klettern" : 2, "Schwimmen" : -1, "Boote Fahren" : -1, "Feuersteinbearbeitung" : 1 }
+			},
+			"Haipu" : {
+				"Kosten" : 13,
+				"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+				"Talente" : { "Klettern" : -2, "Schwimmen" : 3, "Sich Verstecken" : -1, "Fährtensuchen" : -1, "Fischen/Angeln" : 1, "Wildnisleben" : -1, "Boote Fahren" : 2 }
+			}
+		}
+	},
+	"Darna" : {
+		"Kosten" : 9,
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Viertelzauberer" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Affinität zu Geistern" : {}, "Ausdauernd" : {}, "Balance" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Hohe Lebenskraft" : {}, "Meisterhandwerk" : [{}], "Resistenz gegen Gift" : [{}], "Richtungssinn" : {}, "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Schutzgeist" : {}, "Übernatürliche Begabung" : [{}], "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Medium" : {}, "Rachsucht" : {}, "Raumangst" : {}, "Totenangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }], "Unstet" : {} },
+		"Professionen" : ["Stammeskrieger", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [3] }, { "Wahl" : ["Ackerbau", "Steinschneider/Juwelier"], "Werte" : [2] }], "Dolche" : 2, "Hiebwaffen" : 1, "Raufen" : 2, "Ringen" : 2, "Speere" : 2, "Wurfspeere" : 1, "Klettern" : 3, "Körperbeherrschung" : 2, "Schleichen" : 3, "Sich Verstecken" : 3, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : -2, "Sich Verkleiden" : -1, "Fährtensuchen" : 3, "Fallenstellen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 3, "Wildnisleben" : 4, "Gesteinskunde" : 2, "Pflanzenkunde" : 3, "Tierkunde" : 3, "Feuersteinbearbeitung" : 3, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1 },
+		"Sonderfertigkeiten" : { "Dschungelkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Hruruzat" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Waldmenschen",
+		"Namen" : ["Namen der Waldmenschen"]
+	},
+	"Verlorene Stämme" : {
+		"Kosten" : 12,
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Gefahreninstinkt" : {}, "Hitzeresistenz" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Eitelkeit" : { "Stufe" : 5 }, "Meeresangst" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Resistenz gegen Gift" : [{}], "Richtungssinn" : {}, "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Rachsucht" : {}, "Raumangst" : {}, "Totenangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }] },
+		"Professionen" : ["Söldner", "Stammeskrieger", "Fischer", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Straßenräuber", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [4] }], "Dolche" : 2, "Hiebwaffen" : 3, "Raufen" : 2, "Ringen" : 2, "Speere" : 2, "Klettern" : 1, "Körperbeherrschung" : 3, "Schleichen" : 4, "Schwimmen" : 1, "Sich Verstecken" : 3, "Sinnenschärfe" : 2, "Zechen" : -2, "Fährtensuchen" : 4, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 3, "Fischen/Angeln" : 1, "Orientierung" : 4, "Wildnisleben" : 3, "Pflanzenkunde" : 2, "Tierkunde" : 2, "Heilkunde Gift" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Dschungelkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Südaventurien" }], "Hruruzat" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Waldmenschen",
+		"Namen" : ["Namen der Waldmenschen"],
+		"Varianten" : {
+			"Verlorene Stämme" : {},
+			"Shokubunga" : {
+				"Kosten" : 11,
+				"Vorteile" : { "Gefahreninstinkt" : {} },
+				"Talente" : { "Singen" : 1, "Musizieren" : 2 },
+				"Namen" : ["Namen der Utulus"]
+			},
+			"Chirakah" : {
+				"Kosten" : 10,
+				"Basiswerte" : { "Magieresistenz" : 1 },
+				"Professionen" : ["Soldat", "Söldner", "Stammeskrieger", "Fischer", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Straßenräuber", "Tauschhändler", "Bauer", "Archaische Handwerker Südaventuriens und der Achaz", "Tagelöhner", "Tierbändiger", "Schamane"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [-2] }, { "Wahl" : ["Bogen", "Wurfspeere"], "Werte" : [1] }, { "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [1] }], "Ringen" : -1, "Klettern" : 1, "Körperbeherrschung" : -1, "Schleichen" : -2, "Schwimmen" : -1, "Sich Verstecken" : -2, "Zechen" : 1, "Fährtensuchen" : -2, "Fesseln/Entfesseln" : -3, "Orientierung" : -2, "Wildnisleben" : -1, "Tierkunde" : 1, "Heilkunde Gift" : -1, "Heilkunde Krankheiten" : 1, "Heilkunde Wunden" : 1 }
+			}
+		}
+	},
+	"Waldinsel-Utulus" : {
+		"Kosten" : 10,
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Gefahreninstinkt" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Meeresangst" : { "Stufe" : 5 }, "Totenangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Hohe Lebenskraft" : {}, "Resistenz gegen Gift" : [{}], "Richtungssinn" : {}, "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Platzangst" : {}, "Randgruppe" : {}, "Raumangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }] },
+		"Professionen" : ["Gladiator", "Söldner", "Stammeskrieger", "Fischer", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 2, "Ringen" : 2, "Speere" : 3, "Klettern" : 2, "Körperbeherrschung" : 2, "Schleichen" : 2, "Schwimmen" : 2, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Tanzen" : 2, "Zechen" : -2, "Fährtensuchen" : 3, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 2, "Fischen/Angeln" : 2, "Orientierung" : 1, "Wildnisleben" : 4, "Pflanzenkunde" : 3, "Tierkunde" : 2, "Boote Fahren" : 1, "Feuersteinbearbeitung" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Musizieren" : 3 },
+		"Sonderfertigkeiten" : { "Dschungelkundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Waldmenschen",
+		"Namen" : ["Namen der Utulus"]
+	},
+	"Miniwatu" : {
+		"Kosten" : 11,
+		"Basiswerte" : { "Ausdauer" : -2, "Magieresistenz" : 1 },
+		"Sozialstatus:Maximum" : 6,
+		"Vorteile" : { "Entfernungssinn" : {}, "Hitzeresistenz" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Hohe Lebenskraft" : {}, "Resistenz gegen Gift" : [{}], "Richtungssinn" : {}, "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Jähzorn" : {}, "Rachsucht" : {}, "Raumangst" : {}, "Totenangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Höhenangst" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Nachtblind" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }] },
+		"Professionen" : ["Sklavenaufseher", "Stammeskrieger", "Fischer", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [3] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [4] }], "Dolche" : 2, "Hiebwaffen" : 2, "Raufen" : 4, "Ringen" : 4, "Speere" : 3, "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 2, "Schwimmen" : 3, "Sich Verstecken" : 4, "Sinnenschärfe" : 2, "Zechen" : -2, "Fährtensuchen" : 3, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 2, "Fischen/Angeln" : 2, "Orientierung" : 3, "Wildnisleben" : 3, "Pflanzenkunde" : 2, "Tierkunde" : 2, "Boote Fahren" : 4, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Dschungelkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Hruruzat" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Waldmenschen",
+		"Namen" : ["Namen der Waldmenschen"]
+	},
+	"Tocamuyac" : {
+		"Kosten" : 9,
+		"Basiswerte" : { "Magieresistenz" : 1 },
+		"Sozialstatus:Maximum" : 4,
+		"Vorteile" : { "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Richtungssinn" : {} },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Höhenangst" : { "Stufe" : 5 }, "Raumangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Balance" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Innerer Kompass" : {}, "Resistenz gegen Gift" : [{}], "Schlangenmensch" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wohlklang" : {} },
+		"Empfohlene Nachteile" : { "Raumangst" : {}, "Totenangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Eisern" : {}, "Kälteresistenz" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Spinnen" }, { "Freitext" : "Reptilien" }, { "Freitext" : "Insekten" }], "Einbeinig" : {}, "Glasknochen" : {}, "Goldgier" : {}, "Krankhafte Reinlichkeit" : {}, "Krankheitsanfällig" : {}, "Meeresangst" : {}, "Nachtblind" : {}, "Schulden" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }] },
+		"Professionen" : ["Stammeskrieger", "Fischer", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [5] }], "Dolche" : 1, "Hiebwaffen" : 2, "Raufen" : 3, "Ringen" : 3, "Speere" : 2, "Wurfspeere" : 2, "Körperbeherrschung" : 3, "Schwimmen" : 5, "Sinnenschärfe" : 3, "Zechen" : -2, "Menschenkenntnis" : 1, "Fesseln/Entfesseln" : 3, "Fischen/Angeln" : 4, "Orientierung" : 4, "Wettervorhersage" : 3, "Wildnisleben" : 1, "Pflanzenkunde" : 1, "Tierkunde" : 3, "Boote Fahren" : 5, "Feuersteinbearbeitung" : 1, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 2, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Meereskundig" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Fischen/Angeln", "Freitext" : "Seefischerei" }] },
+		"Verbilligte Sonderfertigkeiten" : { "Hruruzat" : {} },
+		"Sprachen" : { "Muttersprache" : [["Mohisch"]] },
+		"Kulturkunde" : "Tocamuyac",
+		"Namen" : ["Namen der Tocamuyac"]
+	},
+	"Maraskan" : {
+		"Kosten" : 5,
+		"Eigenschaften" : { "IN" : 1 },
+		"Basiswerte" : { "Magieresistenz" : 1 },
+		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Breitgefächerte Bildung" : {}, "Gefahreninstinkt" : {}, "Hitzeresistenz" : {}, "Resistenz gegen Gift" : [{}], "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Empfohlene Nachteile" : { "Einbildungen" : [{}], "Randgruppe" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Kälteresistenz" : {}, "Kampfrausch" : {}, "Koboldfreund" : {} },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Insekten" }], "Farbenblind" : {}, "Jähzorn" : {} },
+		"Professionen" : ["Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Hexe", "Magier", "Scharlatan", "Tempelpriester von Rur und Gror", "Wanderpriester von Rur und Gror", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Schwerter"], "Werte" : [1] }, { "Wahl" : ["Infanteriewaffen", "Speere"], "Werte" : [1] }, { "Wahl" : ["Malen/Zeichnen", "Musizieren"], "Werte" : [2] }], "Diskus" : 2, "Dolche" : 1, "Raufen" : 2, "Schwimmen" : 1, "Selbstbeherrschung" : 2, "Menschenkenntnis" : 1, "Sich Verkleiden" : 1, "Überreden" : 2, "Götter/Kulte" : 2, "Pflanzenkunde" : 1, "Philosophie" : 2, "Rechnen" : 2, "Sagen/Legenden" : 2, "Tierkunde" : 1, "Ackerbau" : 1, "Heilkunde Gift" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Stoffe Färben" : 1 },
+		"Verbilligte Sonderfertigkeiten" : { "Maraskankundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Garethi", "Tulamidya"]], "Zweitsprache" : [["Garethi", "Tulamidya"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen", "Tulamidya" : "Tulamidya (Schrift)" } },
+		"Kulturkunde" : "Maraskan",
+		"Namen" : ["Maraskanische Namen"],
+		"Varianten" : {
+			"Dschungel" : {
+				"kombinierbar" : true,
+				"Kosten" : 5,
+				"Talente" : { "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Fährtensuchen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Pflanzenkunde" : 1, "Tierkunde" : 1 },
+				"Sonderfertigkeiten" : { "Maraskankundig" : {} }
+			},
+			"Küstengebiete" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wurfspeere" : 1, "Schwimmen" : 1, "Sinnenschärfe" : 1, "Fischen/Angeln" : 2, "Tierkunde" : 1, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Maraskanische Städte" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Menschenkenntnis" : 2, "Überreden" : 1, "Schätzen" : 1 }
+			}
+		}
+	},
+	"Südaventurien" : {
+		"Kosten" : 2,
+		"Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
+		"Empfohlene Vorteile" : { "Hitzeresistenz" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Arroganz" : {}, "Eitelkeit" : {}, "Goldgier" : {}, "Jähzorn" : {}, "Neugier" : {}, "Schulden" : {}, "Speisegebote" : [{}], "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Kälteresistenz" : {}, "Koboldfreund" : {} },
+		"Ungeeignete Nachteile" : { "Ansgt vor" : [{ "Freitext" : "Menschenmassen" }], "Raumangst" : {} },
+		"Professionen" : ["Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Druide", "Schöne der Nacht", "Verschwiegene Schwester", "Schwester des Wissens", "Seherin von Heute und Morgen", "Schwester der Fahrenden Gemeinschaft", "Schwarze Witwe", "Magier", "Scharlatan", "Schelm", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Krieger vom Orden des Schwarzen Raben", "Geweihter der Hesinde", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Geweihter des Aves", "Geweihter des Nandus"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Armbrust"], "Werte" : [1] }], "Dolche" : 2, "Raufen" : 1, "Ringen" : 1, "Säbel" : 1, "Schwimmen" : 1, "Sich Verstecken" : 1, "Gassenwissen" : 1, "Sich Verkleiden" : 1, "Überreden" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Rechnen" : 1, "Sagen/Legenden" : 1, "Schätzen" : 1, "Mohisch" : 4, "Tulamidya" : 4, "Boote Fahren" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Südaventurien",
+		"Namen" : ["Südländische Namen"],
+		"Varianten" : {
+			"Südaventurien" : {
+				"Varianten" : {
+					"Maraskanische Exilanten" : {
+						"kombinierbar" : true,
+						"Kosten" : 2,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+						"Talente" : { "Diskus" : 2, "Selbstbeherrschung" : 1, "Sich Verkleiden" : 1, "Götter/Kulte" : 1, "Philosophie" : 1, "Heilkunde Gift" : 1, "Stoffe Färben" : 1 },
+						"Sprachen" : { "Zweitsprache" : "Tulamidya" }
+					}
+				}
+			},
+			"Brabak" : {
+				"Kosten" : 4,
+				"Talente" : { "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Thorwalsch" : 2, "Seefahrt" : 2 }
+			},
+			"Al'Anfa" : {
+				"Kosten" : 4,
+				"Talente" : { "Gassenwissen" : 2, "Menschenkenntnis" : 2, "Götter/Kulte" : 2, "Seefahrt" : 1 },
+				"Varianten" : {
+					"Maraskanische Exilanten" : {
+						"kombinierbar" : true,
+						"Kosten" : 2,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
+						"Talente" : { "Diskus" : 2, "Selbstbeherrschung" : 1, "Sich Verkleiden" : 1, "Götter/Kulte" : 1, "Philosophie" : 1, "Heilkunde Gift" : 1, "Stoffe Färben" : 1 },
+						"Sprachen" : { "Zweitsprache" : "Tulamidya" }
+					}
+				}
+			},
+			"Charypso" : {
+				"Kosten" : 4,
+				"Talente" : { "Schwimmen" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Sylla" : {
+				"Kosten" : 4,
+				"Talente" : { "Schwimmen" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Boote Fahren" : 1, "Seefahrt" : 1 }
+			},
+			"Mengbilla" : {
+				"Kosten" : 4,
+				"Talente" : { "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Heilkunde Gift" : 1, "Seefahrt" : 1 }
+			},
+			"Khefu" : {
+				"Kosten" : 4,
+				"Talente" : { "Wildnisleben" : 2, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Geschichtswissen" : 1, "Seefahrt" : 1 }
+			},
+			"Mirham" : {
+				"Kosten" : 4,
+				"Talente" : { "Etikette" : 1, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Seefahrt" : 1 }
+			},
+			"Hôt-Alem" : {
+				"Kosten" : 4,
+				"Talente" : { "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Götter/Kulte" : 1, "Mohisch" : 4, "Seefahrt" : 1 }
+			},
+			"Chorhop" : {
+				"Kosten" : 4,
+				"Talente" : { "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Tulamidya" : 2, "Holzbearbeitung" : 2, "Seefahrt" : 1 }
+			},
+			"Kolonialhäfen" : {
+				"Kosten" : 5,
+				"Talente" : { "Hiebwaffen" : 1, "Fischen/Angeln" : 2, "Wildnisleben" : 2, "Geographie" : 1, "Mohisch" : 2, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Seefahrt" : 2 }
+			},
+			"Dschungeldorf/Plantage" : {
+				"Vorteile" : {},
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Fallenstellen"], "Werte" : [1] }], "Hiebwaffen" : 1, "Säbel" : 1, "Gassenwissen" : -1, "Wildnisleben" : 2, "Pflanzenkunde" : 2, "Tierkunde" : 1 }
+			},
+			"Selem" : {
+				"Kosten" : 4,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Philosophie", "Heilkunde Seele"], "Werte" : [1] }, { "Wahl" : ["Garethi", "Rssahh", "Tulamidya", "Zelemja", "Mohisch"], "Werte" : [2] }] },
+				"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Stammesachaz" }], "Sumpfkundig" : {} }
+			}
+		}
+	},
+	"Bukanier" : {
+		"Kosten" : 2,
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Magieresistenz" : -1 },
+		"Sozialstatus:Maximum" : 6,
+		"Nachteile" : { "Randgruppe" : {}, "Vorurteile" : [{ "Freitext" : "jegliche Obrigkeit", "Stufe" : 6 }] },
+		"Empfohlene Vorteile" : { "Gefahreninstinkt" : {}, "Hitzeresistenz" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Jähzorn" : {}, "Rachsucht" : {}, "Unstet" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Meeresangst" : {} },
+		"Professionen" : ["Gladiator", "Söldner", "Fischer", "Großwildjäger", "Jäger", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Bettler", "Dieb", "Einbrecher", "Tauschhändler", "Streuner", "Wirt", "Bauer", "Rattenfänger", "Tagelöhner", "Wundarzt", "Druide", "Schwester der Fahrenden Gemeinschaft", "Geweihter des Efferd", "Geweihter des Phex", "Geweihter des Swafnir"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }], "Bogen" : 1, "Dolche" : 1, "Raufen" : 2, "Ringen" : 2, "Körperbeherrschung" : 1, "Schleichen" : 1, "Schwimmen" : 3, "Sinnenschärfe" : 1, "Überreden" : 1, "Fährtensuchen" : 1, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 2, "Wildnisleben" : 2, "Sagen/Legenden" : 1, "Tulamidya" : 2, "Mohisch" : 2, "Thorwalsch" : 2, "Boote Fahren" : 2, "Fleischer" : 1, "Gerber/Kürschner" : 1, "Holzbearbeitung" : 1, "Kochen" : 1, "Lederarbeiten" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Garethi"]], "Muttersprache:Schrift" : { "Garethi" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Bukanier",
+		"Namen" : ["Tulamidische Namen", "Südländische Namen"]
+	},
+	"Nivesenstämme" : {
+		"Kosten" : 10,
+		"Basiswerte" : { "Ausdauer" : 5 },
+		"Sozialstatus:Maximum" : 8,
+		"Nachteile" : { "Totenangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Wolfskind" : {}, "Wolfskind, freiwillige Verwandlung" : {} },
+		"Empfohlene Nachteile" : { "Höhenangst" : {}, "Raumangst" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Hitzeresistenz" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Arroganz" : {}, "Fettleibig" : {}, "Goldgier" : {}, "Kurzatmig" : {}, "Niedrige Lebenskraft" : {}, "Platzangst" : {}, "Schulden" : {} },
+		"Professionen" : ["Fischer", "Hirte", "Jäger", "Kundschafter", "Sammler", "Tauschhändler", "Archaische Handwerker des Nordens", "Tierbändiger", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Alaani", "Garethi"], "Werte" : [5] }], "Dolche" : 1, "Raufen" : 2, "Ringen" : 2, "Speere" : 2, "Wurfbeile" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Skifahren" : 2, "Fährtensuchen" : 3, "Fischen/Angeln" : 1, "Orientierung" : 2, "Wildnisleben" : 2, "Götter/Kulte" : 2, "Rechnen" : 1, "Sagen/Legenden" : 2, "Tierkunde" : 2, "Abrichten" : 1, "Boote Fahren" : 1, "Fahrzeug Lenken" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 2, "Schneidern" : 1, "Viehzucht" : 2 },
+		"Sonderfertigkeiten" : { "Eiskundig" : {}, "Steppenkundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Talentspezialisierung" : [{ "Auswahl" : "Fahrzeug Lenken", "Freitext" : "Hundeschlitten" }] },
+		"Sprachen" : { "Muttersprache" : [["Nujuka"]] },
+		"Kulturkunde" : "Nivesen",
+		"Namen" : ["Nivesische Namen"],
+		"Varianten" : {
+			"Halbsesshafte Küstenstämme" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Professionen" : ["Fischer", "Hirte", "Jäger", "Kundschafter", "Sammler", "Robbenjäger", "Tauschhändler", "Archaische Handwerker des Nordens", "Tierbändiger", "Schamane"],
+				"Talente" : { "Schwimmen" : 1, "Boote Fahren" : 2 }
+			}
+		}
+	},
+	"Nuanaä-Lie" : {
+		"Kosten" : 7,
+		"Basiswerte" : { "Ausdauer" : 5 },
+		"Sozialstatus:Maximum" : 5,
+		"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Religion", "Stufe" : 5 }, { "Freitext" : "Adelsherrschaft", "Stufe" : 5 }, { "Freitext" : "Währung und Geld", "Stufe" : 5 }, { "Freitext" : "Rechtsprechung und Gesetze", "Stufe" : 5 }] }, { "Weltfremd" : [{ "Freitext" : "Religion", "Stufe" : 5 }, { "Freitext" : "Adelsherrschaft", "Stufe" : 5 }, { "Freitext" : "Währung und Geld", "Stufe" : 5 }, { "Freitext" : "Rechtsprechung und Gesetze", "Stufe" : 5 }] }, { "Weltfremd" : [{ "Freitext" : "Religion", "Stufe" : 5 }, { "Freitext" : "Adelsherrschaft", "Stufe" : 5 }, { "Freitext" : "Währung und Geld", "Stufe" : 5 }, { "Freitext" : "Rechtsprechung und Gesetze", "Stufe" : 5 }] }], "Randgruppe" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Gesellschaftliche Talente" }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Kampfrausch" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Viertelzauberer" : {}, "Viertelzauberer (unentdeckt)" : {}, "Wolfskind" : {}, "Wolfskind, freiwillige Verwandlung" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Angst vor (häufiger Auslöser)" : [{ "Freitext" : "Feuer" }], "Blutrausch" : {}, "Unstet" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Hitzeresistenz" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Arroganz" : {}, "Fettleibig" : {}, "Goldgier" : {}, "Platzangst" : {}, "Schulden" : {} },
+		"Professionen" : ["Jäger", "Kundschafter", "Sammler", "Tauschhändler", "Archaische Handwerker des Nordens"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Bogenbauer", "Gerber/Kürschner", "Feuersteinbearbeitung", "Fleischer"], "Werte" : [2] }], "Dolche" : 1, "Hiebwaffen" : 2, "Raufen" : 4, "Ringen" : 2, "Speere" : 3, "Athletik" : 3, "Klettern" : 3, "Körperbeherrschung" : 3, "Schleichen" : 3, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Fährtensuchen" : 4, "Fischen/Angeln" : 3, "Orientierung" : 3, "Wildnisleben" : 4, "Sagen/Legenden" : 1, "Tierkunde" : 2, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 2, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Gebirgskundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Nujuka"]] },
+		"Kulturkunde" : "Nivesen",
+		"Namen" : ["Nivesische Namen"],
+		"Varianten" : {
+			"Nauoke" : {
+				"kombinierbar" : true,
+				"Kosten" : 10,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Viertelzauberer" : {} } } },
+				"Vorteile" : { "Wolfskind, freiwillige Verwandlung" : {} },
+				"Talente" : { "Raufen" : 2, "Ringen" : 3, "Speere" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Fährtensuchen" : 1, "Orientierung" : 1, "Tierkunde" : 2 }
+			}
+		}
+	},
+	"Norbardensippe" : {
+		"Kosten" : 8,
+		"Basiswerte" : { "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 10,
+		"Nachteile" : { "Höhenangst" : { "Stufe" : 6 }, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Breitgefächerte Bildung" : {}, "Gutes Gedächtnis" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {} },
+		"Empfohlene Nachteile" : { "Goldgier" : {}, "Raumangst" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} },
+		"Ungeeignete Nachteile" : { "Arroganz" : {}, "Platzangst" : {}, "Prinzipientreue" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Professionen" : ["Gladiator", "Söldner", "Entdecker", "Fernhändler", "Fuhrmann", "Großwildjäger", "Jäger", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Ausrufer", "Barde", "Gaukler", "Händler", "Streuner", "Bader", "Sprachenkundler", "Völkerkundler", "Goldschmied", "Feinschmied", "Graveur", "Schuster", "Sattler", "Stellmacher", "Tätowierer", "Tierbändiger", "Wirt", "Wundarzt", "Hexe", "Geweihter des Aves", "Geweihter des Firun", "Geweihter der Hesinde", "Geweihter des Nandus", "Geweihter des Phex", "Scharlatan", "Zibilja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfbeile"], "Werte" : [1] }, { "Wahl" : ["Speere", "Stäbe"], "Werte" : [1] }, { "Wahl" : ["Garethi", "Nujuka"], "Werte" : [4] }], "Dolche" : 1, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Schleichen" : 1, "Schwimmen" : 1, "Singen" : 1, "Sinnenschärfe" : 1, "Tanzen" : 2, "Zechen" : 3, "Menschenkenntnis" : 3, "Überreden" : 3, "Fährtensuchen" : 1, "Orientierung" : 2, "Wildnisleben" : 2, "Geographie" : 1, "Götter/Kulte" : 2, "Rechnen" : 1, "Sagen/Legenden" : 2, "Schätzen" : 2, "Thorwalsch" : 4, "Ologhaijan" : 4, "Fahrzeug Lenken" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1, "Musizieren" : 1, "Schneidern" : 1 },
+		"Sonderfertigkeiten" : { "Wahl" : [{ "Steppenkundig" : {}, "Waldkundig" : {} }] },
+		"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Bornland" }, { "Auswahl" : "Nivesen" }], "Steppenkundig" : {}, "Waldkundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Alaani"]], "Zweitsprache" : [["Garethi", "Nujuka"]], "Muttersprache:Schrift" : { "Alaani" : "Kusliker Zeichen" } },
+		"Kulturkunde" : "Norbarden",
+		"Namen" : ["Norbardische Namen"],
+		"Varianten" : {
+			"Norbardensippe in Thorwal" : {
+				"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 3 },
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Garethi", "Nujuka", "Ologhaijan"], "Werte" : [4, 4] }], "Raufen" : 1, "Wurfbeile" : 2, "Skifahren" : 1, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1, "Orientierung" : 1 },
+				"Sonderfertigkeiten" : {},
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Gebirgskundig" : {}, "Waldkundig" : {} }], "Hammerfaust" : {} },
+				"Sprachen" : {"Zweitsprache" : [["Thorwalsch"]] }
+			}
+		}
+	},
+	"Trollzacken" : {
+		"Kosten" : 10,
+		"Eigenschaften" : { "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 4,
+		"Nachteile" : { "Randgruppe" : {}, "Unansehnlich" : {} },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Kampfrausch" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Blutrausch" : {}, "Jähzorn" : {}, "Rachsucht" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Einbeinig" : {}, "Glasknochen" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Niedrige Lebenskraft" : {}, "Schulden" : {}, "Totenangst" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }] },
+		"Professionen" : ["Stammeskrieger", "Hirte", "Jäger", "Kundschafter", "Straßenräuber", "Tauschhändler", "Bauer", "Hüter der Macht", "Schamane"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Speere", "Zweihand-Hiebwaffen"], "Werte" : [3, 1] }], "Hiebwaffen" : 2, "Raufen" : 3, "Ringen" : 2, "Schleuder" : 2, "Wurfbeile" : 1, "Athletik" : 1, "Klettern" : 2, "Körperbeherrschung" : 1, "Schleichen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 2, "Überreden" : -1, "Fährtensuchen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 4, "Götter/Kulte" : 1, "Sagen/Legenden" : 1, "Garethi" : 4, "Trollisch" : 4, "Feuersteinbearbeitung" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" : 1 },
+		"Sonderfertigkeiten" : { "Gebirgskundig" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Trolle" }] },
+		"Sprachen" : { "Muttersprache" : [["Zhulchammaqra"]] },
+		"Kulturkunde" : "Trollzacker",
+		"Namen" : ["Namen der Trollzacker"]
+	},
+	"Auelfische Sippe" : {
+		"Kosten" : 4,
+		"Sozialstatus:Maximum" : 8,
+		"Nachteile" : { "Elfische Weltsicht" : {}, "Neugier" : { "Stufe" : 5 }, "Randgruppe" : {}, "Weltfremd" : [{ "Freitext" : "Besitz", "Stufe" : 6 }, { "Freitext" : "Götterverehrung", "Stufe" : 6 }] },
+		"Empfohlene Vorteile" : { "Feenfreund" : {}, "Gefahreninstinkt" : {}, "Tierfreund" : {}, "Zauberhaar" : {} },
+		"Empfohlene Nachteile" : { "Animalische Magie" : {}, "Arroganz" : {}, "Artefaktgebunden" : {}, "Vorurteile" : [{ "Freitext" : "Menschen" }, { "Freitext" : "Zwerge" }], "Wahrer Name" : {} },
+		"Ungeeignete Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Goldgier" : {}, "Rachsucht" : {}, "Thesisgebunden" : [{}] },
+		"Professionen" : ["Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogenbau", "Boote Fahren"], "Werte" : [2], "Leittalent" : true }, { "Wahl" : ["Garethi", "Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Rogolan", "Oloarkh", "Ologhaijan", "Goblinisch"], "Werte" : [4] }], "Bogen" : 4, "Dolche" : 2, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 3, "Schwimmen" : 4, "Sich Verstecken" : 5, "Singen" : 2, "Sinnenschärfe" : 1, "Tanzen" : 2, "Betören" : 3, "Gassenwissen" : -2, "Fährtensuchen" : 3, "Fischen/Angeln" : 3, "Orientierung" : 2, "Wildnisleben" : 5, "Magiekunde" : 3, "Pflanzenkunde" : 3, "Rechtskunde" : -2, "Sagen/Legenden" : 2, "Tierkunde" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 2, "Lederarbeiten" : 2, "Musizieren" : 3, "Schneidern" : 2 },
+		"Leittalente" : ["Bogen", "Schwimmen", "Fährtensuchen", "Fischen/Angeln", "Wildnisleben", "Heilkunde Wunden"],
+		"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Klarum Purum" : "Elf", "Krötensprung" : "Elf", "Leib der Erde" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Seidenzunge Elfenwort" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Weiße Mähn' und gold'ner Huf" : "Elf", "Wellenlauf" : "Elf", "Windstille" : "Elf", "Zaubernahrung Hungerbann" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+		"Sonderfertigkeiten" : { "Sumpfkundig" : {}, "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Kampf im Wasser" : {}, "Regeneration I" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Flöte" : {}, "Handharfe" : {}, "Laute" : {}, "anderes persönliches Musikinstrument (iama)" : {} }], "Elfenbogen" : {}, "Köcher" : {}, "12 Pfeile" : {}, "Elfisches Jagdmesser" : {}, "Kleidung" : { "Kategorien" : ["Kleidung"] }, "Umhängetasche mit Nahrung, Kräutern, etc." : {} },
+		"Sprachen" : { "Muttersprache" : [["Isdira"]] },
+		"Kulturkunde" : "Auelfen",
+		"Namen" : ["Elfische Namen"],
+		"Varianten" : {
+			"Hoher Norden" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Nachteile" : { "Elfische Weltsicht" : {}, "Arroganz" : { "Stufe" : 5 }, "Randgruppe" : {}, "Weltfremd" : [{ "Freitext" : "Besitz", "Stufe" : 6 }, { "Freitext" : "Götterverehrung", "Stufe" : 6 }] },
+				"Empfohlene Vorteile" : { "Feenfreund" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Tierfreund" : {}, "Zauberhaar" : {} },
+				"Empfohlene Nachteile" : { "Animalische Magie" : {}, "Arroganz" : {}, "Artefaktgebunden" : {}, "Raumangst" : {}, "Vorurteile" : [{ "Freitext" : "Menschen" }, { "Freitext" : "Zwerge" }], "Wahrer Name" : {}, "Weltfremd" : [{ "Freitext" : "Adelsherrschaft" }, { "Freitext" : "stätisches Leben" }] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogenbau", "Boote Fahren"], "Werte" : [2], "Leittalent" : false }, { "Wahl" : ["Speere", "Wurfspeere"], "Werte" : [2] }], "Schwimmen" : -2, "Sich Verstecken" : -1, "Skifahren" : 1, "Betören" : -3, "Magiekunde" : -2, "Pflanzenkunde" : -1, "Tierkunde" : 1, "Boote Fahren" : 2 },
+				"Leittalente" : ["Bogen", "Schwimmen", "Fährtensuchen", "Fischen/Angeln", "Wildnisleben", "Boote Fahren"]
+			},
+			"verweltlicht" : {
+				"kombinierbar" : true,
+				"Kosten" : 5,
+				"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+				"Nachteile" : { "Neugier" : { "Stufe" : 5 }, "Randgruppe" : {}, "Weltfremd" : [{ "Freitext" : "Besitz", "Stufe" : 6 }, { "Freitext" : "Götterverehrung", "Stufe" : 6 }] },
+				"Sonderfertigkeiten" : { "Sumpfkundig" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Kampf im Wasser" : {} }
+			}
+		}
+	},
+	"Elfische Siedlung" : {
+		"Kosten" : 3,
+		"Sozialstatus:Maximum" : 10,
+		"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }], "Elfische Weltsicht" : {}, "Neugier" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Feenfreund" : {}, "Gefahreninstinkt" : {}, "Tierfreund" : {}, "Zauberhaar" : {} },
+		"Empfohlene Nachteile" : { "Animalische Magie" : {}, "Arroganz" : {}, "Artefaktgebunden" : {}, "Vorurteile" : [{ "Freitext" : "Zwerge" }], "Wahrer Name" : {}, "Weltfremd" : [{}] },
+		"Ungeeignete Nachteile" : { "Goldgier" : {}, "Rachsucht" : {}, "Thesisgebunden" : [{}] },
+		"Professionen" : ["Botenreiter", "Fischer", "Großwildjäger", "Hirte", "Karawanenführer", "Kundschafter", "Kräutersammler", "Lotse", "Schmuggler", "Barde", "Gaukler", "Hofkünstler", "Taugenichts", "Bauer", "Bogenbauer", "Edelsteinschleifer", "Glasbläser", "Goldschmied", "Instrumentenbauer", "Sattler", "Schneider", "Schreiner", "Steinmetz", "Töpfer", "Weber", "Tierbändiger", "Wundarzt", "Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Säbel", "Schwerter", "Speere", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [3] }, { "Wahl" : ["Abrichten", "Bogenbau", "Boote Fahren", "Heilkunde Gift", "Heilkunde Wunden"], "Punkte" : 6, "Maximum" : 5, "Anzahl:Maximum" : 2, "Leittalente" : 2 }], "Bogen" : 3, "Dolche" : 2, "Raufen" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Schwimmen" : 2, "Sich Verstecken" : 2, "Singen" : 2, "Tanzen" : 2, "Betören" : 3, "Menschenkenntnis" : 1, "Überreden" : 1, "Fährtensuchen" : 2, "Fischen/Angeln" : 1, "Wildnisleben" : 3, "Magiekunde" : 3, "Pflanzenkunde" : 2, "Rechtskunde" : -1, "Sagen/Legenden" : 2, "Tierkunde" : 2, "Holzbearbeitung" : 2, "Lederarbeiten" : 2, "Musizieren" : 3, "Schneidern" : 2 },
+		"Leittalente" : ["Bogen", "Schwimmen", "Fischen/Angeln", "Wildnisleben", "Holzbearbeitung"],
+		"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Klarum Purum" : "Elf", "Krötensprung" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Wellenlauf" : "Elf", "Windstille" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+		"Sonderfertigkeiten" : { "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Regeneration I" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Flöte" : {}, "Handharfe" : {}, "Laute" : {}, "anderes persönliches Musikinstrument (iama)" : {} }], "Elfenbogen" : {}, "12 Pfeile" : {}, "2 Sätze Kleidung" : { "Kategorien" : ["Kleidung"] }, "Gürtel mit Gürteltaschen" : {} },
+		"Sprachen" : { "Muttersprache" : [["Isdira"]], "Zweitsprache" : [["Garethi", "Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Rogolan", "Oloarkh", "Ologhaijan", "Goblinisch"]], "Leittalent" : true },
+		"Namen" : ["Elfische Namen"],
+		"Varianten" : {
+			"Auelfen" : { "Kulturkunde" : "Auelfen" },
+			"Waldelfen" : { "Kulturkunde" : "Waldelfen" },
+			"Firnelfen" : { "Kulturkunde" : "Firnelfen" },
+			"Südliche Mittellande" : {
+				"kombinierbar" : true,
+				"Kosten" : 1,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Asdharia", "Isdira (Schrift)"], "Werte" : [4] }], "Bogen" : -1, "Fährtensuchen" : -1, "Fischen/Angeln" : 1, "Wildnisleben" : -1, "Pflanzenkunde" : 1, "Sagen/Legenden" : 1, "Ackerbau" : 2 },
+				"Leittalente" : ["Bogen", "Schwimmen", "Fischen/Angeln", "Pflanzenkunde", "Holzbearbeitung"],
+			},
+			"Großstadt" : {
+				"kombinierbar" : true,
+				"Kosten" : -1,
+				"Professionen" : ["Botenreiter", "Fischer", "Großwildjäger", "Hirte", "Karawanenführer", "Kundschafter", "Kräutersammler", "Lotse", "Schmuggler", "Barde", "Einbrecher", "Gaukler", "Krämer", "Hofkünstler", "Gesellschafter", "Taugenichts", "Bader", "Bauer", "Apothekarius", "Bogenbauer", "Edelsteinschleifer", "Glasbläser", "Goldschmied", "Instrumentenbauer", "Sattler", "Schneider", "Schreiner", "Steinmetz", "Töpfer", "Weber", "Tierbändiger", "Wundarzt", "Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+				"Talente" : { "Bogen" : -2, "Schwimmen" : -2, "Überreden" : 1, "Fährtensuchen" : -1, "Wildnisleben" : -2, "Rechtskunde" : 2, "Kochen" : 1 },
+				"Leittalente" : {"Leittalente" : ["Bogen", "Schwimmen", "Fischen/Angeln", "Holzbearbeitung"] },
+			},
+			"Firnelfisch beeinflusste Siedlung" : {
+				"Kosten" : 4,
+				"Professionen" : ["Fischer", "Großwildjäger", "Karawanenführer", "Kundschafter", "Kräutersammler", "Lotse", "Schmuggler", "Haijäger", "Walfänger", "Barde", "Bogenbauer", "Edelsteinschleifer", "Glasbläser", "Goldschmied", "Instrumentenbauer", "Sattler", "Schneider", "Schreiner", "Steinmetz", "Töpfer", "Weber", "Tierbändiger", "Wundarzt", "Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+				"Talente" : { "Schwimmen" : -1, "Skifahren" : 1, "Betören" : -2, "Fischer/Angeln" : 1, "Wettervorhersage" : 1 },
+				"Kulturkunde" : "Firnelfen",
+				"Varianten" : {
+					"verweltlicht" : {
+						"Kosten" : 9,
+						"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+						"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }], "Neugier" : { "Stufe" : 5 } },
+						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+						"Verbilligte Sonderfertigkeiten" : { }
+					}
+				}
+			},
+			"Waldelfisch beeinflusste Siedlung" : {
+				"Kosten" : 5,
+				"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }], "Elfische Weltsicht" : {} },
+				"Professionen" : ["Botenreiter", "Fischer", "Großwildjäger", "Karawanenführer", "Kundschafter", "Kräutersammler", "Lotse", "Schmuggler", "Barde", "Gaukler", "Bauer", "Bogenbauer", "Edelsteinschleifer", "Glasbläser", "Goldschmied", "Instrumentenbauer", "Sattler", "Schneider", "Schreiner", "Steinmetz", "Töpfer", "Weber", "Tierbändiger", "Wundarzt", "Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+				"Talente" : { "Klettern" : 1 },
+				"Kulturkunde" : "Waldelfen",
+				"Varianten" : {
+					"verweltlicht" : {
+						"Kosten" : 10,
+						"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+						"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }] },
+						"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Herr über das Tierreich" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Katzenaugen" : "Elf", "Klarum Purum" : "Elf", "Krötensprung" : "Elf", "Leib der Erde" : "Elf", "Memorabia Falsifir" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Seidenzunge Elfenwort" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Weiße Mähn' und gold'ner Huf" : "Elf", "Wellenlauf" : "Elf", "Windstille" : "Elf", "Wipfellauf" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+						"Verbilligte Sonderfertigkeiten" : { }
+					}
+				}
+			},
+			"verweltlicht" : {
+				"Kosten" : 8,
+				"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+				"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }], "Neugier" : { "Stufe" : 5 } },
+				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+				"Verbilligte Sonderfertigkeiten" : { }
+			}
+		}
+	},
+	"Steppenelfische Sippe" : {
+		"Kosten" : 4,
+		"Sozialstatus:Maximum" : 7,
+		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Elfische Weltsicht" : {}, "Raumangst" : { "Stufe" : 10 }, "Weltfremd" : [{ "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
+		"Empfohlene Vorteile" : { "Gefahreninstinkt" : {}, "Herausragende Sicht" : {}, "Tierfreund" : {}, "Zauberhaar" : {} },
+		"Empfohlene Nachteile" : { "Animalische Magie" : {}, "Arroganz" : {}, "Artefaktgebunden" : {}, "Vorurteile" : [{ "Freitext" : "Menschen" }, { "Freitext" : "Zwerge" }, { "Freitext" : "Goblins" }], "Wahrer Name" : {}, "Weltfremd" : [{}] },
+		"Ungeeignete Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Goldgier" : {}, "Platzangst" : {}, "Rachsucht" : {}, "Thesisgebunden" : [{}] },
+		"Professionen" : ["Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Garethi", "Alaani", "Nujuka"], "Werte" : [4] }], "Bogen" : 4, "Dolche" : 2, "Speere" : 2, "Athletik" : 1, "Körperbeherrschung" : 2, "Reiten" : 5, "Schleichen" : 2, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 2, "Singen" : 2, "Sinnenschärfe" : 1, "Tanzen" : 2, "Gassenwissen" : -2, "Fährtensuchen" : 2, "Fischen/Angeln" : 2, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 5, "Magiekunde" : 2, "Pflanzenkunde" : 4, "Rechtskunde" : -2, "Sagen/Legenden" : 2, "Tierkunde" : 4, "Abrichten" : 2, "Bogenbau" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 3, "Holzbearbeitung" : 2, "Lederarbeiten" : 3, "Musizieren" : 2, "Schneidern" : 2 },
+		"Leittalente" : ["Bogen", "Reiten", "Selbstbeherrschung", "Sich Verstecken", "Fährtensuchen", "Wildnisleben", "Tierkunde", "Abrichten"],
+		"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Herr über das Tierreich" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Katzenaugen" : "Elf", "Krötensprung" : "Elf", "Leib der Erde" : "Elf", "Leib des Windes" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Seidenzunge Elfenwort" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Weiße Mähn' und gold'ner Huf" : "Elf", "Wellenlauf" : "Elf", "Windstille" : "Elf", "Zaubernahrung Hungerbann" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+		"Sonderfertigkeiten" : { "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Steppenkundig" : {}, "Tierischer Begleiter" : {}, "Freundschaftslied" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Ausweichen I" : {}, "Berittener Schütze" : {}, "Regeneration I" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Flöte" : {}, "Handharfe" : {}, "anderes persönliches Musikinstrument (iama)" : {} }], "erprobtes Elfenpony" : {}, "Elfenbogen" : {}, "Hüftköcher" : {}, "12 Pfeile" : {}, "Elfisches Jagdmesser" : {}, "Kleidung" : { "Kategorien" : ["Kleidung"] }, "Umhängetasche mit Nahrung und einfachen Heilkräutern" : {} },
+		"Besonderer Besitz" : "geschultes Elfenpony",
+		"Sprachen" : { "Muttersprache" : [["Isdira"]] },
+		"Kulturkunde" : "Steppenelfen",
+		"Namen" : ["Elfische Namen"]
+	},
+	"Waldelfische Sippe" : {
+		"Kosten" : 6,
+		"Sozialstatus:Maximum" : 8,
+		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Elfische Weltsicht" : {}, "Raumangst" : { "Stufe" : 6 }, "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
+		"Empfohlene Vorteile" : { "Balance" : {}, "Gefahreninstinkt" : {}, "Wesen der Nacht I" : {}, "Wesen der Nacht II" : {}, "Wesen der Nacht III" : {}, "Zauberhaar" : {} },
+		"Empfohlene Nachteile" : { "Albino" : {}, "Animalische Magie" : {}, "Körpergebundene Kraft" : {}, "Lichtscheu" : {}, "Wahrer Name" : {} },
+		"Ungeeignete Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Goldgier" : {}, "Jähzorn" : {}, "Rachsucht" : {}, "Thesisgebunden" : [{}] },
+		"Professionen" : ["Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Wurfspeere"], "Werte" : [3], "Leittalent" : true }, { "Wahl" : ["Garethi", "Tulamidya", "Alaani", "Nujuka", "Thorwalsch", "Rogolan", "Oloarkh", "Ologhaijan", "Goblinisch"], "Werte" : [2] }], "Dolche" : 2, "Speere" : 2, "Klettern" : 5, "Körperbeherrschung" : 2, "Schleichen" : 2, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 3, "Singen" : 2, "Sinnenschärfe" : 1, "Stimmen Imitieren" : 2, "Tanzen" : 3, "Gassenwissen" : -2, "Fährtensuchen" : 3, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 5, "Magiekunde" : 2, "Pflanzenkunde" : 5, "Rechtskunde" : -2, "Sagen/Legenden" : 2, "Tierkunde" : 5, "Bogenbau" : 2, "Heilkunde Gift" : 2, "Heilkunde Wunden" : 3, "Holzbearbeitung" : 5, "Lederarbeiten" : 5, "Musizieren" : 5, "Schneidern" : 3 },
+		"Leittalente" : ["Klettern", "Sich Verstecken", "Fährtensuchen", "Wildnisleben", "Pflanzenkunde", "Tierkunde", "Holzbearbeitung"],
+		"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Herr über das Tierreich" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Katzenaugen" : "Elf", "Krötensprung" : "Elf", "Leib der Erde" : "Elf", "Memorabia Falsifir" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Seidenzunge Elfenwort" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Weiße Mähn' und gold'ner Huf" : "Elf", "Wellenlauf" : "Elf", "Windstille" : "Elf", "Wipfellauf" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+		"Sonderfertigkeiten" : { "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Waldkundig" : {}, "Freundschaftslied" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Ausweichen I" : {}, "Regeneration I" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Bogen mit 12 Pfeilen" : {}, "andere passende Jagdwaffe" : {} }, { "Flöte" : {}, "anderes persönliches Musikinstrument (iama)" : {} }], "Elfisches Jagdmesser" : {}, "Kleidung" : { "Kategorien" : ["Kleidung"] }, "Tasche mit Nahrung, Kräutern, Ersatzsehne für den Bogen, etc." : {} },
+		"Besonderer Besitz" : "geschultes Elfenpony",
+		"Sprachen" : { "Muttersprache" : [["Isdira"]] },
+		"Kulturkunde" : "Waldelfen",
+		"Namen" : ["Elfische Namen"]
+	},
+	"Firnelfische Sippe" : {
+		"Kosten" : 6,
+		"Basiswerte" : { "Ausdauer" : 2 },
+		"Sozialstatus:Maximum" : 7,
+		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Elfische Weltsicht" : {}, "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Gefahreninstinkt" : {}, "Innerer Kompass" : {}, "Zauberhaar" : {} },
+		"Empfohlene Nachteile" : { "Animalische Magie" : {}, "Artefaktgebunden" : {}, "Wahrer Name" : {}, "Vorurteile" : [{ "Freitext" : "Menschen" }, { "Freitext" : "Zwerge" }] },
+		"Ungeeignete Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Goldgier" : {}, "Platzangst" : {}, "Rachsucht" : {}, "Raumangst" : {}, "Thesisgebunden" : [{}] },
+		"Professionen" : ["Bewahrer", "Former", "Kämpfer", "Legendensänger", "Wildnisläufer", "Zauberweber"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Wurfspeere"], "Werte" : [4], "Leittalent" : true }, { "Wahl" : ["Hiebwaffen", "Säbel", "Speere"], "Werte" : [3] }, { "Wahl" : ["Alaani", "Asdharia", "Nujuka", "Thorwalsch"], "Werte" : [4] }, { "Wahl" : ["Feuersteinbearbeitung", "Gerber/Kürschner"], "Werte" : [3] }, { "Wahl" : ["Boote Fahren", "Feuersteinbearbeitung", "Gerber/Kürschner", "Heilkunde Wunden", "Holzbearbeitung", "Lederarbeiten", "Schneidern"], "Werte" : [0, 0], "Leittalent" : true }], "Dolche" : 2, "Athletik" : 2, "Klettern" : 3, "Körperbeherrschung" : 2, "Schwimmen" : 1, "Selbstbeherrschung" : 3, "Sich Verstecken" : 3, "Singen" : 1, "Sinnenschärfe" : 2, "Skifahren" : 1, "Gassenwissen" : -2, "Fährtensuchen" : 3, "Fischen/Angeln" : 2, "Orientierung" : 3, "Wettervorhersage" : 4, "Wildnisleben" : 5, "Magiekunde" : 3, "Rechtskunde" : -2, "Sagen/Legenden" : 3, "Sternkunde" : 2, "Tierkunde" : 2, "Boote Fahren" : 3, "Heilkunde Wunden" : 4, "Holzbearbeitung" : 3, "Lederarbeiten" : 4, "Musizieren" : 2, "Schneidern" : 3 },
+		"Leittalente" : ["Klettern", "Selbstbeherrschung", "Sich Verstecken", "Fischen/Angeln", "Wildnisleben"],
+		"Zauber" : { "Wahl" : [{ "Wahl" : { "Abvenenum reine Speise" : "Elf", "Adlerauge Luchsenohr" : "Elf", "Adlerschwinge Wolfsgestalt" : "Elf", "Aeolitus Windgebraus" : "Elf", "Armatrutz" : "Elf", "Attributo" : "Elf", "Axxeleratus Blitzgeschwind" : "Elf", "Balsam Salabunde" : "Elf", "Band und Fessel" : "Elf", "Bannbaladin" : "Elf", "Bärenruhe Winterschlaf" : "Elf", "Beherrschung brechen" : "Elf", "Bewegung stören" : "Elf", "Blick aufs Wesen" : "Elf", "Blick in die Gedanken" : "Elf", "Blitz dich find" : "Elf", "Chamaelioni Mimikry" : "Elf", "Einfluss bannen" : "Elf", "Eiseskälte Kämpferherz" : "Elf", "Exposami Lebenskraft" : "Elf", "Falkenauge Meisterschuss" : "Elf", "Firnlauf" : "Elf", "Flim Flam Funkel" : "Elf", "Fulminictus Donnerkeil" : "Elf", "Gedankenbilder Elfenruf" : "Elf", "Haselbusch und Ginsterkraut" : "Elf", "Hellsicht trüben" : "Elf", "Hilfreiche Tatze, rettende Schwinge" : "Elf", "Klarum Purum" : "Elf", "Leib des Eises" : "Elf", "Leib des Windes" : "Elf", "Metamorpho Gletscherform" : "Elf", "Motoricus Geisteshand" : "Elf", "Movimento Dauerlauf" : "Elf", "Nebelwand und Morgendunst" : "Elf", "Objectovoco" : "Elf", "Odem Arcanum" : "Elf", "Penetrizzel Tiefenblick" : "Elf", "Pestilenz erspüren" : "Elf", "Pfeil des Eises" : "Elf", "Pfeil der Luft" : "Elf", "Pfeil des Humus" : "Elf", "Plumbumbarum schwerer Arm" : "Elf", "Respondami Wahrheitszwang" : "Elf", "Ruhe Körper, ruhe Geist" : "Elf", "Sanftmut" : "Elf", "Sensibar Empathicus" : "Elf", "Silentium Schweigekreis" : "Elf", "Solidirid Weg aus Licht" : "Elf", "Somnigravis tiefer Schlaf" : "Elf", "Spurlos Trittlos" : "Elf", "Tiergedanken" : "Elf", "Traumgestalt" : "Elf", "Unitatio Geistesbund" : "Elf", "Verständigung stören" : "Elf", "Visibili Vanitar" : "Elf", "Wasseratem" : "Elf", "Windstille" : "Elf", "Zaubernahrung Hungerbann" : "Elf" }, "Punkte" : 100, "Verrechnungspunkte" : true, "Anzahl:Maximum" : 10, "Hauszauber" : 3, "Leittalente" : 3 }] },
+		"Sonderfertigkeiten" : { "Eiskundig" : {}, "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Konzentrationsstärke" : {}, "Regeneration I" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Elfenbogen mit 12 Pfeilen im Hüftköcher" : {}, "3 Wurfspeere" : {} }, { "Robbentöter" : {}, "Jagdspieß" : {} }, { "Beinflöte" : {}, "anderes persönliches Musikinstrument (iama)" : {} }], "Elfisches Jagdmesser" : {}, "Kleidung" : { "Kategorien" : ["Kleidung"] }, "kleiner Rucksack mit Nahrung, Schnüren, Ersatz-Pfeilspitzen, etc." : {}, "schwarzes Amulett" : { "Kategorien" : ["Kleidung"] } },
+		"Sprachen" : { "Muttersprache" : [["Isdira"]] },
+		"Kulturkunde" : "Firnelfen",
+		"Namen" : ["Elfische Namen"],
+		"Varianten" : {
+			"Firnelfische Sippe" : {},
+			"Küste und Inseln" : {
+				"Kosten" : 6,
+				"Talente" : { "Klettern" : -1, "Fährtensuchen" : -2, "Fesseln/Entfesseln" : 1, "Fischen/Angeln" : 1 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Eiskundig" : {}, "Meereskundig" : {} }], "Große Meditation" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+				"Varianten" : {
+					"verweltlicht" : {
+						"Kosten" : 11,
+						"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+						"Nachteile" : {  "Arroganz" : { "Stufe" : 5 }, "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
+						"Sonderfertigkeiten" : { "Wahl" : [{ "Eiskundig" : {}, "Meereskundig" : {} }], "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Konzentrationsstärke" : {} }
+					}
+				}
+			},
+			"verweltlicht" : {
+				"Kosten" : 11,
+				"Basiswerte" : { "Astralenergie" : -3, "Magieresistenz" : -1 },
+				"Nachteile" : {  "Arroganz" : { "Stufe" : 5 }, "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
+				"Sonderfertigkeiten" : { "Eiskundig" : {}, "Repräsentation" : [{ "Auswahl" : "Elfisch" }], "Salasandra" : [{}], "Freundschaftslied" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Konzentrationsstärke" : {} }
+			}
+		}
+	},
+	"Ambosszwerge" : {
+		"Kosten" : 0,
+		"Nachteile" : { "Platzangst" : { "Stufe" : 6 }, "Meeresangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Begabung für Talent" : [{ "Auswahl" : "Grobschmied" }], "Begabung für Talentgruppe" : [{ "Auswahl" : "Kampftalente" }], "Besonderer Besitz" : [{}], "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Veteran" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Einbildungen" : [{}], "Geiz" : {}, "Prinzipientreue" : [{}], "Schulden" : {}, "Übler Geruch" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{ "Freitext" : "Elfen" }, { "Freitext" : "Echsenartige" }] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Krankhafte Reinlichkeit" : {}, "Nachtblind" : {}, "Raumangst" : {}, "Speisegebote" : [{}], "Unstet" : {} },
+		"Professionen" : ["Gardist", "Schule des Drachenkampfes zu Xorlosch", "Soldat", "Söldner", "Fuhrmann", "Großwildjäger", "Hirte", "Prospektor", "Schmuggler", "Erzähler", "Grabräuber", "Händler", "Freibauer", "Viehzüchter", "Bergmann", "Apothekarius", "Baumeister", "Deichmeister", "Hüttenkundiger", "Bronzegießer", "Eisengießer", "Mechanikus", "Tresorbauer", "Uhrmacher", "Historiker", "Handwerker", "Tagelöhner", "Wirt", "Wundarzt", "Geode", "Magier", "Zwergischer Alchimist", "Geweihter des Angrosch", "Geweihter des Ingerimm", "Geweihter der Rondra"],
+		"Talente" : { "Armbrust" : 3, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 2, "Zweihand-Hiebwaffen" : 1, "Athletik" : 1, "Klettern" : 1, "Zechen" : 3, "Gassenwissen" : -2, "Wettervorhersage" : -2, "Gesteinskunde" : 4, "Götter/Kulte" : 1, "Mechanik" : 1, "Rechnen" : 1, "Sagen/Legenden" : 2, "Schätzen" : 3, "Bergbau" : 2, "Grobschmied" : 3 },
+		"Sonderfertigkeiten" : { "Höhlenkundig" : {}, "Rüstungsgewöhnung I" : [{ "Freitext" : "Kettenhemd" }] },
+		"Sprachen" : { "Muttersprache" : [["Rogolan"]], "Zweitsprache" : [["Garethi", "Tulamidya"]] },
+		"Kulturkunde" : "Ambosszwerge",
+		"Namen" : ["Namen der Zwerge"]
+	},
+	"Erzzwerge" : {
+		"Kosten" : 1,
+		"Eigenschaften" : { "KL" : 1, "IN" : -1 },
+		"Basiswerte" : { "Magieresistenz" : 1 },
+		"Nachteile" : { "Höhenangst" : { "Stufe" : 5}, "Platzangst" : { "Stufe" : 5 }, "Meeresangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Begabung für Talent" : [{}], "Gutes Gedächtnis" : {}, "Veteran" : {} },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Meeresangst" : {}, "Prinzipientreue" : [{}], "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adliges Erbe" : {}, "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Nachtblind" : {}, "Neugier" : {}, "Raumangst" : {}, "Unstet" : {} },
+		"Professionen" : ["Gardist", "Schule des Drachenkampfes zu Xorlosch", "Soldat", "Söldner", "Hirte", "Fernhändler", "Prospektor", "Erzähler", "Grabräuber", "Händler", "Privatlehrer", "Freibauer", "Viehzüchter", "Bergmann", "Apothekarius", "Baumeister", "Deichmeister", "Hüttenkundiger", "Bronzegießer", "Eisengießer", "Mechanikus", "Tresorbauer", "Uhrmacher", "Anatom", "Historiker", "Mathematicus", "Medicus", "Philosoph", "Metaphysiker", "Rechtsgelehrter", "Sprachenkundler", "Völkerkundler", "Sagenkundler", "Zahlenmystiker", "Handwerker", "Schreiber", "Tagelöhner", "Wirt", "Wundarzt", "Geode", "Magier", "Zwergischer Alchimist", "Geweihter des Angrosch"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hüttenkunde", "Rechtskunde", "Tierkunde"], "Werte" : [2] }, { "Wahl" : ["Grobschmied", "Kristallzucht", "Steinmetz"], "Werte" : [3] }], "Armbrust" : 1, "Dolche" : 1, "Hiebwaffen" : 1, "Zweihand-Hiebwaffen" : 1, "Athletik" : 1, "Klettern" : 1, "Selbstbeherrschung" : 2, "Singen" : 1, "Etikette" : 2, "Lehren" : 1, "Menschenkenntnis" : 2, "Fährtensuchen" : -1, "Wettervorhersage" : -2, "Wildnisleben" : -1, "Geschichtswissen" : 3, "Gesteinskunde" : 4, "Götter/Kulte" : 2, "Mechanik" : 1, "Rechnen" : 4, "Sagen/Legenden" : 3, "Schätzen" : 2, "Rogolan (Schrift)" : 8, "Bergbau" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten": 1 },
+		"Sonderfertigkeiten" : { "Höhlenkundig" : {} },
+		"Sprachen" : { "Muttersprache" : [["Rogolan"]], "Zweitsprache" : [["Garethi", "Tulamidya"]] },
+		"Kulturkunde" : "Erzzwerge",
+		"Namen" : ["Namen der Zwerge"]
+	},
+	"Hügelzwerge" : {
+		"Kosten" : 4,
+		"Eigenschaften" : { "IN" : 1 },
+		"Nachteile" : { "Meeresangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Begabung für Talent" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Neugier" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adliges Erbe" : {}, "Kampfrausch" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Dunkelangst" : {}, "Nachtblind" : {}, "Raumangst" : {} },
+		"Professionen" : ["Gardist", "Schule des Drachenkampfes zu Xorlosch", "Soldat", "Söldner", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Ausrufer", "Erzähler", "Dieb", "Gaukler", "Händler", "Schriftsteller", "Privatlehrer", "Streuner", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Anatom", "Historiker", "Mathematicus", "Medicus", "Philosoph", "Metaphysiker", "Rechtsgelehrter", "Sprachenkundler", "Sternkundiger", "Völkerkundler", "Sagenkundler", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Geode", "Magier", "Zwergischer Alchimist", "Geweihter des Angrosch", "Geweihter des Ingerimm", "Geweihter der Travia", "Geweihter der Peraine"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Kusliker Zeichen", "Rogolan (Schrift)"], "Werte" : [6] }, { "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [1] }, { "Wahl" : ["Brauer", "Grobschmied"], "Werte" : [1] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [1] }], "Armbrust" : 2, "Dolche" : 1, "Hiebwaffen" : 2, "Ringen" : 2, "Schleuder" : 1, "Schwimmen" : 2, "Zechen" : 3, "Menschenkenntnis" : 1, "Überreden" : 1, "Götter/Kulte" : 1, "Mechanik" : 1, "Rechnen" : 1, "Sagen/Legenden" : 1, "Schätzen" : 2, "Kochen" : 2, "Lederarbeiten": 1 },
+		"Sprachen" : { "Muttersprache" : [["Rogolan"]], "Zweitsprache" : [["Garethi"]] },
+		"Kulturkunde" : "Hügelzwerge",
+		"Namen" : ["Namen der Hügelzwerge"]
+	},
+	"Brillantzwerge" : {
+		"Kosten" : 3,
+		"Eigenschaften" : { "MU" : 1, "CH" : 1 },
+		"Nachteile" : { "Wahl" : [{ "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } }], "Platzangst" : { "Stufe" : 6 }, "Meeresangst" : { "Stufe" : 5 } },
+		"Empfohlene Vorteile" : { "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Eitelkeit" : {}, "Neugier" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adliges Erbe" : {}, "Kampfrausch" : {} },
+		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Nachtblind" : {}, "Raumangst" : {}, "Übler Geruch" : {}, "Unstet" : {} },
+		"Professionen" : ["Gardist", "Krieger", "Schwertgeselle", "Söldner", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Straßenräuber", "Ausrufer", "Erzähler", "Dieb", "Gaukler", "Händler", "Herold", "Hofkünstler", "Schriftsteller", "Privatlehrer", "Spitzel", "Streuner", "Taugenichts", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Anatom", "Historiker", "Mathematicus", "Medicus", "Philosoph", "Metaphysiker", "Rechtsgelehrter", "Sprachenkundler", "Sternkundiger", "Völkerkundler", "Sagenkundler", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Geode", "Magier", "Zwergischer Alchimist", "Geweihter des Angrosch", "Geweihter des Ingerimm", "Geweihter des Phex", "Geweihter der Rondra", "Geweihter der Hesinde", "Geweihter der Rahja"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Glaskunst", "Kristallzucht", "Steinschneider/Juwelier"], "Werte" : [3] }], "Armbrust" : 2, "Hiebwaffen" : 1, "Raufen" : 1, "Ringen" : 1, "Athletik" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Sich Verstecken" : 1, "Zechen" : 1, "Menschenkenntnis" : 1, "Überreden" : 1, "Wettervorhersage" : -2, "Gesteinskunde" : 1, "Götter/Kulte" : 1, "Mechanik" : 1, "Rechnen" : 1, "Sagen/Legenden" : 2, "Schätzen" : 3, "Rogolan (Schrift)" : 6, "Bergbau" : 1, "Fahrzeug Lenken" : 1, "Holzbearbeitung" : 1, "Lederarbeiten": 1, "Malen/Zeichnen" : 3, "Schlösser Knacken" : 1 },
+		"Sprachen" : { "Muttersprache" : [["Rogolan"]], "Zweitsprache" : [["Garethi", "Tulamidya"]] },
+		"Sonderfertigkeiten" : { "Höhlenkundig" : {} },
+		"Kulturkunde" : "Brillantzwerge",
+		"Namen" : ["Namen der Zwerge"]
+	},
+	"Brobim" : {
+		"Kosten" : 0,
+		"Eigenschaften" : { "MU" : 1, "FF" : -1 },
+		"Sozialstatus:Maximum" : 4,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Platzangst" : { "Stufe" : 5 }, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Handwerkstalente" }], "Vorurteile" : [{ "Freitext" : "andere Zwergenvölker", "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Hitzeresistenz" : {}, "Linkshänder" : {}, "Nachtsicht" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Angst vor" : [{ "Freitext" : "fliegenden Wesen" }], "Autoritätsgläubig" : {}, "Höhenangst" : {}, "Jähzorn" : {}, "Lichtscheu" : {}, "Meeresangst" : {}, "Übler Geruch" : {}, "Unansehnlich" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Krankhafte Reinlichkeit" : {}, "Raumangst" : {}, "Stubenhocker" : {} },
+		"Professionen" : ["Brobim-Stammeskrieger", "Sklavenjäger", "Kundschafter", "Prospektor", "Erzähler", "Tauschhändler", "Wirt", "Bauer", "Bergmann", "Rattenfänger", "Tagelöhner", "Tierbändiger", "Wundarzt", "Brobim-Geode"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Schleuder", "Wurfbeile"], "Werte" : [1] }, { "Wahl" : ["Speere", "Zweihand-Hiebwaffen"], "Werte" : [1] }, { "Wahl" : ["Alaani", "Angram", "Isdira", "Nujuka"], "Werte" : [3] }, { "Wahl" : ["Lederarbeiten", "Schneidern"], "Werte" : [1] }, { "Wahl" : ["Ackerbau", "Baukunst", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Hauswirtschaft", "Kristallzucht", "Mechanik", "Steinmetz", "Töpfern", "Zimmermann"], "Werte" : [3, 2] }], "Dolche" : 2, "Hiebwaffen" : 2, "Raufen" : 2, "Ringen" : 2, "Athletik" : 1, "Klettern" : 2, "Selbstbeherrschung" : 2, "Zechen" : 1, "Fesseln/Entfesseln" : 1, "Orientierung" : 1, "Gesteinskunde" : 2, "Rechnen" : 2, "Sagen/Legenden" : 3, "Tierkunde" : 1, "Bergbau" : 1, "Feuersteinbearbeitung" : 2, "Holzbearbeitung" : 1, "Kochen" : 1, "Viehzucht": 1 },
+		"Sprachen" : { "Muttersprache" : [["Rogolan"]] },
+		"Sonderfertigkeiten" : { "Höhlenkundig" : {} },
+		"Kulturkunde" : "Brobim",
+		"Namen" : ["Namen der Zwerge"]
+	},
+	"Orkland" : {
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Kampfrausch" : {}, "Hohe Lebenskraft" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Jähzorn" : {}, "Raumsangst" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Gesellschaftliche Talente" }], "Gut Aussehend" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Einbeinig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Kurzatmig" : {}, "Platzangst" : {}, "Prinzipientreue" : [{}], "Schulden" : {} },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [2,1] }, { "Wahl" : ["Garethi", "Thorwalsch"], "Werte" : [2] }], "Bogen" : 1, "Raufen" : 2, "Ringen" : 2, "Körperbeherrschung" : 2, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 1, "Orientierung" : 2, "Wildnisleben" : 2, "Götter/Kulte" : 1, "Pflanzenkunde" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 2, "Feuersteinbearbeitung" : 1, "Heilkunde Wunden" : 1, "Lederarbeiten" : 1, "Viehzucht": 1 },
+		"Sprachen" : { "Muttersprache" : [["Ologhaijan"]] },
+		"Kulturkunde" : "Orks",
+		"Namen" : ["Namen der Orks"],
+		"Varianten" : {
+			"Ergoch" : {
+				"Kosten" : 1,
+				"Eigenschaften" : { "MU" : -2, "KO" : 1 },
+				"Sozialstatus:Maximum" : 2,
+				"Professionen" : ["Erntehelfer", "Feldsklave", "Knecht", "Leibeigener", "Bauhelfer", "Holzfäller"],
+				"Talente" : { "Bogen" : -1, "Sich Verstecken" : 2, "Überreden" : 1 },
+				"Varianten" : {
+					"Korogai" : {
+						"Kosten" : 4,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
+					},
+					"Mokolash" : {
+						"Kosten" : 4,
+						"Talente" : { "Schwimmen" : 2, "Fischen/Angeln" : 2, "Boote Fahren" : 1 },
+						"Sonderfertigkeiten" : { "Sumpfkundig" : {} }
+					},
+					"Olochtai" : {
+						"Kosten" : 5,
+						"Basiswerte" : { "Ausdauer" : 2 },
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Speisegebote" : [{ "Freitext" : "nur rohes Fleisch" }] },
+						"Talente" : { "Ringen" : 1, "Klettern" : 2, "Wildnisleben" : 2, "Feuersteinbearbeitung" : 2 },
+						"Sonderfertigkeiten" : { "Wahl" : { "Gebirgskundig" : {}, "Eiskundig" : {} }, "Steppenkundig" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} }
+					},
+					"Orichai" : {
+						"Kosten" : 3,
+						"Talente" : { "Ackerbau" : 1, "Feuersteinbearbeitung" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" :1, "Viehzucht" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Truanzhai" : {
+						"Kosten" : 4,
+						"Talente" : { "Klettern" : 1, "Orientierung" : 1, "Wildnisleben" : 1, "Lederarbeiten" : 1 },
+						"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Steppenkundig" : {} }
+					},
+					"Tscharshai" : {
+						"Kosten" : 6,
+						"Eigenschaften" : { "KL" : 1 },
+						"Talente" : { "Überreden" : 1, "Rechnen" : 2, "Schätzen" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Zolochai" : {
+						"Kosten" : 5,
+						"Eigenschaften" : { "MU" : 1 },
+						"Talente" : { "Raufen" : 1, "Ringen" : 1, "Fährtensuchen" : 1, "Kriegskunst" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					}
+				}
+			},
+			"Grishik" : {
+				"Kosten" : 3,
+				"Sozialstatus:Maximum" : 3,
+				"Professionen" : ["Freibauer", "Viehzüchter", "Fischer", "Hirte", "Sammler"],
+				"Varianten" : {
+					"Korogai" : {
+						"Kosten" : 6,
+						"Basiswerte" : { "Magieresistenz" : 1 },						
+						"Professionen" : ["Freibauer", "Viehzüchter", "Bergmann", "Fischer", "Hirte", "Sammler", "Goldsucher"],
+						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
+					},
+					"Mokolash" : {
+						"Kosten" : 6,
+						"Talente" : { "Schwimmen" : 2, "Fischen/Angeln" : 2, "Boote Fahren" : 1 },
+						"Sonderfertigkeiten" : { "Sumpfkundig" : {} }
+					},
+					"Olochtai" : {
+						"Kosten" : 7,
+						"Basiswerte" : { "Ausdauer" : 2 },
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Speisegebote" : [{ "Freitext" : "nur rohes Fleisch" }] },
+						"Talente" : { "Ringen" : 1, "Klettern" : 2, "Wildnisleben" : 2, "Feuersteinbearbeitung" : 2 },
+						"Sonderfertigkeiten" : { "Wahl" : { "Gebirgskundig" : {}, "Eiskundig" : {} }, "Steppenkundig" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} }
+					},
+					"Orichai" : {
+						"Kosten" : 5,
+						"Talente" : { "Ackerbau" : 1, "Feuersteinbearbeitung" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" :1, "Viehzucht" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Truanzhai" : {
+						"Kosten" : 6,
+						"Talente" : { "Klettern" : 1, "Orientierung" : 1, "Wildnisleben" : 1, "Lederarbeiten" : 1 },
+						"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Steppenkundig" : {} }
+					},
+					"Tscharshai" : {
+						"Kosten" : 8,
+						"Eigenschaften" : { "KL" : 1 },
+						"Talente" : { "Überreden" : 1, "Rechnen" : 2, "Schätzen" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Zolochai" : {
+						"Kosten" : 7,
+						"Eigenschaften" : { "MU" : 1 },
+						"Talente" : { "Raufen" : 1, "Ringen" : 1, "Fährtensuchen" : 1, "Kriegskunst" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					}
+				}
+			},
+			"Drasdech" : {
+				"Kosten" : 5,
+				"Eigenschaften" : { "FF" : 1 },
+				"Sozialstatus:Maximum" : 4,
+				"Professionen" : ["Tauschhändler", "Archaische Handwerker der Orks", "Tierbändiger", "Wundarzt"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Heilkunde Wunden", "Holzbearbeitung", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Abrichten", "Bergbau", "Bogenbau", "Brauer", "Feuersteinbearbeitung", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Handel", "Heilkunde Gift", "Heilkunde Krankheiten", "Maurer", "Metallguss", "Schnaps Brennen", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Webkunst", "Zimmermann"], "Werte" : [2] }] },
+				"Varianten" : {
+					"Korogai" : {
+						"Kosten" : 8,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
+					},
+					"Mokolash" : {
+						"Kosten" : 8,
+						"Talente" : { "Schwimmen" : 2, "Fischen/Angeln" : 2, "Boote Fahren" : 1 },
+						"Sonderfertigkeiten" : { "Sumpfkundig" : {} }
+					},
+					"Olochtai" : {
+						"Kosten" : 9,
+						"Basiswerte" : { "Ausdauer" : 2 },
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Speisegebote" : [{ "Freitext" : "nur rohes Fleisch" }] },
+						"Talente" : { "Ringen" : 1, "Klettern" : 2, "Wildnisleben" : 2, "Feuersteinbearbeitung" : 2 },
+						"Sonderfertigkeiten" : { "Wahl" : { "Gebirgskundig" : {}, "Eiskundig" : {} }, "Steppenkundig" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} }
+					},
+					"Orichai" : {
+						"Kosten" : 7,
+						"Talente" : { "Ackerbau" : 1, "Feuersteinbearbeitung" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" :1, "Viehzucht" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Truanzhai" : {
+						"Kosten" : 8,
+						"Talente" : { "Klettern" : 1, "Orientierung" : 1, "Wildnisleben" : 1, "Lederarbeiten" : 1 },
+						"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Steppenkundig" : {} }
+					},
+					"Tscharshai" : {
+						"Kosten" : 10,
+						"Eigenschaften" : { "KL" : 1 },
+						"Professionen" : ["Fahrender Händler", "Fuhrmann", "Tauschhändler", "Archaische Handwerker der Orks", "Tierbändiger", "Wundarzt"],
+						"Talente" : { "Überreden" : 1, "Rechnen" : 2, "Schätzen" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Zolochai" : {
+						"Kosten" : 9,
+						"Eigenschaften" : { "MU" : 1 },
+						"Talente" : { "Raufen" : 1, "Ringen" : 1, "Fährtensuchen" : 1, "Kriegskunst" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					}
+				}
+			},
+			"Khurkach" : {
+				"Kosten" : 5,
+				"Eigenschaften" : { "MU" : 1 },
+				"Sozialstatus:Maximum" : 5,
+				"Professionen" : ["Großwildjäger", "Jäger", "Kundschafter", "Sklavenaufseher", "Orkischer Stammeskrieger"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }], "Raufen" : 1 },
+				"Varianten" : {
+					"Korogai" : {
+						"Kosten" : 8,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
+					},
+					"Mokolash" : {
+						"Kosten" : 8,
+						"Talente" : { "Schwimmen" : 2, "Fischen/Angeln" : 2, "Boote Fahren" : 1 },
+						"Sonderfertigkeiten" : { "Sumpfkundig" : {} }
+					},
+					"Olochtai" : {
+						"Kosten" : 9,
+						"Basiswerte" : { "Ausdauer" : 2 },
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Speisegebote" : [{ "Freitext" : "nur rohes Fleisch" }] },
+						"Talente" : { "Ringen" : 1, "Klettern" : 2, "Wildnisleben" : 2, "Feuersteinbearbeitung" : 2 },
+						"Sonderfertigkeiten" : { "Wahl" : { "Gebirgskundig" : {}, "Eiskundig" : {} }, "Steppenkundig" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} }
+					},
+					"Orichai" : {
+						"Kosten" : 7,
+						"Talente" : { "Ackerbau" : 1, "Feuersteinbearbeitung" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" :1, "Viehzucht" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Truanzhai" : {
+						"Kosten" : 8,
+						"Talente" : { "Klettern" : 1, "Orientierung" : 1, "Wildnisleben" : 1, "Lederarbeiten" : 1 },
+						"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Steppenkundig" : {} }
+					},
+					"Tscharshai" : {
+						"Kosten" : 10,
+						"Eigenschaften" : { "KL" : 1 },
+						"Talente" : { "Überreden" : 1, "Rechnen" : 2, "Schätzen" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Zolochai" : {
+						"Kosten" : 9,
+						"Eigenschaften" : { "MU" : 1 },
+						"Talente" : { "Raufen" : 1, "Ringen" : 1, "Fährtensuchen" : 1, "Kriegskunst" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					}
+				}
+			},
+			"Okwach" : {
+				"Kosten" : 8,
+				"Eigenschaften" : { "MU" : 1, "KL" : 1 },
+				"Sozialstatus:Maximum" : 5,
+				"Professionen" : ["Orkischer Stammeskrieger", "Gravesh-Priester", "Rikai-Priester", "Tairach-Priester"],
+				"Talente" : {  "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }], "Raufen" : 1, "Überreden" : 1 },
+				"Varianten" : {
+					"Korogai" : {
+						"Kosten" : 11,
+						"Basiswerte" : { "Magieresistenz" : 1 },
+						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
+						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
+					},
+					"Mokolash" : {
+						"Kosten" : 11,
+						"Talente" : { "Schwimmen" : 2, "Fischen/Angeln" : 2, "Boote Fahren" : 1 },
+						"Sonderfertigkeiten" : { "Sumpfkundig" : {} }
+					},
+					"Olochtai" : {
+						"Kosten" : 12,
+						"Basiswerte" : { "Ausdauer" : 2 },
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Speisegebote" : [{ "Freitext" : "nur rohes Fleisch" }] },
+						"Talente" : { "Ringen" : 1, "Klettern" : 2, "Wildnisleben" : 2, "Feuersteinbearbeitung" : 2 },
+						"Sonderfertigkeiten" : { "Wahl" : { "Gebirgskundig" : {}, "Eiskundig" : {} }, "Steppenkundig" : {} },
+						"Verbilligte Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Eiskundig" : {} }
+					},
+					"Orichai" : {
+						"Kosten" : 10,
+						"Talente" : { "Ackerbau" : 1, "Feuersteinbearbeitung" : 1, "Holzbearbeitung" : 1, "Lederarbeiten" :1, "Viehzucht" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Truanzhai" : {
+						"Kosten" : 11,
+						"Talente" : { "Klettern" : 1, "Orientierung" : 1, "Wildnisleben" : 1, "Lederarbeiten" : 1 },
+						"Sonderfertigkeiten" : { "Gebirgskundig" : {}, "Steppenkundig" : {} }
+					},
+					"Tscharshai" : {
+						"Kosten" : 13,
+						"Eigenschaften" : { "KL" : 1 },
+						"Talente" : { "Überreden" : 1, "Rechnen" : 2, "Schätzen" : 2, "Fahrzeug Lenken" : 2 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					},
+					"Zolochai" : {
+						"Kosten" : 12,
+						"Eigenschaften" : { "MU" : 1 },
+						"Talente" : { "Raufen" : 1, "Ringen" : 1, "Fährtensuchen" : 1, "Kriegskunst" : 1 },
+						"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+					}
+				}
+			}
+		}
+	},
+	"Yurach" : {
+		"Kosten" : 0,
+		"Eigenschaften" : { "MU" : -1 },
+		"Sozialstatus:Maximum" : 3,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Kampfrausch" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Arroganz" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Jähzorn" : {}, "Rachsucht" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Begabung für Talent" : [{ "Auswahl" : "Menschenkenntnis" }, { "Auswahl" : "Überreden" }, { "Auswahl" : "Betören" }, { "Auswahl" : "Etikette" }, { "Auswahl" : "Gassenwissen" }, { "Auswahl" : "Lehren" }, { "Auswahl" : "Schauspielerei" }, { "Auswahl" : "Schriftlicher Ausdruck" }, { "Auswahl" : "Sich Verkleiden" }, { "Auswahl" : "Überzeugen" }], "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Fettleibig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Prinzipientreue" : [{}] },
+		"Professionen" : ["Gladiator aus Al'Anfa", "Söldner", "Jäger", "Kundschafter", "Straßenräuber", "Feldsklave", "Rattenfänger", "Tagelöhner"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Speere"], "Werte" : [2] }], "Dolche" : 1, "Raufen" : 3, "Ringen" : 2, "Wurfspeere" : 1, "Athletik" : 1, "Körperbeherrschung" : 2, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Fährtensuchen" : 1, "Orientierung" : 1, "Wildnisleben" : 3, "Geographie" : 1, "Götter/Kulte" : 1, "Sagen/Legenden" : 2, "Schätzen" : 1, "Garethi" : 3, "Heilkunde Wunden" : 2, "Lederarbeiten": 1 },
+		"Sprachen" : { "Muttersprache" : [["Oloarkh"]] },
+		"Kulturkunde" : "Orks",
+		"Namen" : ["Namen der Orks"]
+	},
+	"Svellttal-Besatzer" : {
+		"Basiswerte" : { "Magieresistenz" : 2 },
+		"Sozialstatus:Maximum" : 5,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Arroganz" : {}, "Goldgier" : {}, "Jähzorn" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Begabung für Talent" : [{ "Auswahl" : "Menschenkenntnis" }, { "Auswahl" : "Überreden" }, { "Auswahl" : "Betören" }, { "Auswahl" : "Etikette" }, { "Auswahl" : "Gassenwissen" }, { "Auswahl" : "Lehren" }, { "Auswahl" : "Schauspielerei" }, { "Auswahl" : "Schriftlicher Ausdruck" }, { "Auswahl" : "Sich Verkleiden" }, { "Auswahl" : "Überzeugen" }], "Soziale Anpassungsfähigkeit" : {} },
+		"Ungeeignete Nachteile" : { "Krankhafte Reinlichkeit" : {}, "Prinzipientreue" : [{}] },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Viehzucht", "Bergbau"], "Werte" : [2] }], "Bogen" : 1, "Dolche" : 1, "Raufen" : 1, "Ringen" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Selbstbeherrschung" : 1, "Zechen" : 2, "Menschenkenntnis" : 1, "Überreden" : 2, "Orientierung" : 1, "Wildnisleben" : 1, "Götter/Kulte" : 2, "Sagen/Legenden" : 1, "Lederarbeiten" : 2 },
+		"Sprachen" : { "Muttersprache" : [["Ologhaijan"]], "Zweitsprache" : [["Garethi"]] },
+		"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Svellttal" }], "Sumpfkundig" : {}, "Steppenkundig" : {} },
+		"Kulturkunde" : "Orks",
+		"Namen" : ["Namen der Orks"],
+		"Varianten" : {
+			"Ergoch (Sklaven)" : {
+				"Kosten" : 1,
+				"Eigenschaften" : { "MU" : -2, "KO" : 1 },
+				"Sozialstatus:Maximum" : 2,
+				"Professionen" : ["Erntehelfer", "Feldsklave", "Knecht", "Leibeigener", "Bauhelfer", "Holzfäller"],
+				"Talente" : { "Bogen" : -1, "Sich Verstecken" : 2, "Überreden" : 1 }
+			},
+			"Grishik (Bauern)" : {
+				"Kosten" : 3,
+				"Sozialstatus:Maximum" : 4,
+				"Professionen" : ["Freibauer", "Viehzüchter", "Bergmann", "Fischer", "Hirte", "Sammler", "Goldsucher"]
+			},
+			"Drasdech (Handwerker)" : {
+				"Kosten" : 6,
+				"Eigenschaften" : { "FF" : 1 },
+				"Sozialstatus:Maximum" : 4,
+				"Professionen" : ["Fuhrmann", "Tauschhändler", "Archaische Handwerker der Orks", "Schiffer", "Schmuggler", "Streuner", "Tierbändiger", "Wundarzt"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Heilkunde Wunden", "Holzbearbeitung", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Abrichten", "Bergbau", "Bogenbau", "Brauer", "Feuersteinbearbeitung", "Fleischer", "Gerber/Kürschner", "Grobschmied", "Handel", "Heilkunde Gift", "Heilkunde Krankheiten", "Maurer", "Metallguss", "Schnaps Brennen", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Webkunst", "Zimmermann"], "Werte" : [2] }] }
+			},
+			"Khurkach (Krieger und Jäger)" : {
+				"Kosten" : 6,
+				"Eigenschaften" : { "MU" : 1 },
+				"Sozialstatus:Maximum" : 5,
+				"Professionen" : ["Gardist", "Großwildjäger", "Jäger", "Kundschafter", "Söldner", "Orkischer Stammeskrieger", "Straßenräuber"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }],"Raufen" : 1 }
+			},
+			"Okwach (Elite-Krieger, Priester, Schamanen)" : {
+				"Kosten" : 8,
+				"Eigenschaften" : { "MU" : 1, "KL" : 1 },
+				"Sozialstatus:Maximum" : 5,
+				"Professionen" : ["Orkischer Stammeskrieger", "Geweihter des Firun", "Geweihter des Ingerimm", "Gravesh-Priester", "Rikai-Priester", "Tairach-Priester"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }],"Raufen" : 1, "Überreden" : 1 }
+			}
+		}
+	},
+	"Goblinstamm" : {
+		"Eigenschaften" : { "MU" : -1, "KO" : 1 },
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 4 },
+		"Sozialstatus:Maximum" : 3,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Natur-Talente" }], "Gefahreninstinkt" : {}, "Glück" : {}, "Hohe Lebenskraft" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Neugier" : {}, "Raumangst" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Einbeinig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Kurzatmig" : {}, "Platzangst" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Speisegebote" : [{}], "Verpflichtungen" : [{}] },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Speere"], "Werte" : [1] }], "Raufen" : 2, "Ringen" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 3, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Fährtensuchen" : 1, "Fischen/Angeln" : 1, "Orientierung" : 2, "Wildnisleben" : 3, "Götter/Kulte" : 1, "Pflanzenkunde" : 2, "Sagen/Legenden" : 1, "Tierkunde" : 2, "Feuersteinbearbeitung" : 2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Lederarbeiten": 1 },
+		"Sprachen" : { "Muttersprache" : [["Goblinisch"]] },
+		"Kulturkunde" : "Goblins",
+		"Namen" : ["Namen der Stammesgoblins"],
+		"Varianten" : {
+			"Frauen" : {
+				"Kosten" : 5,
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Professionen" : ["Hirte", "Sammler", "Tauschhändler", "Archaische Handwerker des Nordens", "Goblin-Schamanin"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Schleuder", "Wurfspeere"], "Werte" : [1] }], "Heilkunde Krankheiten" : 1, "Holzbearbeitung" : 1, "Kochen" : 1, "Lederarbeiten": 1 },
+				"Varianten" : {
+					"Schneegoblins" : {
+						"kombinierbar" : true,
+						"Kosten" : 1,
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Hitzeempfindlichkeit" : {} },
+						"Professionen" : ["Hirte", "Sammler", "Robbenjäger", "Tauschhändler", "Archaische Handwerker des Nordens", "Goblin-Schamanin"],
+						"Talente" : { "Klettern" : 2, "Körperbeherrschung" : 2 },
+						"Sonderfertigkeiten" : { "Eiskundig" : {} }
+					}
+				}
+			},
+			"Männer" : {
+				"Kosten" : 4,
+				"Voraussetzungen" : { "Geschlecht" : "männlich" },
+				"Professionen" : ["Goblin-Stammeskrieger", "Hirte", "Jäger", "Kundschafter", "Sammler", "Tauschhändler"],
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Schleuder", "Wurfspeere"], "Werte" : [1] }], "Athletik" : 1, "Fährtensuchen" : 1, "Wildnisleben" : 1, "Geschichtswissen" : -2 },
+				"Varianten" : {
+					"Schneegoblins" : {
+						"kombinierbar" : true,
+						"Kosten" : 1,
+						"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }], "Hitzeempfindlichkeit" : {} },
+						"Professionen" : ["Goblin-Stammeskrieger", "Hirte", "Jäger", "Kundschafter", "Sammler", "Robbenjäger", "Tauschhändler"],
+						"Talente" : { "Klettern" : 2, "Körperbeherrschung" : 2 },
+						"Sonderfertigkeiten" : { "Eiskundig" : {} }
+					}
+				}
+			},
+			"Ebene" : {
+				"kombinierbar" : true,
+				"Kosten" : 4,
+				"Talente" : { "Reinlichkeit" : 2, "Garethi" : 3, "Abrichten" : 2 },
+				"Sonderfertigkeiten" : { "Steppenkundig" : {} }
+			},
+			"Gebirge" : {
+				"kombinierbar" : true,
+				"Kosten" : 3,
+				"Talente" : { "Klettern" : 3 },
+				"Sonderfertigkeiten" : { "Gebirgskundig" : {} }
+			}
+		}
+	},
+	"Goblinbande" : {
+		"Kosten" : 1,
+		"Eigenschaften" : { "MU" : -1 },
+		"Sozialstatus:Maximum" : 3,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Hohe Lebenskraft" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Goldgier" : {}, "Neugier" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} },
+		"Ungeeignete Nachteile" : { "Arroganz" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Speisegebote" : [{}] },
+		"Professionen" : ["Söldner", "Jäger", "Kundschafter", "Schmuggler", "Straßenräuber", "Bettler", "Dieb", "Einbrecher"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Speere"], "Werte" : [2] }], "Raufen" : 1, "Ringen" : 1, "Wurfspeere" : 1, "Athletik" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Schleichen" : 3, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Fährtensuchen" : 2, "Fallenstellen" : 2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wildnisleben" : 3, "Pflanzenkunde" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 2, "Kochen" : 1, "Lederarbeiten": 2 },
+		"Sprachen" : { "Muttersprache" : [["Goblinisch"]], "Zweitsprache" : [["Garethi"]] },
+		"Sonderfertigkeiten" : { "Ortskenntnis" : [{ "Freitext" : "Jagdrevier" }] },
+		"Kulturkunde" : "Goblins",
+		"Namen" : ["Namen der Goblinbanden"]
+	},
+	"Festumer Ghetto" : {
+		"Kosten" : 6,
+		"Eigenschaften" : { "MU" : -1, "KL" : 1 },
+		"Basiswerte" : { "Ausdauer" : -2, "Magieresistenz" : 1 },
+		"Sozialstatus:Maximum" : 7,
+		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
+		"Empfohlene Vorteile" : { "Glück" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Neugier" : {} },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {} },
+		"Ungeeignete Nachteile" : { "Arroganz" : {}, "Jähzorn" : {}, "Krankhafte Reinlichkeit" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Speisegebote" : [{}] },
+		"Professionen" : ["Gardist", "Söldner", "Kräutersammler", "Schiffer", "Schmuggler" ,"Seefahrer", "Straßenräuber", "Bettler", "Dieb", "Einbrecher", "Dompteur", "Tauschhändler", "Schieber", "Hausknecht", "Haussklave", "Handwerker", "Rattenfänger", "Tagelöhner", "Tierbändiger", "Wirt", "Geweihter des Firun", "Geweihter der Peraine"],
+		"Talente" : { "Dolche" : 2, "Infanteriewaffen" : 2, "Klettern" : 1, "Schleichen" : 1, "Schwimmen" : 2, "Selbstbeherrschung" : 1, "Sich Verstecken" : 2, "Taschendiebstahl" : 1, "Zechen" : 1, "Etikette" : 1, "Gassenwissen" : 3, "Menschenkenntnis" : 3, "Überreden" : 2, "Götter/Kulte" : 1, "Rechnen" : 1, "Sagen/Legenden" : 1, "Schätzen" : 1, "Gerber/Kürschner" : 2, "Lederarbeiten": 2, "Schneidern" : 1, "Stoffe Färben" : 2 },
+		"Sprachen" : { "Muttersprache" : [["Goblinisch"]], "Zweitsprache" : [["Garethi"]] },
+		"Sonderfertigkeiten" : { "Meister der Improvisation" : {} },
+		"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Bornland" }] },
+		"Kulturkunde" : "Goblins",
+		"Namen" : ["Namen des Festumer Ghettos"],
+		"Varianten" : {
+			"Frauen" : {
+				"kombinierbar" : true,
+				"Kosten" : 0,
+				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
+				"Professionen" : ["Gardist", "Söldner", "Kräutersammler", "Schiffer", "Schmuggler" ,"Seefahrer", "Straßenräuber", "Bettler", "Dieb", "Einbrecher", "Dompteur", "Tauschhändler", "Schieber", "Hausknecht", "Haussklave", "Handwerker", "Rattenfänger", "Tagelöhner", "Tierbändiger", "Wirt", "Wundarzt", "Goblin-Schamanin", "Geweihter des Firun", "Geweihter der Peraine"]
+			}
+		}
+	},
+	"Archaische Achaz" : {
+		"Kosten" : 9,
+		"Basiswerte" : { "Magieresistenz" : 1 },
+		"Sozialstatus:Maximum" : 5,
+		"Empfohlene Nachteile" : { "Arroganz" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Meeresangst" : {}, "Raumangst" : {}, "Schulden" : {}, "Totenangst" : {} },
+		"Professionen" : ["Söldner", "Achaz-Stammeskrieger", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Kundschafter", "Kräutersammler", "Sammler", "Schmuggler", "Seefahrer", "Apothekarius", "Baumeister", "Deichmeister", "Hüttenkundiger", "Bronzegießer", "Eisengießer", "Mechanikus", "Schiffbauer", "Uhrmacher", "Anatom", "Historiker", "Mathematicus", "Medicus", "Philosoph", "Metaphysiker", "Sprachenkundler", "Sternkundiger", "Völkerkundler", "Sagenkundler", "Handwerker", "Tierbändiger", "Wundarzt", "Kristallomant", "Priester der H'Szint", "Prister der Zsahh"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Zweihand-Hiebwaffen", "Speere"], "Werte" : [3] }, { "Wahl" : ["Blasrohr", "Wurfspeere", "Schleuder"], "Werte" : [2] }], "Ringen" : 1, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Etikette" : 1, "Menschenkenntnis" : 1, "Lehren" : 2, "Orientierung" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Geschichtswissen" : 3, "Gesteinskunde" : 2, "Götter/Kulte" : 2, "Magiekunde" : 1, "Philosophie" : 1, "Pflanzenkunde" : 2, "Rechnen" : 4, "Sagen/Legenden" : 3, "Sternkunde" : 1, "Tierkunde" : 1, "Chrmk" : 4, "Boote Fahren" : 1, "Feuersteinbearbeitung" : 1, "Heilkunde Krankheiten" : 1, "Holzbearbeitung" : 1, "Lederarbeiten": 1 },
+		"Sprachen" : { "Muttersprache" : [["Rssahh"]] },
+		"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Sumpfkundig" : {} }] },
+		"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Sumpfkundig" : {} }] },
+		"Kulturkunde" : "Archaische Achaz",
+		"Namen" : ["Namen der Achaz"]
+	},
+	"Stammes-Achaz" : {
+		"Kosten" : 10,
+		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
+		"Sozialstatus:Maximum" : 4,
+		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Zäher Hund" : {} },
+		"Empfohlene Nachteile" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
+		"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausrüstungsvorteil" : {}, "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
+		"Ungeeignete Nachteile" : { "Einbeinig" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Meeresangst" : {}, "Raumangst" : {}, "Schulden" : {}, "Totenangst" : {} },
+		"Professionen" : ["Gladiator", "Söldner", "Achaz-Stammeskrieger", "Fischer", "Großwildjäger", "Hirte", "Jäger", "Kundschafter", "Seefahrer", "Gaukler", "Tauschhändler", "Archaische Handwerker Südaventuriens und der Achaz", "Tierbändiger", "Wundarzt", "Schamane der Achaz"],
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Hiebwaffen", "Zweihand-Hiebwaffen"], "Werte" : [2] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [2] }], "Raufen" : 2, "Ringen" : 1, "Speere" : 3, "Körperbeherrschung" : 2, "Selbstbeherrschung" : 1, "Schleichen" : 1, "Schwimmen" : 2, "Sinnenschärfe" : 1, "Menschenkenntnis" : 2, "Fischen/Angeln" : 2, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 4, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Pflanzenkunde" : 2, "Sagen/Legenden" : 2, "Boote Fahren" : 2, "Feuersteinbearbeitung" : 1, "Heilkunde Krankheiten" : 1, "Holzbearbeitung" : 1, "Lederarbeiten": 1 },
+		"Sprachen" : { "Muttersprache" : [["Rssahh"]] },
+		"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Sumpfkundig" : {} }] },
+		"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Sumpfkundig" : {} }] },
+		"Kulturkunde" : "Stammesachaz",
+		"Namen" : ["Namen der Achaz"],
+		"Varianten" : {
+			"Stammes-Achaz" : {},
+			"Maraskan" : {
+				"Kosten" : 10,
+				"Talente" : { "Schwimmen" : -1, "Pflanzenkunde" : 1, "Tierkunde" : 2, "Boote Fahren" : -1 }
+			},
+			"Orkland" : {
+				"Kosten" : 10,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Blasrohr", "Wurfspeere"], "Werte" : [-2] }, { "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [-2] }, { "Wahl" : ["Ologhaijan", "Oloarkh"], "Werte" : [2] }], "Wurfspeere" : 2 },
+				"Sonderfertigkeiten" : { "Sumpfkundig" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Steppenkundig" : {} }
+			},
+			"Echsensümpfe" : {
+				"Kosten" : 11,
+				"Sonderfertigkeiten" : { "Dschungelkundig" : {}, "Sumpfkundig" : {} },
+				"Verbilligte Sonderfertigkeiten" : {}
+			},
+			"Loch Harodrol" : {
+				"Kosten" : 13,
+				"Talente" : { "Schwimmen" : 1, "Fischen/Angeln" : 2, "Tierkunde" : 2, "Boote Fahren" : 2 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Sumpfkundig" : {} }], "Talentspezialisierung" : [{ "Auswahl" : "Schwimmen", "Freitext" : "Tauchen" }] },
+			},
+			"Waldinseln/Südaventurien" : {
+				"Kosten" : 10,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Garethi", "Tulamidya"], "Werte" : [-2] }], "Mohisch" : 2 }
+			}
+		}
+	}
+}
