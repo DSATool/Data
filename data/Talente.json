@@ -211,15 +211,6 @@
 		"Arkanil" : { "Schrift" : true, "Komplexität" : 24, "Steigerung" : 2 },
 		"Drakhard-Zinken" : { "Schrift" : true, "Komplexität" : 9 }
 	},
-	"Gaben" : {
-		"Empathie" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
-		"Gefahreninstinkt" : { "Probe" : ["KL", "IN", "IN"], "Leittalent" : true },
-		"Geräuschhexerei" : { "Probe" : ["IN", "CH", "KO"], "Leittalent" : true },
-		"Magiegespür" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
-		"Prophezeien" : { "Probe" : ["IN", "IN", "CH"], "Leittalent" : true },
-		"Tierempathie" : { "Probe" : ["MU", "IN", "CH"], "Leittalent" : true },
-		"Zwergennase" : { "Probe" : ["IN", "IN", "FF"], "Leittalent" : true }
-	},
 	"Meta-Talente" : {
 		"Ansitzjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Sich Verstecken", "Fährtensuchen", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
 		"Hetzjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Reiten", "Reiten", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
@@ -228,6 +219,17 @@
 		"Pirschjagd" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Schleichen", "Fährtensuchen", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Armbrust", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
 		"Speerfischen" : { "Probe" : ["MU", "IN", "GE"], "Berechnung" : ["Selbstbeherrschung", "Wildnisleben", "Tierkunde"], "Berechnung:Auswahl" : ["Speere", "Wurfspeere"] },
 		"Tierfallen Stellen" : { "Probe" : ["KL", "IN", "FF"], "Berechnung" : ["Fallenstellen", "Fallenstellen", "Fährtensuchen", "Wildnisleben", "Tierkunde"] }
+	},
+	"Gaben" : {
+		"Empathie" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
+		"Gefahreninstinkt" : { "Probe" : ["KL", "IN", "IN"], "Leittalent" : true },
+		"Geräuschhexerei" : { "Probe" : ["IN", "CH", "KO"], "Leittalent" : true },
+		"Magiegespür" : { "Probe" : ["MU", "IN", "IN"], "Leittalent" : true },
+		"Prophezeien" : { "Probe" : ["IN", "IN", "CH"], "Leittalent" : true },
+		"Tierempathie" : { "Probe" : ["MU", "IN", "CH"], "Leittalent" : true },
+		"Zwergennase" : { "Probe" : ["IN", "IN", "FF"], "Leittalent" : true },
+		"Kräfteschub" : { "Auswahl" : "Körperliche Eigenschaft", "Probe" : ["MU", "IN", "KO"], "Leittalent" : true },
+		"Talentschub" : { "Auswahl" : "Talent", "Probe" : ["MU", "IN", "KO"], "Leittalent" : true }
 	},
 	"Ritualkenntnis" : {
 		"Gildenmagisch" : { "Leiteigenschaft" : "KL", "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Gildenmagie" } } } } }] },
