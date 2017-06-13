@@ -7,6 +7,7 @@
     	<copy todir="${DSATool.location}">
     		<fileset dir="." includes="${Includes}"/>        	
     	</copy>
+		<copy file="release/previous/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json"/>
     </target>
 	<target name="update" description="Creates a zip file for release" depends="deploy">
 		<delete dir="release/current"/>
