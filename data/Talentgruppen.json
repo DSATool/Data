@@ -6,7 +6,10 @@
 	"Natur-Talente" : { "Steigerung" : 2, "Ableiten" : 10 },
 	"Wissenstalente" : { "Steigerung" : 2, "Ableiten" : 10 },
 	"Handwerkstalente" : { "Steigerung" : 2, "Ableiten" : 10 },
-	"Sprachen und Schriften" : { "Sprachen" : { "Probe" : ["KL", "IN", "CH"], "Steigerung" : 2 },	"Schriften" : { "Probe" : ["KL", "KL", "FF"], "Steigerung" : 2 } },
+	"Sprachen und Schriften" : {
+		"Sprachen" : { "Probe" : ["KL", "IN", "CH"], "Steigerung" : 2 },
+		"Schriften" : { "Probe" : ["KL", "KL", "FF"], "Steigerung" : 2 }
+	},
 	"Gaben" : { "Steigerung" : 6 },
 	"Ritualkenntnis" : { "Steigerung" : 5 },
 	"Liturgiekenntnis" : { "Probe" : ["MU", "IN", "CH"], "Steigerung" : 6 }
