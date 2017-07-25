@@ -1,0 +1,19 @@
+{
+	"Berührung" : { "Reaktion" : true, "Erschwernis" : 0 },
+	"Einnahme" : { "Aktionen" : 2, "Erschwernis" : 0 },
+	"Berührung (intelligent)" : { "Reaktion" : true, "Erschwernis" : 1 },
+	"Gewalt gg. Artefakt" : { "Reaktion" : true, "Erschwernis" : 1 },
+	"Aura höchster Intensität" : { "Reaktion" : true, "Erschwernis" : 1 },
+	"einfache Geste" : { "Aktionen" : 1, "Erschwernis" : 2 },
+	"massive Aura-Veränderung" : { "Reaktion" : true, "Erschwernis" : 2 },
+	"Schlüsselsatz" : { "Aktionen" : 1, "Erschwernis" : 3 },
+	"komplexe Geste" : { "Aktionen" : 2, "Erschwernis" : 3 },
+	"Aura höherer Intensität" : { "Reaktion" : true, "Erschwernis" : 5 },
+	"Zeitpunkt" : { "Reaktion" : true, "Erschwernis" : 4 },
+	"Spezifischer Zauber" : { "Reaktion" : true, "Erschwernis" : 4 },
+	"Umwelteinfluss" : { "Reaktion" : true, "Erschwernis" : 5 },
+	"Aura niedriger Intensität" : { "Reaktion" : true, "Erschwernis" : 7 },
+	"Zauber mit best. Merkmal" : { "Reaktion" : true, "Erschwernis" : 6 },
+	"Willensanstrengung" : { "Aktionen" : 1, "Erschwernis" : 7 },
+	"Ferngespür" : { "Reaktion" : true, "Erschwernis" : 0 }
+}
