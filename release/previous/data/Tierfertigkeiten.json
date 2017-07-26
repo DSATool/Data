@@ -14,7 +14,7 @@
 		"Treiben" : { "Bücher" : { "Zoo-Botanica Aventurica" : 20 }, "Speziell" : true, "Beschreibung:Kurz" : "Treib eine Tierherde auf Befehl, bringt fliehende Tiere zurück/zu Fall, ohne sie zu verletzen" },
 		"Trick" : { "Bücher" : { "Zoo-Botanica Aventurica" : 20 }, "Erschwernis" : 7, "Freitext" : "Trick", "Beschreibung:Kurz" : "Kann auf Befehl einen Trick ausführen, max. KL Tricks mögl." },
 		"Wache" : { "Bücher" : { "Zoo-Botanica Aventurica" : 20 }, "Speziell" : true, "Beschreibung:Kurz" : "Schlägt an, wenn ein Fremder kommt, LO-12 bei Fremden" },
-		"Zusammenarbeit" : { "Bücher" : { "Zoo-Botanica Aventurica" : 20 }, "Erschwernis" : 5, "Beschreibung:Kurz" : "Kann mit anderen Tieren der gleichen Art zusammenarbeiten" }
+		"Zusammenarbeit" : { "Bücher" : { "Zoo-Botanica Aventurica" : 20 }, "Erschwernis" : 5, "Beschreibung:Kurz" : "Kann mit anderen Tieren der gleichen Art/Ausbildung zusammenarbeiten" }
 	},
 	"Reittiere" : {
 		"Almadaner Schritt" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Speziell" : true, "Beschreibung:Kurz" : "Hebt Vorderbeine hoch und elegant, stolziert" },
