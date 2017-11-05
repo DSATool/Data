@@ -147,7 +147,7 @@
 		"Zimmermann" : { "Probe" : ["KL", "FF", "KK"], "Voraussetzungen" : [{ "Ab" : 10, "Talente" : { "Muss" : { "Holzbearbeitung" : 4 } } }], "Spezialisierungen" : ["Dachdecker", "Holzkonstruktionen", "Schiffszimmermann", "Schiffbau"], "Ableiten" : { "Holzbearbeitung" : {} } }
 	},
 	"Sprachen und Schriften" : {
-		"Alaani" : { "Komplexität" : 21, "Sprachfamilien" : ["Tulamidya", "Alaani-Gjalskisch"], "Schriften" : ["Kusliker Zeichen", "Altes Alaani (Schrift)"] },
+		"Alaani" : { "Komplexität" : 21, "Sprachfamilien" : ["Tulamidya", "Alaani-Gjalskisch"], "Schriften" : ["Kusliker Zeichen", "Altes Alaani"] },
 		"Altes Kemi" : { "Komplexität" : 18, "Sprachfamilien" : ["Tulamidya"], "Schriften" : ["Altes Kemi (Schrift)"] },
 		"Angram" : { "Komplexität" : 21, "Sprachfamilien" : ["Zwergisch"], "Voraussetzungen" : [{ "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } }], "Schriften" : ["Angram (Schrift)"] },
 		"Asdharia" : { "Komplexität" : 24, "Leittalent" : true, "Sprachfamilien" : ["Elfisch"], "Steigerung" : 1, "Voraussetzungen" : [{ "Ab" : 10, "Talente" : { "Muss" : { "Sprachenkunde" : 7 } } }, { "Ab" : 15, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Zweistimmiger Gesang" : {} } } }], "Schriften" : ["Asdharia (Schrift)"] },
