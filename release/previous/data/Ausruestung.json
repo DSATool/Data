@@ -3338,7 +3338,7 @@
 	},
 	"Brigantina" : {
 		"Typ" : "Brigantina",
-		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
+		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 2.8,
 		"Gesamtrüstungsschutz" : 3,
 		"Gesamtbehinderung" : 3,
