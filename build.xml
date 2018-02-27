@@ -49,9 +49,15 @@
 		<copy file="release/current/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json"/>
 		<copy file="release/update-info.template" tofile="release/update-info.json" overwrite="true"/>
 		<replace file="release/update-info.json" token="@releaseDate@" value="${releaseDate}"/>
-		<zip destfile="release/${PluginName}_${releaseDate}.zip">
-			<fileset dir="release/current"/>
-		</zip>
+		<java jar="${DSATool.location}/update/SignatureTool.jar" fork="true">
+			<arg value="sign"/>
+			<arg path="release/current"/>
+			<arg path="release/${PluginName}_${releaseDate}.zip"/>
+			<arg path="release/private.key"/>
+			<arg value="SunEC"/>
+			<arg value="EC"/>
+			<arg value="SHA512withECDSA"/>
+		</java>
 		<delete dir="release/previous"/>
 		<copy todir="release/previous" includeEmptyDirs="false">
 			<fileset dir="." includes="${Includes}"/>
