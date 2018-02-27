@@ -1,6 +1,10 @@
 {
-	"releaseDate" : "2018-02-19_14-00",
-	"previousReleaseDate" : "2018-01-23_16-00",
-	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_2018-01-23_16-00.zip",
-	"updateInfo" : "https://raw.githubusercontent.com/DSATool/Data/master/release/update-info.json"
+	"releaseDate" : "2018-02-27_18-00",
+	"previousReleaseDate" : "2018-02-19_14-00",
+	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_2018-02-19_14-00.zip",
+	"updateInfo" : "https://raw.githubusercontent.com/DSATool/Data/master/release/update-info.json",
+	"signatureProviderName" : "SunEC",
+	"signatureKeyAlgorithm" : "EC",
+	"signatureAlgorithm" : "SHA512withECDSA",
+	"signatureKey" : "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8OhZ4Ph0qrV1k1imx3mlzTGU9tF/R2eAnRHaiYKPVCE7mHO32zrsSieQQAlqN0IAj0gIxShBabPtj/vaQfZjew=="
 }
