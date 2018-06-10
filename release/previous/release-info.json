@@ -1,7 +1,7 @@
 {
-	"releaseDate" : "2018-02-27_18-00",
-	"previousReleaseDate" : "2018-02-19_14-00",
-	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_2018-02-19_14-00.zip",
+	"releaseDate" : "2018-06-10_12-27",
+	"previousReleaseDate" : "2018-02-27_18-00",
+	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/Data/master/release/Data_2018-02-27_18-00.zip",
 	"updateInfo" : "https://raw.githubusercontent.com/DSATool/Data/master/release/update-info.json",
 	"signatureProviderName" : "SunEC",
 	"signatureKeyAlgorithm" : "EC",
