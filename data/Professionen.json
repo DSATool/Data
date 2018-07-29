@@ -615,6 +615,7 @@
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {}, "Turnierreiterei" : {}, "Wuchtschlag" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Befreiungsschlag" : {}, "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Rüstungsgewöhnung II" : {} },
 				"Varianten" : {
+					"Ritter alten Schlags" : {},
 					"Knappe des traditionellen Ritters" : {
 						"Kosten" : 12,
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Anderthalbhänder", "Hiebwaffen", "Kettenwaffen", "Schwerter", "Zweihandschwerter/-säbel"], "Werte" : [-7, -4, 6, 3] }], "Lanzenreiten" : -2, "Reiten" : -1, "Selbstbeherrschung" : -1, "Etikette" : -1, "Menschenkenntnis" : -1, "Kriegskunst" : -2 },
@@ -834,16 +835,16 @@
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 12, "FF" : 12, "GE" : 11, "KO" : 11, "KK" : 11 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [5] }, { "Wahl" : ["Dolche", "Hiebwaffen", "Säbel"], "Werte" : [4] }], "Athletik" : -2, "Klettern" : 4, "Körperbeherrschung" : 4, "Selbstbeherrschung" : 4, "Sich Verstecken" : 2, "Sinnenschärfe" : 3, "Wildnisleben" : 1, "Heraldik" : 1 },
 				"Sonderfertigkeiten" : { "Rüstungsgewöhnung I" : [{}], "Scharfschütze" : [{}] },
-				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Bogen)" : {}, "Schnellladen (Armbrust)" : {} }],"Aufmerksamkeit" : {}, "Berittener Schütze" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
-				"Ausrüstung" : { "Wahl" : [{ "Bogen" : {}, "Armbrust" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} }
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Armbrust)" : {}, "Schnellladen (Bogen)" : {} }],"Aufmerksamkeit" : {}, "Berittener Schütze" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
+				"Ausrüstung" : { "Wahl" : [{ "Armbrust" : {}, "Bogen" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} }
 			},
 			"Berittener Schütze" : {
 				"Kosten" : 10,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 11, "FF" : 12, "GE" : 12, "KO" : 11, "KK" : 11 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [5] }, { "Wahl" : ["Dolche", "Hiebwaffen", "Säbel"], "Werte" : [4] }], "Körperbeherrschung" : 4, "Reiten" : 5, "Selbstbeherrschung" : 2, "Sich Verstecken" : 1, "Sinnenschärfe" : 3, "Orientierung" : 2, "Heraldik" : 1, "Tierkunde" : 2, "Abrichten" : 2 },
 				"Sonderfertigkeiten" : { "Berittener Schütze" : {}, "Rüstungsgewöhnung I" : [{}], "Scharfschütze" : [{}] },
-				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Bogen)" : {}, "Schnellladen (Armbrust)" : {} }],"Aufmerksamkeit" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
-				"Ausrüstung" : { "Wahl" : [{ "Bogen" : {}, "Armbrust" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Armbrust)" : {}, "Schnellladen (Bogen)" : {} }],"Aufmerksamkeit" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
+				"Ausrüstung" : { "Wahl" : [{ "Armbrust" : {}, "Bogen" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} },
 				"Besonderer Besitz" : "eigenes Pferd mit Sattel und Zaumzeug"
 			},
 			"Aufgesessener Schütze" : {
@@ -851,8 +852,8 @@
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 11, "FF" : 12, "GE" : 12, "KO" : 11, "KK" : 11 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [5] }, { "Wahl" : ["Dolche", "Hiebwaffen", "Säbel"], "Werte" : [4] }], "Peitsche" : 2, "Akrobatik" : 3, "Körperbeherrschung" : 4, "Reiten" : 2, "Selbstbeherrschung" : 3, "Sinnenschärfe" : 3, "Heraldik" : 1, "Fahrzeug Lenken" : 2 },
 				"Sonderfertigkeiten" : { "Berittener Schütze" : {}, "Rüstungsgewöhnung I" : [{}], "Scharfschütze" : [{}] },
-				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Bogen)" : {}, "Schnellladen (Armbrust)" : {} }], "Aufmerksamkeit" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
-				"Ausrüstung" : { "Wahl" : [{ "Bogen" : {}, "Armbrust" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} }
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Schnellladen (Armbrust)" : {}, "Schnellladen (Bogen)" : {} }], "Aufmerksamkeit" : {}, "Meisterschütze" : [{}], "Rüstungsgewöhnung II" : {} },
+				"Ausrüstung" : { "Wahl" : [{ "Armbrust" : {}, "Bogen" : {} }], "Wappenrock (einfach)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (einfach)" : { "Kategorien" : ["Kleidung"] }, "Lederharnisch" : {}, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Köcher mit 20 Bolzen/Pfeilen" : {}, "Dolch" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {} }
 			},
 			"Artillerist" : {
 				"Kosten" : 5,
@@ -1569,10 +1570,10 @@
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Dämmerungssicht" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Feenfreund" : {}, "Gefahreninstinkt" : {}, "Innerer Kompass" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
 		"Empfohlene Nachteile" : { "Vorurteile" : [{ "Freitext" : "Stadtbewohner" }] },
 		"Ungeeignete Nachteile" : { "Dunkelangst" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Krankheitsanfällig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Platzangst " :{} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Bogen", "Armbrust", "Wurfspeere"], "Werte" : [3] }, { "Wahl" : ["Hiebwaffen", "Schwerter", "Stäbe"], "Werte" : [4, 2] }, { "Wahl" : ["Athletik", "Reiten"], "Werte" : [4, 2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [3] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }], "Dolche" : 2, "Raufen" : 3, "Ringen" : 2, "Speere" : 3, "Klettern" : 2, "Körperbeherrschung" : 2, "Schleichen" : 4, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 3, "Sinnenschärfe" : 5, "Zechen" : 1, "Etikette" : 1, "Menschenkenntnis" : 2, "Überreden" : 2, "Fährtensuchen" : 4, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 2, "Fischen/Angeln" : 1, "Orientierung" : 3, "Wettervorhersage" : 3, "Wildnisleben" : 4, "Geographie" : 1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Pflanzenkunde" : 1, "Rechnen" : 1, "Rechtskunde" : 2, "Tierkunde" : 1, "Muttersprache:Schrift" : 2, "Heilkunde Gift" : 1, "Heilkunde Krankheiten" : 1, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 2, "Kochen" : 1, "Lederarbeiten" : 1, "Schneidern" : 1 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfspeere"], "Werte" : [3] }, { "Wahl" : ["Hiebwaffen", "Schwerter", "Stäbe"], "Werte" : [4, 2] }, { "Wahl" : ["Athletik", "Reiten"], "Werte" : [4, 2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [3] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }], "Dolche" : 2, "Raufen" : 3, "Ringen" : 2, "Speere" : 3, "Klettern" : 2, "Körperbeherrschung" : 2, "Schleichen" : 4, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 3, "Sinnenschärfe" : 5, "Zechen" : 1, "Etikette" : 1, "Menschenkenntnis" : 2, "Überreden" : 2, "Fährtensuchen" : 4, "Fallenstellen" : 1, "Fesseln/Entfesseln" : 2, "Fischen/Angeln" : 1, "Orientierung" : 3, "Wettervorhersage" : 3, "Wildnisleben" : 4, "Geographie" : 1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Pflanzenkunde" : 1, "Rechnen" : 1, "Rechtskunde" : 2, "Tierkunde" : 1, "Muttersprache:Schrift" : 2, "Heilkunde Gift" : 1, "Heilkunde Krankheiten" : 1, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 2, "Kochen" : 1, "Lederarbeiten" : 1, "Schneidern" : 1 },
 		"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }], "Ortskenntnis" : [{ "Freitext" : "nach Wahl" }, { "Freitext" : "weitere nach Wahl" }] },
 		"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Rüstungsgewöhnung I" : [{}] },
-		"Ausrüstung" : { "Wahl" : [{ "Speer" : {}, "Bogen" : {} }, { "Kurzschwert" : {}, "Beil" : {} }], "stabile, wetterfeste Kleidung in Naturfarben, ggf. kleines Wappen des Herren" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "Wasserschlauch" : {}, "Feuerstein und Stahl" : {}, "Zunder" : {}, "Schlafsack" : {} },
+		"Ausrüstung" : { "Wahl" : [{ "Bogen" : {}, "Speer" : {} }, { "Kurzschwert" : {}, "Beil" : {} }], "stabile, wetterfeste Kleidung in Naturfarben, ggf. kleines Wappen des Herren" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "Wasserschlauch" : {}, "Feuerstein und Stahl" : {}, "Zunder" : {}, "Schlafsack" : {} },
 		"Besonderer Besitz" : "ausgebildeter Spürhund oder persönliche Waffe"
 	},
 	"Großwildjäger" : {
