@@ -720,6 +720,20 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Drachentöter" : {
+		"Typ" : "Drachentöter",
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 5 },
+		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 20, "Schadensschritte" : 1 },
+		"Gewicht" : 10,
+		"Länge" : 400,
+		"Bruchfaktor" : 3,
+		"Initiative:Modifikator" : -3,
+		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : -4 },
+		"Zweihändig" : true,
+		"Distanzklassen" : ["P"],
+		"Waffentypen" : ["Speere"],
+		"Kategorien" : ["Nahkampfwaffe"]
+	},
+	"Drachenzahn" : {
 		"Typ" : "Drachenzahn",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -727,24 +741,10 @@
 		"Länge" : 40,
 		"Bruchfaktor" : 0,
 		"Initiative:Modifikator" : 0,
+		"Preis" : 120,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : 0, "Parademodifikator" : 0 },
 		"Distanzklassen" : ["H"],
 		"Waffentypen" : ["Dolche"],
-		"Kategorien" : ["Nahkampfwaffe"]
-	},
-	"Drachenzahn" : {
-		"Typ" : "Boronssichel",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 6 },
-		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
-		"Gewicht" : 4,
-		"Länge" : 180,
-		"Bruchfaktor" : 3,
-		"Initiative:Modifikator" : -2,
-		"Preis" : 400,
-		"Waffenmodifikatoren" : { "Attackemodifikator" : 0, "Parademodifikator" : -3 },
-		"Zweihändig" : true,
-		"Distanzklassen" : ["S"],
-		"Waffentypen" : ["Zweihandschwerter/-säbel"],
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Drei-Glieder-Stab" : {
@@ -955,6 +955,21 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Fackel" : {
+		"Typ" : "Fackel",
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
+		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
+		"Gewicht" : 0.75,
+		"Länge" : 50,
+		"Bruchfaktor" : 8,
+		"Initiative:Modifikator" : -2,
+		"Preis" : 0.5,
+		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : -3 },
+		"Improvisiert" : true,
+		"Distanzklassen" : ["H", "N"],
+		"Waffentypen" : ["Hiebwaffen"],
+		"Kategorien" : ["Nahkampfwaffe"]
+	},
+	"Felsspalter" : {
 		"Typ" : "Felsspalter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -967,20 +982,6 @@
 		"Zweihändig" : true,
 		"Distanzklassen" : ["N"],
 		"Waffentypen" : ["Zweihand-Hiebwaffen"],
-		"Kategorien" : ["Nahkampfwaffe"]
-	},
-	"Felsspalter" : {
-		"Typ" : "Florett",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
-		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
-		"Gewicht" : 0.75,
-		"Länge" : 90,
-		"Bruchfaktor" : 4,
-		"Initiative:Modifikator" : 3,
-		"Preis" : 180,
-		"Waffenmodifikatoren" : { "Attackemodifikator" : 1, "Parademodifikator" : -1 },
-		"Distanzklassen" : ["N"],
-		"Waffentypen" : ["Fechtwaffen"],
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Flasche" : {
