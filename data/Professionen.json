@@ -2034,7 +2034,7 @@
 			},
 			"Thalusischer Wegelagerer" : {
 				"Kosten" : 0,
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Raufen", "Ringen"], "Werte" : [1] }, { "Wahl" : ["Armbrust", "Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [-3] }, { "Wahl" : ["Säbel", "Schwerter", "Speere"], "Werte" : [-2] }, { "Wahl" : ["Speere", "Stäbe", "Zweihandflegel"], "Werte" : [-2] }, { "Wahl" : ["Reiten", "Fahrzeug Lenken"], "Werte" : [1] }, { "Wahl" : ["Bogenbau", "Grobschmied"], "Werte" : [-2] }, { "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [2] }, { "Wahl" : ["Töpfern", "Webkunst"], "Werte" : [2] }], "Dolche" : 3, "Schleuder" : 3, "Reiten" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Gassenwissen" : -1, "Fischen/Angeln" : 2, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Geographie" : -1, "Pflanzenkunde" : 1, "Tierkunde" : 1, "Kochen" :2 }
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Raufen", "Ringen"], "Werte" : [1] }, { "Wahl" : ["Armbrust", "Blasrohr", "Bogen", "Wurfspeere"], "Werte" : [-3] }, { "Wahl" : ["Säbel", "Schwerter", "Speere"], "Werte" : [-2] }, { "Wahl" : ["Speere", "Stäbe", "Zweihandflegel"], "Werte" : [2] }, { "Wahl" : ["Reiten", "Fahrzeug Lenken"], "Werte" : [1] }, { "Wahl" : ["Bogenbau", "Grobschmied"], "Werte" : [-2] }, { "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [2] }, { "Wahl" : ["Töpfern", "Webkunst"], "Werte" : [2] }], "Dolche" : 3, "Schleuder" : 3, "Reiten" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Gassenwissen" : -1, "Fischen/Angeln" : 2, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Geographie" : -1, "Pflanzenkunde" : 1, "Tierkunde" : 1, "Kochen" :2 }
 			},
 			"Freischärler" : {
 				"Kosten" : 0,
