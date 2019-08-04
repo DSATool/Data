@@ -10,5 +10,6 @@
 	"Astralenergie" : { "Abkürzung" : "AsP", "Eigenschaften" : ["MU", "IN", "CH"], "Multiplikator" : 0.5, "Zukauf" : 7, "Zukauf:Maximum" : { "Eigenschaften" : ["CH"], "Multiplikator" : 1 } },
 	"Karmaenergie" : { "Abkürzung" : "KaP" },
 	"Magieresistenz" : { "Abkürzung" : "MR", "Eigenschaften" : ["MU", "KL", "KO"], "Multiplikator" : 0.2, "Zukauf" : 8, "Zukauf:Maximum" : { "Eigenschaften" : ["MU"], "Multiplikator" : 0.5 } },
-	"Geschwindigkeit" : { "Abkürzung" : "GS" }
+	"Geschwindigkeit" : { "Abkürzung" : "GS" },
+	"Sozialstatus" : { "Abkürzung" : "SO" }
 }
