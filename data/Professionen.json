@@ -3269,7 +3269,7 @@
 						"Sonderfertigkeiten" : { "Talentspezialisierung" : [{ "Auswahl" : "Bogenbau" }] }
 					},
 					"Armbruster" : {
-						"Weiblich" : "Bogenbauerin",
+						"Weiblich" : "Armbrusterin",
 						"Voraussetzungen" : { "Eigenschaften" : { "FF" : 13, "KK" : 12 } },
 						"Empfohlene Vorteile" : { "Begabung für Talent" : [{ "Auswahl" : "Bogenbau" }], "Verbindungen" : [{}] },
 						"Ungeeignete Nachteile" : { "Einarmig" : {}, "Einhändig" : {}, "Unfähigkeit für Talent" : [{ "Auswahl" : "Bogenbau" }], "Unstet" : {} },
