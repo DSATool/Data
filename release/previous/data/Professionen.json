@@ -590,7 +590,7 @@
 					"Hetja der Bogskari" : {
 						"Bücher" : { "Kultur- und Professionsvarianten zu »Unter dem Westwind«" : 7 },
 						"Kosten" : 29,
-						"Talente" : { "Wahl" : [{ "Wahl" : ["Schwerter", "Zweihand-Hiebwaffen"], "Werte" : [-6, -3] }, { "Wahl" : ["Säbel", "Schwerter"], "Wahl" : [4] }], "Ringen" : -3, "Wurfspeere" : -4, "Bogen" : 6, "Zweihand-Hiebwaffen" : 3, "Athletik" : -1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1, "Bogenbau" : 3 },
+						"Talente" : { "Wahl" : [{ "Wahl" : ["Schwerter", "Zweihand-Hiebwaffen"], "Werte" : [-6, -3] }, { "Wahl" : ["Säbel", "Schwerter"], "Werte" : [4] }], "Ringen" : -3, "Wurfspeere" : -4, "Bogen" : 6, "Zweihand-Hiebwaffen" : 3, "Athletik" : -1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1, "Bogenbau" : 3 },
 						"Sonderfertigkeiten" : { "Linkhand" : {}, "Rüstungsgewöhnung I" : [{}], "Schnellladen (Bogen)" : {}, "Scharfschütze" : [{ "Auswahl" : "Bogen" }] },
 						"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Niederwerfen" : {}, "Hammerfaust" : {}, "Wuchtschlag" : {}, "Berittener Schütze" : {}, "Schildkampf I" : {} },
 						"Ausrüstung" : { "Wahl" : [{ "Langes Kettenhemd" : {}, "andere ortsübliche Rüstung" : {} }], "hochwertige Kleidung" : { "Kategorien" : ["Kleidung"] }, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Langbogen" : {}, "Köcher mit 20 Pfeilen" : {}, "Einhandaxt als Seitenwaffe" : {}, "Dolch" : {}, "Helm" : {}, "Waffenpflegeset" : {} }
