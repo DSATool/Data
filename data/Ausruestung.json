@@ -1,5 +1,6 @@
 {
 	"Achfawar" : {
+		"Bücher" : { "Aventurisches Arsenal" : 93, "Meisterschirm" : 21 },
 		"Typ" : "Achfawar",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -14,6 +15,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Amazonensäbel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 38, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Amazonensäbel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -28,6 +30,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Reitersäbel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 38, "Wege des Schwerts" : 116 },
 		"Typ" : "Amazonensäbel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -42,6 +45,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Andergaster" : {
+		"Bücher" : { "Aventurisches Arsenal" : 32, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Andergaster",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -57,6 +61,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Anderthalbhänder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 25, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Anderthalbhänder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -72,6 +77,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Arbach" : {
+		"Bücher" : { "Aventurisches Arsenal" : 92, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Arbach",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -86,6 +92,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Arbalette" : {
+		"Bücher" : { "Aventurisches Arsenal" : 40, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Arbalette",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 30, "Weit" : 60, "Extrem Weit" : 100 },
@@ -100,6 +107,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Bolzen-Arbalette" : {
+		"Bücher" : { "Aventurisches Arsenal" : 40, "Wege des Schwerts" : 127 },
 		"Typ" : "Arbalette",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 7, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 11, "Nah" : 22, "Mittel" : 33, "Weit" : 66, "Extrem Weit" : 110 },
@@ -113,21 +121,8 @@
 		"Waffentypen" : ["Armbrust"],
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
-	"Bolzen-Repetier-Arbalette" : {
-		"Typ" : "Arbalette",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 7, "Reduzierte Wundschwelle" : true },
-		"Reichweiten" : { "Sehr Nah" : 11, "Nah" : 22, "Mittel" : 33, "Weit" : 66, "Extrem Weit" : 110 },
-		"Trefferpunkte/Entfernung" : { "Sehr Nah" : 2, "Nah" : 1, "Mittel" : 0, "Weit" : -1, "Extrem Weit" : -2 },
-		"Gewicht" : 5,
-		"Preis" : 600,
-		"Geschoss:Gewicht" : 0.2,
-		"Geschoss:Typ" : "Bolzen",
-		"Geschoss:Preis" : 2.5,
-		"Ladedauer" : 27,
-		"Waffentypen" : ["Armbrust"],
-		"Kategorien" : ["Fernkampfwaffe"]
-	},
 	"Repertier-Arbalette" : {
+		"Bücher" : { "Aventurisches Arsenal" : 40, "Wege des Schwerts" : 127 },
 		"Typ" : "Arbalette",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 30, "Weit" : 60, "Extrem Weit" : 100 },
@@ -142,6 +137,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Arbalone" : {
+		"Bücher" : { "Aventurisches Arsenal" : 43, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Arbalone",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 15, "Nah" : 30, "Mittel" : 60, "Weit" : 120, "Extrem Weit" : 250 },
@@ -156,6 +152,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Bolzen-Arbalone" : {
+		"Bücher" : { "Aventurisches Arsenal" : 43, "Wege des Schwerts" : 127 },
 		"Typ" : "Arbalone",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 8, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 16.5, "Nah" : 33, "Mittel" : 66, "Weit" : 132, "Extrem Weit" : 275 },
@@ -170,6 +167,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Baccanaq" : {
+		"Bücher" : { "Aventurisches Arsenal" : 83, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Baccanaq",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -184,6 +182,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Balestra" : {
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Balestra",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 30, "Weit" : 50, "Extrem Weit" : 60 },
@@ -198,7 +197,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Bolzen-Balestra" : {
-		"Typ" : "Balestra",
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127 },
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 11, "Nah" : 22, "Mittel" : 33, "Weit" : 55, "Extrem Weit" : 66 },
 		"Trefferpunkte/Entfernung" : { "Sehr Nah" : 2, "Nah" : 1, "Mittel" : 0, "Weit" : 0, "Extrem Weit" : -1 },
@@ -212,6 +211,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Repetier-Balestra" : {
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127 },
 		"Typ" : "Balestra",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 30, "Weit" : 50, "Extrem Weit" : 60 },
@@ -226,6 +226,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Balestrina" : {
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Balestrina",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Reichweiten" : { "Sehr Nah" : 2, "Nah" : 4, "Mittel" : 8, "Weit" : 15, "Extrem Weit" : 25 },
@@ -240,6 +241,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Bolzen-Balestrina" : {
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127 },
 		"Typ" : "Balestrina",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 2.2, "Nah" : 4.4, "Mittel" : 8.8, "Weit" : 16.5, "Extrem Weit" : 27.5 },
@@ -254,6 +256,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Repetier-Balestrina" : {
+		"Bücher" : { "Aventurisches Arsenal" : 41, "Wege des Schwerts" : 127 },
 		"Typ" : "Balestrina",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Reichweiten" : { "Sehr Nah" : 2, "Nah" : 4, "Mittel" : 8, "Weit" : 15, "Extrem Weit" : 25 },
@@ -268,6 +271,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Balläster" : {
+		"Bücher" : { "Aventurisches Arsenal" : 18, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Balläster",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 30, "Weit" : 60, "Extrem Weit" : 100 },
@@ -282,6 +286,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Barbarenschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 74, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Barbarenschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -296,6 +301,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Barbarenstreitaxt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 75, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Barbarenstreitaxt",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 15, "Schadensschritte" : 1 },
@@ -311,6 +317,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Basiliskenzunge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 67, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Basiliskenzunge",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -325,6 +332,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Bastardschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 25, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Bastardschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -340,6 +348,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Beil" : {
+		"Bücher" : { "Aventurisches Arsenal" : 11, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Beil",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -355,6 +364,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Steinernes Beil" : {
+		"Bücher" : { "Aventurisches Arsenal" : 11, "Meisterschirm" : 21 },
 		"Typ" : "Beil",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -370,6 +380,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Blasrohr" : {
+		"Bücher" : { "Aventurisches Arsenal" : 83, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Blasrohr",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1 },
 		"Reichweiten" : { "Sehr Nah" : 2, "Nah" : 5, "Mittel" : 10, "Weit" : 20, "Extrem Weit" : 40 },
@@ -381,6 +392,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Bock" : {
+		"Bücher" : { "Aventurisches Arsenal" : 95, "Wege des Schwerts" : 131, "Meisterschirm" : 23 },
 		"Typ" : "Bock",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 10, "Schadensschritte" : 5 },
@@ -403,6 +415,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Borndorn" : {
+		"Bücher" : { "Aventurisches Arsenal" : 72, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Borndorn",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -424,6 +437,7 @@
 		"Kategorien" : ["Fernkampfwaffe", "Nahkampfwaffe"]
 	},
 	"Boronssichel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 33, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Boronssichel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -439,6 +453,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Brabakbengel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 26, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Brabakbengel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -453,6 +468,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Breitschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 26, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Breitschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -467,6 +483,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Buckler" : {
+		"Bücher" : { "Aventurisches Arsenal" : 95, "Wege des Schwerts" : 131, "Meisterschirm" : 23 },
 		"Typ" : "Buckler",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -489,6 +506,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Vollmetallbuckler" : {
+		"Bücher" : { "Aventurisches Arsenal" : 95, "Wege des Schwerts" : 131, "Meisterschirm" : 23 },
 		"Typ" : "Buckler",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -511,6 +529,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Byakka" : {
+		"Bücher" : { "Aventurisches Arsenal" : 92, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Byakka",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -525,6 +544,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Degen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 60, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Degen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -539,6 +559,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Diskus" : {
+		"Bücher" : { "Aventurisches Arsenal" : 81, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Diskus",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -551,6 +572,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Dolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 11, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Dolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -573,6 +595,7 @@
 		}
 	},
 	"Doppelkhunchomer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 78, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Doppelkhunchomer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 2 },
@@ -588,6 +611,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Drachenklaue" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97, "Wege des Schwerts" : 131 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -610,6 +634,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Lange Drachenklaue" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97, "Meisterschirm" : 23 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -632,6 +657,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Drachenklaue mit Klingenfänger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -654,6 +680,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Lange Drachenklaue mit Klingenfänger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -676,6 +703,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Drachenklaue mit Klingenbrecher" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -698,6 +726,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Lange Drachenklaue mit Klingenbrecher" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -720,6 +749,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Drachentöter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 86, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Drachentöter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 20, "Schadensschritte" : 1 },
@@ -734,6 +764,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Drachenzahn" : {
+		"Bücher" : { "Aventurisches Arsenal" : 86, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Drachenzahn",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -748,6 +779,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Drei-Glieder-Stab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 65, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Drei-Glieder-Stab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -763,6 +795,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Dreizack" : {
+		"Bücher" : { "Aventurisches Arsenal" : 18, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Dreizack",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -778,6 +811,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Dreschflegel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 12, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Dreschflegel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -794,6 +828,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Dschadra" : {
+		"Bücher" : { "Aventurisches Arsenal" : 78, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Dschadra",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -816,6 +851,7 @@
 		}
 	},
 	"Eberfänger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 18, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Eberfänger",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -830,6 +866,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Echsische Axt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 94, "Wege des Schwerts" : 116, "Meisterschirm" : 21 },
 		"Typ" : "Echsische Axt",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -844,6 +881,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Echsisches Szepter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 55, "Meisterschirm" : 21 },
 		"Typ" : "Echsisches Szepter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -857,6 +895,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Knochenkeule"]
 	},
 	"Efferdbart" : {
+		"Bücher" : { "Aventurisches Arsenal" : 54, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Efferdbart",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -879,6 +918,7 @@
 		}
 	},
 	"Eisenwalder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 87, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Eisenwalder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 10, "Mittel" : 15, "Weit" : 20, "Extrem Weit" : 40 },
@@ -893,6 +933,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Elfenbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 90, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Elfenbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 25, "Mittel" : 50, "Weit" : 100, "Extrem Weit" : 200 },
@@ -906,6 +947,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Elfischer Jagdspieß" : {
+		"Bücher" : { "Aventurisches Arsenal" : 90, "Meisterschirm" : 21 },
 		"Typ" : "Jagdspieß",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -928,6 +970,7 @@
 		}
 	},
 	"Elfisches Jagdmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 90 },
 		"Typ" : "Jagdmesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -941,6 +984,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Entermesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 12, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Entermesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -955,6 +999,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Fackel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 17, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Fackel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -970,6 +1015,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Felsspalter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 87, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Felsspalter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -985,6 +1031,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Flasche" : {
+		"Bücher" : { "Aventurisches Arsenal" : 17, "Meisterschirm" : 24 },
 		"Typ" : "Flasche",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Reichweiten" : { "Sehr Nah" : 1, "Nah" : 2, "Mittel" : 4, "Weit" : 8, "Extrem Weit" : 12 },
@@ -997,6 +1044,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Fledermaus" : {
+		"Bücher" : { "Aventurisches Arsenal" : 88, "Wege des Schwerts" : 127, "Meisterschirm" : 24 },
 		"Typ" : "Fledermaus",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 5, "Mittel" : 10, "Weit" : 15, "Extrem Weit" : 25 },
@@ -1008,6 +1056,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Fleischerbeil" : {
+		"Bücher" : { "Aventurisches Arsenal" : 12, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Fleischerbeil",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1023,6 +1072,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Florett" : {
+		"Bücher" : { "Aventurisches Arsenal" : 61, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Florett",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -1037,6 +1087,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Gandrasch-Armbrust" : {
+		"Bücher" : { "Aventurisches Arsenal" : 42, "Meisterschirm" : 24 },
 		"Typ" : "Gandrasch-Armbrust",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 8, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 25, "Mittel" : 50, "Weit" : 100, "Extrem Weit" : 150 },
@@ -1051,6 +1102,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Gandrasch-Armbrust (einfach)" : {
+		"Bücher" : { "Aventurisches Arsenal" : 42, "Meisterschirm" : 24 },
 		"Typ" : "Gandrasch-Armbrust",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 15, "Mittel" : 25, "Weit" : 40, "Extrem Weit" : 60 },
@@ -1065,6 +1117,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Geißel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 13, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Geißel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 5 },
@@ -1079,6 +1132,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Glefe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 33, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Glefe",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -1094,6 +1148,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Granatapfel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 44, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Granatapfel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 5, "Mittel" : 10, "Weit" : 15, "Extrem Weit" : 20 },
@@ -1104,6 +1159,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Großer Sklaventod" : {
+		"Bücher" : { "Aventurisches Arsenal" : 84, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Großer Sklaventod",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -1119,6 +1175,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Gruufhai" : {
+		"Bücher" : { "Aventurisches Arsenal" : 92, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Gruufhai",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -1134,6 +1191,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Hakendolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 61, "Wege des Schwerts" : 118, "Meisterschirm" : 23 },
 		"Typ" : "Hakendolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1149,6 +1207,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Parierwaffe"]
 	},
 	"Hakenspieß" : {
+		"Bücher" : { "Aventurisches Arsenal" : 33, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Hakenspieß",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -1164,6 +1223,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Haumesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 13, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Haumesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -1179,6 +1239,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Hellebarde" : {
+		"Bücher" : { "Aventurisches Arsenal" : 34, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Hellebarde",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -1194,6 +1255,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Holzfälleraxt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 13, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Holzfälleraxt",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 2 },
@@ -1210,6 +1272,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Holzschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 96, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Holzschild",
 		"Gewicht" : 3.5,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -1, "Parademodifikator" : 3 },
@@ -1219,6 +1282,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Verstärkter Holzschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 96, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Holzschild",
 		"Gewicht" : 4,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : 3 },
@@ -1228,6 +1292,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Holzspeer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 19, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Holzspeer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1251,6 +1316,7 @@
 		}
 	},
 	"Holzspeer mit Steinspitze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 19, "Wege des Schwerts" : 118 },
 		"Typ" : "Holzspeer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1274,6 +1340,7 @@
 		}
 	},
 	"Holzspeer mit Hornspitze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 19, "Wege des Schwerts" : 118 },
 		"Typ" : "Holzspeer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1297,6 +1364,7 @@
 		}
 	},
 	"Hummerschere" : {
+		"Bücher" : { "Aventurisches Arsenal" : 69 },
 		"Typ" : "Hummerschere",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1314,6 +1382,7 @@
 		}
 	},
 	"Jagddiskus" : {
+		"Bücher" : { "Aventurisches Arsenal" : 81, "Meisterschirm" : 24 },
 		"Typ" : "Diskus",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -1326,6 +1395,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Jagdmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 19, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Jagdmesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1340,6 +1410,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Jagdspieß" : {
+		"Bücher" : { "Aventurisches Arsenal" : 20, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Jagdspieß",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1362,6 +1433,7 @@
 		}
 	},
 	"Kampfdiskus" : {
+		"Bücher" : { "Aventurisches Arsenal" : 81, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Kampfdiskus",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -1374,6 +1446,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Kampfstab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 62, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Kampfstab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1389,6 +1462,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kettenstab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 65, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Kettenstab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -1403,7 +1477,31 @@
 		"Waffentypen" : ["Kettenstäbe"],
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
+	"Kettenkugel" : {
+		"Bücher" : { "Wege des Schwerts" : 118, "Meisterschirm" : 24 },
+		"Typ" : "Kettenkugel",
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3 },
+		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 16, "Schadensschritte" : 2 },
+		"Gewicht" : 6.25,
+		"Länge" : 100,
+		"Bruchfaktor" : 2,
+		"Initiative:Modifikator" : -3,
+		"Preis" : 150,
+		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : -4 },
+		"Zweihändig" : true,
+		"Distanzklassen" : ["S"],
+		"Waffentypen" : ["Kettenwaffen"],
+		"Kategorien" : ["Nahkampfwaffe"],
+		"Fernkampfwaffe" : {
+			"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
+			"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 2, "Mittel" : 5, "Weit" : 8, "Extrem Weit" : 15 },
+			"Trefferpunkte/Entfernung" : { "Nah" : 1, "Mittel" : 0, "Weit" : 0, "Extrem Weit" : 0 },
+			"Ladedauer" : 1,
+			"Waffentypen" : ["Schleuder"]
+		}
+	},
 	"Keule" : {
+		"Bücher" : { "Aventurisches Arsenal" : 66, "Meisterschirm" : 21 },
 		"Typ" : "Keule",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -1418,6 +1516,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Khunchomer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 79, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Khunchomer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -1432,6 +1531,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kleine Knochenkeule" : {
+		"Bücher" : { "Aventurisches Arsenal" : 54, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Kleine Knochenkeule",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1445,6 +1545,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Knochenkeule"]
 	},
 	"Mittelgroße Knochenkeule" : {
+		"Bücher" : { "Aventurisches Arsenal" : 55, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Mittelgroße Knochenkeule",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -1458,6 +1559,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Knochenkeule"]
 	},
 	"Große Knochenkeule" : {
+		"Bücher" : { "Aventurisches Arsenal" : 55, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Große Knochenkeule",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -1472,6 +1574,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Knochenkeule"]
 	},
 	"Knüppel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 14, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Knüppel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1486,6 +1589,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kompositbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 79, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Kompositbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 35, "Weit" : 50, "Extrem Weit" : 80 },
@@ -1500,6 +1604,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Korspieß" : {
+		"Bücher" : { "Aventurisches Arsenal" : 55, "Wege des Schwerts" : 118, "Meisterschirm" : 22 },
 		"Typ" : "Korspieß",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -1516,6 +1621,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kriegsbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 44, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Kriegsbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 7, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 20, "Mittel" : 40, "Weit" : 80, "Extrem Weit" : 150 },
@@ -1530,6 +1636,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Kriegsfächer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 80, "Wege des Schwerts" : 118, "Meisterschirm" : 23 },
 		"Typ" : "Kriegsfächer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1548,6 +1655,7 @@
 		}
 	},
 	"Vollmetall-Kriegsfächer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 80, "Wege des Schwerts" : 118 },
 		"Typ" : "Kriegsfächer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1566,6 +1674,7 @@
 		}
 	},
 	"Vollmetall-Kriegsfächer mit Dornen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 80 },
 		"Typ" : "Kriegsfächer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1584,6 +1693,7 @@
 		}
 	},
 	"Kriegsflegel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 34, "Wege des Schwerts" : 118, "Meisterschirm" : 22 },
 		"Typ" : "Kriegsflegel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 2 },
@@ -1599,6 +1709,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kriegshammer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 34, "Wege des Schwerts" : 118, "Meisterschirm" : 22 },
 		"Typ" : "Kriegshammer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -1614,6 +1725,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kriegslanze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 38, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kriegslanze",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1630,6 +1742,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kurzbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 20, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Kurzbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 15, "Mittel" : 25, "Weit" : 40, "Extrem Weit" : 60 },
@@ -1644,6 +1757,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Kurzschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 26, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kurzschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1658,6 +1772,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Kusliker Säbel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 62, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kusliker Säbel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1672,6 +1787,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Langbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 44, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Langbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 25, "Mittel" : 50, "Weit" : 100, "Extrem Weit" : 200 },
@@ -1686,6 +1802,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Langdolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 66, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Langdolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1703,17 +1820,19 @@
 		}
 	},
 	"Lasso" : {
+		"Bücher" : { "Aventurisches Arsenal" : 14, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Lasso",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 2, "Mittel" : 5, "Weit" : 10, "Extrem Weit" : 15 },
 		"Trefferpunkte/Entfernung" : { "Sehr Nah" : 0, "Nah" : 0, "Mittel" : 0, "Weit" : -1, "Extrem Weit" : -2 },
 		"Gewicht" : 1,
-		"Ladedauer" : 2,
+		"Ladedauer" : 1,
 		"Preis" : 12,
 		"Waffentypen" : ["Schleuder"],
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Lederschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 96, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Lederschild",
 		"Gewicht" : 2,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -1, "Parademodifikator" : 3 },
@@ -1723,6 +1842,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Großer Lederschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Lederschild",
 		"Gewicht" : 3,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -1, "Parademodifikator" : 4 },
@@ -1732,6 +1852,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Leichte Armbrust" : {
+		"Bücher" : { "Aventurisches Arsenal" : 45, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Leichte Armbrust",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 15, "Mittel" : 25, "Weit" : 40, "Extrem Weit" : 60 },
@@ -1746,6 +1867,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Lindwurmschläger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 88, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Lindwurmschläger",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -1760,6 +1882,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Linkhand" : {
+		"Bücher" : { "Aventurisches Arsenal" : 62, "Wege des Schwerts" : 120, "Meisterschirm" : 23 },
 		"Typ" : "Linkhand",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1778,6 +1901,7 @@
 		}
 	},
 	"Magierdegen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 56, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Magierrapier",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -1793,6 +1917,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Magierrapier" : {
+		"Bücher" : { "Aventurisches Arsenal" : 56, "Meisterschirm" : 22 },
 		"Typ" : "Magierrapier",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1808,6 +1933,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Magierstab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 56, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Magierstab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -1822,6 +1948,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Magierstab"]
 	},
 	"Magierstab mit Kristallkugel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 56, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Magierstab mit Kristallkugel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1836,6 +1963,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Magierstab", "Kristallkugel"]
 	},
 	"Kurzer Magierstab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 57, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kurzer Magierstab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -1849,6 +1977,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Magierstab"]
 	},
 	"Sehr kurzer Magierstab" : {
+		"Bücher" : { "Aventurisches Arsenal" : 57, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kurzer Magierstab",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -1862,6 +1991,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Magierstab"]
 	},
 	"Mattenschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Lederschild",
 		"Gewicht" : 2.5,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -1, "Parademodifikator" : 4 },
@@ -1871,6 +2001,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Mengbilar" : {
+		"Bücher" : { "Aventurisches Arsenal" : 68, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Mengbilar",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -1885,6 +2016,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Menschenfänger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 66, "Meisterschirm" : 22 },
 		"Typ" : "Menschenfänger",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 0, "Trefferpunkte" : 0 },
 		"Gewicht" : 5,
@@ -1899,6 +2031,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Messer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 14, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Messer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 6 },
@@ -1914,6 +2047,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Steinmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 14, "Meisterschirm" : 22 },
 		"Typ" : "Messer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 6 },
@@ -1929,6 +2063,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Meucheldolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 67 },
 		"Typ" : "Meucheldolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1943,6 +2078,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schwerer Meucheldolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 67 },
 		"Typ" : "Meucheldolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -1957,6 +2093,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Molokdeschnaja" : {
+		"Bücher" : { "Aventurisches Arsenal" : 75, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Molokdeschnaja",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -1971,6 +2108,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Morgenstern" : {
+		"Bücher" : { "Aventurisches Arsenal" : 27, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Morgenstern",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -1985,6 +2123,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Nachtwind" : {
+		"Bücher" : { "Aventurisches Arsenal" : 82, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Nachtwind",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -2000,6 +2139,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Nethaner Langaxt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 35, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Nethaner Langaxt",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -2015,6 +2155,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Neunschwänzige" : {
+		"Bücher" : { "Aventurisches Arsenal" : 15, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Neunschwänzige",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 4 },
@@ -2029,6 +2170,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Ochsenherde" : {
+		"Bücher" : { "Aventurisches Arsenal" : 28, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Ochsenherde",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 17, "Schadensschritte" : 1 },
@@ -2043,6 +2185,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Ogerfänger" : {
+		"Bücher" : { "Aventurisches Arsenal" : 20, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Ogerfänger",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2057,6 +2200,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Ogerschelle" : {
+		"Bücher" : { "Aventurisches Arsenal" : 28, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Ogerschelle",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 15, "Schadensschritte" : 1 },
@@ -2071,6 +2215,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Orchidee" : {
+		"Bücher" : { "Aventurisches Arsenal" : 68, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Orchidee",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2085,6 +2230,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Orkischer Reiterbogen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 93, "Wege des Schwerts" : 128, "Meisterschirm" : 24 },
 		"Typ" : "Orkischer Reiterbogen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 10, "Mittel" : 30, "Weit" : 60, "Extrem Weit" : 100 },
@@ -2099,6 +2245,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Orknase" : {
+		"Bücher" : { "Aventurisches Arsenal" : 76, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Orknase",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 2 },
@@ -2114,6 +2261,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Pailos" : {
+		"Bücher" : { "Aventurisches Arsenal" : 85, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Pailos",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -2129,6 +2277,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Panzerarm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 97, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Panzerarm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -2151,6 +2300,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Schild", "Parierwaffe"]
 	},
 	"Panzerstecher" : {
+		"Bücher" : { "Aventurisches Arsenal" : 28, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Panzerstecher",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2165,6 +2315,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Partisane" : {
+		"Bücher" : { "Aventurisches Arsenal" : 35, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Partisane",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2180,6 +2331,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Peitsche" : {
+		"Bücher" : { "Aventurisches Arsenal" : 15, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Peitsche",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 5 },
@@ -2194,6 +2346,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Pike" : {
+		"Bücher" : { "Aventurisches Arsenal" : 36, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Pike",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 4 },
@@ -2209,6 +2362,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Rabenschnabel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 38, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Rabenschnabel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 10, "Schadensschritte" : 4 },
@@ -2223,6 +2377,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Rapier" : {
+		"Bücher" : { "Aventurisches Arsenal" : 63, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Rapier",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2237,6 +2392,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Reißer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 94, "Meisterschirm" : 22 },
 		"Typ" : "Reißer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2251,6 +2407,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Reiterhammer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 38, "Wege des Schwerts" : 122 },
 		"Typ" : "Rabenschnabel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 10, "Schadensschritte" : 4 },
@@ -2265,6 +2422,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Reiterschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 96, "Wege des Schwerts" : 131, "Meisterschirm" : 23 },
 		"Typ" : "Reiterschild",
 		"Gewicht" : 5,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : 5 },
@@ -2274,6 +2432,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Großschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 96, "Wege des Schwerts" : 131, "Meisterschirm" : 23 },
 		"Typ" : "Reiterschild",
 		"Gewicht" : 5,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : 5 },
@@ -2283,6 +2442,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Richtschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 5, "Wege des Schwerts" : 12, "Meisterschirm" : 227 },
 		"Typ" : "Richtschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -2299,6 +2459,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Robbentöter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 91, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Robbentöter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2313,6 +2474,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Rondrakamm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 58, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Rondrakamm",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -2328,6 +2490,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Runaskraja" : {
+		"Bücher" : { "Aventurisches Arsenal" : 58, "Meisterschirm" : 22 },
 		"Typ" : "Runaskraja",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -2343,6 +2506,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Säbel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 39, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Säbel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2356,7 +2520,23 @@
 		"Waffentypen" : ["Schwerter", "Säbel"],
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
+	"Hauswehr" : {
+		"Bücher" : { "Aventurisches Arsenal" : 39, "Meisterschirm" : 22 },
+		"Typ" : "Säbel",
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
+		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
+		"Gewicht" : 1.5,
+		"Länge" : 95,
+		"Bruchfaktor" : 2,
+		"Initiative:Modifikator" : 0,
+		"Preis" : 75,
+		"Waffenmodifikatoren" : { "Attackemodifikator" : 0, "Parademodifikator" : -1 },
+		"Distanzklassen" : ["N"],
+		"Waffentypen" : ["Schwerter", "Säbel"],
+		"Kategorien" : ["Nahkampfwaffe"]
+	},
 	"Sägefischschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 55, "Meisterschirm" : 22 },
 		"Typ" : "Sägefischschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -2370,6 +2550,7 @@
 		"Kategorien" : ["Nahkampfwaffe", "Knochenkeule"]
 	},
 	"Scheibendolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 30, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Scheibendolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -2384,6 +2565,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schlagring" : {
+		"Bücher" : { "Aventurisches Arsenal" : 68, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schlagring",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 10, "Schadensschritte" : 3 },
@@ -2398,6 +2580,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schleuder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 21, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Schleuder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 5, "Mittel" : 15, "Weit" : 25, "Extrem Weit" : 40 },
@@ -2412,6 +2595,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Schmiedehammer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 58, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schmiedehammer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
@@ -2426,6 +2610,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schneidzahn" : {
+		"Bücher" : { "Aventurisches Arsenal" : 76, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Schneidzahn",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2438,6 +2623,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Schnitter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 36, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schnitter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 4 },
@@ -2453,6 +2639,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schwerer Dolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 69, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schwerer Dolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2467,6 +2654,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Schwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 27, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -2481,6 +2669,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Langschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 27, "Wege des Schwerts" : 122 },
 		"Typ" : "Schwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -2495,6 +2684,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Sense" : {
+		"Bücher" : { "Aventurisches Arsenal" : 15, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Sense",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -2511,6 +2701,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Sichel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 16, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Sichel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2526,6 +2717,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Sklaventod" : {
+		"Bücher" : { "Aventurisches Arsenal" : 84, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Sklaventod",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -2540,6 +2732,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Skraja" : {
+		"Bücher" : { "Aventurisches Arsenal" : 76, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Skraja",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -2554,6 +2747,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Sonnenszepter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 59, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Sonnenszepter",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -2568,6 +2762,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Speer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 21, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Speer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2590,6 +2785,7 @@
 		}
 	},
 	"Speerschleuder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 22, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Speerschleuder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 15, "Mittel" : 30, "Weit" : 60, "Extrem Weit" : 100 },
@@ -2604,6 +2800,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Spitzhacke" : {
+		"Bücher" : { "Aventurisches Arsenal" : 16, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Spitzhacke",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -2620,6 +2817,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Stabschleuder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 45 },
 		"Typ" : "Stabschleuder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 5, "Mittel" : 20, "Weit" : 40, "Extrem Weit" : 60 },
@@ -2634,6 +2832,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Stein" : {
+		"Bücher" : { "Aventurisches Arsenal" : 17, "Meisterschirm" : 24 },
 		"Typ" : "Stein",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Reichweiten" : { "Sehr Nah" : 1, "Nah" : 2, "Mittel" : 4, "Weit" : 8, "Extrem Weit" : 12 },
@@ -2646,6 +2845,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Stockdegen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 64, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Stockdegen",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2660,6 +2860,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Stoßspeer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 22, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Stoßspeer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
@@ -2675,6 +2876,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Streitaxt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 30, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Streitaxt",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -2688,7 +2890,23 @@
 		"Waffentypen" : ["Hiebwaffen"],
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
+	"Steinbeil" : {
+		"Bücher" : { "Aventurisches Arsenal" : 30, "Meisterschirm" : 23 },
+		"Typ" : "Streitaxt",
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
+		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
+		"Gewicht" : 3,
+		"Länge" : 90,
+		"Bruchfaktor" : 5,
+		"Initiative:Modifikator" : -1,
+		"Preis" : 15,
+		"Waffenmodifikatoren" : { "Attackemodifikator" : 0, "Parademodifikator" : -1 },
+		"Distanzklassen" : ["N"],
+		"Waffentypen" : ["Hiebwaffen"],
+		"Kategorien" : ["Nahkampfwaffe"]
+	},
 	"Streitkolben" : {
+		"Bücher" : { "Aventurisches Arsenal" : 30, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Streitkolben",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -2703,6 +2921,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Stuhlbein" : {
+		"Bücher" : { "Aventurisches Arsenal" : 17, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Stuhlbein",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -2718,6 +2937,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Sturmsense" : {
+		"Bücher" : { "Aventurisches Arsenal" : 36, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Sturmsense",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2733,6 +2953,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Thorwalerschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 98, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Thorwalerschild",
 		"Gewicht" : 4.5,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -2, "Parademodifikator" : 4 },
@@ -2742,6 +2963,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Turmschild" : {
+		"Bücher" : { "Aventurisches Arsenal" : 98, "Wege des Schwerts" : 132, "Meisterschirm" : 23 },
 		"Typ" : "Turmschild",
 		"Gewicht" : 7,
 		"Waffenmodifikatoren" : { "Attackemodifikator" : -5, "Parademodifikator" : 7 },
@@ -2751,6 +2973,7 @@
 		"Kategorien" : ["Schild"]
 	},
 	"Turnierlanze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 39, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Turnierlanze",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2767,6 +2990,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Turnierschwert" : {
+		"Bücher" : { "Aventurisches Arsenal" : 31, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Turnierschwert",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
@@ -2781,6 +3005,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Tuzakmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 82, "Wege des Schwerts" : 122, "Meisterschirm" : 23 },
 		"Typ" : "Tuzakmesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2796,6 +3021,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Veteranenhand" : {
+		"Bücher" : { "Aventurisches Arsenal" : 69, "Wege des Schwerts" : 126 },
 		"Typ" : "Veteranenhand",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2810,6 +3036,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Vorschlaghammer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 16, "Wege des Schwerts" : 126, "Meisterschirm" : 23 },
 		"Typ" : "Vorschlaghammer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 2 },
@@ -2826,6 +3053,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Vulkanglasdolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 59, "Wege des Schwerts" : 126, "Meisterschirm" : 23 },
 		"Typ" : "Vulkanglasdolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2840,6 +3068,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Waqqif" : {
+		"Bücher" : { "Aventurisches Arsenal" : 80, "Wege des Schwerts" : 126, "Meisterschirm" : 23 },
 		"Typ" : "Waqqif",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 5 },
@@ -2854,6 +3083,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Warunker Hammer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 36, "Wege des Schwerts" : 126, "Meisterschirm" : 23 },
 		"Typ" : "Warunker Hammer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 3 },
@@ -2869,6 +3099,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Windenarmbrust" : {
+		"Bücher" : { "Aventurisches Arsenal" : 46, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Windenarmbrust",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 30, "Mittel" : 60, "Weit" : 100, "Extrem Weit" : 180 },
@@ -2883,6 +3114,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Schwere Armbrust" : {
+		"Bücher" : { "Aventurisches Arsenal" : 46, "Wege des Schwerts" : 131 },
 		"Typ" : "Windenarmbrust",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 6, "Reduzierte Wundschwelle" : true },
 		"Reichweiten" : { "Sehr Nah" : 10, "Nah" : 30, "Mittel" : 60, "Weit" : 100, "Extrem Weit" : 180 },
@@ -2897,6 +3129,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Wolfsmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 91, "Wege des Schwerts" : 126, "Meisterschirm" : 23 },
 		"Typ" : "Wolfsmesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -2911,6 +3144,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Wurfbeil" : {
+		"Bücher" : { "Aventurisches Arsenal" : 77, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfbeil",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2934,6 +3168,7 @@
 		}
 	},
 	"Wurfdolch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 71, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfdolch",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -2957,6 +3192,7 @@
 		}
 	},
 	"Wurfkeule" : {
+		"Bücher" : { "Aventurisches Arsenal" : 77, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfkeule",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4, "Ausdauerschaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -2980,6 +3216,7 @@
 		}
 	},
 	"Wurfmesser" : {
+		"Bücher" : { "Aventurisches Arsenal" : 71, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfmesser",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 8 },
@@ -3003,6 +3240,7 @@
 		}
 	},
 	"Wurfnetz" : {
+		"Bücher" : { "Aventurisches Arsenal" : 22, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfnetz",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 2 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 0, "Mittel" : 0, "Weit" : 5, "Extrem Weit" : 5 },
@@ -3014,6 +3252,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Schweres Wurfnetz" : {
+		"Bücher" : { "Aventurisches Arsenal" : 22, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfnetz",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 6 },
 		"Reichweiten" : { "Sehr Nah" : 0, "Nah" : 0, "Mittel" : 0, "Weit" : 5, "Extrem Weit" : 5 },
@@ -3025,6 +3264,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Wurfring" : {
+		"Bücher" : { "Aventurisches Arsenal" : 72, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfscheibe",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -3037,6 +3277,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Wurfscheibe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 72, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfscheibe",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -3049,6 +3290,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Wurfspeer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 23, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfpeer",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4, "Reduzierte Wundschwelle" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -3074,6 +3316,7 @@
 		}
 	},
 	"Wurfstern" : {
+		"Bücher" : { "Aventurisches Arsenal" : 22, "Wege des Schwerts" : 131, "Meisterschirm" : 24 },
 		"Typ" : "Wurfscheibe",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 5 },
@@ -3086,6 +3329,7 @@
 		"Kategorien" : ["Fernkampfwaffe"]
 	},
 	"Würgeschlinge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 73 },
 		"Typ" : "Würgeschlinge",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Ausdauerschaden" : true },
 		"Preis" : 20,
@@ -3095,6 +3339,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Draht-Würgeschlinge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 73 },
 		"Typ" : "Würgeschlinge",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Ausdauerschaden" : true },
 		"Preis" : 30,
@@ -3104,6 +3349,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Einhand-Würgeschlinge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 73 },
 		"Typ" : "Würgeschlinge",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Ausdauerschaden" : true },
 		"Preis" : 150,
@@ -3112,6 +3358,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Wurmspieß" : {
+		"Bücher" : { "Aventurisches Arsenal" : 88, "Wege des Schwerts" : 127, "Meisterschirm" : 23 },
 		"Typ" : "Wurmspieß",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 4 },
@@ -3127,6 +3374,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Zweihänder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 37, "Wege des Schwerts" : 127, "Meisterschirm" : 23 },
 		"Typ" : "Zweihänder",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 4 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
@@ -3143,6 +3391,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Zweililien" : {
+		"Bücher" : { "Aventurisches Arsenal" : 64, "Wege des Schwerts" : 127, "Meisterschirm" : 23 },
 		"Typ" : "Zweililien",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 4 },
@@ -3158,6 +3407,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Zwergenschlägel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 89, "Wege des Schwerts" : 127, "Meisterschirm" : 23 },
 		"Typ" : "Zwergenschlägel",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 5 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
@@ -3173,6 +3423,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Zwergenskraja" : {
+		"Bücher" : { "Aventurisches Arsenal" : 89, "Wege des Schwerts" : 127, "Meisterschirm" : 23 },
 		"Typ" : "Zwergenskraja",
 		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 3 },
@@ -3187,6 +3438,7 @@
 		"Kategorien" : ["Nahkampfwaffe"]
 	},
 	"Amazonenrüstung" : {
+		"Bücher" : { "Aventurisches Arsenal" : 105, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Amazonenrüstung",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 5, "Rücken" : 3, "Bauch" : 5, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 3, "Rechtes Bein" : 3 },
 		"Behinderung" : 1.7,
@@ -3197,6 +3449,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Anaurak" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Anaurak",
 		"Rüstungsschutz" : { "Kopf" : 1, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 4,
@@ -3207,6 +3460,7 @@
 		"Kategorien" : ["Kleidung", "Rüstung"]
 	},
 	"Armschienen, Bronze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Armschienen, Bronze",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.2,
@@ -3218,6 +3472,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Armschienen, Leder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Meisterschirm" : 25 },
 		"Typ" : "Armschienen, Leder",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.1,
@@ -3229,6 +3484,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Armschienen, Stahl" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Armschienen, Stahl",
 		"Rüstungsschutz" :  { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.3,
@@ -3240,6 +3496,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Baburiner Hut" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Baburiner Hut",
 		"Rüstungsschutz" : { "Kopf" : 4, "Brust" : 0, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.3,
@@ -3251,6 +3508,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Bart" : {
+		"Bücher" : { "Aventurisches Arsenal" : 105, "Meisterschirm" : 25 },
 		"Typ" : "Bart",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3262,6 +3520,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Halsberge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 105, "Meisterschirm" : 25 },
 		"Typ" : "Bart",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3273,6 +3532,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Beinschienen, Bronze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Beinschienen, Leder",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 0.4,
@@ -3284,6 +3544,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Beinschienen, Leder" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Meisterschirm" : 25 },
 		"Typ" : "Beinschienen, Leder",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.2,
@@ -3295,6 +3556,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Beinschienen, Stahl" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Beinschienen, Stahl",
 		"Rüstungsschutz" :  { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 3, "Rechtes Bein" : 3 },
 		"Behinderung" : 0.6,
@@ -3306,6 +3568,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Beintaschen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Beintaschen",
 		"Rüstungsschutz" :  { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 0.8,
@@ -3317,6 +3580,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Schürze" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Beintaschen",
 		"Rüstungsschutz" :  { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 0.8,
@@ -3328,6 +3592,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Brabakmantel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104 },
 		"Typ" : "Ringmantel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 3, "Bauch" : 3, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 1.4,
@@ -3338,6 +3603,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Brigantina" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Meisterschirm" : 25 },
 		"Typ" : "Brigantina",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 2.8,
@@ -3348,6 +3614,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Bronzeharnisch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 105, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Bronzeharnisch",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 2.6,
@@ -3358,6 +3625,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Brustplatte" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Brustplatte",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 0, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3368,6 +3636,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Brustschalen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 105, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Brustschalen",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.4,
@@ -3378,6 +3647,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Dicke Kleidung" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Dicke Kleidung",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.9,
@@ -3387,6 +3657,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Drachenhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Drachenhelm",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 0, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.25,
@@ -3398,6 +3669,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Eisenmantel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Eisenmantel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 5, "Bauch" : 5, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 2.6,
@@ -3408,6 +3680,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Fellumhang" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Fellumhang",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 2, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.9,
@@ -3418,6 +3691,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Fuhrmannsmantel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Fuhrmannsmantel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 2, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.9,
@@ -3428,6 +3702,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Fünflagenharnisch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Fünflagenharnisch",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 5, "Bauch" : 4, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 3,
@@ -3438,6 +3713,18 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Gambeson" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
+		"Typ" : "Gambeson",
+		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 2, "Bauch" : 2, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
+		"Behinderung" : 1.5,
+		"Gesamtrüstungsschutz" : 2,
+		"Gesamtbehinderung" : 2,
+		"Gewicht" : 3,
+		"Preis" : 40,
+		"Kategorien" : ["Rüstung"]
+	},
+	"Wattierter Waffenrock" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Wege des Schwerts" : 136 },
 		"Typ" : "Gambeson",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 2, "Bauch" : 2, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.5,
@@ -3448,6 +3735,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Garether Platte" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Garether Platte",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 6, "Rücken" : 5, "Bauch" : 6, "Linker Arm" : 5, "Rechter Arm" : 5, "Linkes Bein" : 4, "Rechtes Bein" : 4 },
 		"Behinderung" : 3.7,
@@ -3458,6 +3746,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Gestechrüstung" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Gestechrüstung",
 		"Rüstungsschutz" : { "Kopf" : 8, "Brust" : 8, "Rücken" : 7, "Bauch" : 8, "Linker Arm" : 7, "Rechter Arm" : 7, "Linkes Bein" : 7, "Rechtes Bein" : 7 },
 		"Behinderung" : 7.5,
@@ -3469,6 +3758,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Gladiatorenschulter" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Gladiatorenschulter",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 2, "Bauch" : 0, "Linker Arm" : 3, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.15,
@@ -3479,6 +3769,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Hohe Stiefel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 10, "Meisterschirm" : 250 },
 		"Typ" : "Hohe Stiefel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.2,
@@ -3489,6 +3780,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Horasischer Reiterharnisch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Horasischer Reiterharnisch",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 7, "Rücken" : 5, "Bauch" : 7, "Linker Arm" : 5, "Rechter Arm" : 5, "Linkes Bein" : 5, "Rechtes Bein" : 5 },
 		"Behinderung" : 3.6,
@@ -3500,6 +3792,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Iryanrüstung" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Iryanrüstung",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 2, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.6,
@@ -3510,6 +3803,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenbeinlinge" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Meisterschirm" : 25 },
 		"Typ" : "Kettenbeinlinge",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 4, "Rechtes Bein" : 4 },
 		"Behinderung" : 0.8,
@@ -3521,6 +3815,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenhandschuhe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Meisterschirm" : 25 },
 		"Typ" : "Kettenhandschuhe",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.1,
@@ -3532,6 +3827,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenhaube" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Kettenhaube",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.7,
@@ -3543,6 +3839,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenhaube mit Gesichtsschutz" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Meisterschirm" : 25 },
 		"Typ" : "Kettenhaube",
 		"Rüstungsschutz" : { "Kopf" : 4, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.8,
@@ -3554,6 +3851,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenhemd, ½ Arm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103 },
 		"Typ" : "Kettenhemd, ½ Arm",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.8,
@@ -3564,6 +3862,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenhemd" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kettenhemd, ½ Arm",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.8,
@@ -3574,6 +3873,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenkragen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Meisterschirm" : 25 },
 		"Typ" : "Kettenkragen",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.3,
@@ -3585,6 +3885,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenmantel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kettenmantel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 3, "Rechtes Bein" : 3 },
 		"Behinderung" : 2.3,
@@ -3595,6 +3896,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenweste" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kettenweste",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.4,
@@ -3605,7 +3907,8 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kettenzeug" : {
-		"Typ" : "Kettenhaube",
+		"Bücher" : { "Wege des Schwerts" : 104,  "Wege des Schwerts" : 136 },
+		"Typ" : "Kettenzeug",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 4, "Rechtes Bein" : 4 },
 		"Behinderung" : 1.2,
 		"Gesamtrüstungsschutz" : 1,
@@ -3616,6 +3919,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Krötenhaut" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Krötenhaut",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 2, "Bauch" : 2, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.5,
@@ -3626,6 +3930,7 @@
 		"Kategorien" : ["Rüstung"]
 	}, 
 	"Kürass" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kürass",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 1, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3636,6 +3941,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Kusliker Lamellar" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kusliker Lamellar",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 2.9,
@@ -3646,6 +3952,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Langes Kettenhemd" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Langes Kettenhemd",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 2.1,
@@ -3656,6 +3963,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Lederharnisch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Lederharnisch",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 3, "Bauch" : 3, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 1.8,
@@ -3666,6 +3974,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Lederhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Lederhelm",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.2,
@@ -3677,6 +3986,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Lederhelm, verstärkt" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102, "Meisterschirm" : 25 },
 		"Typ" : "Lederhelm, verstärkt",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.3,
@@ -3688,6 +3998,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Lederhose" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Lederhose",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.4,
@@ -3698,6 +4009,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Lederweste" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Lederweste",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3707,6 +4019,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},	
 	"Lederweste, lang" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100 },
 		"Typ" : "Lederweste, lang",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.8,
@@ -3716,6 +4029,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Lederzeug" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102,  "Wege des Schwerts" : 136 },
 		"Typ" : "Lederzeug",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.3,
@@ -3727,6 +4041,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Leichte Platte" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Leichte Platte",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 4, "Bauch" : 5, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 2.2,
@@ -3737,6 +4052,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Löwenmähne" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Meisterschirm" : 25 },
 		"Typ" : "Löwenmähne",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 2, "Rücken" : 2, "Bauch" : 0, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.55,
@@ -3747,17 +4063,8 @@
 		"Preis" : 100,
 		"Kategorien" : ["Rüstung"]
 	},
-	"Maraskanischer Hartholzharnisch" : {
-		"Typ" : "Maraskanischer Hartholzharnisch",
-		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
-		"Behinderung" : 1.7,
-		"Gesamtrüstungsschutz" : 4,
-		"Gesamtbehinderung" : 2,
-		"Gewicht" : 7,
-		"Preis" : 1200,
-		"Kategorien" : ["Rüstung"]
-	},
 	"Mammutonpanzer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 103, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Mammutonpanzer",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 2,
@@ -3767,7 +4074,19 @@
 		"Preis" : 1500,
 		"Kategorien" : ["Rüstung"]
 	},
+	"Maraskanischer Hartholzharnisch" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102, "Meisterschirm" : 25 },
+		"Typ" : "Maraskanischer Hartholzharnisch",
+		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
+		"Behinderung" : 1.7,
+		"Gesamtrüstungsschutz" : 4,
+		"Gesamtbehinderung" : 2,
+		"Gewicht" : 7,
+		"Preis" : 1200,
+		"Kategorien" : ["Rüstung"]
+	},
 	"Mattenrücken" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Mattenrücken",
 		"Rüstungsschutz" : { "Kopf" : 1, "Brust" : 1, "Rücken" : 3, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.9,
@@ -3778,6 +4097,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Morion" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Morion",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.15,
@@ -3789,6 +4109,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Panzerbein" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Panzerbein",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 4, "Rechtes Bein" : 4 },
 		"Behinderung" : 0.8,
@@ -3800,6 +4121,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Panzerhandschuhe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Panzerhandschuhe",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.2,
@@ -3811,6 +4133,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Panzerschuhe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Panzerschuhe",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.2,
@@ -3822,6 +4145,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Pelzweste" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Meisterschirm" : 25 },
 		"Typ" : "Pelzweste",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3831,6 +4155,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},	
 	"Pelzweste, lang" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100 },
 		"Typ" : "Pelzweste, lang",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.8,
@@ -3840,6 +4165,7 @@
 		"Kategorien" : ["Rüstung", "Kleidung"]
 	},
 	"Plattenarme" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Plattenarme",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 5, "Rechter Arm" : 5, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.5,
@@ -3851,6 +4177,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Plattenschultern" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108, "Meisterschirm" : 25 },
 		"Typ" : "Plattenschultern",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.6,
@@ -3861,7 +4188,20 @@
 		"Preis" : 150,
 		"Kategorien" : ["Rüstung"]
 	},
+	"Plattenzeug" : {
+		"Bücher" : { "Aventurisches Arsenal" : 108,  "Wege des Schwerts" : 136 },
+		"Typ" : "Plattenzeug",
+		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 2, "Linker Arm" : 8, "Rechter Arm" : 8, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
+		"Behinderung" : 2.1,
+		"Gesamtrüstungsschutz" : 2,
+		"Gesamtbehinderung" : 2,
+		"Gewicht" : 9.5,
+		"Zusatzrüstung" : true,
+		"Preis" : 500,
+		"Kategorien" : ["Rüstung"]
+	},
 	"Ringelpanzer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Ringelpanzer",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 4, "Rücken" : 4, "Bauch" : 4, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.9,
@@ -3872,6 +4212,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Ringmantel" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Meisterschirm" : 25 },
 		"Typ" : "Ringmantel",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 3, "Rücken" : 3, "Bauch" : 3, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 1.4,
@@ -3882,6 +4223,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Schaller" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106,  "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Schaller",
 		"Rüstungsschutz" : { "Kopf" : 4, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.2,
@@ -3893,6 +4235,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Schaller mit Bart" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106,  "Wege des Schwerts" : 136 },
 		"Typ" : "Schaller mit Bart",
 		"Rüstungsschutz" : { "Kopf" : 6, "Brust" : 1, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.8,
@@ -3904,6 +4247,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Schuppenpanzer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Schuppenpanzer",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 5, "Bauch" : 5, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 3, "Rechtes Bein" : 3 },
 		"Behinderung" : 3.9,
@@ -3914,6 +4258,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Langer Schuppenpanzer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Meisterschirm" : 25 },
 		"Typ" : "Langer Schuppenpanzer",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 5, "Bauch" : 5, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 4, "Rechtes Bein" : 4 },
 		"Behinderung" : 4.1,
@@ -3924,6 +4269,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Spiegelpanzer" : {
+		"Bücher" : { "Aventurisches Arsenal" : 104, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Spiegelpanzer",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 5, "Rücken" : 5, "Bauch" : 5, "Linker Arm" : 3, "Rechter Arm" : 3, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 2.7,
@@ -3934,6 +4280,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Streifenschurz" : {
+		"Bücher" : { "Aventurisches Arsenal" : 102,  "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Streifenschurz",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 0, "Rücken" : 0, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 2, "Rechtes Bein" : 2 },
 		"Behinderung" : 0.4,
@@ -3945,6 +4292,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Sturmhaube" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107,  "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Sturmhaube",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.15,
@@ -3956,6 +4304,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Tellerhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107,  "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Tellerhelm",
 		"Rüstungsschutz" : { "Kopf" : 2, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.2,
@@ -3967,6 +4316,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Topfhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107,  "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Topfhelm",
 		"Rüstungsschutz" : { "Kopf" : 5, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.5,
@@ -3978,6 +4328,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Tuchrüstung" : {
+		"Bücher" : { "Aventurisches Arsenal" : 100, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Tuchrüstung",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 2, "Bauch" : 2, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 1.2,
@@ -3988,6 +4339,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Visierhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 107 },
 		"Typ" : "Visierhelm",
 		"Rüstungsschutz" : { "Kopf" : 5, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.5,
@@ -3999,6 +4351,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Stechhelm" : {
+		"Bücher" : { "Aventurisches Arsenal" : 106, "Meisterschirm" : 25 },
 		"Typ" : "Visierhelm",
 		"Rüstungsschutz" : { "Kopf" : 5, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.5,
@@ -4010,6 +4363,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Wattierte Kappe" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Meisterschirm" : 25 },
 		"Typ" : "Wattierte Kappe",
 		"Rüstungsschutz" : { "Kopf" : 1, "Brust" : 0, "Rücken" : 0, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
 		"Behinderung" : 0.1,
@@ -4021,6 +4375,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Wattiertes Unterzeug" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Wattiertes Unterzeug",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 1, "Rücken" : 1, "Bauch" : 1, "Linker Arm" : 1, "Rechter Arm" : 1, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 0.9,
@@ -4031,6 +4386,7 @@
 		"Kategorien" : ["Rüstung"]
 	},
 	"Wattiertes Unterzeug mit Kettenteilen" : {
+		"Bücher" : { "Aventurisches Arsenal" : 101, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Wattiertes Unterzeug mit Kettenteilen",
 		"Rüstungsschutz" : { "Kopf" : 0, "Brust" : 2, "Rücken" : 2, "Bauch" : 1, "Linker Arm" : 2, "Rechter Arm" : 2, "Linkes Bein" : 1, "Rechtes Bein" : 1 },
 		"Behinderung" : 1.4,
@@ -4040,405 +4396,405 @@
 		"Preis" : 80,
 		"Kategorien" : ["Rüstung"]
 	},
-	"Armbrustsehne" : { "Gewicht" : 4, "Preis" : 1 },
-	"Bogensehne (Kurz)" : { "Name" : "Bogensehne", "Gewicht" : 1, "Preis" : 0.4, "Anmerkungen" : "für Bögen außer Lang- und Kriegsbogen" },
-	"Bogensehne (Lang)" : { "Name" : "Bogensehne", "Gewicht" : 2, "Preis" : 1, "Anmerkungen" : "für Lang- und Kriegsbogen" },
-	"Bolzenköcher (Leder)" : { "Name" : "Bolzenköcher", "Gewicht" : 30, "Preis" : 4, "Anmerkungen" : "Leder, 10 Bolzen" },
-	"Bolzenköcher (Holz)" : { "Name" : "Bolzenköcher", "Gewicht" : 40, "Preis" : 6, "Anmerkungen" : "Holz, 10 Bolzen" },
-	"Bolzenköcher (Stoff)" : { "Name" : "Bolzenköcher", "Gewicht" : 20, "Preis" : 2, "Anmerkungen" : "Stoff, 10 Bolzen" },
-	"Dolchscheide" : { "Name" : "Dolchscheide", "Gewicht" : 10, "Preis" : 5 },
-	"Dolchscheide (verstärkt)" : { "Name" : "Dolchscheide", "Gewicht" : 8, "Preis" : 15, "Anmerkungen" : "verstärkt" },
-	"Köcher (Holz)" : { "Name" : "Köcher", "Gewicht" : 60, "Preis" : 6, "Anmerkungen" : "Holz, 20 Pfeile/Bogen" },
-	"Köcher (Leder)" : { "Name" : "Köcher", "Gewicht" : 30, "Preis" : 15, "Anmerkungen" : "Leder, 20 Pfeile/Bogen" },
-	"Hüftköcher" : { "Gewicht" : 35, "Preis" : 18, "Anmerkungen" : "Leder, 20 Pfeile/Bogen" },
-	"Drolina" : { "Gewicht" : 20, "Preis" : 2500 },
-	"Schultergurt" : { "Gewicht" : 20, "Preis" : 10, "Anmerkungen" : "für Rückenscheide" },
-	"Schwertgürtel" : { "Name" : "Schwertgürtel", "Gewicht" : 40, "Preis" : 15 },
-	"Schwertgürtel (verstärkt)" : { "Name" : "Schwertgürtel", "Gewicht" : 80, "Preis" : 40, "Anmerkungen" : "verstärkt" },
-	"Axtgehänge" : { "Name" : "Axtgehänge", "Gewicht" : 40, "Preis" : 15 },
-	"Axtgehänge (verstärkt)" : { "Name" : "Axtgehänge", "Gewicht" : 80, "Preis" : 40, "Anmerkungen" : "verstärkt" },
-	"Schwertscheide" : { "Gewicht" : 30, "Preis" : 10 },
-	"Springarm" : { "Gewicht" : 15, "Preis" : 100 },
-	"Waffenpflegeutensilien" : { "Gewicht" : 40, "Preis" : 15 },
-	"Hammer" : { "Gewicht" : 40, "Preis" : 8 },
-	"5 Meißel" : { "Name" : "Meißel", "Gewicht" : 40, "Preis" : 12, "Anmerkungen" : "5 Stück, sortiert" },
-	"50 Nägel" : { "Name" : "Nägel", "Gewicht" : 30, "Preis" : 10, "Anmerkungen" : "50 Stück" },
-	"Handsäge" : { "Gewicht" : 30, "Preis" : 15 },
-	"Zange" : { "Gewicht" : 20, "Preis" : 12 },
-	"Brecheisen" : { "Gewicht" : 80, "Preis" : 10 },
-	"Spaten" : { "Gewicht" : 80, "Preis" : 10 },
-	"Handbeil" : { "Gewicht" : 40, "Preis" : 15 },
-	"Feile für Holz" : { "Gewicht" : 15, "Preis" : 8 },
-	"Feile für Metall" : { "Gewicht" : 15, "Preis" : 25 },
-	"Schere" : { "Gewicht" : 12, "Preis" : 25 },
-	"Nadel und Garn" : { "Gewicht" : 2, "Preis" : 8, "Anmerkungen" : "sortiert" },
-	"Besen" : { "Gewicht" : 40, "Preis" : 1 },
-	"Leim" : { "Gewicht" : 40, "Preis" : 8 },
-	"Flaschenzug (250 Stein)" : { "Name" : "Flaschenzug", "Gewicht" : 150, "Preis" : 150, "Anmerkungen" : "für 250 Stein, ohne Seil" },
-	"Flaschenzug (1 Quader)" : { "Name" : "Flaschenzug", "Gewicht" : 250, "Preis" : 800, "Anmerkungen" : "für 1 Quader, ohne Seil" },
-	"Tätowierwerkzeug" : { "Gewicht" : 15, "Preis" : 50 },
-	"Gravurwerkzeug" : { "Gewicht" : 20, "Preis" : 30 },
-	"Chirurgenbesteck" : { "Gewicht" : 60, "Preis" : 100 },
-	"Dietrich Sortiment" : { "Gewicht" : 15, "Preis" : 120 },
-	"Alchimistischer Analyse-Koffer" : { "Gewicht" : 200, "Preis" : 500 },
-	"Kerze" : { "Name" : "Kerze", "Gewicht" : 2, "Preis" : 0.1, "Anmerkungen" : "1 Spann Länge" },
-	"Pechfackel" : { "Gewicht" : 20, "Preis" : 0.5 },
-	"Öllampe" : { "Gewicht" : 10, "Preis" : 1 },
-	"Kerzenstände" : { "Gewicht" : 20, "Preis" : 4, "Anmerkungen" : "Zinn" },
-	"Kerzenlaterne (Holz)" : { "Name" : "Kerzenlaterne", "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Holz" },
-	"Kerzenlaterne (Pergament)" : { "Name" : "Kerzenlaterne", "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Pergament" },
-	"Sturmlaterne" : { "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Öl, abblendbar" },
-	"Lampenöl" : { "Gewicht" : 10, "Preis" : 0.5 },
-	"Duftöl" : { "Gewicht" : 10, "Preis" : 1 },
-	"Feuerstein & Stahl" : { "Gewicht" : 5, "Preis" : 0.6 },
-	"Zunderdose" : { "Name" : "Zunderdose", "Gewicht" : 8, "Preis" : 2 },
-	"Zunderdose (wasserdicht)" : { "Name" : "Zunderdose", "Gewicht" : 10, "Preis" : 7, "Anmerkungen" : "wasserdicht" },
-	"Gwen-Petryl-Stein" : { "Gewicht" : 30, "Preis" : 1000, "Anmerkungen" : "faustgroß" },
-	"Holzbecher" : { "Gewicht" : 2, "Preis" : 0.1 },
-	"Henkelbecher" : { "Gewicht" : 20, "Preis" : 4, "Anmerkungen" : "Zinn" },
-	"Silberpokal" : { "Gewicht" : 10, "Preis" : 10 },
-	"Holzteller" : { "Gewicht" : 4, "Preis" : 0.4 },
-	"Holzlöffel" : { "Gewicht" : 3, "Preis" : 0.1 },
-	"Essmesser" : { "Gewicht" : 5, "Preis" : 3, "Anmerkungen" : "Eisen" },
-	"Essbesteck" : { "Gewicht" : 10, "Preis" : 5, "Anmerkungen" : "Zinn" },
-	"Karaffe" : { "Gewicht" : 20, "Preis" : 20, "Anmerkungen" : "Neethaer Glas" },
-	"Trinkhorn" : { "Gewicht" : 15, "Preis" : 5 },
-	"Eisenpfanne" : { "Gewicht" : 80, "Preis" : 8, "Anmerkungen" : "1.5 Spann 0" },
-	"Eisentopf" : { "Gewicht" : 120, "Preis" : 10, "Anmerkungen" : "12 Maß" },
-	"Kessel" : { "Gewicht" : 70, "Preis" : 15, "Anmerkungen" : "2 Maß, emailliert" },
-	"Kupferkessel" : { "Gewicht" : 160, "Preis" : 20, "Anmerkungen" : "25 Maß" },
-	"Bratspieß" : { "Gewicht" : 120, "Preis" : 5, "Anmerkungen" : "Eisen" },
-	"Geldbeutel" : { "Gewicht" : 1, "Preis" : 0.1, "Anmerkungen" : "Leder" },
-	"Gürteltasche" : { "Gewicht" : 4, "Preis" : 0.4, "Anmerkungen" : "Hartleder" },
-	"Tuchbeutel" : { "Gewicht" : 15, "Preis" : 0.4, "Anmerkungen" : "5 Stein" },
-	"Lederranzen" : { "Gewicht" : 25, "Preis" : 2, "Anmerkungen" : "8 Stein" },
-	"Lederrucksack" : { "Gewicht" : 40, "Preis" : 4, "Anmerkungen" : "15 Stein" },
-	"Tragesack" : { "Gewicht" : 30, "Preis" : 1, "Anmerkungen" : "15 Stein" },
-	"Korb" : { "Gewicht" : 80, "Preis" : 4, "Anmerkungen" : "20 Stein" },
-	"Kiepe" : { "Gewicht" : 80, "Preis" : 7, "Anmerkungen" : "20 Stein" },
-	"Transportkiste" : { "Name" : "Transportkiste", "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "30 Stein" },
-	"Transportkiste (verstärkt)" : { "Name" : "Transportkiste", "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "30 Stein, mit Eisenbändern" },
-	"Kleine Truhe" : { "Name" : "Kleine Truhe", "Gewicht" : 200, "Preis" : 8, "Anmerkungen" : "50 Stein" },
-	"Kleine Truhe (verstärkt)" : { "Name" : "Kleine Truhe", "Gewicht" : 320, "Preis" : 12, "Anmerkungen" : "50 Stein, mit Eisenbändern" },
-	"Kleine Truhe (verstärkt, Schloss)" : { "Name" : "Kleine Truhe", "Gewicht" : 360, "Preis" : 25, "Anmerkungen" : "50 Stein, mit Eisenbändern und Schloss" },
-	"Schmuckkästchen" : { "Name" : "Schmuckkästchen", "Gewicht" : 40, "Preis" : 2, "Anmerkungen" : "3 Stein" },
-	"Schmuckkästchen (Schloss)" : { "Name" : "Schmuckkästchen", "Gewicht" : 45, "Preis" : 15, "Anmerkungen" : "3 Stein, mit Schloss" },
-	"Schachtel" : { "Gewicht" : 10, "Preis" : 1.5, "Anmerkungen" : "1 Stein, Birkenrinde" },
-	"Lackdose" : { "Gewicht" : 1, "Preis" : 2, "Anmerkungen" : "5 Unzen, Birkenrinde" },
-	"Holzeimer" : { "Gewicht" : 60, "Preis" : 3 },
-	"Flasche (Ton)" : { "Name" : "Flasche", "Gewicht" : 12, "Preis" : 1, "Anmerkungen" : "2 Schänk, Ton" },
-	"Flasche (Bronze)" : { "Name" : "Flasche", "Gewicht" : 50, "Preis" : 8, "Anmerkungen" : "2 Schänk, Bronze" },
-	"Flasche (Glas)" : { "Name" : "Flasche", "Gewicht" : 10, "Preis" : 12, "Anmerkungen" : "2 Schänk, Glas" },
-	"Glasphiole" : { "Gewicht" : 4, "Preis" : 5, "Anmerkungen" : "3 Flux" },
-	"Tontiegel" : { "Gewicht" : 10, "Preis" : 0.5, "Anmerkungen" : "10 Flux" },
-	"Salbendöschen" : { "Gewicht" : 15, "Preis" : 5, "Anmerkungen" : "Alabaster" },
-	"Wasserfass" : { "Gewicht" : 120, "Preis" : 18, "Anmerkungen" : "20 Maß" },
-	"Wasserschlauch" : { "Gewicht" : 5, "Preis" : 1, "Anmerkungen" : "5 Schänk" },
-	"Trinkflasche" : { "Gewicht" : 8, "Preis" : 2, "Anmerkungen" : "5 Schänk" },
-	"Brotbeutel" : { "Gewicht" : 8, "Preis" : 0.5 },
-	"Kletterhaken" : { "Gewicht" : 50, "Preis" : 5, "Anmerkungen" : "10 Stück" },
-	"Wurfhaken" : { "Gewicht" : 10, "Preis" : 5 },
-	"Angelhaken" : { "Gewicht" : 1, "Preis" : 0.2, "Anmerkungen" : "mit Schnur" },
-	"Kleines Fischernetz" : { "Gewicht" : 40, "Preis" : 10 },
-	"Hängematte" : { "Gewicht" : 80, "Preis" : 13 },
-	"Zeltplane" : { "Gewicht" : 300, "Preis" : 20, "Anmerkungen" : "2 Personen" },
-	"Zeltboden" : { "Gewicht" : 80, "Preis" : 8 },
-	"Zeltstange" : { "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "2 Stück" },
-	"Vierpersonenzelt" : { "Gewicht" : 900, "Preis" : 50 },
-	"Wolldecke" : { "Gewicht" : 60, "Preis" : 2 },
-	"Schlafsack" : { "Name" : "Schlafsack", "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "fellgefüttert" },
-	"Schneeschuhe" : { "Gewicht" : 60, "Preis" : 12, "Kategorien" : ["Kleidung"] },
-	"Nivesische Skier" : { "Gewicht" : 60, "Preis" : 18 },
-	"Schnur (1 Schritt)" : { "Name" : "Schnur", "Gewicht" : 0.5, "Preis" : 0.05, "Anmerkungen" : "1 Schritt" },
-	"Hanfseil (1 Schritt)" : { "Name" : "Hanfseil", "Gewicht" : 5, "Preis" : 0.7, "Anmerkungen" : "1 Schritt" },
-	"Tau (1 Schritt)" : { "Name" : "Tau", "Gewicht" : 2, "Preis" : 12, "Anmerkungen" : "1 Schritt, 2 Finger 0" },
-	"Seidenseil (1 Schritt)" : { "Name" : "Seidenseil", "Gewicht" : 2, "Preis" : 12, "Anmerkungen" : "1 Schritt" },
-	"Fesselseil (1 Schritt)" : { "Name" : "Fesselseil", "Gewicht" : 10, "Preis" : 1, "Anmerkungen" : "1 Schritt, Leder" },
-	"Strickleiter (1 Schritt)" : { "Name" : "Strickleiter", "Gewicht" : 15, "Preis" : 2.4, "Anmerkungen" : "1 Schritt" },
-	"Dünne Kette (1 Schritt)" : { "Name" : "Dünne Kette", "Gewicht" : 25, "Preis" : 4, "Anmerkungen" : "1 Schritt" },
-	"Schwere Kette (1 Schritt)" : { "Name" : "Schwere Kette", "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "1 Schritt" },
-	"Wollstrümpfe" : { "Gewicht" : 4, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
-	"Seidenstrümpfe" : { "Gewicht" : 2, "Preis" : 12, "Kategorien" : ["Kleidung"] },
-	"Lendentuch" : { "Gewicht" : 8, "Preis" : 0.1, "Kategorien" : ["Kleidung"] },
-	"Brusttuch" : { "Gewicht" : 8, "Preis" : 0.1, "Kategorien" : ["Kleidung"] },
-	"Unterhose" : { "Gewicht" : 20, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Bruche" : { "Gewicht" : 20, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Nachthemd" : { "Gewicht" : 15, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Unterkleid" : { "Gewicht" : 20, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Schnürmieder" : { "Gewicht" : 25, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Korsett, Fischbein und Seide" : { "Gewicht" : 35, "Preis" : 60, "Kategorien" : ["Kleidung"] },
-	"Hemd" : { "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
-	"Bluse" : { "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
-	"Weste" : { "Gewicht" : 25, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Jacke" : { "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Wams" : { "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Wappenrock" : { "Gewicht" : 30, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Hose" : { "Gewicht" : 30, "Preis" : 1, "Kategorien" : ["Kleidung"] },
-	"Rock" : { "Gewicht" : 45, "Preis" : 1, "Kategorien" : ["Kleidung"] },
-	"Belhanker Röckchen" : { "Gewicht" : 15, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Bausch" },
-	"Kleid" : { "Gewicht" : 60, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Horasisches Ballkleid" : { "Gewicht" : 60, "Preis" : 50, "Kategorien" : ["Kleidung"] },
-	"Tunika" : { "Gewicht" : 30, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Burnus" : { "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Kaftan" : { "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Magierrobe" : { "Gewicht" : 120, "Preis" : 60, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Taft" },
-	"Kapuzenumhang" : { "Gewicht" : 80, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "lang" },
-	"Mantel" : { "Gewicht" : 60, "Preis" : 3, "Kategorien" : ["Kleidung"] },
-	"Schaube" : { "Gewicht" : 60, "Preis" : 3, "Kategorien" : ["Kleidung"] },
-	"Kusliker Kurzmantel" : { "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Balihoer Wachsmantel" : { "Gewicht" : 70, "Preis" : 6, "Kategorien" : ["Kleidung"] },
-	"Nivesischer Anaurak" : { "Gewicht" : 120, "Preis" : 20, "Kategorien" : ["Kleidung"] },
-	"Kapuze" : { "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
-	"Gugel" : { "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
-	"Wollmütze" : { "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
-	"Filzkappe" : { "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
-	"Fez" : { "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
-	"Fellmütze" : { "Gewicht" : 30, "Preis" : 3, "Kategorien" : ["Kleidung"] },
-	"Kopftuch" : { "Gewicht" : 3, "Preis" : 0.5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Haube" : { "Gewicht" : 3, "Preis" : 0.5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Stirnband" : { "Gewicht" : 2, "Preis" : 0.5, "Kategorien" : ["Kleidung"] },
-	"Barett" : { "Gewicht" : 4, "Preis" : 1, "Kategorien" : ["Kleidung"] },
-	"Federhut" : { "Gewicht" : 2, "Preis" : 3, "Kategorien" : ["Kleidung"], "Anmerkungen" : "mit breiter Krempe" },
-	"Turban" : { "Gewicht" : 30, "Preis" : 4, "Kategorien" : ["Kleidung"] },
-	"Schal" : { "Gewicht" : 4, "Preis" : 0.2, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Wolle" },
-	"Halstuch" : { "Gewicht" : 2, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Seide" },
-	"Schleier" : { "Gewicht" : 0.5, "Preis" : 20, "Kategorien" : ["Kleidung"], "Anmerkungen" : "feinste Seide" },
-	"Taschentuch" : { "Gewicht" : 2, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
-	"Maske" : { "Gewicht" : 5, "Preis" : 3, "Kategorien" : ["Kleidung"], "Anmerkungen" : "aus Tuch" },
-	"Ledergürtel" : { "Gewicht" : 8, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Seidenschärpe" : { "Gewicht" : 4, "Preis" : 10, "Kategorien" : ["Kleidung"] },
-	"Lederschürze" : { "Gewicht" : 40, "Preis" : 5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "mit Taschen" },
-	"Wollfäustlinge" : { "Gewicht" : 4, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
-	"Lederhandschuhe" : { "Gewicht" : 6, "Preis" : 3, "Kategorien" : ["Kleidung"] },
-	"Stulpenhandschuhe" : { "Gewicht" : 25, "Preis" : 8, "Kategorien" : ["Kleidung"] },
-	"Strohschuhe" : { "Gewicht" : 25, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
-	"Sandalen" : { "Gewicht" : 30, "Preis" : 0.6, "Kategorien" : ["Kleidung"] },
-	"Lederschuhe" : { "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
-	"Leichte Stiefel" : { "Gewicht" : 75, "Preis" : 9, "Kategorien" : ["Kleidung"] },
-	"Schwere Reiterstiefel" : { "Gewicht" : 100, "Preis" : 20, "Kategorien" : ["Kleidung"] },
-	"Stulpenstiefel" : { "Gewicht" : 100, "Preis" : 30, "Kategorien" : ["Kleidung"] },
-	"Ring" : { "Gewicht" : 0.5, "Preis" : 3 },
-	"Ohrring" : { "Gewicht" : 0.2, "Preis" : 3 },
-	"Armreif" : { "Gewicht" : 10, "Preis" : 60 },
-	"Stirnreif" : { "Gewicht" : 8, "Preis" : 20 },
-	"Spange" : { "Gewicht" : 1, "Preis" : 6 },
-	"Fibel" : { "Gewicht" : 1, "Preis" : 6 },
-	"Gewandknopf" : { "Gewicht" : 0.2, "Preis" : 3 },
-	"Halskette" : { "Gewicht" : 0.5, "Preis" : 5 },
-	"Amulett" : { "Gewicht" : 2, "Preis" : 4 },
-	"Fächer" : { "Gewicht" : 5, "Preis" : 8, "Anmerkungen" : "Elfenbein und Seide" },
-	"Schmuckkamm" : { "Gewicht" : 5, "Preis" : 15, "Anmerkungen" : "Perlmutt" },
-	"Seife" : { "Gewicht" : 20, "Preis" : 0.2 },
-	"Badeöl" : { "Gewicht" : 10, "Preis" : 2 },
-	"Salböl" : { "Gewicht" : 10, "Preis" : 2 },
-	"Rasiermesser" : { "Gewicht" : 10, "Preis" : 12 },
-	"Kamm (Holz)" : { "Name" : "Kamm", "Gewicht" : 5, "Preis" : 0.1, "Anmerkungen" : "Holz" },
-	"Kamm (Albenkristall)" : { "Name" : "Kamm", "Gewicht" : 4, "Preis" : 40, "Anmerkungen" : "Albenkristall, biegsam" },
-	"Bürste" : { "Gewicht" : 10, "Preis" : 0.5 },
-	"Schwamm" : { "Gewicht" : 5, "Preis" : 1.2 },
-	"Nagelfeile" : { "Gewicht" : 2, "Preis" : 3 },
-	"Schminke & Puder" : { "Gewicht" : 2, "Preis" : 10 },
-	"Lippenrot" : { "Gewicht" : 1, "Preis" : 2 },
-	"Parfüm" : { "Gewicht" : 1, "Preis" : 30 },
-	"Räucherwerk" : { "Gewicht" : 1, "Preis" : 10 },
-	"Tätowierung" : { "Preis" : 10 },
-	"Schreibkreide" : { "Gewicht" : 1, "Preis" : 0.1 },
-	"Schiefertafel" : { "Gewicht" : 20, "Preis" : 2 },
-	"Gänsekiel" : { "Gewicht" : 0.1, "Preis" : 0.4 },
-	"Griffel" : { "Gewicht" : 0.1, "Preis" : 0.4 },
-	"Federmesser" : { "Gewicht" : 5, "Preis" : 3 },
-	"Pinsel" : { "Gewicht" : 2, "Preis" : 2 },
-	"Kohlestift" : { "Gewicht" : 0.4, "Preis" : 0.1 },
-	"Tinte" : { "Gewicht" : 4, "Preis" : 2 },
-	"Tusche" : { "Gewicht" : 4, "Preis" : 2 },
-	"Siegelstock" : { "Gewicht" : 5, "Preis" : 5 },
-	"Siegelwachs" : { "Gewicht" : 4, "Preis" : 0.5, "Anmerkungen" : "1 Stange" },
-	"Pergament" : { "Gewicht" : 0.1, "Preis" : 1.2 },
-	"Papier" : { "Gewicht" : 0.3, "Preis" : 0.2 },
-	"Schriftrolle" : { "Gewicht" : 30, "Preis" : 40, "Anmerkungen" : "2 Schritt" },
-	"Tagebuch" : { "Gewicht" : 20, "Preis" : 35, "Anmerkungen" : "Papier" },
-	"Messinglineal" : { "Gewicht" : 8, "Preis" : 3 },
-	"Zirkel" : { "Gewicht" : 4, "Preis" : 15 },
-	"Vorhängeschloss" : { "Gewicht" : 15, "Preis" : 40 },
-	"Türschloss" : { "Preis" : 20 },
-	"Truhenschloss" : { "Preis" : 20 },
-	"Spieluhr" : { "Gewicht" : 8, "Preis" : 400 },
-	"Handspiegel (Messing)" : { "Name" : "Handspiegel", "Gewicht" : 20, "Preis" : 12, "Anmerkungen" : "poliertes Messing" },
-	"Handspiegel (Glas)" : { "Name" : "Handspiegel",  "Gewicht" : 20, "Preis" : 12, "Anmerkungen" : "versilbertes Glas" },
-	"Brennglas" : { "Gewicht" : 4, "Preis" : 40 },
-	"Lupe" : { "Gewicht" : 5, "Preis" : 80 },
-	"Fernrohr" : { "Gewicht" : 50, "Preis" : 700 },
-	"Himmelsfernrohr" : { "Gewicht" : 160, "Preis" : 2500 },
-	"Brille" : { "Gewicht" : 3, "Preis" : 250 },
-	"Stundeglas" : { "Gewicht" : 10, "Preis" : 30 },
-	"Stundenkerze" : { "Gewicht" : 5, "Preis" : 8 },
-	"Sonnenuhr" : { "Gewicht" : 40, "Preis" : 10 },
-	"Vinsalter Ei" : { "Gewicht" : 15, "Preis" : 800 },
-	"Südweiser (Gehäuse)" : { "Name" : "Südweiser", "Gewicht" : 40, "Preis" : 80, "Anmerkungen" : "in Gehäuse" },
-	"Südweiser (Pendel)" : { "Name" : "Südweiser", "Gewicht" : 10, "Preis" : 20, "Anmerkungen" : "als Pendel" },
-	"Hylailer Dreikreuz" : { "Gewicht" : 30, "Preis" : 30 },
-	"Quadrant" : { "Gewicht" : 30, "Preis" : 70 },
-	"Astrolabium" : { "Gewicht" : 120, "Preis" : 250 },
-	"Orbitarium" : { "Gewicht" : 400, "Preis" : 5000 },
-	"Abakus" : { "Gewicht" : 20, "Preis" : 10 },
-	"Addiermaschine" : { "Gewicht" : 120, "Preis" : 2000 },
-	"Zinsspindel" : { "Gewicht" : 160, "Preis" : 6000 },
-	"Stoffpuppe" : { "Gewicht" : 10, "Preis" : 0.5 },
-	"Zinnsoldat" : { "Gewicht" : 1, "Preis" : 1 },
-	"Steckenpferd" : { "Gewicht" : 40, "Preis" : 2 },
-	"3 Würfel" : { "Name" : "Würfel", "Gewicht" : 1, "Preis" : 2, "Anmerkungen" : "3 Stück, Bein" },
-	"Jonglierball" : { "Gewicht" : 7, "Preis" : 0.5 },
-	"Brettspiel" : { "Gewicht" : 40, "Preis" : 8, "Anmerkungen" : "Holz" },
-	"Teppich (1 Rechtschritt)" : { "Gewicht" : 160, "Preis" : 30, "Anmerkungen" : "1 Rechtsschritt" },
-	"Statuette" : { "Gewicht" : 15, "Preis" : 2, "Anmerkungen" : "1 Spann, Silber" },
-	"Kristallkugel" : { "Gewicht" : 60, "Preis" : 300 },
-	"Gemälde" : { "Gewicht" : 60, "Preis" : 70, "Anmerkungen" : "Öl auf Leinwand" },
-	"Banner" : { "Gewicht" : 60, "Preis" : 15 },
-	"Tabakspfeife" : { "Gewicht" : 5, "Preis" : 5, "Anmerkungen" : "Holz" },
-	"Tabakdose" : { "Gewicht" : 2, "Preis" : 3, "Anmerkungen" : "Silber" },
-	"Meerschaumpfeife" : { "Gewicht" : 4, "Preis" : 10 },
-	"Wasserpfeife" : { "Gewicht" : 40, "Preis" : 20 },
-	"Holzflöte" : { "Gewicht" : 8, "Preis" : 2 },
-	"Beinflöte" : { "Gewicht" : 10, "Preis" : 20 },
-	"Silberflöte" : { "Gewicht" : 30, "Preis" : 150 },
-	"Horn" : { "Gewicht" : 40, "Preis" : 70 },
-	"Fanfare" : { "Gewicht" : 40, "Preis" : 70 },
-	"Zwergischer Pfeifenbalg" : { "Gewicht" : 80, "Preis" : 100 },
-	"Trommel" : { "Gewicht" : 20, "Preis" : 10 },
-	"Dabla" : { "Gewicht" : 20, "Preis" : 10 },
-	"Söldnertrommel" : { "Gewicht" : 80, "Preis" : 20 },
-	"Schellen" : { "Gewicht" : 1, "Preis" : 2 },
-	"Glöckchen" : { "Gewicht" : 1, "Preis" : 2 },
-	"Zimbeln" : { "Gewicht" : 1, "Preis" : 2 },
-	"Glockenspiel" : { "Gewicht" : 120, "Preis" : 100 },
-	"Handharfe" : { "Gewicht" : 40, "Preis" : 100 },
-	"Leier" : { "Gewicht" : 40, "Preis" : 100 },
-	"Drehleier" : { "Gewicht" : 80, "Preis" : 15 },
-	"Laute" : { "Gewicht" : 80, "Preis" : 15 },
-	"Bandurria" : { "Gewicht" : 80, "Preis" : 15 },
-	"Standharfe" : { "Gewicht" : 300, "Preis" : 350 },
-	"Spinett" : { "Gewicht" : 4000, "Preis" : 3000 },
-	"Arganwurzel" : { "Preis" : 170 },
-	"Atanax" : { "Preis" : 100 },
-	"Atmon" : { "Preis" : 180 },
-	"Belmart" : { "Preis" : 40 },
-	"Bleichmohn" : { "Preis" : 70 },
-	"Carlog" : { "Preis" : 40 },
-	"Conchinis-Salbe" : { "Preis" : 70 },
-	"Donf" : { "Preis" : 40 },
-	"Egelschreck" : { "Preis" : 3 },
-	"Finage" : { "Preis" : 80 },
-	"Gulmond" : { "Preis" : 40 },
-	"Hiradwurz" : { "Preis" : 120 },
-	"Joruga" : { "Preis" : 80 },
-	"Kairan" : { "Preis" : 150 },
-	"Kajubo" : { "Preis" : 100 },
-	"Klippenzahn" : { "Preis" : 40 },
-	"Lulanie" : { "Preis" : 70 },
-	"Menchalsaft" : { "Preis" : 50 },
-	"Mirbelstein" : { "Preis" : 3 },
-	"Neckerkraut" : { "Preis" : 8 },
-	"Nothilf, Blüten" : { "Name" : "Nothilf", "Preis" : 300, "Anmerkungen" : "Blüten" },
-	"Nothilf, Blätter" : { "Name" : "Nothilf", "Preis" : 70, "Anmerkungen" : "Blätter" },
-	"Olginwurz" : { "Preis" : 500 },
-	"Rahjalieb" : { "Preis" : 1 },
-	"Rote Pfeilblüte" : { "Preis" : 100 },
-	"Sansaro, Absud" : { "Name" : "Sansaroabsud", "Preis" : 60 },
-	"Sansaro, Paste" : { "Name" : "Sansaropaste", "Preis" : 30 },
-	"Satuariensbusch" : { "Preis" : 0.5 },
-	"Talaschin" : { "Preis" : 70 },
-	"Tarnele" : { "Preis" : 2 },
-	"Thonnys" : { "Preis" : 40 },
-	"Traschbart" : { "Preis" : 0.5 },
-	"Ulmenwürger" : { "Preis" : 30 },
-	"Vierblättrige Einbeere" : { "Name" : "Einbeerentrank", "Preis" : 150 },
-	"Wirselkraut" : { "Preis" : 50 },
-	"Wundpulver" : { "Preis" : 5 },
-	"Xordai" : { "Preis" : 140 },
-	"Yagannuss" : { "Preis" : 30 },
-	"Zwölfblatt" : { "Preis" : 20 },
-	"Milchkuh" : { "Preis" : 120 },
-	"Zuchtbulle" : { "Preis" : 500 },
-	"Schaf" : { "Preis" : 6 },
-	"Ziege" : { "Preis" : 1.5 },
-	"Schwein" : { "Preis" : 30 },
-	"Kaninchen" : { "Preis" : 3 },
-	"Huhn" : { "Preis" : 0.8 },
-	"Gans" : { "Preis" : 4 },
-	"Brieftaube" : { "Preis" : 30, "Anmerkungen" : "ausgebildet" },
-	"Jagdfalke" : { "Preis" : 500 },
-	"Jagdhund" : { "Preis" : 200, "Anmerkungen" : "Zucht" },
-	"Fährtenhund" : { "Preis" : 200, "Anmerkungen" : "Zucht" },
-	"Schoßhund" : { "Preis" : 100, "Anmerkungen" : "Zucht" },
-	"Allerweltshund" : { "Preis" : 10, "Anmerkungen" : "Mischling" },
-	"Elch" : { "Preis" : 400 },
-	"Elefant" : { "Preis" : 2000 },
-	"Kamah-Kamel" : { "Preis" : 250 },
-	"Kamel" : { "Preis" : 700 },
-	"Dromeda" : { "Preis" : 700 },
-	"Rennkamel" : { "Preis" : 1100 },
-	"Karen" : { "Preis" : 120 },
-	"Schlittenhund" : { "Preis" : 150 },
-	"Schneedachs" : { "Preis" : 200 },
-	"Strauß" : { "Preis" : 350 },
-	"Zugochse, schwer" : { "Name" : "Zugochse", "Preis" : 400, "Anmerkungen" : "schwer" },
-	"Zugochse, leicht" : { "Name" : "Zugochse", "Preis" : 250, "Anmerkungen" : "leicht" },
-	"Zügel und Zaumzeug" : { "Gewicht" : 80, "Preis" : 10 },
-	"Führhalfter" : { "Gewicht" : 60, "Preis" : 2, "Anmerkungen" : "mit Strick" },
-	"Satteldecke" : { "Gewicht" : 40, "Preis" : 1 },
-	"Packsattel, klein" : { "Name" : "Packsattel", "Gewicht" : 600, "Preis" : 30, "Anmerkungen" : "klein" },
-	"Packsattel, groß" : { "Name" : "Packsattel", "Gewicht" : 750, "Preis" : 40, "Anmerkungen" : "groß" },
-	"Packsatteltasche" : { "Gewicht" : 200, "Preis" : 20, "Anmerkungen" : "2x30 Stein" },
-	"Reitsattel" : { "Gewicht" : 240, "Preis" : 30 },
-	"Satteltasche" : { "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "2x6 Stein" },
-	"Gestechsattel" : { "Gewicht" : 800, "Preis" : 120 },
-	"Rossharnisch" : { "Gewicht" : 2000, "Preis" : 5000 },
-	"Wappendecke" : { "Gewicht" : 400, "Preis" : 50, "Anmerkungen" : "für Streitross" },
-	"Reitgerte" : { "Gewicht" : 200, "Preis" : 3 },
-	"Sporen" : { "Gewicht" : 10, "Preis" : 6 },
-	"Stalldecke" : { "Gewicht" : 200, "Preis" : 3 },
-	"Hufeisen" : { "Gewicht" : 20, "Preis" : 3 },
-	"Striegelzeug" : { "Gewicht" : 60, "Preis" : 2 },
-	"Futterbeutel" : { "Gewicht" : 10, "Preis" : 0.5 },
-	"Reitgerte" : { "Gewicht" : 200, "Preis" : 3 },
-	"Halsband und Leine" : { "Gewicht" : 20, "Preis" : 1, "Anmerkungen" : "Leder" },
-	"Falknerhandschuh" : { "Gewicht" : 40, "Preis" : 4 },
-	"Falkenmaske" : { "Gewicht" : 15, "Preis" : 8 },
-	"Kleiner Vogelbauer" : { "Gewicht" : 80, "Preis" : 15 },
-	"Hundekarren" : { "Preis" : 80 },
-	"Ziegenkarren" : { "Preis" : 80 },
-	"Zweirädiger Karren" : { "Preis" : 180 },
-	"Leiterwagen" : { "Preis" : 250, "Anmerkungen" : "zweispännig" },
-	"Planwagen" : { "Preis" : 1300, "Anmerkungen" : "zweispännig" },
-	"Stoerrebrandter" : { "Preis" : 3000, "Anmerkungen" : "vierspännig" },
-	"Steppenschivone" : { "Preis" : 12000, "Anmerkungen" : "sechsspännig" },
-	"Kastenwagen (einspännig)" : { "Name" : "Kastenwagen", "Preis" : 3500, "Anmerkungen" : "einspännig" },
-	"Kastenwagen (zweispännig)" : { "Name" : "Kastenwagen", "Preis" : 3500, "Anmerkungen" : "zweispännig" },
-	"Kutsche" : { "Preis" : 5000, "Anmerkungen" : "zweispännig" },
-	"Reisekutsche" : { "Preis" : 5000, "Anmerkungen" : "vierspännig" },
-	"Sechser-Ferrara" : { "Preis" : 15000 },
-	"Streitwagen" : { "Preis" : 8000, "Anmerkungen" : "vierspännig" },
-	"Rennkutsche" : { "Preis" : 12000, "Anmerkungen" : "sechsspännig" },
-	"Hundeschlitten" : { "Preis" : 500 },
-	"Dachsschlitten" : { "Preis" : 500 },
-	"Reiseschlitten (zweispännig)" : { "Name" : "Reiseschlitten", "Preis" : 1000, "Anmerkungen" : "zweispännig" },
-	"Reiseschlitten (vierspännig)" : { "Name" : "Reiseschlitten", "Preis" : 1000, "Anmerkungen" : "vierspännig" },
-	"Kaleschka" : { "Preis" : 9000, "Anmerkungen" : "dreispännig" },
-	"Pferdesänfte" : { "Preis" : 600 },
-	"Kanu" : { "Preis" : 600 },
-	"Kleines Ruderboot" : { "Preis" : 1200 },
-	"Seegelboot" : { "Preis" : 6500, "Anmerkungen" : "6 Schritt" },
-	"Segelschiff" : { "Preis" : 100000, "Anmerkungen" : "Karavelle" },
-	"Ersatzrad" : { "Gewicht" : 700, "Preis" : 70 },
-	"Deichsel" : { "Gewicht" : 2000, "Preis" : 80 },
-	"Ochsengeschirr" : { "Gewicht" : 1000, "Preis" : 8 },
-	"Hundegeschirr" : { "Gewicht" : 80, "Preis" : 30 },
-	"Blattgeschirr" : { "Gewicht" : 1200, "Preis" : 20 },
-	"Kummetgeschirr" : { "Gewicht" : 1500, "Preis" : 80 },
-	"Sänftengeschirr" : { "Gewicht" : 800, "Preis" : 60 },
-	"Zaum und Leinen" : { "Gewicht" : 150, "Preis" : 15 },
-	"Fuhrmannspeitsche" : { "Gewicht" : 40, "Preis" : 25 },
-	"Deichselfett" : { "Gewicht" : 80, "Preis" : 3 },
-	"Lederol" : { "Gewicht" : 40, "Preis" : 4 },
-	"Segeltuch" : { "Gewicht" : 300, "Preis" : 120 }
+	"Armbrustsehne" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 4, "Preis" : 1 },
+	"Bogensehne (Kurz)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Bogensehne", "Gewicht" : 1, "Preis" : 0.4, "Anmerkungen" : "für Bögen außer Lang- und Kriegsbogen" },
+	"Bogensehne (Lang)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Bogensehne", "Gewicht" : 2, "Preis" : 1, "Anmerkungen" : "für Lang- und Kriegsbogen" },
+	"Bolzenköcher (Leder)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Bolzenköcher", "Gewicht" : 30, "Preis" : 4, "Anmerkungen" : "Leder, 10 Bolzen" },
+	"Bolzenköcher (Holz)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Bolzenköcher", "Gewicht" : 40, "Preis" : 6, "Anmerkungen" : "Holz, 10 Bolzen" },
+	"Bolzenköcher (Stoff)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Bolzenköcher", "Gewicht" : 20, "Preis" : 2, "Anmerkungen" : "Stoff, 10 Bolzen" },
+	"Dolchscheide" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Dolchscheide", "Gewicht" : 10, "Preis" : 5 },
+	"Dolchscheide (verstärkt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Dolchscheide", "Gewicht" : 8, "Preis" : 15, "Anmerkungen" : "verstärkt" },
+	"Köcher (Holz)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Köcher", "Gewicht" : 60, "Preis" : 6, "Anmerkungen" : "Holz, 20 Pfeile/Bogen" },
+	"Köcher (Leder)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Köcher", "Gewicht" : 30, "Preis" : 15, "Anmerkungen" : "Leder, 20 Pfeile/Bogen" },
+	"Hüftköcher" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 35, "Preis" : 18, "Anmerkungen" : "Leder, 20 Pfeile/Bogen" },
+	"Drolina" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 2500 },
+	"Schultergurt" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 10, "Anmerkungen" : "für Rückenscheide" },
+	"Schwertgürtel" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schwertgürtel", "Gewicht" : 40, "Preis" : 15 },
+	"Schwertgürtel (verstärkt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schwertgürtel", "Gewicht" : 80, "Preis" : 40, "Anmerkungen" : "verstärkt" },
+	"Axtgehänge" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Axtgehänge", "Gewicht" : 40, "Preis" : 15 },
+	"Axtgehänge (verstärkt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Axtgehänge", "Gewicht" : 80, "Preis" : 40, "Anmerkungen" : "verstärkt" },
+	"Schwertscheide" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 30, "Preis" : 10 },
+	"Springarm" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 100 },
+	"Waffenpflegeutensilien" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 15 },
+	"Hammer" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 8 },
+	"5 Meißel" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Meißel", "Gewicht" : 40, "Preis" : 12, "Anmerkungen" : "5 Stück, sortiert" },
+	"50 Nägel" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Nägel", "Gewicht" : 30, "Preis" : 10, "Anmerkungen" : "50 Stück" },
+	"Handsäge" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 30, "Preis" : 15 },
+	"Zange" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 12 },
+	"Brecheisen" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 10 },
+	"Spaten" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 10 },
+	"Handbeil" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 15 },
+	"Feile für Holz" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 8 },
+	"Feile für Metall" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 25 },
+	"Schere" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 12, "Preis" : 25 },
+	"Nadel und Garn" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 2, "Preis" : 8, "Anmerkungen" : "sortiert" },
+	"Besen" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 1 },
+	"Leim" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 8 },
+	"Flaschenzug (250 Stein)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Flaschenzug", "Gewicht" : 150, "Preis" : 150, "Anmerkungen" : "für 250 Stein, ohne Seil" },
+	"Flaschenzug (1 Quader)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Flaschenzug", "Gewicht" : 250, "Preis" : 800, "Anmerkungen" : "für 1 Quader, ohne Seil" },
+	"Tätowierwerkzeug" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 50 },
+	"Gravurwerkzeug" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 30 },
+	"Chirurgenbesteck" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 100 },
+	"Dietrich Sortiment" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 120 },
+	"Alchimistischer Analyse-Koffer" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 200, "Preis" : 500 },
+	"Kerze" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kerze", "Gewicht" : 2, "Preis" : 0.1, "Anmerkungen" : "1 Spann Länge" },
+	"Pechfackel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 0.5 },
+	"Öllampe" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 1 },
+	"Kerzenstände" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 4, "Anmerkungen" : "Zinn" },
+	"Kerzenlaterne (Holz)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kerzenlaterne", "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Holz" },
+	"Kerzenlaterne (Pergament)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kerzenlaterne", "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Pergament" },
+	"Sturmlaterne" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 5, "Anmerkungen" : "Öl, abblendbar" },
+	"Lampenöl" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 0.5 },
+	"Duftöl" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 1 },
+	"Feuerstein & Stahl" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 5, "Preis" : 0.6 },
+	"Zunderdose" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Zunderdose", "Gewicht" : 8, "Preis" : 2 },
+	"Zunderdose (wasserdicht)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Zunderdose", "Gewicht" : 10, "Preis" : 7, "Anmerkungen" : "wasserdicht" },
+	"Gwen-Petryl-Stein" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 30, "Preis" : 1000, "Anmerkungen" : "faustgroß" },
+	"Holzbecher" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 2, "Preis" : 0.1 },
+	"Henkelbecher" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 4, "Anmerkungen" : "Zinn" },
+	"Silberpokal" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 10 },
+	"Holzteller" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 4, "Preis" : 0.4 },
+	"Holzlöffel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 3, "Preis" : 0.1 },
+	"Essmesser" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 5, "Preis" : 3, "Anmerkungen" : "Eisen" },
+	"Essbesteck" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 5, "Anmerkungen" : "Zinn" },
+	"Karaffe" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 20, "Anmerkungen" : "Neethaer Glas" },
+	"Trinkhorn" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 5 },
+	"Eisenpfanne" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 8, "Anmerkungen" : "1.5 Spann 0" },
+	"Eisentopf" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 120, "Preis" : 10, "Anmerkungen" : "12 Maß" },
+	"Kessel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 70, "Preis" : 15, "Anmerkungen" : "2 Maß, emailliert" },
+	"Kupferkessel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 160, "Preis" : 20, "Anmerkungen" : "25 Maß" },
+	"Bratspieß" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 120, "Preis" : 5, "Anmerkungen" : "Eisen" },
+	"Geldbeutel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 1, "Preis" : 0.1, "Anmerkungen" : "Leder" },
+	"Gürteltasche" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 4, "Preis" : 0.4, "Anmerkungen" : "Hartleder" },
+	"Tuchbeutel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 0.4, "Anmerkungen" : "5 Stein" },
+	"Lederranzen" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 25, "Preis" : 2, "Anmerkungen" : "8 Stein" },
+	"Lederrucksack" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 4, "Anmerkungen" : "15 Stein" },
+	"Tragesack" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 30, "Preis" : 1, "Anmerkungen" : "15 Stein" },
+	"Korb" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 4, "Anmerkungen" : "20 Stein" },
+	"Kiepe" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 7, "Anmerkungen" : "20 Stein" },
+	"Transportkiste" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Transportkiste", "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "30 Stein" },
+	"Transportkiste (verstärkt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Transportkiste", "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "30 Stein, mit Eisenbändern" },
+	"Kleine Truhe" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kleine Truhe", "Gewicht" : 200, "Preis" : 8, "Anmerkungen" : "50 Stein" },
+	"Kleine Truhe (verstärkt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kleine Truhe", "Gewicht" : 320, "Preis" : 12, "Anmerkungen" : "50 Stein, mit Eisenbändern" },
+	"Kleine Truhe (verstärkt, Schloss)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Kleine Truhe", "Gewicht" : 360, "Preis" : 25, "Anmerkungen" : "50 Stein, mit Eisenbändern und Schloss" },
+	"Schmuckkästchen" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schmuckkästchen", "Gewicht" : 40, "Preis" : 2, "Anmerkungen" : "3 Stein" },
+	"Schmuckkästchen (Schloss)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schmuckkästchen", "Gewicht" : 45, "Preis" : 15, "Anmerkungen" : "3 Stein, mit Schloss" },
+	"Schachtel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 1.5, "Anmerkungen" : "1 Stein, Birkenrinde" },
+	"Lackdose" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 1, "Preis" : 2, "Anmerkungen" : "5 Unzen, Birkenrinde" },
+	"Holzeimer" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 3 },
+	"Flasche (Ton)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Flasche", "Gewicht" : 12, "Preis" : 1, "Anmerkungen" : "2 Schänk, Ton" },
+	"Flasche (Bronze)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Flasche", "Gewicht" : 50, "Preis" : 8, "Anmerkungen" : "2 Schänk, Bronze" },
+	"Flasche (Glas)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Flasche", "Gewicht" : 10, "Preis" : 12, "Anmerkungen" : "2 Schänk, Glas" },
+	"Glasphiole" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 4, "Preis" : 5, "Anmerkungen" : "3 Flux" },
+	"Tontiegel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 0.5, "Anmerkungen" : "10 Flux" },
+	"Salbendöschen" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 5, "Anmerkungen" : "Alabaster" },
+	"Wasserfass" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 120, "Preis" : 18, "Anmerkungen" : "20 Maß" },
+	"Wasserschlauch" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 5, "Preis" : 1, "Anmerkungen" : "5 Schänk" },
+	"Trinkflasche" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 8, "Preis" : 2, "Anmerkungen" : "5 Schänk" },
+	"Brotbeutel" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 8, "Preis" : 0.5 },
+	"Kletterhaken" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 50, "Preis" : 5, "Anmerkungen" : "10 Stück" },
+	"Wurfhaken" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 10, "Preis" : 5 },
+	"Angelhaken" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 1, "Preis" : 0.2, "Anmerkungen" : "mit Schnur" },
+	"Kleines Fischernetz" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 40, "Preis" : 10 },
+	"Hängematte" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 13 },
+	"Zeltplane" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 300, "Preis" : 20, "Anmerkungen" : "2 Personen" },
+	"Zeltboden" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 80, "Preis" : 8 },
+	"Zeltstange" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 120, "Preis" : 3, "Anmerkungen" : "2 Stück" },
+	"Vierpersonenzelt" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 900, "Preis" : 50 },
+	"Wolldecke" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 2 },
+	"Schlafsack" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schlafsack", "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "fellgefüttert" },
+	"Schneeschuhe" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 12, "Kategorien" : ["Kleidung"] },
+	"Nivesische Skier" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 18 },
+	"Schnur (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schnur", "Gewicht" : 0.5, "Preis" : 0.05, "Anmerkungen" : "1 Schritt" },
+	"Hanfseil (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Hanfseil", "Gewicht" : 5, "Preis" : 0.7, "Anmerkungen" : "1 Schritt" },
+	"Tau (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Tau", "Gewicht" : 2, "Preis" : 12, "Anmerkungen" : "1 Schritt, 2 Finger 0" },
+	"Seidenseil (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Seidenseil", "Gewicht" : 2, "Preis" : 12, "Anmerkungen" : "1 Schritt" },
+	"Fesselseil (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Fesselseil", "Gewicht" : 10, "Preis" : 1, "Anmerkungen" : "1 Schritt, Leder" },
+	"Strickleiter (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Strickleiter", "Gewicht" : 15, "Preis" : 2.4, "Anmerkungen" : "1 Schritt" },
+	"Dünne Kette (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Dünne Kette", "Gewicht" : 25, "Preis" : 4, "Anmerkungen" : "1 Schritt" },
+	"Schwere Kette (1 Schritt)" : { "Bücher" : { "Meisterschirm" : 28 }, "Name" : "Schwere Kette", "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "1 Schritt" },
+	"Wollstrümpfe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 4, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
+	"Seidenstrümpfe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 2, "Preis" : 12, "Kategorien" : ["Kleidung"] },
+	"Lendentuch" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 8, "Preis" : 0.1, "Kategorien" : ["Kleidung"] },
+	"Brusttuch" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 8, "Preis" : 0.1, "Kategorien" : ["Kleidung"] },
+	"Unterhose" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 20, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Bruche" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 20, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Nachthemd" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Unterkleid" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 20, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Schnürmieder" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 25, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Korsett, Fischbein und Seide" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 35, "Preis" : 60, "Kategorien" : ["Kleidung"] },
+	"Hemd" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
+	"Bluse" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
+	"Weste" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 25, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Jacke" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Wams" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Wappenrock" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Hose" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 1, "Kategorien" : ["Kleidung"] },
+	"Rock" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 45, "Preis" : 1, "Kategorien" : ["Kleidung"] },
+	"Belhanker Röckchen" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Bausch" },
+	"Kleid" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 60, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Horasisches Ballkleid" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 60, "Preis" : 50, "Kategorien" : ["Kleidung"] },
+	"Tunika" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Burnus" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Kaftan" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Magierrobe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 120, "Preis" : 60, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Taft" },
+	"Kapuzenumhang" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 80, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "lang" },
+	"Mantel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 60, "Preis" : 3, "Kategorien" : ["Kleidung"] },
+	"Schaube" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 60, "Preis" : 3, "Kategorien" : ["Kleidung"] },
+	"Kusliker Kurzmantel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 50, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Balihoer Wachsmantel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 70, "Preis" : 6, "Kategorien" : ["Kleidung"] },
+	"Nivesischer Anaurak" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 120, "Preis" : 20, "Kategorien" : ["Kleidung"] },
+	"Kapuze" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
+	"Gugel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 15, "Preis" : 0.8, "Kategorien" : ["Kleidung"] },
+	"Wollmütze" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
+	"Filzkappe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
+	"Fez" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 3, "Preis" : 0.2, "Kategorien" : ["Kleidung"] },
+	"Fellmütze" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 3, "Kategorien" : ["Kleidung"] },
+	"Kopftuch" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 3, "Preis" : 0.5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Haube" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 3, "Preis" : 0.5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Stirnband" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 2, "Preis" : 0.5, "Kategorien" : ["Kleidung"] },
+	"Barett" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 4, "Preis" : 1, "Kategorien" : ["Kleidung"] },
+	"Federhut" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 2, "Preis" : 3, "Kategorien" : ["Kleidung"], "Anmerkungen" : "mit breiter Krempe" },
+	"Turban" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 4, "Kategorien" : ["Kleidung"] },
+	"Schal" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 4, "Preis" : 0.2, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Wolle" },
+	"Halstuch" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 2, "Preis" : 4, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Seide" },
+	"Schleier" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 0.5, "Preis" : 20, "Kategorien" : ["Kleidung"], "Anmerkungen" : "feinste Seide" },
+	"Taschentuch" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 2, "Preis" : 1, "Kategorien" : ["Kleidung"], "Anmerkungen" : "Leinen" },
+	"Maske" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 5, "Preis" : 3, "Kategorien" : ["Kleidung"], "Anmerkungen" : "aus Tuch" },
+	"Ledergürtel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 8, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Seidenschärpe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 4, "Preis" : 10, "Kategorien" : ["Kleidung"] },
+	"Lederschürze" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 40, "Preis" : 5, "Kategorien" : ["Kleidung"], "Anmerkungen" : "mit Taschen" },
+	"Wollfäustlinge" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 4, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
+	"Lederhandschuhe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 6, "Preis" : 3, "Kategorien" : ["Kleidung"] },
+	"Stulpenhandschuhe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 25, "Preis" : 8, "Kategorien" : ["Kleidung"] },
+	"Strohschuhe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 25, "Preis" : 0.3, "Kategorien" : ["Kleidung"] },
+	"Sandalen" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 30, "Preis" : 0.6, "Kategorien" : ["Kleidung"] },
+	"Lederschuhe" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 40, "Preis" : 2, "Kategorien" : ["Kleidung"] },
+	"Leichte Stiefel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 75, "Preis" : 9, "Kategorien" : ["Kleidung"] },
+	"Schwere Reiterstiefel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 100, "Preis" : 20, "Kategorien" : ["Kleidung"] },
+	"Stulpenstiefel" : { "Bücher" : { "Meisterschirm" : 29 }, "Gewicht" : 100, "Preis" : 30, "Kategorien" : ["Kleidung"] },
+	"Ring" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.5, "Preis" : 3 },
+	"Ohrring" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.2, "Preis" : 3 },
+	"Armreif" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 60 },
+	"Stirnreif" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 8, "Preis" : 20 },
+	"Spange" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 6 },
+	"Fibel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 6 },
+	"Gewandknopf" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.2, "Preis" : 3 },
+	"Halskette" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.5, "Preis" : 5 },
+	"Amulett" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 2, "Preis" : 4 },
+	"Fächer" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 8, "Anmerkungen" : "Elfenbein und Seide" },
+	"Schmuckkamm" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 15, "Anmerkungen" : "Perlmutt" },
+	"Seife" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 0.2 },
+	"Badeöl" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 2 },
+	"Salböl" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 2 },
+	"Rasiermesser" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 12 },
+	"Kamm (Holz)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Kamm", "Gewicht" : 5, "Preis" : 0.1, "Anmerkungen" : "Holz" },
+	"Kamm (Albenkristall)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Kamm", "Gewicht" : 4, "Preis" : 40, "Anmerkungen" : "Albenkristall, biegsam" },
+	"Bürste" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 0.5 },
+	"Schwamm" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 1.2 },
+	"Nagelfeile" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 2, "Preis" : 3 },
+	"Schminke & Puder" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 2, "Preis" : 10 },
+	"Lippenrot" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 2 },
+	"Parfüm" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 30 },
+	"Räucherwerk" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 10 },
+	"Tätowierung" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 10 },
+	"Schreibkreide" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 0.1 },
+	"Schiefertafel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 2 },
+	"Gänsekiel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.1, "Preis" : 0.4 },
+	"Griffel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.1, "Preis" : 0.4 },
+	"Federmesser" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 3 },
+	"Pinsel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 2, "Preis" : 2 },
+	"Kohlestift" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.4, "Preis" : 0.1 },
+	"Tinte" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 2 },
+	"Tusche" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 2 },
+	"Siegelstock" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 5 },
+	"Siegelwachs" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 0.5, "Anmerkungen" : "1 Stange" },
+	"Pergament" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.1, "Preis" : 1.2 },
+	"Papier" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 0.3, "Preis" : 0.2 },
+	"Schriftrolle" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 30, "Preis" : 40, "Anmerkungen" : "2 Schritt" },
+	"Tagebuch" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 35, "Anmerkungen" : "Papier" },
+	"Messinglineal" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 8, "Preis" : 3 },
+	"Zirkel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 15 },
+	"Vorhängeschloss" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 15, "Preis" : 40 },
+	"Türschloss" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 20 },
+	"Truhenschloss" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 20 },
+	"Spieluhr" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 8, "Preis" : 400 },
+	"Handspiegel (Messing)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Handspiegel", "Gewicht" : 20, "Preis" : 12, "Anmerkungen" : "poliertes Messing" },
+	"Handspiegel (Glas)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Handspiegel",  "Gewicht" : 20, "Preis" : 12, "Anmerkungen" : "versilbertes Glas" },
+	"Brennglas" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 40 },
+	"Lupe" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 80 },
+	"Fernrohr" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 50, "Preis" : 700 },
+	"Himmelsfernrohr" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 160, "Preis" : 2500 },
+	"Brille" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 3, "Preis" : 250 },
+	"Stundeglas" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 30 },
+	"Stundenkerze" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 8 },
+	"Sonnenuhr" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 10 },
+	"Vinsalter Ei" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 15, "Preis" : 800 },
+	"Südweiser (Gehäuse)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Südweiser", "Gewicht" : 40, "Preis" : 80, "Anmerkungen" : "in Gehäuse" },
+	"Südweiser (Pendel)" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Südweiser", "Gewicht" : 10, "Preis" : 20, "Anmerkungen" : "als Pendel" },
+	"Hylailer Dreikreuz" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 30, "Preis" : 30 },
+	"Quadrant" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 30, "Preis" : 70 },
+	"Astrolabium" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 120, "Preis" : 250 },
+	"Orbitarium" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 400, "Preis" : 5000 },
+	"Abakus" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 10 },
+	"Addiermaschine" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 120, "Preis" : 2000 },
+	"Zinsspindel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 160, "Preis" : 6000 },
+	"Stoffpuppe" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 0.5 },
+	"Zinnsoldat" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 1 },
+	"Steckenpferd" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 2 },
+	"3 Würfel" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Würfel", "Gewicht" : 1, "Preis" : 2, "Anmerkungen" : "3 Stück, Bein" },
+	"Jonglierball" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 7, "Preis" : 0.5 },
+	"Brettspiel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 8, "Anmerkungen" : "Holz" },
+	"Teppich (1 Rechtschritt)" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 160, "Preis" : 30, "Anmerkungen" : "1 Rechtsschritt" },
+	"Statuette" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 15, "Preis" : 2, "Anmerkungen" : "1 Spann, Silber" },
+	"Kristallkugel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 60, "Preis" : 300 },
+	"Gemälde" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 60, "Preis" : 70, "Anmerkungen" : "Öl auf Leinwand" },
+	"Banner" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 60, "Preis" : 15 },
+	"Tabakspfeife" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 5, "Preis" : 5, "Anmerkungen" : "Holz" },
+	"Tabakdose" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 2, "Preis" : 3, "Anmerkungen" : "Silber" },
+	"Meerschaumpfeife" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4, "Preis" : 10 },
+	"Wasserpfeife" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 20 },
+	"Holzflöte" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 8, "Preis" : 2 },
+	"Beinflöte" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 10, "Preis" : 20 },
+	"Silberflöte" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 30, "Preis" : 150 },
+	"Horn" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 70 },
+	"Fanfare" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 70 },
+	"Zwergischer Pfeifenbalg" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 80, "Preis" : 100 },
+	"Trommel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 10 },
+	"Dabla" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 20, "Preis" : 10 },
+	"Söldnertrommel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 80, "Preis" : 20 },
+	"Schellen" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 2 },
+	"Glöckchen" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 2 },
+	"Zimbeln" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 1, "Preis" : 2 },
+	"Glockenspiel" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 120, "Preis" : 100 },
+	"Handharfe" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 100 },
+	"Leier" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 40, "Preis" : 100 },
+	"Drehleier" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 80, "Preis" : 15 },
+	"Laute" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 80, "Preis" : 15 },
+	"Bandurria" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 80, "Preis" : 15 },
+	"Standharfe" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 300, "Preis" : 350 },
+	"Spinett" : { "Bücher" : { "Meisterschirm" : 30 }, "Gewicht" : 4000, "Preis" : 3000 },
+	"Arganwurzel" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 170 },
+	"Atanax" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 100 },
+	"Atmon" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 180 },
+	"Belmart" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 40 },
+	"Bleichmohn" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 70 },
+	"Carlog" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 40 },
+	"Conchinis-Salbe" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 70 },
+	"Donf" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 40 },
+	"Egelschreck" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 3 },
+	"Finage" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 80 },
+	"Gulmond" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 40 },
+	"Hiradwurz" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 120 },
+	"Joruga" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 80 },
+	"Kairan" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 150 },
+	"Kajubo" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 100 },
+	"Klippenzahn" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 40 },
+	"Lulanie" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 70 },
+	"Menchalsaft" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 50 },
+	"Mirbelstein" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 3 },
+	"Neckerkraut" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 8 },
+	"Nothilf, Blüten" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Nothilf", "Preis" : 300, "Anmerkungen" : "Blüten" },
+	"Nothilf, Blätter" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Nothilf", "Preis" : 70, "Anmerkungen" : "Blätter" },
+	"Olginwurz" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 500 },
+	"Rahjalieb" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 1 },
+	"Rote Pfeilblüte" : { "Bücher" : { "Meisterschirm" : 30 }, "Preis" : 100 },
+	"Sansaro, Absud" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Sansaroabsud", "Preis" : 60 },
+	"Sansaro, Paste" : { "Bücher" : { "Meisterschirm" : 30 }, "Name" : "Sansaropaste", "Preis" : 30 },
+	"Satuariensbusch" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 0.5 },
+	"Talaschin" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 70 },
+	"Tarnele" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 2 },
+	"Thonnys" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 40 },
+	"Traschbart" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 0.5 },
+	"Ulmenwürger" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 30 },
+	"Vierblättrige Einbeere" : { "Bücher" : { "Meisterschirm" : 31 }, "Name" : "Einbeerentrank", "Preis" : 150 },
+	"Wirselkraut" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 50 },
+	"Wundpulver" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 5 },
+	"Xordai" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 140 },
+	"Yagannuss" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 30 },
+	"Zwölfblatt" : { "Bücher" : { "Meisterschirm" : 31 }, "Preis" : 20 },
+	"Milchkuh" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 120 },
+	"Zuchtbulle" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 500 },
+	"Schaf" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 6 },
+	"Ziege" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 1.5 },
+	"Schwein" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 30 },
+	"Kaninchen" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 3 },
+	"Huhn" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 0.8 },
+	"Gans" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 4 },
+	"Brieftaube" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 30, "Anmerkungen" : "ausgebildet" },
+	"Jagdfalke" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 500 },
+	"Jagdhund" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 200, "Anmerkungen" : "Zucht" },
+	"Fährtenhund" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 200, "Anmerkungen" : "Zucht" },
+	"Schoßhund" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 100, "Anmerkungen" : "Zucht" },
+	"Allerweltshund" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 10, "Anmerkungen" : "Mischling" },
+	"Elch" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 400 },
+	"Elefant" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 2000 },
+	"Kamah-Kamel" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 250 },
+	"Kamel" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 700 },
+	"Dromeda" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 700 },
+	"Rennkamel" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 1100 },
+	"Karen" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 120 },
+	"Schlittenhund" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 150 },
+	"Schneedachs" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 200 },
+	"Strauß" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 350 },
+	"Zugochse, schwer" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 400, "Anmerkungen" : "schwer" },
+	"Zugochse, leicht" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 250, "Anmerkungen" : "leicht" },
+	"Zügel und Zaumzeug" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 10 },
+	"Führhalfter" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 60, "Preis" : 2, "Anmerkungen" : "mit Strick" },
+	"Satteldecke" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 1 },
+	"Packsattel, klein" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Packsattel", "Gewicht" : 600, "Preis" : 30, "Anmerkungen" : "klein" },
+	"Packsattel, groß" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Packsattel", "Gewicht" : 750, "Preis" : 40, "Anmerkungen" : "groß" },
+	"Packsatteltasche" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 200, "Preis" : 20, "Anmerkungen" : "2x30 Stein" },
+	"Reitsattel" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 240, "Preis" : 30 },
+	"Satteltasche" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 10, "Anmerkungen" : "2x6 Stein" },
+	"Gestechsattel" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 800, "Preis" : 120 },
+	"Rossharnisch" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 2000, "Preis" : 5000 },
+	"Wappendecke" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 400, "Preis" : 50, "Anmerkungen" : "für Streitross" },
+	"Reitgerte" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 200, "Preis" : 3 },
+	"Sporen" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 10, "Preis" : 6 },
+	"Stalldecke" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 200, "Preis" : 3 },
+	"Hufeisen" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 20, "Preis" : 3 },
+	"Striegelzeug" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 60, "Preis" : 2 },
+	"Futterbeutel" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 10, "Preis" : 0.5 },
+	"Reitgerte" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 200, "Preis" : 3 },
+	"Halsband und Leine" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 20, "Preis" : 1, "Anmerkungen" : "Leder" },
+	"Falknerhandschuh" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 4 },
+	"Falkenmaske" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 15, "Preis" : 8 },
+	"Kleiner Vogelbauer" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 15 },
+	"Hundekarren" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 80 },
+	"Ziegenkarren" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 80 },
+	"Zweirädiger Karren" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 180 },
+	"Leiterwagen" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 250, "Anmerkungen" : "zweispännig" },
+	"Planwagen" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 1300, "Anmerkungen" : "zweispännig" },
+	"Stoerrebrandter" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 3000, "Anmerkungen" : "vierspännig" },
+	"Steppenschivone" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 12000, "Anmerkungen" : "sechsspännig" },
+	"Kastenwagen (einspännig)" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Kastenwagen", "Preis" : 3500, "Anmerkungen" : "einspännig" },
+	"Kastenwagen (zweispännig)" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Kastenwagen", "Preis" : 3500, "Anmerkungen" : "zweispännig" },
+	"Kutsche" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 5000, "Anmerkungen" : "zweispännig" },
+	"Reisekutsche" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 5000, "Anmerkungen" : "vierspännig" },
+	"Sechser-Ferrara" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 15000 },
+	"Streitwagen" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 8000, "Anmerkungen" : "vierspännig" },
+	"Rennkutsche" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 12000, "Anmerkungen" : "sechsspännig" },
+	"Hundeschlitten" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 500 },
+	"Dachsschlitten" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 500 },
+	"Reiseschlitten (zweispännig)" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Reiseschlitten", "Preis" : 1000, "Anmerkungen" : "zweispännig" },
+	"Reiseschlitten (vierspännig)" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Reiseschlitten", "Preis" : 1000, "Anmerkungen" : "vierspännig" },
+	"Kaleschka" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 9000, "Anmerkungen" : "dreispännig" },
+	"Pferdesänfte" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 600 },
+	"Kanu" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 600 },
+	"Kleines Ruderboot" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 1200 },
+	"Seegelboot" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 6500, "Anmerkungen" : "6 Schritt" },
+	"Segelschiff" : { "Bücher" : { "Meisterschirm" : 32 }, "Preis" : 100000, "Anmerkungen" : "Karavelle" },
+	"Ersatzrad" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 700, "Preis" : 70 },
+	"Deichsel" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 2000, "Preis" : 80 },
+	"Ochsengeschirr" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 1000, "Preis" : 8 },
+	"Hundegeschirr" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 30 },
+	"Blattgeschirr" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 1200, "Preis" : 20 },
+	"Kummetgeschirr" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 1500, "Preis" : 80 },
+	"Sänftengeschirr" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 800, "Preis" : 60 },
+	"Zaum und Leinen" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 150, "Preis" : 15 },
+	"Fuhrmannspeitsche" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 25 },
+	"Deichselfett" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 3 },
+	"Lederol" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 4 },
+	"Segeltuch" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 300, "Preis" : 120 }
 }
