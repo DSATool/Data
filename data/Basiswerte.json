@@ -3,6 +3,7 @@
 	"Parade-Basis" : { "Abkürzung" : "PA-Basis", "Eigenschaften" : ["IN", "GE", "KK"], "Multiplikator" : 0.2 },
 	"Fernkampf-Basis" : { "Abkürzung" : "FK-Basis", "Eigenschaften" : ["IN", "FF", "KK"], "Multiplikator" : 0.2 },
 	"Initiative-Basis" : { "Abkürzung" : "INI-Basis", "Eigenschaften" : ["MU", "MU", "IN", "GE"], "Multiplikator" : 0.2 },
+	"Initiative" : { "Abkürzung" : "INI" },
 	"Wundschwelle" : { "Abkürzung" : "WS", "Eigenschaften" : ["KO"], "Multiplikator" : 0.5 },
 	"Artefaktkontrolle" : { "Abkürzung" : "AK", "Eigenschaften" : ["IN"], "Basiswerte" : ["Magieresistenz"] },
 	"Lebensenergie" : { "Abkürzung" : "LeP", "Eigenschaften" : ["KO", "KO", "KK"], "Multiplikator" : 0.5, "Zukauf" : 8, "Zukauf:Maximum" : { "Eigenschaften" : ["KO"], "Multiplikator" : 0.5 } },
