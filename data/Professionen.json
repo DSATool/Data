@@ -1145,7 +1145,7 @@
 				"Zeitaufwendig" : true,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfspeere"], "Werte" : [3] }, { "Wahl" : ["Hiebwaffen", "Kettenwaffen", "Säbel", "Schwerter"], "Werte" : [5] }, { "Wahl" : ["Lanzenreiten", "Speere"], "Werte" : [3] }], "Reiten" : 5, "Fesseln/Entfesseln" : 1, "Orientierung" : 1, "Tierkunde" : 1, "Abrichten" : 2, "Lederarbeiten" : 1 },
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {} },
-				"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Kriegsreiterei" : {}, "Rüstungsgewöhnung II" : {}, "Schildkampf /I"  :{} },
+				"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Kriegsreiterei" : {}, "Rüstungsgewöhnung II" : {}, "Schildkampf I"  :{} },
 				"Ausrüstung" : { "Wahl" : [{ "Mantel mit Einheitenaufnäher" : {}, "Umhang mit Einheitenaufnäher" : {} }, { "auffälliger Hut" : {}, "Barett" : {} }, { "Feldflasche" : {}, "Wasserschlauch" : {} }, { "Schlafsack" : {}, "zwei Decken" : {} }], "robuste, auffällige Kleidung" : { "Kategorien" : ["Kleidung"] }, "gutes Schuhwerk" : { "Kategorien" : ["Kleidung"] }, "Hauptwaffe nach Spezialisierung" : {}, "Langdolch" : {}, "leichte Rüstung (max. RS 3)" : {}, "Essbesteck" : {}, "Essnapf" : {}, "Tuchbeutel" : {}, "Brotbeutel" : {}, "Würfel" : {}, "Schnapsflasche" : {}, "Arbeitsmesser" : {}, "Holzschild" : {} }
 			},
 			"Schlachtreiter" : {
@@ -1851,7 +1851,7 @@
 		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfspeere"], "Werte" : [5] }, { "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }, { "Wahl" : ["Athletik", "Reiten", "Boote Fahren"], "Werte" : [2] }, { "Wahl" : ["Abrichten", "Bogenbau"], "Werte" : [2] }, { "Wahl" : ["Fleischer", "Gerber/Kürschner"], "Werte" : [3] }], "Dolche" : 3, "Ringen" : 2, "Speere" : 3, "Klettern" : 2, "Körperbeherrschung" : 2, "Schleichen" : 5, "Schwimmen" : 2, "Selbstbeherrschung" : 2, "Sich Verstecken" : 5, "Sinnenschärfe" : 5, "Stimmen Imitieren" : 1, "Fährtensuchen" : 6, "Fallenstellen" : 2, "Fesseln/Entfesseln" : 3, "Fischen/Angeln" : 2, "Orientierung" : 3, "Wettervorhersage" : 3, "Wildnisleben" : 5, "Pflanzenkunde" : 2, "Tierkunde" : 4, "Heilkunde Gift" : 3, "Heilkunde Krankheiten" : 2, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 4, "Kochen" : 1, "Lederarbeiten" : 2, "Schneidern" : 2 },
 		"Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }], "Scharfschütze" : [{}] },
 		"Verbilligte Sonderfertigkeiten" : { "Ortskenntnis" : [{ "Freitext" : "hauptsächliches Jagdrevier" }] },
-		"Ausrüstung" : { "Wahl" : [{ "Hirtenstab" : {}, "Speer" : {}, "Keule" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "geeignete Jagdwaffe" : {}, "Dolch" : {}, "Material für drei Tierfallen" : {}, "Rucksack" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {}, "Feuerstein und Stahl" : {}, "Zunder" : {}, "Schlafsack" : {}, "kleines Zelt" : {} },
+		"Ausrüstung" : { "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "geeignete Jagdwaffe" : {}, "Dolch" : {}, "Material für drei Tierfallen" : {}, "Rucksack" : {}, "Wasserschlauch" : {}, "Brotbeutel" : {}, "Feuerstein und Stahl" : {}, "Zunder" : {}, "Schlafsack" : {}, "kleines Zelt" : {} },
 		"Besonderer Besitz" : "Packtier mit Zaumzeug und Packtaschen oder ausgebildeter Jagdhund/Jagdfalke",
 		"Varianten" : {
 			"Jäger" : {
