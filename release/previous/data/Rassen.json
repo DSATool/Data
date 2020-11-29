@@ -66,7 +66,7 @@
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Innerer Kompass" : {}, "Kälteresistenz" : {}, "Richtungssinn" : {}, "Wolfskind" : {}, "Wolfskind, freiwillige Verwandlung" : {}, "Zäher Hund" : {} },
 		"Empfohlene Nachteile" : { "Hitzeempfindlichkeit" : {} },
 		"Ungeeignete Vorteile" : { "Herausragende Balance" : {}, "Hitzeresistenz" : {} },
-		"Ungeeignete Nachteile" : { "Kälteempfindlich" : {}, "Nahrungsrestriktion" : [{}], "Platzangst" : {} },
+		"Ungeeignete Nachteile" : { "Kälteempfindlichkeit" : {}, "Nahrungsrestriktion" : [{}], "Platzangst" : {} },
 		"Übliche Kulturen" : ["Nivesenstämme", "Nuanaä-Lie"],
 		"Mögliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Bornland", "Svellttal und Nordlande", "Thorwal", "Gjalskerland", "Fjarninger", "Norbardensippe"],
 		"Talente" : { "Schleichen" : 1, "Selbstbeherrschung" : 1, "Orientierung" : 1 }
@@ -128,7 +128,7 @@
 		"Eigenschaften" : { "CH" : 1, "GE" : 1, "KO" : 1, "KK" : -1 },
 		"Basiswerte" : { "Lebensenergie" : 8, "Ausdauer" : 12, "Magieresistenz" : -6 },
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Gut Aussehend" : {}, "Hitzeresistenz" : {}, "Resistenz gegen Gift" : [{}], "Schlangenmensch" : {} },
-		"Empfohlene Nachteile" : { "Kältempfindlich" : {} },
+		"Empfohlene Nachteile" : { "Kälteempfindlichkeit" : {} },
 		"Ungeeignete Vorteile" : { "Hohe Magieresistenz" : {}, "Kälteresistenz" : {}, "Schwer zu verzaubern" : {} },
 		"Ungeeignete Nachteile" : { "Hitzeempfindlichkeit" : {}, "Nahrungsrestriktion" : [{}] },
 		"Übliche Kulturen" : ["Dschungelstämme", "Verlorene Stämme", "Miniwatu", "Darna", "Südaventurien", "Bukanier"],
@@ -220,7 +220,7 @@
 		"Ungeeignete Vorteile" : { "Hitzeresistenz" : {}, "Kampfrausch" : {}, "Schwer zu verzaubern" : {}, "Vom Schicksal begünstigt" : {}, "Zwergennase" : {} },
 		"Ungeeignete Nachteile" : { "Behäbig" : {}, "Schwerhörig" : {}, "Kurzsichtig" : {}, "Eingeschränkter Tastsinn" : {}, "Eingeschränkter Geruchssinn" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Kleinwüchsig" : {}, "Kurzatmig" : {}, "Nachtblind" : {}, "Platzangst" : {}, "Stubenhocker" : {}, "Übler Geruch" : {}, "Unansehnlich" : {} },
 		"Übliche Kulturen" : ["Firnelfische Sippe"],
-		"Mögliche Kulturen" : ["Auelfische Sippe", "Steppenelfische Sippe", "Elfische Siedlung", "Fjarninger", "Gjalskerländer", "Nivesenstämme", "Norbardensippe", "Thorwal"],
+		"Mögliche Kulturen" : ["Auelfische Sippe", "Steppenelfische Sippe", "Elfische Siedlung", "Fjarninger", "Gjalskerland", "Nivesenstämme", "Norbardensippe", "Thorwal"],
 		"Talente" : { "Athletik" : 1, "Körperbeherrschung" : 3, "Schleichen" : 2, "Singen" : 1, "Sinnenschärfe" : 5, "Zechen" : -2, "Orientierung" : 2 }
 	},
 	"Halbelf" : {
@@ -238,7 +238,7 @@
 		"Ungeeignete Vorteile" : { "Kampfrausch" : {}, "Schwer zu verzaubern" : {} },
 		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Fettleibig" : {}, "Kleinwüchsig" : {}, "Krankheitsanfällig" : {}, "Unangenehme Stimme" : {} },
 		"Übliche Kulturen" : ["Mittelländische Städte", "Mittelländische Landbevölkerung", "Andergast und Nostria", "Almada", "Svellttal und Nordlande", "Nivesenstämme", "Norbardensippe"],
-		"Mögliche Kulturen" : ["Aranien", "Thorwal", "Bornland", "Horasreich", "Fjarninger", "Gjalskerländer"],
+		"Mögliche Kulturen" : ["Aranien", "Thorwal", "Bornland", "Horasreich", "Fjarninger", "Gjalskerland"],
 		"Talente" : { "Körperbeherrschung" : 2, "Schleichen" : 1, "Singen" : 1, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : -1 },
 		"Varianten" : {
 			"Halbelf" : {},
@@ -333,7 +333,7 @@
 		"Ungeeignete Vorteile" : { "Feenfreund" : {}, "Herausragendes Aussehen" : {}, "Hohe Magieresistenz" : {}, "Koboldfreund" : {}, "Schlangenmensch" : {}, "Schwer zu verzaubern" : {}, "Tierfreund" : {}, "Wohlklang" : {} },
 		"Ungeeignete Nachteile" : { "Glasknochen" : {}, "Krankhafte Reinlichkeit" : {}, "Nachtblind" : {}, "Schlechte Regeneration" : {} },
 		"Übliche Kulturen" : ["Orkland", "Yurach", "Svellttal-Besatzer"],
-		"Mögliche Kulturen" : ["Andergast und Nostria", "Mitelländische Städte", "Südaventurien", "Svellttal und Nordlande", "Thorwal"],
+		"Mögliche Kulturen" : ["Andergast und Nostria", "Mittelländische Städte", "Südaventurien", "Svellttal und Nordlande", "Thorwal"],
 		"Talente" : { "Raufen" : 1, "Ringen" : 1, "Athletik" : 1, "Körperbeherrschung" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Singen" : -2, "Sinnenschärfe" : 2, "Orientierung" : 2, "Rechnen" : -1 },
 		"Sonderfertigkeiten" : { "Biss" : {} },
 		"Varianten" : {
@@ -346,7 +346,7 @@
 			},
 			"Orichai" : {},
 			"Truanzhai" : {},
-			"Tscharshal" : {},
+			"Tscharshai" : {},
 			"Zholochai" : {
 				"Haarfarbe" : { "braun-schwarz" : 3, "tiefschwarz" : 8, "blauschwarz" : 9 },
 				"Größe" : { "Basis" : 150, "Würfel" : [{ "Würfel:Typ" : 6, "Würfel:Anzahl" : 4 }] }
@@ -456,7 +456,7 @@
 				"Eigenschaften" : { "KO" : -1 },
 				"Basiswerte" : { "Lebensenergie" : -1 },
 				"Vorteile" : { "Balance" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Beidhändig" : {}, "Dämmerungssicht" : {}, "Herausragender Geruchssinn" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 0 }, "Natürliche Waffe (Schwanz)" : { "Stufe" : 0 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 2 }, "Richtungssinn" : {}, "Tierempathie (einzelne Tierart)" : [{ "Freitext" : "Reptilien" }], "Zusätzliche Gliedmaße (Schwanz)" : {} },
-				"Sonderfertigkeiten" : { "Biss" : {}, "Schwanzschlag" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Sinneschärfe", "Freitext" : "Geruch" }] },
+				"Sonderfertigkeiten" : { "Biss" : {}, "Schwanzschlag" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Sinnenschärfe", "Freitext" : "Geruch" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Schwanzfeger" : {} }
 			}
 		}
