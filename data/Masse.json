@@ -16,7 +16,7 @@
 	},
 	"Gewichte" : {
 		"Irdisch" : { "Kilogramm" : 1000, "Gramm" : 1, "Pfund" : 500, "Zentner" : 50000, "Tonne" : 1000000, "Milligramm" : 0.001, "Mikrogramm" : 0.000001 },
-		"Mittelreich" : { "Stein" : 1000, "Skrupel" : 1, "Quader" : 1000000, "Unze" : 25, "Karat" : 0.2, "Gran" : 0.04 }
+		"Mittelreich" : { "Stein" : 1000, "Skrupel" : 1, "Sack" : 100000, "Quader" : 1000000, "Unze" : 25, "Karat" : 0.2, "Gran" : 0.04 }
 	},
 	"Währungen" : {
 		"Mittelreich" : { "Dukaten" : 1000, "Silbertaler" : 100, "Heller" : 10, "Kreuzer" : 1 },
