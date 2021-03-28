@@ -1,5 +1,6 @@
 {
 	"Mittelländische Städte" : {
+		"Bücher" : { "Wege der Helden" : 40 },
 		"Kosten" : 0,
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -60,6 +61,7 @@
 		}
 	},
 	"Mittelländische Landbevölkerung" : {
+		"Bücher" : { "Wege der Helden" : 41 },
 		"Kosten" : 0,
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
 		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -120,6 +122,7 @@
 		}
 	},
 	"Andergast und Nostria" : {
+		"Bücher" : { "Wege der Helden" : 42 },
 		"Kosten" : 6,
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
 		"Sozialstatus:Maximum" : 12,
@@ -175,6 +178,7 @@
 		}
 	},
 	"Bornland" : {
+		"Bücher" : { "Wege der Helden" : 44 },
 		"Kosten" : 0,
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Hohe Lebenskraft" : {}, "Kälteresistenz" : {}, "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Zäher Hund" : {} },
 		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -206,6 +210,7 @@
 		}
 	},
 	"Svellttal und Nordlande" : {
+		"Bücher" : { "Wege der Helden" : 45 },
 		"Kosten" : 7,
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
 		"Sozialstatus:Maximum" : 10,
@@ -257,6 +262,7 @@
 		}
 	},
 	"Almada" : {
+		"Bücher" : { "Wege der Helden" : 46 },
 		"Kosten" : 3,
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Jähzorn" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -303,6 +309,7 @@
 		}
 	},
 	"Horasreich" : {
+		"Bücher" : { "Wege der Helden" : 47 },
 		"Kosten" : 3,
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Jähzorn" : {}, "Prinzipientreue" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -360,6 +367,7 @@
 		}
 	},
 	"Zyklopeninseln" : {
+		"Bücher" : { "Wege der Helden" : 49 },
 		"Kosten" : 4,
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Begabung für Talent" : [{ "Auswahl" : "Schwimmen" }], "Entfernungssinn" : {}, "Feenfreund" : {}, "Gut Aussehend" : {}, "Innerer Kompass" : {}, "Wohlklang" : {} },
 		"Empfohlene Nachteile" : { "Eitelkeit" : {}, "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -380,6 +388,7 @@
 		}
 	},
 	"Amazonenburg" : {
+		"Bücher" : { "Wege der Helden" : 50 },
 		"Kosten" : 7,
 		"Eigenschaften" : { "KO" : 1 },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
@@ -395,6 +404,7 @@
 		"Namen" : ["Mittelländische Namen", "Bornländische Namen", "Almadanische Namen"]
 	},
 	"Aranien" : {
+		"Bücher" : { "Wege der Helden" : 50 },
 		"Kosten" : 2,
 		"Empfohlene Vorteile" : { "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -433,6 +443,7 @@
 		}
 	},
 	"Mhanadistan" : {
+		"Bücher" : { "Wege der Helden" : 52 },
 		"Kosten" : 0,
 		"Empfohlene Vorteile" : { "Hitzeresistenz" : {}, "Richtungssinn" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Rachsucht" : {}, "Schulden" : {}, "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
@@ -486,6 +497,7 @@
 		}
 	},
 	"Tulamidische Stadtstaaten" : {
+		"Bücher" : { "Wege der Helden" : 53 },
 		"Kosten" : 3,
 		"Basiswerte" : { "Magieresistenz" : 1 },
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Glück" : {}, "Glück im Spiel" : {}, "Hitzeresistenz" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
@@ -539,6 +551,7 @@
 		}
 	},
 	"Novadi" : {
+		"Bücher" : { "Wege der Helden" : 54 },
 		"Kosten" : 2,
 		"Eigenschaften" : { "MU" : 1 },
 		"Basiswerte" : { "Ausdauer" : 2 },
@@ -596,6 +609,7 @@
 		}
 	},
 	"Ferkina" : {
+		"Bücher" : { "Wege der Helden" : 55 },
 		"Kosten" : 11,
 		"Eigenschaften" : { "MU" : 2, "KL" : -1, "KO" : 1 },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 5, "Magieresistenz" : -2 },
@@ -613,6 +627,7 @@
 		"Namen" : ["Namen der Ferkinas"]
 	},
 	"Zahori" : {
+		"Bücher" : { "Wege der Helden" : 57 },
 		"Kosten" : 2,
 		"Eigenschaften" : { "CH" : 2 },
 		"Basiswerte" : { "Magieresistenz" : -1 },
@@ -629,6 +644,7 @@
 		"Namen" : ["Namen der Zahori"]
 	},
 	"Thorwal" : {
+		"Bücher" : { "Wege der Helden" : 58 },
 		"Kosten" : 4,
 		"Basiswerte" : { "Ausdauer" : 2 },
 		"Sozialstatus:Maximum" : 10,
@@ -701,6 +717,7 @@
 		}
 	},
 	"Gjalskerland" : {
+		"Bücher" : { "Wege der Helden" : 59 },
 		"Kosten" : 9,
 		"Eigenschaften" : { "KO" : 1 },
 		"Basiswerte" : { "Ausdauer" : 5 },
@@ -719,6 +736,7 @@
 		"Namen" : ["Namen der Gjalskerländer"]
 	},
 	"Fjarninger" : {
+		"Bücher" : { "Wege der Helden" : 60 },
 		"Kosten" : 11,
 		"Eigenschaften" : { "MU" : 1, "KL" : -1, "KO" : 1, "KK" : 1 },
 		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 6, "Magieresistenz" : -1 },
@@ -737,6 +755,7 @@
 		"Namen" : ["Namen der Fjarninger"]
 	},
 	"Dschungelstämme" : {
+		"Bücher" : { "Wege der Helden" : 61 },
 		"Kosten" : 11,
 		"Sozialstatus:Maximum" : 4,
 		"Vorteile" : { "Gefahreninstinkt" : {}, "Hitzeresistenz" : {} },
@@ -773,6 +792,7 @@
 		}
 	},
 	"Darna" : {
+		"Bücher" : { "Wege der Helden" : 62 },
 		"Kosten" : 9,
 		"Sozialstatus:Maximum" : 4,
 		"Vorteile" : { "Viertelzauberer" : {} },
@@ -790,6 +810,7 @@
 		"Namen" : ["Namen der Waldmenschen"]
 	},
 	"Verlorene Stämme" : {
+		"Bücher" : { "Wege der Helden" : 63 },
 		"Kosten" : 12,
 		"Sozialstatus:Maximum" : 4,
 		"Vorteile" : { "Gefahreninstinkt" : {}, "Hitzeresistenz" : {} },
@@ -822,6 +843,7 @@
 		}
 	},
 	"Waldinsel-Utulus" : {
+		"Bücher" : { "Wege der Helden" : 65 },
 		"Kosten" : 10,
 		"Sozialstatus:Maximum" : 4,
 		"Vorteile" : { "Gefahreninstinkt" : {} },
@@ -838,6 +860,7 @@
 		"Namen" : ["Namen der Utulus"]
 	},
 	"Miniwatu" : {
+		"Bücher" : { "Wege der Helden" : 65 },
 		"Kosten" : 11,
 		"Basiswerte" : { "Ausdauer" : -2, "Magieresistenz" : 1 },
 		"Sozialstatus:Maximum" : 6,
@@ -856,6 +879,7 @@
 		"Namen" : ["Namen der Waldmenschen"]
 	},
 	"Tocamuyac" : {
+		"Bücher" : { "Wege der Helden" : 66 },
 		"Kosten" : 9,
 		"Basiswerte" : { "Magieresistenz" : 1 },
 		"Sozialstatus:Maximum" : 4,
@@ -874,6 +898,7 @@
 		"Namen" : ["Namen der Tocamuyac"]
 	},
 	"Maraskan" : {
+		"Bücher" : { "Wege der Helden" : 67 },
 		"Kosten" : 5,
 		"Eigenschaften" : { "IN" : 1 },
 		"Basiswerte" : { "Magieresistenz" : 1 },
@@ -908,6 +933,7 @@
 		}
 	},
 	"Südaventurien" : {
+		"Bücher" : { "Wege der Helden" : 68 },
 		"Kosten" : 2,
 		"Vorteile" : { "Soziale Anpassungsfähigkeit" : {} },
 		"Empfohlene Vorteile" : { "Hitzeresistenz" : {}, "Verbindungen" : [{}] },
@@ -994,6 +1020,7 @@
 		}
 	},
 	"Bukanier" : {
+		"Bücher" : { "Wege der Helden" : 69 },
 		"Kosten" : 2,
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Magieresistenz" : -1 },
 		"Sozialstatus:Maximum" : 6,
@@ -1009,6 +1036,7 @@
 		"Namen" : ["Tulamidische Namen", "Südländische Namen"]
 	},
 	"Nivesenstämme" : {
+		"Bücher" : { "Wege der Helden" : 70 },
 		"Kosten" : 10,
 		"Basiswerte" : { "Ausdauer" : 5 },
 		"Sozialstatus:Maximum" : 8,
@@ -1034,6 +1062,7 @@
 		}
 	},
 	"Nuanaä-Lie" : {
+		"Bücher" : { "Wege der Helden" : 72 },
 		"Kosten" : 7,
 		"Basiswerte" : { "Ausdauer" : 5 },
 		"Sozialstatus:Maximum" : 5,
@@ -1059,6 +1088,7 @@
 		}
 	},
 	"Norbardensippe" : {
+		"Bücher" : { "Wege der Helden" : 72 },
 		"Kosten" : 8,
 		"Basiswerte" : { "Ausdauer" : 2 },
 		"Sozialstatus:Maximum" : 10,
@@ -1087,6 +1117,7 @@
 		}
 	},
 	"Trollzacken" : {
+		"Bücher" : { "Wege der Helden" : 73 },
 		"Kosten" : 10,
 		"Eigenschaften" : { "KO" : 1 },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
@@ -1105,6 +1136,7 @@
 		"Namen" : ["Namen der Trollzacker"]
 	},
 	"Auelfische Sippe" : {
+		"Bücher" : { "Wege der Helden" : 74 },
 		"Kosten" : 4,
 		"Sozialstatus:Maximum" : 8,
 		"Nachteile" : { "Elfische Weltsicht" : {}, "Neugier" : { "Stufe" : 5 }, "Randgruppe" : {}, "Weltfremd" : [{ "Freitext" : "Besitz", "Stufe" : 6 }, { "Freitext" : "Götterverehrung", "Stufe" : 6 }] },
@@ -1143,6 +1175,7 @@
 		}
 	},
 	"Elfische Siedlung" : {
+		"Bücher" : { "Wege der Helden" : 76 },
 		"Kosten" : 3,
 		"Sozialstatus:Maximum" : 10,
 		"Nachteile" : { "Wahl" : [{ "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] }], "Elfische Weltsicht" : {}, "Neugier" : { "Stufe" : 5 } },
@@ -1217,6 +1250,7 @@
 		}
 	},
 	"Steppenelfische Sippe" : {
+		"Bücher" : { "Wege der Helden" : 77 },
 		"Kosten" : 4,
 		"Sozialstatus:Maximum" : 7,
 		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Elfische Weltsicht" : {}, "Raumangst" : { "Stufe" : 10 }, "Weltfremd" : [{ "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
@@ -1237,6 +1271,7 @@
 		"Namen" : ["Elfische Namen"]
 	},
 	"Waldelfische Sippe" : {
+		"Bücher" : { "Wege der Helden" : 78 },
 		"Kosten" : 6,
 		"Sozialstatus:Maximum" : 8,
 		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Elfische Weltsicht" : {}, "Raumangst" : { "Stufe" : 6 }, "Weltfremd" : [{ "Freitext" : "Götter/Religion", "Stufe" : 6 }, { "Freitext" : "Adel/Hierarchien", "Stufe" : 6 }, { "Freitext" : "Geld und Besitz", "Stufe" : 6 }] },
@@ -1257,6 +1292,7 @@
 		"Namen" : ["Elfische Namen"]
 	},
 	"Firnelfische Sippe" : {
+		"Bücher" : { "Wege der Helden" : 79 },
 		"Kosten" : 6,
 		"Basiswerte" : { "Ausdauer" : 2 },
 		"Sozialstatus:Maximum" : 7,
@@ -1301,6 +1337,7 @@
 		}
 	},
 	"Ambosszwerge" : {
+		"Bücher" : { "Wege der Helden" : 81 },
 		"Kosten" : 0,
 		"Nachteile" : { "Platzangst" : { "Stufe" : 6 }, "Meeresangst" : { "Stufe" : 5 } },
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Begabung für Talent" : [{ "Auswahl" : "Grobschmied" }], "Begabung für Talentgruppe" : [{ "Auswahl" : "Kampftalente" }], "Besonderer Besitz" : [{}], "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Veteran" : {}, "Zäher Hund" : {} },
@@ -1315,6 +1352,7 @@
 		"Namen" : ["Namen der Zwerge"]
 	},
 	"Erzzwerge" : {
+		"Bücher" : { "Wege der Helden" : 82 },
 		"Kosten" : 1,
 		"Eigenschaften" : { "KL" : 1, "IN" : -1 },
 		"Basiswerte" : { "Magieresistenz" : 1 },
@@ -1331,6 +1369,7 @@
 		"Namen" : ["Namen der Zwerge"]
 	},
 	"Hügelzwerge" : {
+		"Bücher" : { "Wege der Helden" : 83 },
 		"Kosten" : 4,
 		"Eigenschaften" : { "IN" : 1 },
 		"Nachteile" : { "Meeresangst" : { "Stufe" : 5 } },
@@ -1345,6 +1384,7 @@
 		"Namen" : ["Namen der Hügelzwerge"]
 	},
 	"Brillantzwerge" : {
+		"Bücher" : { "Wege der Helden" : 84 },
 		"Kosten" : 3,
 		"Eigenschaften" : { "MU" : 1, "CH" : 1 },
 		"Nachteile" : { "Wahl" : [{ "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } }], "Platzangst" : { "Stufe" : 6 }, "Meeresangst" : { "Stufe" : 5 } },
@@ -1360,6 +1400,7 @@
 		"Namen" : ["Namen der Zwerge"]
 	},
 	"Brobim" : {
+		"Bücher" : { "Wege der Helden" : 84 },
 		"Kosten" : 0,
 		"Eigenschaften" : { "MU" : 1, "FF" : -1 },
 		"Sozialstatus:Maximum" : 4,
@@ -1376,6 +1417,7 @@
 		"Namen" : ["Namen der Zwerge"]
 	},
 	"Orkland" : {
+		"Bücher" : { "Wege der Helden" : 85 },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2 },
 		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Gefahreninstinkt" : {}, "Kampfrausch" : {}, "Hohe Lebenskraft" : {}, "Richtungssinn" : {}, "Zäher Hund" : {} },
@@ -1640,6 +1682,7 @@
 		}
 	},
 	"Yurach" : {
+		"Bücher" : { "Wege der Helden" : 87 },
 		"Kosten" : 0,
 		"Eigenschaften" : { "MU" : -1 },
 		"Sozialstatus:Maximum" : 3,
@@ -1655,6 +1698,7 @@
 		"Namen" : ["Namen der Orks"]
 	},
 	"Svellttal-Besatzer" : {
+		"Bücher" : { "Wege der Helden" : 87 },
 		"Basiswerte" : { "Magieresistenz" : 2 },
 		"Sozialstatus:Maximum" : 5,
 		"Nachteile" : { "Aberglaube" : [{ "Stufe" : 5 }] },
@@ -1704,6 +1748,7 @@
 		}
 	},
 	"Goblinstamm" : {
+		"Bücher" : { "Wege der Helden" : 89 },
 		"Eigenschaften" : { "MU" : -1, "KO" : 1 },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 4 },
 		"Sozialstatus:Maximum" : 3,
@@ -1764,6 +1809,7 @@
 		}
 	},
 	"Goblinbande" : {
+		"Bücher" : { "Wege der Helden" : 90 },
 		"Kosten" : 1,
 		"Eigenschaften" : { "MU" : -1 },
 		"Sozialstatus:Maximum" : 3,
@@ -1780,6 +1826,7 @@
 		"Namen" : ["Namen der Goblinbanden"]
 	},
 	"Festumer Ghetto" : {
+		"Bücher" : { "Wege der Helden" : 91 },
 		"Kosten" : 6,
 		"Eigenschaften" : { "MU" : -1, "KL" : 1 },
 		"Basiswerte" : { "Ausdauer" : -2, "Magieresistenz" : 1 },
@@ -1806,6 +1853,7 @@
 		}
 	},
 	"Archaische Achaz" : {
+		"Bücher" : { "Wege der Helden" : 91 },
 		"Kosten" : 9,
 		"Basiswerte" : { "Magieresistenz" : 1 },
 		"Sozialstatus:Maximum" : 5,
@@ -1821,6 +1869,7 @@
 		"Namen" : ["Namen der Achaz"]
 	},
 	"Stammes-Achaz" : {
+		"Bücher" : { "Wege der Helden" : 92 },
 		"Kosten" : 10,
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3 },
 		"Sozialstatus:Maximum" : 4,

@@ -1,5 +1,6 @@
 {
 	"Amazone" : {
+		"Bücher" : { "Wege der Helden" : 96 },
 		"Kosten" : 10,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Geschlecht" : "weiblich", "Eigenschaften" : { "MU" : 13, "GE" : 12, "KO" : 13, "KK" : 11 } },
@@ -17,6 +18,7 @@
 		"Besonderer Besitz" : "erprobtes Reitpferd mit Sattel und Zaumzeug"
 	},
 	"Fähnrich" : {
+		"Bücher" : { "Wege der Helden" : 96 },
 		"Varianten" : {
 			"Fähnrich der Fußkämpfer" : {
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 11, "CH" : 11, "GE" : 11, "KO" : 11 } },
@@ -151,6 +153,7 @@
 	},
 	"Gardist" : {
 		"Weiblich" : "Gardistin",
+		"Bücher" : { "Wege der Helden" : 100 },
 		"Varianten" : {
 			"Stadtgardist" : {
 				"Weiblich" : "Stadtgardistin",
@@ -343,6 +346,7 @@
 	},
 	"Gladiator" : {
 		"Weiblich" : "Gladiatorin",
+		"Bücher" : { "Wege der Helden" : 98 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 12, "KK" : 12 } },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Sozialstatus" : 1 },
 		"Sozialstatus:Maximum" : 7,
@@ -391,6 +395,7 @@
 	},
 	"Jahrmarktskämpfer" : {
 		"Weiblich" : "Jahrmarktskämpferin",
+		"Bücher" : { "Wege der Helden" : 102 },
 		"Kosten" : 6,
 		"Voraussetzungen" : { "Eigenschaften" : { "CH" : 12, "GE" : 12, "KO" : 11, "KK" : 13 } },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -405,6 +410,7 @@
 	},
 	"Krieger" : {
 		"Weiblich" : "Kriegerin",
+		"Bücher" : { "Wege der Helden" : 103 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 } },
 		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 3, "Sozialstatus" : 7 },
@@ -634,6 +640,7 @@
 	},
 	"Ritter" : {
 		"Weiblich" : "Ritterin",
+		"Bücher" : { "Wege der Helden" : 107 },
 		"Kosten" : 21,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KO" : 12, "KK" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
@@ -694,6 +701,7 @@
 	},
 	"Schwertgeselle" : {
 		"Weiblich" : "Schwertgesellin",
+		"Bücher" : { "Wege der Helden" : 108 },
 		"Zeitaufwendig" : true,
 		"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Eitelkeit" : { "Stufe" : 5 }, "Prinzipientreue" : [{ "Freitext" : "Ehrenkodex: Schutz der Schwachen und Wehrlosen, Mut, Wahrhaftigkeit, Duellregeln", "Stufe" : 10 }], "Schulden" : { "Stufe" : 1500 } },
 		"Empfohlene Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Ausdauernd" : {}, "Balance" : {}, "Beidhändig" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Gut Aussehend" : {}, "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}], "Zäher Hund" : {} },
@@ -833,6 +841,7 @@
 	},
 	"Soldat" : {
 		"Weiblich" : "Soldatin",
+		"Bücher" : { "Wege der Helden" : 112 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "GE" : 11, "KO" : 11, "KK" : 11 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
 		"Sozialstatus:Maximum" : 8,
@@ -1102,6 +1111,7 @@
 	},
 	"Söldner" : {
 		"Weiblich" : "Söldnerin",
+		"Bücher" : { "Wege der Helden" : 115 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 11, "KK" : 11 } },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Sozialstatus" : 2 },
 		"Sozialstatus:Maximum" : 10,
@@ -1290,6 +1300,7 @@
 		"Varianten" : {
 			"Waldmenschen-Stammeskrieger" : {
 				"Weiblich" : "Waldmenschen-Stammeskriegerin",
+				"Bücher" : { "Wege der Helden" : 117 },
 				"Kosten" : 11,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 13, "KO" : 13, "KK" : 11 }, "Kulturen" : { "Wahl" : { "Darna" : {}, "Dschungelstämme" : {}, "Miniwatu" : {}, "Tocamuyac" : {}, "Verlorene Stämme" : {}, "Waldinsel-Utulus" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1313,6 +1324,7 @@
 			},
 			"Stammeskrieger der Fjarninger" : {
 				"Weiblich" : "Stammeskriegerin der Fjarninger",
+				"Bücher" : { "Wege der Helden" : 118 },
 				"Kosten" : 4,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 11, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Muss" : { "Fjarninger" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1327,6 +1339,7 @@
 			},
 			"Stammeskrieger der Gjalskerländer" : {
 				"Weiblich" : "Stammeskriegerin der Gjalskerländer",
+				"Bücher" : { "Wege der Helden" : 118 },
 				"Kosten" : 9,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 14, "KK" : 12 }, "Kulturen" : { "Muss" : { "Gjalskerländer" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1341,6 +1354,7 @@
 			},
 			"Ferkina-Krieger" : {
 				"Weiblich" : "Ferkina-Kriegerin",
+				"Bücher" : { "Wege der Helden" : 119 },
 				"Kosten" : 7,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "GE" : 12, "KO" : 13, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1370,6 +1384,7 @@
 			},
 			"Stammeskrieger der Trollzacker" : {
 				"Weiblich" : "Stammeskriegerin der Trollzacker",
+				"Bücher" : { "Wege der Helden" : 119 },
 				"Kosten" : 1,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 13, "KK" : 14 }, "Kulturen" : { "Muss" : { "Trollzacken" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1383,6 +1398,7 @@
 				"Ausrüstung" : { "einfache Kleidung" : { "Kategorien" : ["Kleidung"] }, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Umhang" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "Dolch" : {} }
 			},
 			"Novadischer Wüstenkrieger" : {
+				"Bücher" : { "Wege der Helden" : 120 },
 				"Kosten" : 14,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 12, "KO" : 13 }, "Kulturen" : { "Muss" : { "Novadi" : {} } }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 7 },
@@ -1406,6 +1422,7 @@
 				}
 			},
 			"Goblin-Stammeskrieger" : {
+				"Bücher" : { "Wege der Helden" : 120 },
 				"Kosten" : 9,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 13, "KO" : 11, "KK" : 11 }, "Kulturen" : { "Muss" : { "Goblinstamm" : {} } }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Ausdauer" : 2, "Initiative-Basis" : 1, "Sozialstatus" : 1 },
@@ -1420,6 +1437,7 @@
 				"Besonderer Besitz" : "ausgebildetes Reitwildschwein"
 			},
 			"Orkischer Stammeskrieger" : {
+				"Bücher" : { "Wege der Helden" : 121 },
 				"Kosten" : 2,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "GE" : 11, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Wahl" : { "Orkland" : {}, "Svellttal-Besatzer" : {} } }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 1 },
@@ -1435,6 +1453,7 @@
 			},
 			"Achaz-Stammeskrieger" : {
 				"Weiblich" : "Achaz-Stammeskriegerin",
+				"Bücher" : { "Wege der Helden" : 121 },
 				"Kosten" : 9,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 13, "KO" : 12, "KK" : 12 }, "Kulturen" : { "Wahl" : { "Stammes-Achaz" : {}, "Archaische Achaz" : {} } } },
 				"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1462,6 +1481,7 @@
 			},
 			"Brobim-Stammeskrieger" : {
 				"Weiblich" : "Brobim-Stammeskriegerin",
+				"Bücher" : { "Wege der Helden" : 122 },
 				"Kosten" : 5,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 11, "KO" : 12, "KK" : 12 }, "Kulturen" : { "Muss" : { "Brobim" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 3 },
@@ -1480,6 +1500,7 @@
 	},
 	"Botenreiter" : {
 		"Weiblich" : "Botenreiterin",
+		"Bücher" : { "Wege der Helden" : 123 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "GE" : 11, "KO" : 12 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 5 },
@@ -1540,6 +1561,7 @@
 	},
 	"Entdecker" : {
 		"Weiblich" : "Entdeckerin",
+		"Bücher" : { "Wege der Helden" : 123 },
 		"Kosten" : 6,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 12, "IN": 12, "KO" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -1572,6 +1594,7 @@
 	},
 	"Fernhändler" : {
 		"Weiblich" : "Fernhändlerin",
+		"Bücher" : { "Wege der Helden" : 124 },
 		"Kosten" : 7,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN": 11, "CH" : 12, "KO" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -1597,6 +1620,7 @@
 	},
 	"Fischer" : {
 		"Weiblich" : "Fischerin",
+		"Bücher" : { "Wege der Helden" : 125 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "GE" : 12, "KO": 11, "KK" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -1671,6 +1695,7 @@
 	},
 	"Fuhrmann" : {
 		"Weiblich" : "Fuhrfrau",
+		"Bücher" : { "Wege der Helden" : 126 },
 		"Kosten" : 2,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KO": 12, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -1686,6 +1711,7 @@
 	},
 	"Grenzjäger" : {
 		"Weiblich" : "Grenzjägerin",
+		"Bücher" : { "Wege der Helden" : 126 },
 		"Kosten" : 12,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 11, "IN" : 11, "GE" : 12, "KO": 12 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 5 },
@@ -1702,6 +1728,7 @@
 	},
 	"Großwildjäger" : {
 		"Weiblich" : "Großwildjägerin",
+		"Bücher" : { "Wege der Helden" : 126 },
 		"Kosten" : 13,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 11, "KO": 12, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -1743,6 +1770,7 @@
 	},
 	"Hirte" : {
 		"Weiblich" : "Hirtin",
+		"Bücher" : { "Wege der Helden" : 127 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "CH" : 11, "GE" : 11, "KO": 11, "KK" : 11 } },
 		"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 1 },
@@ -1841,6 +1869,7 @@
 	},
 	"Jäger" : {
 		"Weiblich" : "Jägerin",
+		"Bücher" : { "Wege der Helden" : 128 },
 		"Kosten" : 11,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 11, "GE" : 12, "KO": 11 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 3 },
@@ -1925,6 +1954,7 @@
 	},
 	"Karawanenführer" : {
 		"Weiblich" : "Karawanenführerin",
+		"Bücher" : { "Wege der Helden" : 129 },
 		"Kosten" : 5,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "CH" : 11, "KO": 13, "KK" : 11 } },
 		"Basiswerte" : { "Ausdauer" : 3, "Sozialstatus" : 3 },
@@ -1954,6 +1984,7 @@
 	},
 	"Kundschafter" : {
 		"Weiblich" : "Kundschafterin",
+		"Bücher" : { "Wege der Helden" : 129 },
 		"Kosten" : 7,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 12, "KO": 12 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Sozialstatus" : 2 },
@@ -1969,6 +2000,7 @@
 	},
 	"Prospektor" : {
 		"Weiblich" : "Prospektorin",
+		"Bücher" : { "Wege der Helden" : 130 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 11, "KO": 11 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
 		"Sozialstatus:Maximum" : 7,
@@ -2015,6 +2047,7 @@
 	},
 	"Schiffer" : {
 		"Weiblich" : "Schifferin",
+		"Bücher" : { "Wege der Helden" : 130 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 11, "GE" : 12, "KO": 11 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
 		"Sozialstatus:Maximum" : 10,
@@ -2063,6 +2096,7 @@
 	},
 	"Schmuggler" : {
 		"Weiblich" : "Schmugglerin",
+		"Bücher" : { "Wege der Helden" : 131 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 12, "KO": 11 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
@@ -2094,6 +2128,7 @@
 	},
 	"Seefahrer" : {
 		"Weiblich" : "Seefahrerin",
+		"Bücher" : { "Wege der Helden" : 132 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO": 11, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
 		"Sozialstatus:Maximum" : 10,
@@ -2154,6 +2189,7 @@
 	},
 	"Straßenräuber" : {
 		"Weiblich" : "Straßenräuberin",
+		"Bücher" : { "Wege der Helden" : 133 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "GE" : 11, "KO": 12, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
 		"Sozialstatus:Maximum" : 7,
@@ -2234,6 +2270,7 @@
 	},
 	"Ausrufer" : {
 		"Weiblich" : "Ausruferin",
+		"Bücher" : { "Wege der Helden" : 134 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 13, "CH": 13 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -2249,6 +2286,7 @@
 	},
 	"Barde" : {
 		"Weiblich" : "Bardin",
+		"Bücher" : { "Wege der Helden" : 134 },
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN": 12, "CH" : 13 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
 		"Sozialstatus:Maximum" : 10,
@@ -2295,6 +2333,7 @@
 	},
 	"Bettler" : {
 		"Weiblich" : "Bettlerin",
+		"Bücher" : { "Wege der Helden" : 135 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 11, "FF": 12 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
@@ -2310,6 +2349,7 @@
 	},
 	"Dieb" : {
 		"Weiblich" : "Diebin",
+		"Bücher" : { "Wege der Helden" : 135 },
 		"Kosten" : 4,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 12, "FF": 13, "GE" : 13 } },
 		"Basiswerte" : { "Ausdauer" : 2, "Initiative-Basis" : 1, "Sozialstatus" : 1 },
@@ -2325,6 +2365,7 @@
 	},
 	"Einbrecher" : {
 		"Weiblich" : "Einbrecherin",
+		"Bücher" : { "Wege der Helden" : 136 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "FF": 13, "GE" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 2 },
@@ -2354,6 +2395,7 @@
 	},
 	"Gaukler" : {
 		"Weiblich" : "Gauklerin",
+		"Bücher" : { "Wege der Helden" : 136 },
 		"Kosten" : 2,
 		"Voraussetzungen" : { "Wahl" : [{ "Eigenschaften" : { "FF" : 13 } }, { "Eigenschaften" : { "GE" : 13 } }], "Eigenschaften" : { "MU" : 11, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -2425,6 +2467,7 @@
 	},
 	"Händler" : {
 		"Weiblich" : "Händlerin",
+		"Bücher" : { "Wege der Helden" : 137 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 12, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
 		"Sozialstatus:Maximum" : 10,
@@ -2488,6 +2531,7 @@
 	},
 	"Herold" : {
 		"Weiblich" : "Heroldin",
+		"Bücher" : { "Wege der Helden" : 138 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -2501,6 +2545,7 @@
 	},
 	"Hofkünstler" : {
 		"Weiblich" : "Hofkünstlerin",
+		"Bücher" : { "Wege der Helden" : 139 },
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN" : 13, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
 		"Sozialstatus:Maximum" : 12,
@@ -2553,6 +2598,7 @@
 	},
 	"Höfling" : {
 		"Weiblich" : "Hofdame",
+		"Bücher" : { "Wege der Helden" : 139 },
 		"Kosten" : 2,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN" : 11, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 6 },
@@ -2567,6 +2613,7 @@
 	},
 	"Gesellschafter" : {
 		"Weiblich" : "Kurtisane",
+		"Bücher" : { "Wege der Helden" : 140 },
 		"Varianten" : {
 			"Gesellschafter" : {
 				"Kosten" : 0,
@@ -2600,6 +2647,7 @@
 	},
 	"Privatlehrer" : {
 		"Weiblich" : "Privatlehrerin",
+		"Bücher" : { "Wege der Helden" : 141 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 13, "IN" : 12, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -2614,6 +2662,7 @@
 	},
 	"Schriftsteller" : {
 		"Weiblich" : "Schriftstellerin",
+		"Bücher" : { "Wege der Helden" : 141 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -2646,6 +2695,7 @@
 		}
 	},
 	"Spitzel" : {
+		"Bücher" : { "Wege der Helden" : 142 },
 		"Basiswerte" : { "Sozialstatus" : 4 },
 		"Sozialstatus:Maximum" : 10,
 		"Empfohlene Vorteile" : { "Breitgefächerte Bildung" : {}, "Gutes Gedächtnis" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
@@ -2685,6 +2735,7 @@
 	},
 	"Streuner" : {
 		"Weiblich" : "Streunerin",
+		"Bücher" : { "Wege der Helden" : 142 },
 		"Kosten" : 3,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 12, "CH" : 12, "FF" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 2 },
@@ -2728,6 +2779,7 @@
 		}
 	},
 	"Taugenichts" : {
+		"Bücher" : { "Wege der Helden" : 143 },
 		"Kosten" : 4,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 11, "CH" : 12, "GE" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 6 },
@@ -2755,6 +2807,7 @@
 	},
 	"Wirt" : {
 		"Weiblich" : "Wirtin",
+		"Bücher" : { "Wege der Helden" : 144 },
 		"Kosten" : 1,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 11, "CH" : 11, "FF" : 11, "KO" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -2772,6 +2825,7 @@
 	},
 	"Bader" : {
 		"Weiblich" : "Baderin",
+		"Bücher" : { "Wege der Helden" : 145 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "FF" : 12, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -2786,6 +2840,7 @@
 	},
 	"Bauer" : {
 		"Weiblich" : "Bäuerin",
+		"Bücher" : { "Wege der Helden" : 145 },
 		"Voraussetzungen" : { "Eigenschaften" : { "KO" : 11, "KK" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
 		"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Vorurteile" : [{ "Freitext" : "gegen Unbekanntes" }] },
@@ -2880,6 +2935,7 @@
 	},
 	"Bergmann" : {
 		"Weiblich" : "Bergmännin",
+		"Bücher" : { "Wege der Helden" : 146 },
 		"Kosten" : 1,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 } },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 3 },
@@ -2914,6 +2970,7 @@
 	},
 	"Domestik" : {
 		"Weiblich" : "Domestikin",
+		"Bücher" : { "Wege der Helden" : 146 },
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 11, "FF" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
 		"Sozialstatus:Maximum" : 8,
@@ -2975,6 +3032,7 @@
 	},
 	"Edelhandwerker" : {
 		"Weiblich" : "Edelhandwerkerin",
+		"Bücher" : { "Wege der Helden" : 147 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Sozialstatus" : 7 },
 		"Sozialstatus:Maximum" : 12,
@@ -3130,6 +3188,7 @@
 	},
 	"Gelehrter" : {
 		"Weiblich" : "Gelehrte",
+		"Bücher" : { "Wege der Helden" : 148 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "KL" : 13 },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -3235,6 +3294,7 @@
 	},
 	"Handwerker" : {
 		"Weiblich" : "Handwerkerin",
+		"Bücher" : { "Wege der Helden" : 149 },
 		"Kosten" : 1,
 		"Voraussetzungen" : { "Eigenschaften" : { "FF" : 11 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -3881,6 +3941,7 @@
 	},
 	"Rattenfänger" : {
 		"Weiblich" : "Rattenfängerin",
+		"Bücher" : { "Wege der Helden" : 151 },
 		"Kosten" : 2,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "GE" : 12, "KO" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
@@ -3905,6 +3966,7 @@
 	},
 	"Schreiber" : {
 		"Weiblich" : "Schreiberin",
+		"Bücher" : { "Wege der Helden" : 151 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "KL" : 11, "CH" : 11, "FF" : 12 },
 		"Basiswerte" : { "Sozialstatus" : 7 },
@@ -3957,6 +4019,7 @@
 	},
 	"Tagelöhner" : {
 		"Weiblich" : "Tagelöhnerin",
+		"Bücher" : { "Wege der Helden" : 152 },
 		"Voraussetzungen" : { "Eigenschaften" : { "GE" : 11, "KO" : 12, "KK" : 13 } },
 		"Basiswerte" : { "Sozialstatus" : 1 },
 		"Sozialstatus:Maximum" : 4,
@@ -4010,6 +4073,7 @@
 	},
 	"Tierbändiger" : {
 		"Weiblich" : "Tierbändigerin",
+		"Bücher" : { "Wege der Helden" : 153 },
 		"Kosten" : 1,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 1, "IN" : 13, "CH" : 13, "GE" : 11, "KK" : 12 } },
 		"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 5 },
@@ -4047,6 +4111,7 @@
 	},
 	"Wundarzt" : {
 		"Weiblich" : "Wundärztin",
+		"Bücher" : { "Wege der Helden" : 153 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 12, "CH" : 11, "FF" : 13 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -4092,6 +4157,7 @@
 	},
 	"Alchimist" : {
 		"Weiblich" : "Alchimistin",
+		"Bücher" : { "Wege der Helden" : 155 },
 		"Kosten" : 5,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "FF" : 12 } },
@@ -4349,6 +4415,7 @@
 		}
 	},
 	"Derwisch" : {
+		"Bücher" : { "Wege der Helden" : 157 },
 		"Kosten" : 9,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "FF" : 13, "KO" : 13 }, "Geschlecht" : "männlich" },
@@ -4368,6 +4435,7 @@
 	},
 	"Druide" : {
 		"Weiblich" : "Druidin",
+		"Bücher" : { "Wege der Helden" : 158 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Astralenergie" : 1, "Sozialstatus" : 3 },
 		"Sozialstatus:Maximum" : 10,
@@ -4477,6 +4545,7 @@
 		}
 	},
 	"Durro-Dûn" : {
+		"Bücher" : { "Wege der Helden" : 161 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Ausdauer" : 3, "Sozialstatus" : 2 },
 		"Sozialstatus:Maximum" : 6,
@@ -4573,6 +4642,7 @@
 	},
 	"Bewahrer" : {
 		"Weiblich" : "Bewahrerin",
+		"Bücher" : { "Wege der Helden" : 163 },
 		"Kosten" : 2,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 13, "CH" : 12 }, "Kulturen" : { "Wahl" : { "Auelfische Sippe" : {}, "Elfische Siedlung" : {}, "Steppenelfische Sippe" : {}, "Waldelfische Sippe" : {}, "Firnelfische Sippe" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -4600,6 +4670,7 @@
 	},
 	"Former" : {
 		"Weiblich" : "Formerin",
+		"Bücher" : { "Wege der Helden" : 163 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 10, "IN" : 12, "FF" : 13 }, "Kulturen" : { "Wahl" : { "Auelfische Sippe" : {}, "Elfische Siedlung" : {}, "Steppenelfische Sippe" : {}, "Waldelfische Sippe" : {}, "Firnelfische Sippe" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -4625,6 +4696,7 @@
 	},
 	"Kämpfer" : {
 		"Weiblich" : "Kämpferin",
+		"Bücher" : { "Wege der Helden" : 164 },
 		"Basiswerte" : { "Sozialstatus" : 4 },
 		"Sozialstatus:Maximum" : 10,
 		"Empfohlene Vorteile" : { "Eisenaffine Aura" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Zäher Hund" : {} },
@@ -4681,6 +4753,7 @@
 	},
 	"Legendensänger" : {
 		"Weiblich" : "Legendensängerin",
+		"Bücher" : { "Wege der Helden" : 164 },
 		"Kosten" : 4,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 13, "CH" : 13 }, "Kulturen" : { "Wahl" : { "Auelfische Sippe" : {}, "Elfische Siedlung" : {}, "Steppenelfische Sippe" : {}, "Waldelfische Sippe" : {}, "Firnelfische Sippe" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -4714,6 +4787,7 @@
 	},
 	"Wildnisläufer" : {
 		"Weiblich" : "Wildnisläuferin",
+		"Bücher" : { "Wege der Helden" : 165 },
 		"Basiswerte" : { "Sozialstatus" : 3 },
 		"Sozialstatus:Maximum" : 13,
 		"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Gefahreninstinkt" : {}, "Resistenz gegen Gift" : [{}], "Tierfreund" : {} },
@@ -4804,6 +4878,7 @@
 	},
 	"Zauberweber" : {
 		"Weiblich" : "Zauberweberin",
+		"Bücher" : { "Wege der Helden" : 165 },
 		"Kosten" : 5,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN" : 13 }, "Kulturen" : { "Wahl" : { "Auelfische Sippe" : {}, "Elfische Siedlung" : {}, "Steppenelfische Sippe" : {}, "Waldelfische Sippe" : {}, "Firnelfische Sippe" : {} } } },
 		"Basiswerte" : { "Astralenergie" : 3, "Sozialstatus" : 6 },
@@ -4852,6 +4927,7 @@
 		}
 	},
 	"Geode" : {
+		"Bücher" : { "Wege der Helden" : 167 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Magieresistenz" : 2, "Sozialstatus" : 6 },
 		"Sozialstatus:Maximum" : 10,
@@ -4937,6 +5013,7 @@
 		}
 	},
 	"Hexe" : {
+		"Bücher" : { "Wege der Helden" : 168 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Astralenergie" : 1 },
 		"Vorteile" : { "Vollzauberer" : {} },
@@ -5048,6 +5125,7 @@
 	},
 	"Kristallomant" : {
 		"Weiblich" : "Kristallomantin",
+		"Bücher" : { "Wege der Helden" : 171 },
 		"Kosten" : 10,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 13, "IN" : 15, "CH" : 12, "FF" : 12 } },
@@ -5068,6 +5146,7 @@
 	},
 	"Magier" : {
 		"Weiblich" : "Magierin",
+		"Bücher" : { "Wege der Helden" : 172 },
 		"Zeitaufwendig" : true,
 		"Vorteile" : { "Akademische Ausbildung (Magier)" : {}, "Vollzauberer" : {} },
 		"Nachteile" : { "Neugier" : { "Stufe" : 7 } },
@@ -5080,6 +5159,7 @@
 		"Besonderer Besitz" : "Zauberstab als persönliche Waffe oder ein einfaches magisches Buch (im Wert von 100 bis 150 Dukaten)",
 		"Varianten" : {
 			"Universität von Al'Anfa" : {
+				"Bücher" : { "Wege der Helden" : 174 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5110,6 +5190,7 @@
 				}
 			},
 			"Kampfseminar Andergast" : {
+				"Bücher" : { "Wege der Helden" : 175 },
 				"Kosten" : 28,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5126,6 +5207,7 @@
 				"Verbilligte Sonderfertigkeiten" : { "Meisterparade" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Einfluss" }], "Regeneration I" : {} }
 			},
 			"Akademie der Geistreisen zu Belhanka" : {
+				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 25,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5142,6 +5224,7 @@
 				"Verbilligte Sonderfertigkeiten" : { "Regeneration I" : {}, "Regeneration II" : {}, "Apport" : {} }
 			},
 			"Halle des vollendeten Kampfes zu Bethana" : {
+				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
@@ -5159,6 +5242,7 @@
 				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }, { "Rapier" : {}, "Degen" : {}, "Säbel" : {}, "Zweililie" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {} }	
 			},
 			"Dunkle Halle der Geister zu Brabak" : {
+				"Bücher" : { "Wege der Helden" : 177 },
 				"Kosten" : 30,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Astralenergie" : -2, "Sozialstatus" : 6 },
@@ -5176,6 +5260,7 @@
 				"Besonderer Besitz" : "Kenntnis der Wahren Namen dreier Niederer und zwei Gehörnter Dämonen (Verbreitung 3 oder mehr; Summe der Qualitäten maximal 25)"
 			},
 			"Seminar der Elfischen Verständigung und natürlichen Heilung zu Donnerbach" : {
+				"Bücher" : { "Wege der Helden" : 177 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 13, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5203,6 +5288,7 @@
 				}
 			},
 			"Konzil der Elemente zu Drakonia" : {
+				"Bücher" : { "Wege der Helden" : 178 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 10,
@@ -5272,6 +5358,7 @@
 				}
 			},
 			"Akademie der Herrschaft zu Elenvina" : {
+				"Bücher" : { "Wege der Helden" : 179 },
 				"Kosten" : 26,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12 }, "KL" : 13, "IN" : 11, "CH" : 13, "FF" : 11 },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5286,6 +5373,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Blick aufs Wesen" : "Mag", "Hellsicht trüben" : "Mag" }, "Werte" : [3] }], "Analys Arcanstruktur" : { "Mag" : 4 }, "Attributo" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 2 }, "Blick in die Gedanken" : { "Mag" : 4 }, "Cryptographo Zauberschrift" : { "Mag" : 3 }, "Einfluss bannen" : { "Mag" : 5 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Gardianum Zauberschild" : { "Mag" : 4 }, "Ignifaxius Flammenstrahl" : { "Mag" : 4 }, "Imperavi Handlungszwang" : { "Mag" : 5 }, "Odem Arcanum" : { "Mag" : 5 }, "Psychostabilis" : { "Mag" : 3 }, "Unitatio Geistesbund" : { "Mag" : 3 } }
 			},
 			"Akademie der geistigen Kraft zu Fasar" : {
+				"Bücher" : { "Wege der Helden" : 180 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5311,6 +5399,7 @@
 				}
 			},
 			"Bannakademie Fasar" : {
+				"Bücher" : { "Wege der Helden" : 180 },
 				"Kosten" : 26,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 13, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5325,6 +5414,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Adamantium Erzstruktur" : "Mag", "Verständigung stören" : "Mag" }, "Werte" : [3] }, { "Wahl" : { "Einfluss bannen" : "Mag", "Illusion auflösen" : "Mag" }, "Werte" : [2] }, { "Wahl" : { "Objekt entzaubern" : "Mag", "Psychostabilis" : "Mag" }, "Werte" : [3] }, { "Wahl" : { "Blick in die Gedanken" : "Mag", "Desintegratus Pulverstaub" : "Mag", "Veränderung aufheben" : "Mag", "Widerwille Ungemach" : "Mag" }, "Werte" : [3] }], "Abvenenum reine Speise" : { "Mag" : 5 }, "Balsam Salabunde" : { "Mag" : 3 }, "Cryptographo Zauberschrift" : { "Mag" : 3 }, "Custodosigil Diebesbann" : { "Mag" : 3 }, "Ignorantia Ungesehn" : { "Mag" : 3 }, "Klarum Purum" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 5 }, "Respondami Wahrheitszwang" : { "Mag" : 2 }, "Schleier der Unwissenheit" : { "Mag" : 4 } }
 			},
 			"Halle des Quecksilbers zu Festum" : {
+				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5340,6 +5430,7 @@
 				"Zauber" : { "Abvenenum reine Speise" : { "Mag" : 3 }, "Accuratum Zaubernadel" : { "Mag" : 3 }, "Analys Arcanstruktur" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 4 }, "Claudibus Clavistibor" : { "Mag" : 3 }, "Dunkelheit" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 6 }, "Hartes schmelze!" : { "Mag" : 3 }, "Leib des Windes" : { "Elf" : 4 }, "Objekt entzaubern" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 5 }, "Sapefacta Zauberschwamm" : { "Mag" : 3 }, "Unitatio Geistesbund" : { "Mag" : 4 }, "Veränderung aufheben" : { "Mag" : 3 } }
 			},
 			"Akademie Schwert und Stab zu Gareth" : {
+				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 29,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KK" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5356,6 +5447,7 @@
 				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {}, "Langschwert" : {} },
 			},
 			"Akademie der Magischen Rüstung zu Gareth" : {
+				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 26,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5371,6 +5463,7 @@
 				"Zauber" : { "Analys Arcanstruktur" : { "Mag" : 3 }, "Attributo" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 4 }, "Beherrschung brechen" : { "Mag" : 2 }, "Bewegung stören" : { "Mag" : 2 }, "Duplicatus Doppelbild" : { "Mag" : 3 }, "Eigenschaft wiederherstellen" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Fulminictus Donnerkeil" : { "Mag" : 4 }, "Ignifaxius Flammenstrahl" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 5 }, "Paralysis starr wie Stein" : { "Mag" : 3 }, "Pectetondo Zauberhaar" : { "Mag" : 2 }, "Sapefacta Zauberschwamm" : { "Mag" : 2 }, "Silentium Schweigekreis" : { "Mag" : 2 }, "Veränderung aufheben" : { "Mag" : 2 }, "Verständigung stören" : { "Mag" : 2 } }
 			},
 			"Schule des direkten Weges zu Gerasim" : {
+				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 30,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12, "GE" : 13 } },
 				"Basiswerte" : { "Sozialstatus" : 4 },
@@ -5387,6 +5480,7 @@
 				"Besonderer Besitz" : "Abschrift vom Original der 'Zauberkräfte der Natur'"
 			},
 			"Akademie der Erscheinungen zu Grangor" : {
+				"Bücher" : { "Wege der Helden" : 183 },
 				"Kosten" : 23,
 				"Voraussetzungen" : { "Wahl" : [{ "Eigenschaften" : { "MU" : 10, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 10, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 11, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } }] },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5403,6 +5497,7 @@
 				"Zauber" : { "Aeolitus Windgebraus" : { "Mag" : 4 }, "Analys Arcanstruktur" : { "Mag" : 3 }, "Attributo" : { "Mag" : 3 }, "Aureolus Güldenglanz" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 2 }, "Blitz dich find" : { "Mag" : 3 }, "Cryptographo Zauberschrift" : { "Mag" : 2 }, "Favilludo Funkentanz" : { "Mag" : 5 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Geisterbann" : { "Mag" : 4 }, "Harmlose Gestalt" : { "Mag" : 2 }, "Manifesto Element" : { "Mag" : 5 }, "Odem Arcanum" : { "Mag" : 4 }, "Penetrizzel Tiefenblick" : { "Mag" : 2 }, "Reflectimago Spiegelschein" : { "Mag" : 2 }, "Visibili Vanitar" : { "Mag" : 3 }, "Vocolimbo hohler Klang" : { "Mag" : 3 }, "Vogelzwitschern Glockenspiel" : { "Mag" : 4 }, "Weihrauchwolke Wohlgeruch" : { "Mag" : 4 }, "Widerwille Ungemach" : { "Mag" : 3 } }
 			},
 			"Drachenei-Akademie zu Khunchom" : {
+				"Bücher" : { "Wege der Helden" : 183 },
 				"Empfohlene Nachteile" : { "Stubenhocker" : {} },
 				"Varianten" : {
 					"Drachenei-Akademie zu Khunchom" : {
@@ -5440,6 +5535,7 @@
 				}
 			},
 			"Halle der Antimagie zu Kuslik" : {
+				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 31,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Unansehnlich" : {}, "Widerwärtiges Aussehen" : {}, "Stubenhocker" : {}, "Weltfremd" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
@@ -5454,6 +5550,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Eigenschaft wiederherstellen" : "Mag", "Einfluss bannen" : "Mag" }, "Werte" : [2] }], "Armatrutz" : { "Mag" : 2 }, "Balsam Salabunde" : { "Mag" : 2 }, "Blick aufs Wesen" : { "Mag" : 2 }, "Claudibus Clavistibor" : { "Mag" : 2 }, "Corpofesso Gliederschmerz" : { "Mag" : 4 }, "Cryptographo Zauberschrift" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Ignifaxius Flammenstrahl" : { "Mag" : 4 }, "Invercano Spiegeltrick" : { "Mag" : 3 }, "Klarum Purum" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 5 }, "Pentagramma Sphärenbann" : { "Mag" : 3 }, "Psychostabilis" : { "Mag" : 3 } }
 			},
 			"Halle der Metamorphosen zu Kuslik" : {
+				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 23,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5468,6 +5565,7 @@
 				"Zauber" : { "Adlerauge Luchsenohr" : { "Mag" : 2 }, "Armatrutz" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 2 }, "Corpofesso Gliederschmerz" : { "Mag" : 4 }, "Corpofrigo Kälteschock" : { "Mag" : 3 }, "Cryptographo Zauberschrift" : { "Mag" : 3 }, "Custodosigil Diebesbann" : { "Mag" : 3 }, "Eigenschaft wiederherstellen" : { "Mag" : 4 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Gardianum Zauberschild" : { "Mag" : 2 }, "Klarum Purum" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 5 }, "Paralysis starr wie Stein" : { "Mag" : 4 } }
 			},
 			"Halle der Macht zu Lowangen" : {
+				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 29,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5481,6 +5579,7 @@
 				"Zauber" : { "Analys Arcanstruktur" : { "Mag" : 3 }, "Armatrutz" : { "Mag" : 4 }, "Attributo" : { "Mag" : 2 }, "Axxeleratus Blitzgeschwind" : { "Mag" : 2 }, "Balsam Salabunde" : { "Mag" : 3 }, "Einfluss bannen" : { "Mag" : 5 }, "Gardianum Zauberschild" : { "Mag" : 4 }, "Ignifaxius Flammenstrahl" : { "Mag" : 4 }, "Imperavi Handlungszwang" : { "Mag" : 3 }, "Karnifilo Raserei" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 2 }, "Psychostabilis" : { "Mag" : 5 }, "Schleier der Unwissenheit" : { "Mag" : 3 } }
 			},
 			"Akademie der Verformungen zu Lowangen" : {
+				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 25,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5494,6 +5593,7 @@
 				"Zauber" : { "Adlerauge Luchsenohr" : { "Mag" : 3 }, "Axxeleratus Blitzgeschwind" : { "Mag" : 2 }, "Balsam Salabunde" : { "Mag" : 2 }, "Bannbaladin" : { "Mag" : 2 }, "Blitz dich find" : { "Mag" : 2 }, "Corpofesso Gliederschmerz" : { "Mag" : 3 }, "Eigenschaft wiederherstellen" : { "Mag" : 3 }, "Fulminictus Donnerkeil" : { "Mag" : 2 }, "Gardianum Zauberschild" : { "Mag" : 2 }, "Klarum Purum" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Psychostabilis" : { "Mag" : 3 }, "Sensibar Empathicus" : { "Mag" : 2 }, "Tiergedanken" : { "Mag" : 3 }, "Verwandlung beenden" : { "Mag" : 2 } }
 			},
 			"Akademie des Magischen Wissens zu Methumis" : {
+				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 24,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5508,6 +5608,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Fulminictus Donnerkeil" : "Mag", "Objekt entzaubern" : "Mag" }, "Werte" : [3] }, { "Wahl" : { "Gardianum Zauberschild" : "Mag", "Pentagramma Sphärenbann" : "Mag" }, "Werte" : [3] }], "Attributo" : { "Mag" : 3 }, "Auris Nasus Oculus" : { "Mag" : 2 }, "Balsam Salabunde" : { "Mag" : 3 }, "Blick in die Gedanken" : { "Mag" : 5 }, "Blitz dich find" : { "Mag" : 3 }, "Exposami Lebenskraft" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Foramen Foraminor" : { "Mag" : 3 }, "Impersona Maskenbild" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 7 }, "Verwandlung beenden" : { "Mag" : 3 } }
 			},
 			"Zauberschule des Kalifen zu Mherwed" : {
+				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 23,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5527,6 +5628,7 @@
 				"Besonderer Besitz" : "Abschrift des 'Großen Elementariums'"
 			},
 			"Schule der variablen Form zu Mirham" : {
+				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 24,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5540,6 +5642,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Analys Arcanstruktur" : "Mag", "Schleier der Unwissenheit" : "Mag" }, "Werte" : [3] }, { "Wahl" : { "Caldofrigo heiß und kalt" : "Mag", "Objecto Obscuro" : "Mag" }, "Werte" : [4] }], "Adamantium Erzstruktur" : { "Mag" : 4 }, "Attributo" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 2 }, "Custodosigil Diebesbann" : { "Mag" : 4 }, "Dunkelheit" : { "Mag" : 4 }, "Eisenrost und Patina" : { "Mag" : 4 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Objectovoco" : { "Mag" : 3 }, "Odem Arcanum" : { "Mag" : 4 }, "Silentium Schweigekreis" : { "Mag" : 4 }, "Stein wandle!" : { "Mag" : 4 }, "Veränderung aufheben" : { "Mag" : 3 } }
 			},
 			"Schule der Beherrschung zu Neersand" : {
+				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 22,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5555,6 +5658,7 @@
 				"Zauber" : { "Armatrutz" : { "Mag" : 2 }, "Attributo" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 4 }, "Blick in die Gedanken" : { "Mag" : 4 }, "Blitz dich find" : { "Mag" : 4 }, "Duplicatus Doppelbild" : { "Mag" : 2 }, "Einfluss bannen" : { "Mag" : 5 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Gardianum Zauberschild" : { "Mag" : 2 }, "Gedankenbilder Elfenruf" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Psychostabilis" : { "Mag" : 4 }, "Ruhe Körper, ruhe Geist" : { "Mag" : 2 }, "Unitatio Geistesbund" : { "Mag" : 2 } }
 			},
 			"Halle des Lebens zu Norburg" : {
+				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 23,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5569,6 +5673,7 @@
 				"Zauber" : { "Abvenenum reine Speise" : { "Mag" : 4 }, "Analys Arcanstruktur" : { "Mag" : 2 }, "Attributo" : { "Mag" : 4 }, "Bannbaladin" : { "Mag" : 3 }, "Beherrschung brechen" : { "Mag" : 3 }, "Blick in die Gedanken" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 4 }, "Duplicatus Doppelbild" : { "Mag" : 3 }, "Einfluss bannen" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Geisterbann" : { "Mag" : 3 }, "Memorans Gedächtniskraft" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Paralysis starr wie Stein" : { "Mag" : 3 }, "Sapefacta Zauberschwamm" : { "Mag" : 3 }, "Verwandlung beenden" : { "Mag" : 3 } }
 			},
 			"Akademie von Licht und Dunkelheit zu Nostria" : {
+				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 25,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5585,6 +5690,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Corpofesso Gliederschmerz" : "Mag", "Corpofrigo Kälteschock" : "Mag", "Eisenrost und Patina" : "Mag", "Fulminictus Donnerkeil" : "Mag", "Ignifaxius Flammenstrahl" : "Mag" }, "Werte" : [2] }], "Adamantium Erzstruktur" : { "Mag" : 3 }, "Analys Arcanstruktur" : { "Mag" : 2 }, "Armatrutz" : { "Mag" : 3 }, "Attributo" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 2 }, "Blitz dich find" : { "Mag" : 3 }, "Claudibus Clavistibor" : { "Mag" : 3 }, "Exposami Lebenskraft" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 7 }, "Fortifex arkane Wand" : { "Mag" : 2 }, "Geisterbann" : { "Mag" : 3 }, "Objekt entzaubern" : { "Mag" : 3 } }
 			},
 			"Halle des Windes zu Olport" : {
+				"Bücher" : { "Wege der Helden" : 190 },
 				"Kosten" : 29,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11, "GE" : 11, "KO" : 11, "KK" : 11 }, "Kulturen" : { "Wahl" : { "Thorwal" : {}, "Norbardensippe" : {} } } },
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Randgruppe" : {} },
@@ -5611,6 +5717,7 @@
 				}
 			},
 			"Schule der Austreibung zu Perricum" : {
+				"Bücher" : { "Wege der Helden" : 191 },
 				"Kosten" : 29,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5624,6 +5731,7 @@
 				"Zauber" : { "Analys Arcanstruktur" : { "Mag" : 3 }, "Ängste lindern" : { "Mag" : 4 }, "Attributo" : { "Mag" : 2 }, "Bannbaladin" : { "Mag" : 3 }, "Destructibo Arcanitas" : { "Mag" : 1 }, "Erinnerung verlasse dich!" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 3 }, "Gardianum Zauberschild" : { "Mag" : 3 }, "Geisterruf" : { "Mag" : 2 }, "Memorabia Falsifir" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Paralysis starr wie Stein" : { "Mag" : 2 }, "Psychostabilis" : { "Mag" : 4 }, "Traumgestalt" : { "Hex" : 2 } }
 			},
 			"Akademie der hohen Magie & arcanes Institut zu Punin" : {
+				"Bücher" : { "Wege der Helden" : 191 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 14, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 13,
@@ -5650,6 +5758,7 @@
 				}
 			},
 			"Pentagramm-Akademie zu Rashdul" : {
+				"Bücher" : { "Wege der Helden" : 192 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5682,6 +5791,7 @@
 				}
 			},
 			"Stoerrebrandt-Kolleg zu Riva" : {
+				"Bücher" : { "Wege der Helden" : 193 },
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 11,
@@ -5719,6 +5829,7 @@
 				}
 			},
 			"Informations-Institut Rommilys" : {
+				"Bücher" : { "Wege der Helden" : 193 },
 				"Kosten" : 29,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Einbildungen" : [{}], "Kurzsichtig" : {}, "Schwerhörig" : {}, "Eingeschränkter Geruchssinn" : {}, "Eingeschränkter Tastsinn" : {}, "Farbenblind" : {}, "Fluch der Finsternis I" : {}, "Fluch der Finsternis II" : {}, "Fluch der Finsternis III" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Medium" : {}, "Rachsucht" : {}, "Schulden" : {}, "Spruchhemmung" : {}, "Stigma" : [{}], "Sucht" : [{}], "Unstet" : {}, "Vergesslichkeit" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5734,6 +5845,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Einfluss bannen" : "Mag", "Illusion auflösen" : "Mag" }, "Werte" : [4] }, { "Wahl" : { "Ignifaxius Flammenstrahl" : "Mag", "Paralysis starr wie Stein" : "Mag" }, "Werte" : [3] }], "Adlerauge Luchsenohr" : { "Mag" : 3 }, "Attributo" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 3 }, "Beherrschung brechen" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 2 }, "Custodosigil Diebesbann" : { "Mag" : 3 }, "Foramen Foraminor" : { "Mag" : 3 }, "Gardianum Zauberschild" : { "Mag" : 2 }, "Hellsicht trüben" : { "Mag" : 2 }, "Memorans Gedächtniskraft" : { "Mag" : 3 }, "Odem Arcanum" : { "Mag" : 6 }, "Plumbumbarum schwerer Arm" : { "Mag" : 3 }, "Respondami Wahrheitszwang" : { "Mag" : 4 } }
 			},
 			"Schule der Vierfachen Verwandlung zu Sinoda" : {
+				"Bücher" : { "Wege der Helden" : 194 },
 				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5751,6 +5863,7 @@
 				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {}, "Diskus" : {} }
 			},
 			"Schule der Hellsicht zu Thorwal" : {
+				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 26,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5767,6 +5880,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Horriphobus Schreckgestalt" : "Mag", "Paralysis starr wie Stein" : "Mag" }, "Werte" : [3] }], "Attributo" : { "Mag" : 2 }, "Balsam Salabunde" : { "Mag" : 3 }, "Blick aufs Wesen" : { "Mag" : 3 }, "Blick durch fremde Augen" : { "Dru" : 2 }, "Blick in die Gedanken" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 3 }, "Cryptographo Zauberschrift" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 2 }, "Gardianum Zauberschild" : { "Mag" : 2 }, "Gefunden!" : { "Mag" : 2 }, "Memorans Gedächtniskraft" : { "Mag" : 4 }, "Objectovoco" : { "Mag" : 3 }, "Odem Arcanum" : { "Mag" : 5 }, "Unitatio Geistesbund" : { "Mag" : 2 } }
 			},
 			"Anatomische Akademie zu Vinsalt" : {
+				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 22,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
@@ -5782,6 +5896,7 @@
 				"Zauber" : { "Abvenenum reine Speise" : { "Mag" : 5 }, "Attributo" : { "Mag" : 5 }, "Bannbaladin" : { "Mag" : 3 }, "Beherrschung brechen" : { "Mag" : 3 }, "Blick in die Gedanken" : { "Mag" : 2 }, "Blitz dich find" : { "Mag" : 2 }, "Duplicatus Doppelbild" : { "Mag" : 3 }, "Einfluss bannen" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Memorans Gedächtniskraft" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Paralysis starr wie Stein" : { "Mag" : 2 }, "Sapefacta Zauberschwamm" : { "Mag" : 3 }, "Sensibar Empathicus" : { "Mag" : 6 }, "Verwandlung beenden" : { "Mag" : 4 } }
 			},
 			"Schule des Seienden Scheins zu Zorgan" : {
+				"Bücher" : { "Wege der Helden" : 196 },
 				"Kosten" : 25,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5798,6 +5913,7 @@
 				"Ausrüstung" : { "Pluderhose" : { "Kategorien" : ["Kleidung"] }, "Hemd" : { "Kategorien" : ["Kleidung"] }, "Kaftan guter Qualität" : { "Kategorien" : ["Kleidung"] }, "Turban mit verzierter Brosche" : { "Kategorien" : ["Kleidung"] }, "Pantoffeln" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Zierdolch" : {}, "Schmuck im Wert von 5 Dukaten" : {}, "Schminkutensilien" : {}, "Umhängetasche" : {}, "Schreibfeder" : {}, "Tinte" : {}, "10 Blatt Pergament" : {} }
 			},
 			"Schule der Schmerzen zu Elburum" : {
+				"Bücher" : { "Wege der Helden" : 196 },
 				"Kosten" : 30,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5815,6 +5931,7 @@
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Erinnerung verlasse dich!" : "Mag", "Schwarzer Schrecken" : "Mag" }, "Werte" : [4] }], "Abvenenum reine Speise" : { "Mag" : 2 }, "Band und Fessel" : { "Mag" : 4 }, "Bannbaladin" : { "Mag" : 2 }, "Blick in die Gedanken" : { "Mag" : 3 }, "Chimaeroform Hybridgestalt" : { "Mag" : 3 }, "Horriphobus Schreckgestalt" : { "Mag" : 3 }, "Klarum Purum" : { "Mag" : 5 }, "Odem Arcanum" : { "Mag" : 4 }, "Psychostabilis" : { "Mag" : 4 }, "Respondami Wahrheitszwang" : { "Mag" : 4 }, "Reversalis Revidum" : { "Mag" : 3 }, "Visibili Vanitar" : { "Mag" : 3 } }
 			},
 			"Schule des Wandelbaren zu Tuzak" : {
+				"Bücher" : { "Wege der Helden" : 197 },
 				"Kosten" : 24,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "GE" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
@@ -5827,6 +5944,7 @@
 				"Zauber" : { "Adlerschwinge Wolfsgestalt" : { "Mag" : [3, 2] }, "Abvenenum reine Speise" : { "Mag" : 3 }, "Armatrutz" : { "Mag" : 5 }, "Axxeleratus Blitzgeschwind" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 3 }, "Beherrschung brechen" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 3 }, "Corpofesso Gliederschmerz" : { "Mag" : 4 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Klarum Purum" : { "Mag" : 3 }, "Odem Arcanum" : { "Mag" : 4 }, "Visibili Vanitar" : { "Mag" : 4 } }
 			},
 			"Bannakademie Ysilia" : {
+				"Bücher" : { "Wege der Helden" : 198 },
 				"Kosten" : 26,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
@@ -5853,6 +5971,7 @@
 				"Besonderer Besitz" : "",
 				"Varianten" : {
 					"Kreis der Einfühlung in den nördlichen Salamandersteinen" : {
+						"Bücher" : { "Wege der Helden" : 198 },
 						"Kosten" : 23,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 13, "CH" : 12, "FF" : 11, "KO" : 11 } },
 						"Basiswerte" : { "Astralenergie" : -1, "Sozialstatus" : 4 },
@@ -5874,6 +5993,7 @@
 					},
 					"Schüler der Magistra Kiranya" : {
 						"Weiblich" : "Schülerin der Magistra Kiranya",
+						"Bücher" : { "Wege der Helden" : 199 },
 						"Kosten" : 20,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 12, "IN" : 13, "CH" : 12, "FF" : 12, "KO" : 12 } },
 						"Basiswerte" : { "Astralenergie" : -1, "Sozialstatus" : 5 },
@@ -5892,6 +6012,7 @@
 					},
 					"Schüler der Sevastana Gevendar" : {
 						"Weiblich" : "Schülerin der Sevastana Gevendar",
+						"Bücher" : { "Wege der Helden" : 200 },
 						"Kosten" : 22,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 12, "IN" : 12, "CH" : 12, "FF" : 10, "GE" : 10, "KO" : 10, "KK" : 10 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Meeresangst" : {} } } },
 						"Basiswerte" : { "Astralenergie" : -1, "Sozialstatus" : 5 },
@@ -5912,6 +6033,7 @@
 					},
 					"Schüler des Rafim Bey" : {
 						"Weiblich" : "Schülerin des Rafim Bey",
+						"Bücher" : { "Wege der Helden" : 200 },
 						"Kosten" : 23,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 11 }, "Kulturen" : { "Wahl" : { "Mhanadistan" : {}, "Tulamidische Stadtstaaten" : {} } } },
 						"Basiswerte" : { "Astralenergie" : -1, "Sozialstatus" : 5 },
@@ -6287,6 +6409,7 @@
 	},
 	"Scharlatan" : {
 		"Weiblich" : "Scharlatanin",
+		"Bücher" : { "Wege der Helden" : 201 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Wahl" : [{ "Eigenschaften" : { "KL" : 13, "IN" : 11 } }, { "Eigenschaften" : { "KL" : 11, "IN" : 13 } }], "Eigenschaften" : { "CH" : 12, "FF" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 3 },
@@ -6367,6 +6490,7 @@
 	},
 	"Schelm" : {
 		"Weiblich" : "Schelmin",
+		"Bücher" : { "Wege der Helden" : 203 },
 		"Kosten" : 13,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 13, "CH" : 12, "FF" : 13, "GE" : 12 } },
 		"Basiswerte" : { "Magieresistenz" : 2, "Sozialstatus" : 2 },
@@ -6435,6 +6559,7 @@
 	},
 	"Tänzer" : {
 		"Weiblich" : "Tänzerin",
+		"Bücher" : { "Wege der Helden" : 204 },
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 12, "CH" : 13, "GE" : 13, "FF" : 11, "KO" : 12 } },
 		"Basiswerte" : { "Ausdauer" : 3 },
 		"Nachteile" : { "Eitelkeit" : { "Stufe" : 5 } },
@@ -6534,6 +6659,7 @@
 		}
 	},
 	"Zibilja" : {
+		"Bücher" : { "Wege der Helden" : 205 },
 		"Kosten" : 5,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 13, "CH" : 12, "FF" : 11 }, "Kulturen" : { "Muss" : { "Norbardensippe" : {} } } },
@@ -6552,6 +6678,7 @@
 	},
 	"Geweihter des Praios" : {
 		"Weiblich" : "Geweihte des Praios",
+		"Bücher" : { "Wege der Helden" : 206 },
 		"Kosten" : 10,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 11, "CH" : 13 } },
@@ -6585,6 +6712,7 @@
 	},
 	"Bannstrahler" : {
 		"Weiblich" : "Bannstrahlerin",
+		"Bücher" : { "Wege der Helden" : 207 },
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 10, "KO" : 12, "KK" : 12 } },
 		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 2, "Sozialstatus" : 5 },
 		"Sozialstatus:Maximum" : 12,
@@ -6617,6 +6745,7 @@
 	},
 	"Geweihter der Rondra" : {
 		"Weiblich" : "Geweihte der Rondra",
+		"Bücher" : { "Wege der Helden" : 208 },
 		"Kosten" : 26,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "CH" : 11, "GE" : 12, "KO" : 12, "KK" : 12 } },
@@ -6650,6 +6779,7 @@
 		}
 	},
 	"Rondrageweihte Amazone" : {
+		"Bücher" : { "Wege der Helden" : 210 },
 		"Kosten" : 24,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "CH" : 11, "GE" : 12, "KO" : 13, "KK" : 11 }, "Kulturen" : { "Muss" : { "Amazonenburg" : {} } } },
@@ -6669,6 +6799,7 @@
 	},
 	"Geweihter des Efferd" : {
 		"Weiblich" : "Geweihte des Efferd",
+		"Bücher" : { "Wege der Helden" : 211 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN" : 13, "CH" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 7, "Karmaenergie" : 12 },
@@ -6705,6 +6836,7 @@
 	},
 	"Geweihter der Travia" : {
 		"Weiblich" : "Geweihte der Travia",
+		"Bücher" : { "Wege der Helden" : 211 },
 		"Kosten" : 12,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "CH" : 13, "FF" : 11, "KK" : 11 } },
@@ -6744,6 +6876,7 @@
 	},
 	"Boron-Geweihter" : {
 		"Weiblich" : "Boron-Geweihte",
+		"Bücher" : { "Wege der Helden" : 213 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 12, "CH" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 5, "Karmaenergie" : 12 },
@@ -6989,6 +7122,7 @@
 	},
 	"Ordenskrieger der Golgariten" : {
 		"Weiblich" : "Ordenskriegerin der Golgariten",
+		"Bücher" : { "Wege der Helden" : 214 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 1, "Sozialstatus" : 5 },
 		"Sozialstatus:Maximum" : 11,
@@ -7023,6 +7157,7 @@
 	},
 	"Krieger vom Orden des Schwarzen Raben" : {
 		"Weiblich" : "Kriegerin vom Orden des Schwarzen Raben",
+		"Bücher" : { "Wege der Helden" : 215 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 } },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 2, "Sozialstatus" : 7 },
@@ -7051,6 +7186,7 @@
 	},
 	"Geweihter der Hesinde" : {
 		"Weiblich" : "Geweihte der Hesinde",
+		"Bücher" : { "Wege der Helden" : 216 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 13, "IN" : 12, "CH" : 12 } },
 		"Basiswerte" : { "Magieresistenz" : 1, "Karmaenergie" : 12, "Sozialstatus" : 8 },
@@ -7097,6 +7233,7 @@
 	},
 	"Geweihter des Firun" : {
 		"Weiblich" : "Geweihte des Firun",
+		"Bücher" : { "Wege der Helden" : 218 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 6 },
 		"Sozialstatus:Maximum" : 11,
@@ -7144,6 +7281,7 @@
 	},
 	"Geweihter der Tsa" : {
 		"Weiblich" : "Geweihte der Tsa",
+		"Bücher" : { "Wege der Helden" : 219 },
 		"Kosten" : 14,
 		"Voraussetzungen" : { "Eigenschaften" : { "IN" : 12, "CH" : 13, "FF" : 11, "GE" : 12 } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 6 },
@@ -7181,6 +7319,7 @@
 	},
 	"Geweihter des Phex" : {
 		"Weiblich" : "Geweihte des Phex",
+		"Bücher" : { "Wege der Helden" : 219 },
 		"Kosten" : 11,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 12, "CH" : 12, "FF" : 12 } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 5 },
@@ -7272,6 +7411,7 @@
 	},
 	"Geweihter der Peraine" : {
 		"Weiblich" : "Geweihte der Peraine",
+		"Bücher" : { "Wege der Helden" : 222 },
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 13, "KO" : 11 } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 7 },
 		"Sozialstatus:Maximum" : 11,
@@ -7310,6 +7450,7 @@
 	},
 	"Geweihter des Ingerimm" : {
 		"Weiblich" : "Geweihte des Ingerimm",
+		"Bücher" : { "Wege der Helden" : 223 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "FF" : 12, "KK" : 12 } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 7 },
@@ -7364,6 +7505,7 @@
 	},
 	"Geweihter der Rahja" : {
 		"Weiblich" : "Geweihte der Rahja",
+		"Bücher" : { "Wege der Helden" : 224 },
 		"Kosten" : 16,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 12, "CH" : 13, "GE" : 12 } },
@@ -7419,6 +7561,7 @@
 	},
 	"Säbeltänzer" : {
 		"Weiblich" : "Säbeltänzerin",
+		"Bücher" : { "Wege der Helden" : 224 },
 		"Kosten" : 17,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 12, "GE" : 13, "KO" : 13, "KK" : 11 } },
@@ -7438,6 +7581,7 @@
 	},
 	"Rahja-Kavalier" : {
 		"Weiblich" : "Rahja-Kavalierin",
+		"Bücher" : { "Wege der Helden" : 225 },
 		"Kosten" : 19,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "CH" : 12, "GE" : 12, "KO" : 12, "KK" : 11 } },
@@ -7455,6 +7599,7 @@
 	},
 	"Prediger vom Bund des Wahren Glaubens" : {
 		"Weiblich" : "Predigerin vom Bund des Wahren Glaubens",
+		"Bücher" : { "Wege der Helden" : 225 },
 		"Kosten" : 10,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 12 } },
@@ -7472,6 +7617,7 @@
 	},
 	"Geweihter des Aves" : {
 		"Weiblich" : "Geweihte des Aves",
+		"Bücher" : { "Wege der Helden" : 226 },
 		"Kosten" : 9,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 12, "CH" : 12, "KO" : 12 } },
 		"Basiswerte" : { "Sozialstatus" : 5 },
@@ -7489,6 +7635,7 @@
 	},
 	"Geweihter des Nandus" : {
 		"Weiblich" : "Geweihte des Nandus",
+		"Bücher" : { "Wege der Helden" : 227 },
 		"Kosten" : 10,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 12, "IN" : 12, "CH" : 12, "FF" : 12 }, "Kulturen" : { "Wahl" : { "Almada" : {}, "Aranien" : {}, "Horasreich" : {}, "Mittelländische Städte" : {}, "Südaventurien" : {}, "Tulamidische Stadtstaaten" : {}, "Zyklopeninseln" : {} } } },
@@ -7537,6 +7684,7 @@
 	},
 	"Geweihter der Ifirn" : {
 		"Weiblich" : "Geweihte der Ifirn",
+		"Bücher" : { "Wege der Helden" : 228 },
 		"Kosten" : 19,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "IN" : 12, "GE" : 11, "FF" : 12, "KO" : 12, "KK" : 10 } },
@@ -7565,6 +7713,7 @@
 	},
 	"Geweihter des Swafnir" : {
 		"Weiblich" : "Geweihte des Swafnir",
+		"Bücher" : { "Wege der Helden" : 229 },
 		"Kosten" : 17,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 11, "IN" : 11, "CH" : 12, "GE" : 12, "KK" : 12 }, "Kulturen" : { "Muss" : { "Thorwal" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Blutrausch" : {} } } },
@@ -7595,6 +7744,7 @@
 	},
 	"Geweihter des Angrosch" : {
 		"Weiblich" : "Geweihte des Angrosch",
+		"Bücher" : { "Wege der Helden" : 230 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 6 },
@@ -7637,6 +7787,7 @@
 	},
 	"Priester der H'Szint" : {
 		"Weiblich" : "Priesterin der H'Szint",
+		"Bücher" : { "Wege der Helden" : 231 },
 		"Kosten" : 2,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 12, "IN" : 12, "CH" : 13 }, "Kulturen" : { "Muss" : { "Archaische Achaz" : {} } } },
@@ -7656,6 +7807,7 @@
 	},
 	"Priester der Zsahh" : {
 		"Weiblich" : "Priesterin der Zsahh",
+		"Bücher" : { "Wege der Helden" : 231 },
 		"Kosten" : 0,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 12, "CH" : 13, "KO" : 11 }, "Kulturen" : { "Muss" : { "Archaische Achaz" : {} } } },
@@ -7673,6 +7825,7 @@
 	},
 	"Priester von Rur und Gror" : {
 		"Weiblich" : "Priesterin von Rur und Gror",
+		"Bücher" : { "Wege der Helden" : 231 },
 		"Varianten" : {
 			"Tempelpriester von Rur und Gror" : {
 				"Weiblich" : "Tempelpriesterin von Rur und Gror",
@@ -7724,6 +7877,7 @@
 		}
 	},
 	"Stammeskrieger der Beni Dervez" : {
+		"Bücher" : { "Wege der Helden" : 232 },
 		"Kosten" : 20,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 12, "KO" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Novadis" : {}, "Mhanadistan" : {}, "Tulamidische Stadtstaaten" : {} } }, "Geschlecht" : "männlich" },
@@ -7742,6 +7896,7 @@
 		"Besonderer Besitz" : "erfahrenes Pferd oder Kamel mit Sattel und Zaumzeug"
 	},
 	"Hadjinim" : {
+		"Bücher" : { "Wege der Helden" : 233 },
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "GE" : 11, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Wahl" : { "Novadis" : {}, "Mhanadistan" : {}, "Tulamidische Stadtstaaten" : {}, "Almada" : {}, "Aranien" : {} } }, "Geschlecht" : "männlich" },
 		"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 6 },
@@ -7790,6 +7945,7 @@
 	},
 	"Medizinmann" : {
 		"Weiblich" : "Medizinfrau",
+		"Bücher" : { "Wege der Helden" : 234 },
 		"Zeitaufwendig" : true,
 		"Basiswerte" : { "Sozialstatus" : 3, "Magieresistenz" : 1 },
 		"Sozialstatus:Maximum" : 4,
@@ -7852,6 +8008,7 @@
 	},
 	"Kasknuk" : {
 		"Weiblich" : "Kaskju",
+		"Bücher" : { "Wege der Helden" : 235 },
 		"Kosten" : 7,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 13, "CH" : 12 }, "Kulturen" : { "Muss" : { "Nivesenstämme" : {} } } },
@@ -7870,6 +8027,7 @@
 		"Besonderer Besitz" : "Hunde- oder Karen-Schlitten mit bis zu 5 Zugtieren oder erprobtes Paavi-Pony mit Sattel und Zaumzeug"
 	},
 	"Nuranshâr" : {
+		"Bücher" : { "Wege der Helden" : 236 },
 		"Kosten" : 4,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 11, "CH" : 12, "KO" : 13 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -7904,6 +8062,7 @@
 		}
 	},
 	"Brenoch-Dûn" : {
+		"Bücher" : { "Wege der Helden" : 237 },
 		"Kosten" : 9,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 13, "CH" : 12 }, "Kulturen" : { "Muss" : { "Gjalskerland" : {} } } },
@@ -7923,6 +8082,7 @@
 	},
 	"Skuldur" : {
 		"Weiblich" : "Skuldrun",
+		"Bücher" : { "Wege der Helden" : 237 },
 		"Kosten" : 2,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN" : 13, "CH" : 12, "KO" : 12 }, "Kulturen" : { "Muss" : { "Fjarninger" : {} } } },
@@ -7964,6 +8124,7 @@
 	},
 	"Shochzul" : {
 		"Weiblich" : "Shochzula",
+		"Bücher" : { "Wege der Helden" : 238 },
 		"Kosten" : 8,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "IN" : 12, "CH" : 12, "KO" : 12 }, "Kulturen" : { "Muss" : { "Trollzacken" : {} } } },
@@ -7983,6 +8144,7 @@
 	},
 	"Tairach-Priester" : {
 		"Weiblich" : "Tairach-Priesterin",
+		"Bücher" : { "Wege der Helden" : 239 },
 		"Kosten" : 11,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 13, "IN" : 12, "KO" : 12 }, "Kulturen" : { "Wahl" : { "Orkland" : {}, "Svellttal-Besatzer" : {} } } },
@@ -8001,6 +8163,7 @@
 	},
 	"Gravesh-Priester" : {
 		"Weiblich" : "Gravesh-Priesterin",
+		"Bücher" : { "Wege der Helden" : 240 },
 		"Kosten" : 0,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "CH" : 11, "FF" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Orkland" : {}, "Svellttal-Besatzer" : {}, "Mittelländische Städte" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 4, "Magieresistenz" : 1 },
@@ -8026,6 +8189,7 @@
 	},
 	"Rikai-Priester" : {
 		"Weiblich" : "Rikai-Priesterin",
+		"Bücher" : { "Wege der Helden" : 240 },
 		"Kosten" : 1,
 		"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 11, "CH" : 11, "FF" : 12 }, "Kulturen" : { "Wahl" : { "Orkland" : {}, "Svellttal-Besatzer" : {} } } },
 		"Basiswerte" : { "Sozialstatus" : 3, "Magieresistenz" : 1 },
@@ -8040,6 +8204,7 @@
 		"Besonderer Besitz" : "große Auswahl haltbarer Heil- und Rauschkräuter"
 	},
 	"Goblin-Schamanin" : {
+		"Bücher" : { "Wege der Helden" : 242 },
 		"Zeitaufwendig" : true,
 		"Eigenschaften" : { "KL" : 1 },
 		"Vorteile" : { "Halbzauberer" : {} },
@@ -8075,6 +8240,7 @@
 	},
 	"Schamane der Achaz" : {
 		"Weiblich" : "Schamanin der Achaz",
+		"Bücher" : { "Wege der Helden" : 243 },
 		"Kosten" : 4,
 		"Zeitaufwendig" : true,
 		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "CH" : 13, "FF" : 11 }, "Kulturen" : { "Muss" : { "Stammes-Achaz" : {} } } },

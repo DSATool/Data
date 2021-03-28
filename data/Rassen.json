@@ -1,5 +1,6 @@
 {
 	"Mittelländer" : {
+		"Bücher" : { "Wege der Helden" : 25 },
 		"Kosten" : 0,
 		"Haarfarbe" : { "schwarz" : 3, "braun" : 4, "dunkelblond" : 5, "blond" : 4, "weißblond" : 2, "rot" : 2 },
 		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 7, "grün" : 2, "blau" : 6, "grau" : 2, "schwarz" : 1 },
@@ -13,6 +14,7 @@
 		"Mögliche Kulturen" : ["Aranien", "Tulamidische Stadtstaaten", "Thorwal", "Mhanadistan", "Amazonenburg"]
 	},
 	"Tulamide" : {
+		"Bücher" : { "Wege der Helden" : 25 },
 		"Kosten" : 0,
 		"Haarfarbe" : { "schwarz" : 6, "dunkelbraun" : 6, "mittelbraun" : 2, "hellbraun" : 3, "blond" : 2, "rot" : 1 },
 		"Augenfarbe" : { "schwarz" : 4, "dunkelbraun" : 8, "braun" : 4, "grau" : 2, "grün" : 1, "blau" : 1 },
@@ -26,6 +28,7 @@
 		"Mögliche Kulturen" : ["Mittelländische Städte", "Almada", "Amazonenburg"]
 	},
 	"Thorwaler" : {
+		"Bücher" : { "Wege der Helden" : 26 },
 		"Kosten" : 5,
 		"Haarfarbe" : { "blond" : 8, "rot-blond" : 5, "weißblond" : 2, "rot" : 2, "dunkelblond" : 1, "braun" : 1, "schwarz" : 1 },
 		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 5, "grün" : 4, "blau" : 7, "grau" : 2 },
@@ -55,6 +58,7 @@
 		}
 	},
 	"Nivese" : {
+		"Bücher" : { "Wege der Helden" : 26 },
 		"Kosten" : 4,
 		"Haarfarbe" : { "kupferrot" : 15, "blond" : 1, "braun" : 2, "dunkelblond" : 1, "schwarz" : 1 },
 		"Augenfarbe" : { "braun" : 2, "hellbraun" : 7, "bersteinfarben" : 5, "grün" : 3, "blau" : 2, "grau" : 1 },
@@ -72,6 +76,7 @@
 		"Talente" : { "Schleichen" : 1, "Selbstbeherrschung" : 1, "Orientierung" : 1 }
 	},
 	"Norbarde" : {
+		"Bücher" : { "Wege der Helden" : 27 },
 		"Kosten" : 3,
 		"Haarfarbe" : { "schwarz" : 17, "kupferrot" : 2, "blond" : 1 },
 		"Augenfarbe" : { "schwarz" : 3, "dunkelbraun" : 10, "braun" : 4, "grün" : 2, "blau" : 1 },
@@ -88,6 +93,7 @@
 		"Talente" : { "Schleichen" : 1, "Selbstbeherrschung" : 1, "Orientierung" : 1 }
 	},
 	"Trollzacker" : {
+		"Bücher" : { "Wege der Helden" : 27 },
 		"Kosten" : 7,
 		"Haarfarbe" : { "schwarz" : 15, "dunkelbraun" : 2, "mittelbraun" : 1, "hellbraun" : 1, "dunkelblond" : 1 },
 		"Augenfarbe" : { "schwarz" : 16, "dunkelbraun" : 1, "braun" : 1, "grau" : 1, "grün" : 1 },
@@ -119,6 +125,7 @@
 		}
 	},
 	"Waldmensch" : {
+		"Bücher" : { "Wege der Helden" : 28 },
 		"Kosten" : 5,
 		"Haarfarbe" : { "schwarz" : 5, "blauschwarz" : 14, "dunkelbraun" : 1 },
 		"Augenfarbe" : { "hellbraun" : 3, "dunkelbraun" : 7, "schwarz" : 10 },
@@ -150,6 +157,7 @@
 		}
 	},
 	"Utulu" : {
+		"Bücher" : { "Wege der Helden" : 29 },
 		"Kosten" : 9,
 		"Haarfarbe" : { "schwarz" : 17, "blauschwarz" : 3 },
 		"Augenfarbe" : { "hellbraun" : 3, "dunkelbraun" : 7, "schwarz" : 10 },
@@ -167,6 +175,7 @@
 		"Talente" : { "Klettern" : 1, "Körperbeherrschung" : 2, "Schleichen" : 2, "Sinnenschärfe" : 3, "Tanzen" : 1, "Orientierung" : 1 }
 	},
 	"Auelf" : {
+		"Bücher" : { "Wege der Helden" : 29 },
 		"Kosten" : 20,
 		"Haarfarbe" : { "blauschwarz" : 1, "schwarz" : 2, "silbern" : 2, "weißblond" : 2, "hellblond" : 4, "mittelblond" : 6, "dunkelblond" : 3 },
 		"Augenfarbe" : { "schwarzbraun" : 2, "graublau" : 2, "saphirblau" : 4, "smaragdgrün" : 4, "dunkelviolett" : 4, "bernsteinfarben" : 2, "goldgesprenkelt" : 1, "amethystfarben" : 1 },
@@ -186,6 +195,7 @@
 		"Talente" : { "Körperbeherrschung" : 3, "Schleichen" : 2, "Singen" : 2, "Sinnenschärfe" : 5, "Tanzen" : 1, "Zechen" : -2 }
 	},
 	"Waldelf" : {
+		"Bücher" : { "Wege der Helden" : 29 },
 		"Kosten" : 23,
 		"Haarfarbe" : { "blauschwarz" : 3, "schwarz" : 4, "silbern" : 3, "weißblond" : 1, "hellblond" : 2, "mittelblond" : 3, "dunkelblond" : 3, "goldblond" : 1 },
 		"Augenfarbe" : { "schwarz" : 2, "saphirblau" : 2, "smaragdgrün" : 4, "dunkelbraun" : 4, "bernsteinfarben" : 4, "goldgesprenkelt" : 1, "rubinrot" : 2, "amethystviolett" : 1 },
@@ -205,6 +215,7 @@
 		"Talente" : { "Körperbeherrschung" : 4, "Schleichen" : 2, "Singen" : 2, "Sinnenschärfe" : 5, "Tanzen" : 1, "Zechen" : -2, "Orientierung" : 2 }
 	},
 	"Firnelf" : {
+		"Bücher" : { "Wege der Helden" : 29 },
 		"Kosten" : 24,
 		"Haarfarbe" : { "blauschwarz" : 1, "schwarz" : 1, "silbern" : 3, "schneeweiß" : 4, "weißblond" : 5, "hellblond" : 3, "mittelblond" : 2, "dunkelblond" : 1 },
 		"Augenfarbe" : { "schwarz" : 1, "silbergrau" : 2, "eisgrau" : 4, "saphirblau" : 4, "smaragdgrün" : 4, "bernsteinfarben" : 3, "goldgesprenkelt" : 1, "rubinrot" : 1 },
@@ -224,6 +235,7 @@
 		"Talente" : { "Athletik" : 1, "Körperbeherrschung" : 3, "Schleichen" : 2, "Singen" : 1, "Sinnenschärfe" : 5, "Zechen" : -2, "Orientierung" : 2 }
 	},
 	"Halbelf" : {
+		"Bücher" : { "Wege der Helden" : 31 },
 		"Kosten" : 3,
 		"Haarfarbe" : { "rot" : 3, "braun" : 3, "dunkelblond" : 4, "hellblond" : 5, "weißblond" : 2, "schwarz" : 2, "blauschwarz" : 1 },
 		"Augenfarbe" : { "schwarz" : 3, "grau" : 3, "blau" : 4, "grün" : 4, "dunkelbraun" : 2, "hellbraun" : 2, "bernsteinfarben" : 1, "goldgesprenkelt" : 1 },
@@ -272,6 +284,7 @@
 		}
 	},
 	"Zwerg" : {
+		"Bücher" : { "Wege der Helden" : 32 },
 		"Kosten" : 12,
 		"Haarfarbe" : { "blond" : 5, "schwarz" : 4, "dunkelgrau" : 2, "hellgrau" : 2, "salzweiß" : 1, "silberweiß" : 1, "feuerrot" : 2, "kupferrot" : 3 },
 		"Augenfarbe" : { "dunkelbraun" : 2, "braun" : 3, "grün" : 4, "blau" : 1, "grau" : 4, "schwarz" : 6 },
@@ -317,6 +330,7 @@
 		}
 	},
 	"Ork" : {
+		"Bücher" : { "Wege der Helden" : 34 },
 		"Kosten" : 12,
 		"Voraussetzungen" : { "Geschlecht" : "männlich" },
 		"Haarfarbe" : { "dunkelbraun" : 5, "braun-schwarz" : 6, "tiefschwarz" : 8, "blauschwarz" : 1 },
@@ -364,6 +378,7 @@
 		}
 	},
 	"Halbork" : {
+		"Bücher" : { "Wege der Helden" : 35 },
 		"Kosten" : 1,
 		"Haarfarbe" : { "blond" : 2, "rot" : 4, "braun" : 6, "schwarz" : 8 },
 		"Augenfarbe" : { "rot" : 5, "grün" : 3, "braun" : 5, "schwarz" : 7 },
@@ -383,6 +398,7 @@
 		"Talente" : { "Ringen" : 1, "Athletik" : 1, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Singen" : -2 }
 	},
 	"Goblin" : {
+		"Bücher" : { "Wege der Helden" : 35 },
 		"Kosten" : 12,
 		"Voraussetzungen" : { "Geschlecht" : "männlich" },
 		"Haarfarbe" : { "orangerot" : 2, "feuerrot" : 5, "rotbraun" : 6, "dunkelrot" : 5, "rot-grau" : 2 },
@@ -414,6 +430,7 @@
 		}
 	},
 	"Achaz" : {
+		"Bücher" : { "Wege der Helden" : 36 },
 		"Kosten" : 14,
 		"Schuppenfarbe" : { "hellgrün" : 5, "olivgrün" : 5, "dunkelgrün" : 5, "braungrün" : 3, "braun" : 2 },
 		"Augenfarbe" : { "golden" : 2, "gelb" : 2, "hellgrün" : 5, "olivgrün" : 5, "dunkelgrün" : 3, "hellbraun" : 2, "kupfern" : 1 },
