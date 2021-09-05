@@ -961,7 +961,7 @@
 		"Distanzklassen" : ["S"],
 		"Waffentypen" : ["Speere"],
 		"Kategorien" : ["Nahkampfwaffe", "Fernkampfwaffe"],
-		"Fernkampfwaffe" : {					
+		"Fernkampfwaffe" : {
 			"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 			"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
 			"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 10, "Mittel" : 15, "Weit" : 20, "Extrem Weit" : 35 },
@@ -1424,7 +1424,7 @@
 		"Distanzklassen" : ["S"],
 		"Waffentypen" : ["Speere"],
 		"Kategorien" : ["Nahkampfwaffe", "Fernkampfwaffe"],
-		"Fernkampfwaffe" : {					
+		"Fernkampfwaffe" : {
 			"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
 			"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
 			"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 10, "Mittel" : 15, "Weit" : 20, "Extrem Weit" : 30 },
@@ -2776,7 +2776,7 @@
 		"Distanzklassen" : ["S"],
 		"Waffentypen" : ["Speere"],
 		"Kategorien" : ["Nahkampfwaffe", "Fernkampfwaffe"],
-		"Fernkampfwaffe" : {					
+		"Fernkampfwaffe" : {
 			"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
 			"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
 			"Reichweiten" : { "Sehr Nah" : 5, "Nah" : 10, "Mittel" : 15, "Weit" : 25, "Extrem Weit" : 40 },
@@ -3928,7 +3928,7 @@
 		"Gewicht" : 4,
 		"Preis" : 60,
 		"Kategorien" : ["Rüstung"]
-	}, 
+	},
 	"Kürass" : {
 		"Bücher" : { "Aventurisches Arsenal" : 107, "Wege des Schwerts" : 135, "Meisterschirm" : 25 },
 		"Typ" : "Kürass",
@@ -4017,7 +4017,7 @@
 		"Gesamtbehinderung" : 0,
 		"Gewicht" : 3,
 		"Kategorien" : ["Rüstung", "Kleidung"]
-	},	
+	},
 	"Lederweste, lang" : {
 		"Bücher" : { "Aventurisches Arsenal" : 100 },
 		"Typ" : "Lederweste, lang",
@@ -4153,7 +4153,7 @@
 		"Gesamtbehinderung" : 0,
 		"Gewicht" : 3,
 		"Kategorien" : ["Rüstung", "Kleidung"]
-	},	
+	},
 	"Pelzweste, lang" : {
 		"Bücher" : { "Aventurisches Arsenal" : 100 },
 		"Typ" : "Pelzweste, lang",
