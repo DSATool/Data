@@ -3660,7 +3660,7 @@
 		"Bücher" : { "Aventurisches Arsenal" : 106, "Wege des Schwerts" : 136, "Meisterschirm" : 25 },
 		"Typ" : "Drachenhelm",
 		"Rüstungsschutz" : { "Kopf" : 3, "Brust" : 0, "Rücken" : 1, "Bauch" : 0, "Linker Arm" : 0, "Rechter Arm" : 0, "Linkes Bein" : 0, "Rechtes Bein" : 0 },
-		"Behinderung" : 0.25,
+		"Behinderung" : 0.5,
 		"Gesamtrüstungsschutz" : 2,
 		"Gesamtbehinderung" : 1,
 		"Gewicht" : 3,
