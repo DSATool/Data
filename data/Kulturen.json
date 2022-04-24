@@ -38,8 +38,8 @@
 				"Kosten" : 3,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Boote Fahren", "Fischen/Angeln", "Kochen"], "Werte" : [1] }], "Menschenkenntnis" : 1, "Überreden" : 1, "Geographie" : 1, "Rechnen" : 1 },
 				"Sprachen" : { "Zweitsprache" : [["Tulamidya"]] },
-				"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Tulamidenlande" }] }				
-			},			
+				"Verbilligte Sonderfertigkeiten" : { "Kulturkunde" : [{ "Auswahl" : "Tulamidenlande" }] }
+			},
 			"Flüchtlinge aus borbaradianisch besetzten Gebieten" : {
 				"kombinierbar" : true,
 				"Kosten" : 0,
@@ -47,7 +47,7 @@
 				"Empfohlene Vorteile" : { "Affinität zu Dämonen" : {}, "Gefahreninstinkt" : {}, "Glück" : {}, "Magiegespür" : {}, "Resistenz gegen Krankheiten" : {} },
 				"Empfohlene Nachteile" : { "Aberglaube" : [{}], "Dunkelangst" : {}, "Einbildungen" : [{}], "Goldgier" : {}, "Schlafstörungen I" : {}, "Schlafstörungen II" : {}, "Stigma" : [{}], "Unstet" : {}, "Wahnvorstellungen" : [{}] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch", "Zhayad", "Zhulchammaqra"], "Werte" : [3] }], "Selbstbeherrschung" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Zechen" : 1, "Menschenkenntnis" : 1, "Götter/Kulte" : -1, "Magiekunde" : 1 }
-			},			
+			},
 			"Maraskanische Exilanten" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
@@ -416,7 +416,7 @@
 		"Varianten" : {
 			"Frauen" : {
 				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
-				"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Hexe", "Magier", "Scharlatan", "Schelm", "Aranischer Majuna", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
+				"Professionen" : ["Amazone", "Fähnrich", "Gladiator", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Jahrmarktskämpfer", "Krieger", "Schwertgeselle", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Alchimist", "Hexe", "Magier", "Scharlatan", "Schelm", "Tulamidische Sharisad", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja", "Säbeltänzer"],
 				"Talente" : { "Etikette" : 1, "Menschenkenntnis" : 1 }
 			},
 			"Männer" : {
@@ -593,7 +593,7 @@
 				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
 				"Kosten" : -2,
 				"Eigenschaften" : { "MU" : -1 },
-				"Basiswerte" : { "Ausdauer" : -1 },				
+				"Basiswerte" : { "Ausdauer" : -1 },
 				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Hohe Lebenskraft" : {}, "Innerer Kompass" : {}, "Schwer zu verzaubern" : {}, "Zäher Hund" : {} },
 				"Professionen" : ["Entdecker", "Fernhändler", "Hirte", "Kundschafter", "Prospektor", "Bandit", "Barde", "Gaukler", "Händler", "Streuner", "Bauer", "Domestik", "Tierbändiger", "Tagelöhner", "Wundarzt", "Novadische Sharisad"],
 				"Talente" : { "Bogen" : -1, "Lanzenreiten" : -1, "Raufen" : 1, "Ringen" : -1, "Säbel" : -1, "Speere" : -1, "Wurfspeere" : -1, "Reiten" : -1, "Schleichen" : 1, "Sich Verstecken" : 1, "Tanzen" : 2, "Betören" : 1, "Lehren" : 1, "Überreden" : 1, "Brett-/Kartenspiel" : 1, "Sagen/Legenden" : 2, "Heilkunde Gift" :1, "Heilkunde Krankheiten" : 1, "Heilkunde Seele" : 1, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 1, "Kochen" : 1, "Lederarbeiten" : 2, "Schneidern" : 1, "Viehzucht" : -2 },
@@ -1486,7 +1486,7 @@
 				"Varianten" : {
 					"Korogai" : {
 						"Kosten" : 6,
-						"Basiswerte" : { "Magieresistenz" : 1 },						
+						"Basiswerte" : { "Magieresistenz" : 1 },
 						"Professionen" : ["Freibauer", "Viehzüchter", "Bergmann", "Fischer", "Hirte", "Sammler", "Goldsucher"],
 						"Talente" : { "Bergbau" : 1, "Grobschmied" : 1 },
 						"Sonderfertigkeiten" : { "Meister der Improvisation" : {} }
