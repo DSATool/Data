@@ -42,7 +42,7 @@
 		"Magiegespür" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Erkennen Magie und fühlen sich hingezogen" },
 		"Nervosität" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Schrecksicher und Stillstand zusätzlich Abrichten+8" },
 		"Orientierungssinn" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Findet bekannte Plätze auch bei widrigem Wetter leicht" },
-		"Ruhiges Temperament" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Für Ungeübte leicht zu Reiten, Reiten-1 wenn Reiten<4" },
+		"Ruhiges Temperament" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Für Ungeübte leicht zu reiten, Reiten-1 wenn Reiten<4" },
 		"Sattelzwang" : { "Bücher" : { "Zoo-Botanica Aventurica" : 37 }, "Beschreibung:Kurz" : "Verweigert sich Satteln, LO-2, Ausweichen 10 dabei" },
 		"Scheu" : { "Bücher" : { "Zoo-Botanica Aventurica" : 37 }, "Beschreibung:Kurz" : "Läuft bei jeder Gelegenheit davon, LO-2" },
 		"Schnell" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Hat eine hohe Endgeschwindigkeit" },
@@ -55,7 +55,7 @@
 		"Trittsicherheit" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Freitext" : "Gelände", "Beschreibung:Kurz" : "Ist an Gelände gewöhnt, Reiten evtl. erleichtert" },
 		"Verminderte Tragkraft" : { "Bücher" : { "Zoo-Botanica Aventurica" : 36 }, "Beschreibung:Kurz" : "Hat einen kleinen Tragkraftfaktor" },
 		"Wasserliebend" : { "Beschreibung:Kurz" : "Wälzt sich bei jeder Gelegenheit im Wasser" },
-		"Weiche Gänge" : { "Beschreibung:Kurz" : "Für Ungeübte leicht zu Reiten, Reiten-1 wenn Reiten<4" },
+		"Weiche Gänge" : { "Beschreibung:Kurz" : "Für Ungeübte leicht zu reiten, Reiten-1 wenn Reiten<4" },
 		"Zäh" : { "Beschreibung:Kurz" : "Kann sehr widrige Bedingungen überleben, z.B. große Kälte" }
 	}
 }
