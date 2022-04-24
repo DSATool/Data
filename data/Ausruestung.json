@@ -4759,6 +4759,66 @@
 	"Strauß" : { "Bücher" : { "Meisterschirm" : 32, "Handelsherr und Kiepenkerl" : 161 }, "Preis" : 350 },
 	"Zugochse, schwer" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 400, "Anmerkungen" : "schwer" },
 	"Zugochse, leicht" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 250, "Anmerkungen" : "leicht" },
+	"Stirnplatte" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 1, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Halskrause" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 3,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Fransenbrust" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 1, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Wattierte Schürze" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 2, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Metallbrustplatte" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 3, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 2,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Fransenkruppe" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 1, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Wattiertie Rückendecke" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 2, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Metallkruppe" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 3, "Läufe" : 0 },
+		"Pferdebehinderung" : 2,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Ledergamaschen" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 1 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Covertero" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
 	"Zügel und Zaumzeug" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 10 },
 	"Führhalfter" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 60, "Preis" : 2, "Anmerkungen" : "mit Strick" },
 	"Satteldecke" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 1 },
