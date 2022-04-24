@@ -46,6 +46,7 @@
 		"Stille Wacht" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Speziell" : true, "Beschreibung:Kurz" : "Stupst Herrn wach bei Fremden, zeigt Hinterhalt durch Ohren (Sinnens. 12 mit W20)" },
 		"Stillstand" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Beschreibung:Kurz" : "Bewegt sich auf Kommando nicht mehr" },
 		"Stopp" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Beschreibung:Kurz" : "Kann aus jeder Gangart abrupt stoppen" },
+		"Trampeln" : { "Bücher" : { "Zoo-Botanica Aventurica" : 39 }, "Speziell" : true, "Kampf" : true, "Reit-Attacke" : 5, "Beschreibung:Kurz" : "Gegen liegenden Gegner TPx2, nur Ausweichen+8 mögl." },
 		"Wacht" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Beschreibung:Kurz" : "Wiehert bei Fremden (Sinnens. 12 auf W20)" },
 		"Weiches Gangwerk" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Speziell" : true, "Beschreibung:Kurz" : "Weicheres Reiten mit GS-1" },
 		"Zählen" : { "Bücher" : { "Zoo-Botanica Aventurica" : 35 }, "Speziell" : true, "Beschreibung:Kurz" : "Klopft auf Signal oder schüttelt Kopf, als würde es Zählen" }
