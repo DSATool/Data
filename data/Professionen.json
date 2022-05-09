@@ -248,6 +248,7 @@
 					},
 					"Tempelgardist der Stadt des Schweigens" : {
 						"Weiblich" : "Tempelgardistin der Stadt des Schweigens",
+						"Bücher" : { "Wege der Helden" : 215 },
 						"Nachteile" : { "Verpflichtungen" : [{ "Freitext" : "Tempelgarde der Stadt des Schweigens" }] },
 						"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 1 },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [-3] }, { "Wahl" : ["Infanteriewaffen", "Stäbe"], "Werte" : [-6] }], "Armbrust" : 3, "Infanteriewaffen" : 6, "Singen" : 1, "Gassenwissen" : -1, "Götter/Kulte" : 1, "Rechnen" : 1, "Schätzen" : 2, "Heilkunde Gift" : 1 },
@@ -256,6 +257,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 9,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -548,6 +550,7 @@
 						"Weiblich" : "Kriegerin aus Rommilys"
 					},
 					"Gänseritter" : {
+						"Bücher" : { "Wege der Helden" : 212 },
 						"Nachteile" : { "Prinzipientreue" : [{ "Freitext" : "Loyalität, Ehrenhaftigkeit, Schutz der Schwachen", "Stufe" : 10 }], "Verpflichtungen" : [{ "Freitext" : "Bund zum Schutze von Heim und Herdfeuer zur Mahnung an die Blutnacht von Rommilys" }] },
 						"Talente" : { "Zechen" : 1, "Menschenkenntnis" : 1, "Kochen" : 1 },
 						"Sonderfertigkeiten" : { "Ausfall" : {}, "Finte" : {}, "Meisterparade" : {}, "Rüstungsgewöhnung I" : [{ "Freitext" : "Langes Kettenhemd" }] },
@@ -1372,6 +1375,7 @@
 						"Weiblich" : "Ferkina-Kriegerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 10,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "GE" : 12, "KO" : 13, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1803,6 +1807,7 @@
 						"Weiblich" : "Schäferin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 4,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1824,6 +1829,7 @@
 						"Weiblich" : "Viehdiebin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 6,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1856,6 +1862,7 @@
 				"Besonderer Besitz" : "erfahrenes Pferd mit Sattel und Zaumzeug"
 			},
 			"Besessener" : {
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 3,
 				"Zeitaufwendig" : true,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1897,6 +1904,7 @@
 						"Weiblich" : "Stammesjägerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 16,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 12, "KO": 12 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1941,6 +1949,7 @@
 				}
 			},
 			"Besessener" : {
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 14,
 				"Zeitaufwendig" : true,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 12, "KO": 12 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -2212,6 +2221,7 @@
 						"Weiblich" : "Banditin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 3,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -2242,6 +2252,7 @@
 						"Weiblich" : "Wegelagerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 3,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -3057,6 +3068,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 6,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -3078,6 +3090,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 6,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -4008,6 +4021,7 @@
 			},
 			"Draconiter, profaner Zweig" : {
 				"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 				"Kosten" : 1,
 				"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 				"Basiswerte" : { "Sozialstatus" : 1 },
@@ -4659,6 +4673,7 @@
 		"Varianten" : {
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4685,6 +4700,7 @@
 		"Varianten" : {
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4742,6 +4758,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Prinzipientreue" : [{}], "Rachsucht" : {} },
@@ -4776,6 +4793,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4808,6 +4826,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4827,6 +4846,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4847,6 +4867,7 @@
 					"Wanderer" : {
 					"Weiblich" : "Wanderin",
 						"kombinierbar" : true,
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
 						"Nachteile" : { "Sippenlosigkeit" : {} },
@@ -4865,6 +4886,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4907,6 +4929,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4918,6 +4941,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 7,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
 				"Nachteile" : { "Sippenlosigkeit" : {} },
@@ -7222,6 +7246,7 @@
 			},
 			"Draconiter, sakraler Zweig" : {
 				"Weiblich" : "Draconiterin, sakraler Zweig",
+				"Bücher" : { "Wege der Helden" : 218 },
 				"Kosten" : 13,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 11, "KO" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Stubenhocker" : {} } } },
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Ordo Sacer Draconis" }] },

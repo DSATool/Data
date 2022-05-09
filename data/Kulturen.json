@@ -50,6 +50,7 @@
 			},
 			"Maraskanische Exilanten" : {
 				"kombinierbar" : true,
+				"Bücher" : { "Wege der Helden" : 68 },
 				"Kosten" : 2,
 				"Basiswerte" : { "Magieresistenz" : 1 },
 				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
@@ -524,6 +525,7 @@
 			},
 			"Maraskanische Exilanten" : {
 				"kombinierbar" : true,
+				"Bücher" : { "Wege der Helden" : 68 },
 				"Kosten" : 0,
 				"Basiswerte" : { "Magieresistenz" : 1 },
 				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
@@ -950,6 +952,7 @@
 				"Varianten" : {
 					"Maraskanische Exilanten" : {
 						"kombinierbar" : true,
+						"Bücher" : { "Wege der Helden" : 68 },
 						"Kosten" : 2,
 						"Basiswerte" : { "Magieresistenz" : 1 },
 						"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
@@ -968,6 +971,7 @@
 				"Varianten" : {
 					"Maraskanische Exilanten" : {
 						"kombinierbar" : true,
+						"Bücher" : { "Wege der Helden" : 68 },
 						"Kosten" : 2,
 						"Basiswerte" : { "Magieresistenz" : 1 },
 						"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } },
