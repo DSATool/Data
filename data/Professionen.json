@@ -1983,7 +1983,7 @@
 			"Salzgänger" : {
 				"Weiblich" : "Salzgängerin",
 				"Kosten" : 5,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 13, "CH" : 11, "KO": 13, "KK" : 11 }, "Kulturen" : { "Wahl" : ["Tulamidische Stadtstaaten", "Novadi"] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 13, "CH" : 11, "KO": 13, "KK" : 11 }, "Kulturen" : { "Wahl" : { "Tulamidische Stadtstaaten" : {}, "Novadi" : {} } } },
 				"Vorteile" : { "Herausragender Tastsinn" : {}, "Richtungssinn" : {} },
 				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Hitzeresistenz" : {}, "Innerer Kompass" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Tierfreund" : {}, "Verbindungen" : [{}], "Zäher Hund" : {} },
 				"Empfohlene Nachteile" : { "Unansehnlich" : {} },
@@ -2966,7 +2966,7 @@
 			"Pilzzüchter" : {
 				"Weiblich" : "Pilzzüchterin",
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Basiswerte" : { "Ausdauer" : -3 },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Steinmetz", "Zimmermann"], "Werte" : [-2] }], "Hiebwaffen" : -1, "Zweihand-Hiebwaffen" : -2, "Klettern" : -2, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Gesteinskunde" : -1, "Pflanzenkunde" : 4, "Tierkunde" : 2, "Ackerbau" : 6, "Bergbau" : -4, "Heilkunde Gift" : 2, "Holzbearbeitung" : -1, "Kochen" : 3 },
 				"Sonderfertigkeiten" : { "Höhlenkundig" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Ackerbau", "Freitext" : "zwergische Pilzzucht" }] },
@@ -2974,7 +2974,7 @@
 			"Schachtfeger" : {
 				"Weiblich" : "Schachtfegerin",
 				"Kosten" : 6,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Armbrust" : 2, "Dolche" : 2, "Hiebwaffen" : -1, "Zweihand-Hiebwaffen" : -2, "Klettern" : 1, "Schleichen" : 2, "Selbstbeherrschung" : 1, "Fährtensuchen" : 2, "Fallenstellen" : 3, "Fesseln/Entfesseln" : 2, "Mechanik" : 2, "Tierkunde" : 3, "Bergbau" : -2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : -1 }
 			}
 		}
@@ -3768,7 +3768,7 @@
 			"Bastler" : {
 				"Weiblich" : "Bastlerin",
 				"Kosten" : 0,
-				"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 12, "FF" : 11 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 12, "FF" : 11 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fahrzeug Lenken", "Boote Fahren"], "Werte" : [-1] }, { "Wahl" : ["Baukunst", "Gesteinskunde", "Hüttenkunde", "Kriegskunst", "Bergbau", "Bogenbau", "Brauer", "Drucker", "Feuersteinbearbeitung", "Glaskunst", "Grobschmied", "Instrumentenbauer", "Kristallzucht", "Lederarbeiten", "Maurer", "Metallguss", "Schnaps Brennen", "Schneidern", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stoffe Färben", "Töpfern", "Webkunst", "Winzer", "Zimmermann"], "Punkte" : 6, "Maximum" : 2 }], "Sinnenschärfe" : 1, "Mechanik" : 2, "Rechnen" : 1, "Sagen/Legenden" : 1, "Angram" : 2, "Alchimie" : 2, "Feinmechanik" : 2, "Holzbearbeitung" : 1, "Malen/Zeichnen" : 3, "Schlösser Knacken" : 1}
 			},
 			"Archaische Handwerker" : {
@@ -4015,7 +4015,7 @@
 			},
 			"Sesh'shemet" : {
 				"Kosten" : 1,
-				"Voraussetzungen" : { "KL" : 12, "FF" : 13, "Kulturen" : { "Muss" : { "Khefu" : {} } } },
+				"Voraussetzungen" : { "KL" : 12, "FF" : 13, "Kulturen" : { "Muss" : { "Südaventurien" : { "Varianten" : { "Muss" : ["Khefu"] } } } } },
 				"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Prinzipientreue" : [{}], "Verpflichtungen" : [{}] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Hauswirtschaft", "Kartographie"], "Werte" : [2] }], "Raufen" : -1, "Ringen" : -2, "Gaukeleien" : -2, "Sich Verstecken" : -1, "Etikette" : 1, "Gassenwissen" : -1, "Schriftlicher Ausdruck" : 1, "Rechtskunde" : 2, "Staatskunst" : 3, "Chrmk" : 6, "Rssahh" : 6, "Malen/Zeichnen" : 2 }
 			},
@@ -4385,7 +4385,7 @@
 			"Zwergischer Alchimist" : {
 				"Weiblich" : "Zwergische Alchimistin",
 				"Kosten" : 8,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "FF" : 12 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "FF" : 12 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Nachteile" : { "Wahl" : [{ "Goldgier" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [-6] }], "Nanduria" : -5, "Gesteinskunde" : 2, "Hüttenkunde" : 3, "Mechanik" : 1, "Pflanzenkunde" : -2, "Sternkunde" : -2, "Muttersprache" : -1, "Muttersprache:Schrift" : -6, "Angram" : 8, "Rogolan" : 6, "Kristallzucht" : 3, "Metallguss" : 3 },
 			},
@@ -7771,7 +7771,7 @@
 		"Weiblich" : "Geweihte des Angrosch",
 		"Bücher" : { "Wege der Helden" : 230 },
 		"Zeitaufwendig" : true,
-		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 6 },
 		"Sozialstatus:Maximum" : 13,
 		"Vorteile" : { "Geweiht" : [{ "Auswahl" : "Angrosch" }] },
@@ -7796,7 +7796,7 @@
 			"Hüter der Tradition" : {
 				"Weiblich" : "Hüterin der Tradition",
 				"Kosten" : 12,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Gesteinskunde", "Hüttenkunde"], "Werte" : [2] }], "Selbstbeherrschung" : 2, "Geschichtswissen" : 4, "Götter/Kulte" : 2, "Heraldik" : 3, "Mechanik" : 1, "Staatskunst" : 3 },
 				"Sonderfertigkeiten" : { "Karmalqueste" : {}, "Liturgiekenntnis" : [{ "Auswahl" : "Angrosch" }], "Eidsegen" : {}, "Feuersegen" : {}, "Glückssegen" : {}, "Harmoniesegen" : {}, "Heilungssegen" : {}, "Märtyrersegen" : {}, "Schutzsegen" : {}, "Speisesegen" : {}, "Weisheitssegen" : {}, "Heilige Schmiedeglut" : {}, "Objektsegen" : {}, "Angroschs Opfergabe" : {}, "Licht des verborgenen Pfades" : {}, "Blick in die Flammen" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Initiation" : {}, "Vertrauter der Flamme" : {} }
