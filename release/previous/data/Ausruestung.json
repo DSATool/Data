@@ -4436,7 +4436,6 @@
 	"Gravurwerkzeug" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 20, "Preis" : 30 },
 	"Chirurgenbesteck" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 60, "Preis" : 100 },
 	"Dietrich Sortiment" : { "Bücher" : { "Meisterschirm" : 28 }, "Gewicht" : 15, "Preis" : 120 },
-	"Alchimistischer Analyse-Koffer" : { "Bücher" : { "Meisterschirm" : 28, "Handelsherr und Kiepenkerl" : 176 }, "Gewicht" : 200, "Preis" : 500 },
 	"Kerze" : { "Bücher" : { "Meisterschirm" : 28, "Handelsherr und Kiepenkerl" : 181 }, "Gewicht" : 2, "Preis" : 0.1, "Anmerkungen" : "Helligkeit 3, 1 Spann Länge" },
 	"Wachskerze" : { "Bücher" : { "Meisterschirm" : 28, "Handelsherr und Kiepenkerl" : 181 }, "Gewicht" : 2, "Preis" : 0.1, "Anmerkungen" : "Helligkeit 3, 1 Spann Länge" },
 	"Pechfackel" : { "Bücher" : { "Meisterschirm" : 28, "Handelsherr und Kiepenkerl" : 181 }, "Gewicht" : 20, "Preis" : 0.5, "Anmerkungen" : "Helligkeit 4-6" },
@@ -4759,6 +4758,66 @@
 	"Strauß" : { "Bücher" : { "Meisterschirm" : 32, "Handelsherr und Kiepenkerl" : 161 }, "Preis" : 350 },
 	"Zugochse, schwer" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 400, "Anmerkungen" : "schwer" },
 	"Zugochse, leicht" : { "Bücher" : { "Meisterschirm" : 32 }, "Name" : "Zugochse", "Preis" : 250, "Anmerkungen" : "leicht" },
+	"Stirnplatte" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 1, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Halskrause" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 3,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Fransenbrust" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 1, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Wattierte Schürze" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 2, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Metallbrustplatte" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 3, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 2,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Fransenkruppe" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 1, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Wattiertie Rückendecke" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 2, "Läufe" : 0 },
+		"Pferdebehinderung" : 1,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Metallkruppe" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 3, "Läufe" : 0 },
+		"Pferdebehinderung" : 2,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Ledergamaschen" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 1 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
+	"Covertero" : {
+		"Bücher" : { "Zoo-Botanica Aventurica" : 29 },
+		"Pferderüstung" : { "Kopf" : 0, "Hals" : 0,  "Brust" : 0, "Kruppe" : 0, "Läufe" : 0 },
+		"Pferdebehinderung" : 0,
+		"Kategorien" : ["Pferderüstung"]
+	},
 	"Zügel und Zaumzeug" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 80, "Preis" : 10 },
 	"Führhalfter" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 60, "Preis" : 2, "Anmerkungen" : "mit Strick" },
 	"Satteldecke" : { "Bücher" : { "Meisterschirm" : 32 }, "Gewicht" : 40, "Preis" : 1 },
@@ -5323,6 +5382,16 @@
 	"Dompteur-Ausrüstung (hochwertig)" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Name" : "Dompteur-Ausrüstung", "Gewicht" : 180, "Preis" : 120, "Anmerkungen" : "hochwertig" },
 	"Echsenbändiger-Ausrüstung" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Gewicht" : 100, "Preis" : 50 },
 	"Echsenbändiger-Ausrüstung (hochwertig)" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Name" : "Echsenbändiger-Ausrüstung", "Gewicht" : 150, "Preis" : 150, "Anmerkungen" : "hochwertig" },
+	"Alchimistisches Labor" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Preis" : 5000 },
+	"Alchimistisches Labor (hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Alchimistisches Labor", "Preis" : 15000, "Anmerkungen" : "hochwertig" },
+	"Alchimistisches Labor (außergewöhnlich hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Alchimistisches Labor", "Preis" : 50000, "Anmerkungen" : "außergewöhnlich hochwertig" },
+	"Hexenküche" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Preis" : 1000 },
+	"Hexenküche (hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Hexenküche", "Preis" : 3000, "Anmerkungen" : "hochwertig" },
+	"Hexenküche (außergewöhnlich hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Hexenküche", "Preis" : 10000, "Anmerkungen" : "außergewöhnlich hochwertig" },
+	"Archaisches Labor" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Preis" : 200 },
+	"Archaisches Labor (hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Archaisches Labor", "Preis" : 600, "Anmerkungen" : "hochwertig" },
+	"Archaisches Labor (außergewöhnlich hochwertig)" : { "Bücher" : { "Wege der Alchimie" : 16 }, "Name" : "Archaisches Labor", "Preis" : 2000, "Anmerkungen" : "außergewöhnlich hochwertig" },
+	"Alchimistischer Analyse-Koffer" : { "Bücher" : { "Meisterschirm" : 28, "Handelsherr und Kiepenkerl" : 176, "Wege der Alchimie" : 16 }, "Gewicht" : 200, "Preis" : 500 },
 	"Alchimistischer Analyse-Koffer (hochwertig)" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Name" : "Alchimistischer Analyse-Koffer", "Gewicht" : 300, "Preis" : 1500, "Anmerkungen" : "hochwertig" },
 	"Alchimistischer Analyse-Koffer (außergewöhnlich hochwertig)" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Name" : "Alchimistischer Analyse-Koffer", "Gewicht" : 400, "Preis" : 5000, "Anmerkungen" : "außergewöhnlich hochwertig" },
 	"Bogenbauerwerkzeug" : { "Bücher" : { "Handelsherr und Kiepenkerl" : 176 }, "Gewicht" : 40, "Preis" : 20 },

@@ -248,6 +248,7 @@
 					},
 					"Tempelgardist der Stadt des Schweigens" : {
 						"Weiblich" : "Tempelgardistin der Stadt des Schweigens",
+						"Bücher" : { "Wege der Helden" : 215 },
 						"Nachteile" : { "Verpflichtungen" : [{ "Freitext" : "Tempelgarde der Stadt des Schweigens" }] },
 						"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 1 },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [-3] }, { "Wahl" : ["Infanteriewaffen", "Stäbe"], "Werte" : [-6] }], "Armbrust" : 3, "Infanteriewaffen" : 6, "Singen" : 1, "Gassenwissen" : -1, "Götter/Kulte" : 1, "Rechnen" : 1, "Schätzen" : 2, "Heilkunde Gift" : 1 },
@@ -256,6 +257,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 9,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -384,7 +386,7 @@
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "CH" : 11, "GE" : 13, "KO" : 12, "KK" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 2 },
 				"Sozialstatus:Maximum" : 8,
-				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Beidhändig" : {}, "Gut Aussehend" : {}, "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {} },		
+				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Beidhändig" : {}, "Gut Aussehend" : {}, "Hohe Lebenskraft" : {}, "Schnelle Heilung I" : {}, "Schnelle Heilung II" : {}, "Schnelle Heilung III" : {} },
 				"Empfohlene Nachteile" : { "Eitelkeit" : {}, "Schulden" : {} },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Dolche", "Hiebwaffen", "Kettenstäbe", "Kettenwaffen", "Säbel", "Schwerter", "Speere", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel"], "Werte" : [-4, 3, 3] }], "Raufen" : 2, "Ringen" : 2, "Akrobatik" : 3, "Athletik" : 2, "Gaukeleien" : 2, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 2, "Tanzen" : 2, "Zechen" : -1, "Etikette" : 2, "Menschenkenntnis" : 2, "Schauspielerei" : 2, "Sich Verkleiden" : 2, "Überreden" : 2, "Sagen/Legenden" : 2, "Heilkunde Wunden" : 1 },
 				"Sonderfertigkeiten" : { "Wahl" : [{ "Gladiatorenstil" : {}, "Hammerfaust" : {}, "Unauer Schule" : {} }], "Aufmerksamkeit" : {} },
@@ -452,7 +454,7 @@
 			},
 			"Krieger aus Baliho" : {
 				"Weiblich" : "Kriegerin aus Baliho",
-				"Kosten" : 27,				
+				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 13 } },
 				"Basiswerte" : { "Sozialstatus" : 1 },
 				"Talente" : { "Hiebwaffen" : 4, "Kettenwaffen" : 4, "Lanzenreiten" : 7, "Raufen" : 1, "Ringen" : -1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Reiten" : 2, "Selbstbeherrschung" : -2, "Sinnenschärfe" : -1, "Zechen" : 3, "Geschichtswissen" : -1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Sagen/Legenden" : 3, "Heilkunde Wunden" : -1, "Lederarbeiten" : -2 },
@@ -548,6 +550,7 @@
 						"Weiblich" : "Kriegerin aus Rommilys"
 					},
 					"Gänseritter" : {
+						"Bücher" : { "Wege der Helden" : 212 },
 						"Nachteile" : { "Prinzipientreue" : [{ "Freitext" : "Loyalität, Ehrenhaftigkeit, Schutz der Schwachen", "Stufe" : 10 }], "Verpflichtungen" : [{ "Freitext" : "Bund zum Schutze von Heim und Herdfeuer zur Mahnung an die Blutnacht von Rommilys" }] },
 						"Talente" : { "Zechen" : 1, "Menschenkenntnis" : 1, "Kochen" : 1 },
 						"Sonderfertigkeiten" : { "Ausfall" : {}, "Finte" : {}, "Meisterparade" : {}, "Rüstungsgewöhnung I" : [{ "Freitext" : "Langes Kettenhemd" }] },
@@ -1313,7 +1316,7 @@
 				"Verbilligte Sonderfertigkeiten" : { "Aufmerksamkeit" : {}, "Ausweichen II" : {}, "Ausweichen III" : {} },
 				"Ausrüstung" : { "Wahl" : [{ "Speer" : {}, "Bogen" : {} }], "einfache Kleidung" : { "Kategorien" : ["Kleidung"] }, "Messer" : {}, "Hackmesser" : {}, "Heilkräuter" : {}, "Talismane" : {}, "Gesichtsfarbe für Kriegspfad" : {}, "Blasrohr" : {} },
 				"Varianten" : {
-					"Kautepeku" : {
+					"Kanutepeku" : {
 						"kombinierbar" : true,
 						"Kosten" : 1,
 						"Talente" : { "Raufen" : -2, "Ringen" : 2, "Klettern" : -1, "Schleichen" : -2, "Schwimmen" : 1, "Sich Verstecken" : -3, "Fährtensuchen" : -3, "Heilkunde Gift" : 1 },
@@ -1372,6 +1375,7 @@
 						"Weiblich" : "Ferkina-Kriegerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 10,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "GE" : 12, "KO" : 13, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1803,6 +1807,7 @@
 						"Weiblich" : "Schäferin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 4,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1824,6 +1829,7 @@
 						"Weiblich" : "Viehdiebin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 6,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1856,6 +1862,7 @@
 				"Besonderer Besitz" : "erfahrenes Pferd mit Sattel und Zaumzeug"
 			},
 			"Besessener" : {
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 3,
 				"Zeitaufwendig" : true,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "CH" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1891,12 +1898,13 @@
 				"Weiblich" : "Stammesjägerin",
 				"Kosten" : 13,
 				"Voraussetzungen" : { "Kulturen" : { "Wahl" : { "Darna" : {}, "Dschungelstämme" : {}, "Miniwatu" : {}, "Tocamuyac" : {}, "Verlorene Stämme" : {}, "Waldinsel-Utulus" : {}, "Fjarninger" : {}, "Gjalskerländer" : {}, "Ferkina" : {}, "Trollzacker" : {}, "Novadi" : {}, "Goblinstamm" : {}, "Orkland" : {}, "Svellttal-Besatzer" : {}, "Stammes-Achaz" : {}, "Archaische Achaz" : {}, "Brobim" : {} } } },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfspeere"], "Werte" : [-5] }, { "Wahl" : ["Bogen", "Wurfspeere", "Blasrohr", "Schleuder"], "Werte" : [-5] }, { "Wahl" : ["Athletik", "Reiten", "Boote Fahren"], "Werte" : [-2] }, { "Wahl" : ["Athletik", "Reiten", "Boote Fahren", "Skifahren"], "Werte" : [2] }], "Speere" : 1, "Feuersteinbearbeitung" : 2 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfspeere"], "Werte" : [-5] }, { "Wahl" : ["Bogen", "Wurfspeere", "Blasrohr", "Schleuder"], "Werte" : [5] }, { "Wahl" : ["Athletik", "Reiten", "Boote Fahren"], "Werte" : [-2] }, { "Wahl" : ["Athletik", "Reiten", "Boote Fahren", "Skifahren"], "Werte" : [2] }], "Speere" : 1, "Feuersteinbearbeitung" : 2 },
 				"Varianten" : {
 					"Stammesjäger" : {
 						"Weiblich" : "Stammesjägerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 16,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 12, "KO": 12 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1941,6 +1949,7 @@
 				}
 			},
 			"Besessener" : {
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 14,
 				"Zeitaufwendig" : true,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 12, "KO": 12 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -1974,7 +1983,7 @@
 			"Salzgänger" : {
 				"Weiblich" : "Salzgängerin",
 				"Kosten" : 5,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 13, "CH" : 11, "KO": 13, "KK" : 11 }, "Kulturen" : { "Wahl" : ["Tulamidische Stadtstaaten", "Novadi"] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 13, "CH" : 11, "KO": 13, "KK" : 11 }, "Kulturen" : { "Wahl" : { "Tulamidische Stadtstaaten" : {}, "Novadi" : {} } } },
 				"Vorteile" : { "Herausragender Tastsinn" : {}, "Richtungssinn" : {} },
 				"Empfohlene Vorteile" : { "Ausdauernd" : {}, "Balance" : {}, "Eisern" : {}, "Gefahreninstinkt" : {}, "Hitzeresistenz" : {}, "Innerer Kompass" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Tierfreund" : {}, "Verbindungen" : [{}], "Zäher Hund" : {} },
 				"Empfohlene Nachteile" : { "Unansehnlich" : {} },
@@ -2212,6 +2221,7 @@
 						"Weiblich" : "Banditin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 3,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -2242,6 +2252,7 @@
 						"Weiblich" : "Wegelagerin"
 					},
 					"Besessener" : {
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 3,
 						"Zeitaufwendig" : true,
 						"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "IN" : 11, "GE" : 11, "KO": 12, "KK" : 11 }, "Kulturen" : { "Muss" : { "Ferkina" : {} } }, "Geschlecht" : "männlich" },
@@ -2639,7 +2650,7 @@
 				"Empfohlene Nachteile" : { "Eitelkeit" : {}, "Goldgier" : {} },
 				"Ungeeignete Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} },
 				"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Jähzorn" : {}, "Randgruppe" : {}, "Widerwärtiges Aussehen" : {} },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Hiebwaffen"], "Werte" : [1] }, { "Wahl" : ["Gaukeleien", "Singen"], "Werte" : [2, 1] }, { "Wahl" : ["Brett-/Kartenspiel", "Malen/Zeichnen", "Musizieren"], "Werte" : [3] }, { "Wahl" : ["Fremdsprache"], "Werte" : [4] }], "Dolche" : 3, "Hiebwaffen" : 1, "Raufen" : 3, "Ringen" : 3, "Akrobatik" : 1, "Körperbeherrschung" : 4, "Schleichen" : 3, "Selbstbeherrschung" : 4, "Sich Verstecken" : 2, "Sinnenschärfe" : 1, "Tanzen" : 2, "Taschendiebstahl" : 2, "Zechen" : 3, "Betören" : 5, "Gassenwissen" : 5, "Menschenkenntnis" : 5, "Sich Verkleiden" : 2, "Überreden" : 4, "Sagen/Legenden" : 2, "Falschspiel" : 2, "Heilkunde Krankheiten" : 2, "Heilkunde Wunden" : 2, "Schlösser Knacken" : {}, "Schneidern" : 1 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Hiebwaffen"], "Werte" : [1] }, { "Wahl" : ["Gaukeleien", "Singen"], "Werte" : [2, 1] }, { "Wahl" : ["Brett-/Kartenspiel", "Malen/Zeichnen", "Musizieren"], "Werte" : [3] }, { "Wahl" : ["Fremdsprache"], "Werte" : [4] }], "Dolche" : 3, "Hiebwaffen" : 1, "Raufen" : 3, "Ringen" : 3, "Akrobatik" : 1, "Körperbeherrschung" : 4, "Schleichen" : 3, "Selbstbeherrschung" : 4, "Sich Verstecken" : 2, "Sinnenschärfe" : 1, "Tanzen" : 2, "Taschendiebstahl" : 2, "Zechen" : 3, "Betören" : 5, "Gassenwissen" : 5, "Menschenkenntnis" : 5, "Sich Verkleiden" : 2, "Überreden" : 4, "Sagen/Legenden" : 2, "Falschspiel" : 2, "Heilkunde Krankheiten" : 2, "Heilkunde Wunden" : 2, "Schlösser Knacken" : 1, "Schneidern" : 1 },
 				"Sonderfertigkeiten" : { "Bornländisch" : {}, "Ortskenntnis" : [{ "Freitext" : "Stadt" }] },
 				"Ausrüstung" : { "billige und dünne Kleidung (kein Rüstungs- und Kälteschutz)" : { "Kategorien" : ["Kleidung"] }, "versteckter Dolch" : {}, "billige Schminke" : {}, "penetrantes Duftwasser" : {} }
 			}
@@ -2955,7 +2966,7 @@
 			"Pilzzüchter" : {
 				"Weiblich" : "Pilzzüchterin",
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Basiswerte" : { "Ausdauer" : -3 },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Steinmetz", "Zimmermann"], "Werte" : [-2] }], "Hiebwaffen" : -1, "Zweihand-Hiebwaffen" : -2, "Klettern" : -2, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 1, "Gesteinskunde" : -1, "Pflanzenkunde" : 4, "Tierkunde" : 2, "Ackerbau" : 6, "Bergbau" : -4, "Heilkunde Gift" : 2, "Holzbearbeitung" : -1, "Kochen" : 3 },
 				"Sonderfertigkeiten" : { "Höhlenkundig" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Ackerbau", "Freitext" : "zwergische Pilzzucht" }] },
@@ -2963,7 +2974,7 @@
 			"Schachtfeger" : {
 				"Weiblich" : "Schachtfegerin",
 				"Kosten" : 6,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 11, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Armbrust" : 2, "Dolche" : 2, "Hiebwaffen" : -1, "Zweihand-Hiebwaffen" : -2, "Klettern" : 1, "Schleichen" : 2, "Selbstbeherrschung" : 1, "Fährtensuchen" : 2, "Fallenstellen" : 3, "Fesseln/Entfesseln" : 2, "Mechanik" : 2, "Tierkunde" : 3, "Bergbau" : -2, "Heilkunde Wunden" : 1, "Holzbearbeitung" : -1 }
 			}
 		}
@@ -3057,6 +3068,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 6,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -3078,6 +3090,7 @@
 					},
 					"Draconiter, profaner Zweig" : {
 						"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 						"Kosten" : 6,
 						"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 						"Basiswerte" : { "Sozialstatus" : 1 },
@@ -3755,11 +3768,11 @@
 			"Bastler" : {
 				"Weiblich" : "Bastlerin",
 				"Kosten" : 0,
-				"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 12, "FF" : 11 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "KL" : 12, "IN" : 12, "FF" : 11 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fahrzeug Lenken", "Boote Fahren"], "Werte" : [-1] }, { "Wahl" : ["Baukunst", "Gesteinskunde", "Hüttenkunde", "Kriegskunst", "Bergbau", "Bogenbau", "Brauer", "Drucker", "Feuersteinbearbeitung", "Glaskunst", "Grobschmied", "Instrumentenbauer", "Kristallzucht", "Lederarbeiten", "Maurer", "Metallguss", "Schnaps Brennen", "Schneidern", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stoffe Färben", "Töpfern", "Webkunst", "Winzer", "Zimmermann"], "Punkte" : 6, "Maximum" : 2 }], "Sinnenschärfe" : 1, "Mechanik" : 2, "Rechnen" : 1, "Sagen/Legenden" : 1, "Angram" : 2, "Alchimie" : 2, "Feinmechanik" : 2, "Holzbearbeitung" : 1, "Malen/Zeichnen" : 3, "Schlösser Knacken" : 1}
 			},
-			"Archaische Handwerker" : {	
-				"Weiblich" : "Archaische Handwerkerin",			
+			"Archaische Handwerker" : {
+				"Weiblich" : "Archaische Handwerkerin",
 				"Kosten" : 0,
 				"Basiswerte" : { "Sozialstatus" : -4 },
 				"Ausrüstung" : { "Wahl" : [{ "Tragnetz" : {}, "Umhängetasche" : {} }], "kulturtypische Kleidung" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "passende Fernkampfwaffe" : {}, "Dolch" : {}, "berufstypisches Werkzeug" : {}, "Feuerstein" : {}, "Zunder" : {} },
@@ -3892,7 +3905,7 @@
 					"Archaische Handwerker des Nordens" : {
 						"Voraussetzungen" : { "Kulturen" : { "Wahl" : { "Fjarninger" : {}, "Gjalskerland" : {}, "Goblinstamm" : {}, "Nivesenstämme" : {} } } },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen", "Wurfbeile", "Wurfmesser", "Wurfspeere"], "Werte" : [-2] }, { "Wahl" : ["Bogen", "Wurfbeile", "Wurfspeere"], "Werte" : [2] }, { "Wahl" : ["Speere", "Zweihand-Hiebwaffen"], "Werte" : [2] }], "Infanteriewaffen" : -2, "Singen" : 1, "Zechen" : -1, "Etikette" : -1, "Gassenwissen" : -1, "Fesseln/Entfesseln" : 1, "Orientierung" : 1, "Wettervorhersage" : 1, "Wildnisleben" : 1, "Gesteinskunde" : 2, "Schätzen" : -2, "Muttersprache:Schrift" : -3, "Abrichten" : 1, "Feuersteinbearbeitung" : 2 },
-						"Varianten" : {					
+						"Varianten" : {
 							"Brauer" : {
 								"Weiblich" : "Brauerin",
 								"Empfohlene Vorteile" : { "Herausragender Geruchssinn" : {}, "Resistenz gegen Gift" : [{}], "Verbindungen" : [{}] },
@@ -4002,12 +4015,13 @@
 			},
 			"Sesh'shemet" : {
 				"Kosten" : 1,
-				"Voraussetzungen" : { "KL" : 12, "FF" : 13, "Kulturen" : { "Muss" : { "Khefu" : {} } } },
+				"Voraussetzungen" : { "KL" : 12, "FF" : 13, "Kulturen" : { "Muss" : { "Südaventurien" : { "Varianten" : { "Muss" : ["Khefu"] } } } } },
 				"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Prinzipientreue" : [{}], "Verpflichtungen" : [{}] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Hauswirtschaft", "Kartographie"], "Werte" : [2] }], "Raufen" : -1, "Ringen" : -2, "Gaukeleien" : -2, "Sich Verstecken" : -1, "Etikette" : 1, "Gassenwissen" : -1, "Schriftlicher Ausdruck" : 1, "Rechtskunde" : 2, "Staatskunst" : 3, "Chrmk" : 6, "Rssahh" : 6, "Malen/Zeichnen" : 2 }
 			},
 			"Draconiter, profaner Zweig" : {
 				"Weiblich" : "Draconiterin, profaner Zweig",
+						"Bücher" : { "Wege der Helden" : 218 },
 				"Kosten" : 1,
 				"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Sacer Ordo Draconis" }] },
 				"Basiswerte" : { "Sozialstatus" : 1 },
@@ -4203,7 +4217,7 @@
 							},
 							"Festum" : {
 								"Talente" : { "Gesteinskunde" : 1, "Handel" : 1, "Heilkunde Gift" : 1 }
-							}					
+							}
 						}
 					},
 					"Gilde der Alchimisten zu Mengbilla" : {
@@ -4311,7 +4325,7 @@
 					},
 					"Festum" : {
 						"Talente" : { "Gesteinskunde" : 1, "Handel" : 1, "Heilkunde Gift" : 1 }
-					}					
+					}
 				}
 			},
 			"Gilde der Alchimisten zu Mengbilla" : {
@@ -4371,7 +4385,7 @@
 			"Zwergischer Alchimist" : {
 				"Weiblich" : "Zwergische Alchimistin",
 				"Kosten" : 8,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "FF" : 12 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "FF" : 12 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Nachteile" : { "Wahl" : [{ "Goldgier" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 5 } }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [-6] }], "Nanduria" : -5, "Gesteinskunde" : 2, "Hüttenkunde" : 3, "Mechanik" : 1, "Pflanzenkunde" : -2, "Sternkunde" : -2, "Muttersprache" : -1, "Muttersprache:Schrift" : -6, "Angram" : 8, "Rogolan" : 6, "Kristallzucht" : 3, "Metallguss" : 3 },
 			},
@@ -4659,6 +4673,7 @@
 		"Varianten" : {
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4685,6 +4700,7 @@
 		"Varianten" : {
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4742,6 +4758,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Prinzipientreue" : [{}], "Rachsucht" : {} },
@@ -4776,6 +4793,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"kombinierbar" : true,
 				"Kosten" : 2,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4808,6 +4826,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4827,6 +4846,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4847,6 +4867,7 @@
 					"Wanderer" : {
 					"Weiblich" : "Wanderin",
 						"kombinierbar" : true,
+						"Bücher" : { "Wege der Helden" : 166 },
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
 						"Nachteile" : { "Sippenlosigkeit" : {} },
@@ -4865,6 +4886,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4907,6 +4929,7 @@
 				"Varianten" : {
 					"Wanderer" : {
 						"Weiblich" : "Wanderin",
+						"Bücher" : { "Wege der Helden" : 166 },
 						"kombinierbar" : true,
 						"Kosten" : 2,
 						"Empfohlene Nachteile" : { "Rachsucht" : {} },
@@ -4918,6 +4941,7 @@
 			},
 			"Wanderer" : {
 				"Weiblich" : "Wanderin",
+				"Bücher" : { "Wege der Helden" : 166 },
 				"Kosten" : 7,
 				"Empfohlene Nachteile" : { "Rachsucht" : {} },
 				"Nachteile" : { "Sippenlosigkeit" : {} },
@@ -5239,7 +5263,7 @@
 				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Schaden" }], "Verbotene Pforten" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Mercenario" : {}, "Unauer Schule" : {} }], "Eiserner Wille I" : {}, "Konzentrationsstärke" : {}, "Regeneration I" : {}, "Regeneration II" : {} },
-				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }, { "Rapier" : {}, "Degen" : {}, "Säbel" : {}, "Zweililie" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {} }	
+				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }, { "Rapier" : {}, "Degen" : {}, "Säbel" : {}, "Zweililie" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {} }
 			},
 			"Dunkle Halle der Geister zu Brabak" : {
 				"Bücher" : { "Wege der Helden" : 177 },
@@ -5369,7 +5393,7 @@
 				"Sprachen" : { "Lehrsprache" : [["Bosparano"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Gefäß der Sterne" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Einfluss" }, { "Auswahl" : "Herrschaft" }], "Regeneration I" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Konzentrationsstärke" : {}, "Meisterliche Regeneration" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Hellsicht" }], "Regeneration II" : {} },
-				"Hauszauber" : { "Band und Fessel" : { "Mag" : 6 }, "Bannbaladin" : { "Mag" : 7 }, "Beherrschung brechen" : 6, "Horriphobus Schreckgestalt" : { "Mag" : 6 }, "Respondami Wahrheitszwang" : { "Mag" : 6 }, "Sensibar Empathicus" : { "Mag" : 6 }, "Somnigravis tiefer Schlaf" : { "Mag" : 6 } },
+				"Hauszauber" : { "Band und Fessel" : { "Mag" : 6 }, "Bannbaladin" : { "Mag" : 7 }, "Beherrschung brechen" : { "Mag" : 6 }, "Horriphobus Schreckgestalt" : { "Mag" : 6 }, "Respondami Wahrheitszwang" : { "Mag" : 6 }, "Sensibar Empathicus" : { "Mag" : 6 }, "Somnigravis tiefer Schlaf" : { "Mag" : 6 } },
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Blick aufs Wesen" : "Mag", "Hellsicht trüben" : "Mag" }, "Werte" : [3] }], "Analys Arcanstruktur" : { "Mag" : 4 }, "Attributo" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 2 }, "Blick in die Gedanken" : { "Mag" : 4 }, "Cryptographo Zauberschrift" : { "Mag" : 3 }, "Einfluss bannen" : { "Mag" : 5 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Gardianum Zauberschild" : { "Mag" : 4 }, "Ignifaxius Flammenstrahl" : { "Mag" : 4 }, "Imperavi Handlungszwang" : { "Mag" : 5 }, "Odem Arcanum" : { "Mag" : 5 }, "Psychostabilis" : { "Mag" : 3 }, "Unitatio Geistesbund" : { "Mag" : 3 } }
 			},
 			"Akademie der geistigen Kraft zu Fasar" : {
@@ -7222,6 +7246,7 @@
 			},
 			"Draconiter, sakraler Zweig" : {
 				"Weiblich" : "Draconiterin, sakraler Zweig",
+				"Bücher" : { "Wege der Helden" : 218 },
 				"Kosten" : 13,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 11, "KO" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Stubenhocker" : {} } } },
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Moralkodex" : [{ "Auswahl" : "Hesinde", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Ordo Sacer Draconis" }] },
@@ -7746,7 +7771,7 @@
 		"Weiblich" : "Geweihte des Angrosch",
 		"Bücher" : { "Wege der Helden" : 230 },
 		"Zeitaufwendig" : true,
-		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} } } },
 		"Basiswerte" : { "Karmaenergie" : 12, "Sozialstatus" : 6 },
 		"Sozialstatus:Maximum" : 13,
 		"Vorteile" : { "Geweiht" : [{ "Auswahl" : "Angrosch" }] },
@@ -7771,7 +7796,7 @@
 			"Hüter der Tradition" : {
 				"Weiblich" : "Hüterin der Tradition",
 				"Kosten" : 12,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 11, "CH" : 11, "FF" : 12, "KK" : 13 }, "Kulturen" : { "Wahl" : { "Ambosszwerge" : {}, "Erzzwerge" : {}, "Brillantzwerge" : {} } } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Gesteinskunde", "Hüttenkunde"], "Werte" : [2] }], "Selbstbeherrschung" : 2, "Geschichtswissen" : 4, "Götter/Kulte" : 2, "Heraldik" : 3, "Mechanik" : 1, "Staatskunst" : 3 },
 				"Sonderfertigkeiten" : { "Karmalqueste" : {}, "Liturgiekenntnis" : [{ "Auswahl" : "Angrosch" }], "Eidsegen" : {}, "Feuersegen" : {}, "Glückssegen" : {}, "Harmoniesegen" : {}, "Heilungssegen" : {}, "Märtyrersegen" : {}, "Schutzsegen" : {}, "Speisesegen" : {}, "Weisheitssegen" : {}, "Heilige Schmiedeglut" : {}, "Objektsegen" : {}, "Angroschs Opfergabe" : {}, "Licht des verborgenen Pfades" : {}, "Blick in die Flammen" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Initiation" : {}, "Vertrauter der Flamme" : {} }
