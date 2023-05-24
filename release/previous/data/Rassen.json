@@ -408,7 +408,7 @@
 		"Gewicht" : { "Modifikator" : -100 },
 		"Eigenschaften" : { "MU" : -1, "KL" : -2, "FF" : 2, "GE" : 2, "KK" : -1 },
 		"Basiswerte" : { "Lebensenergie" : 4, "Ausdauer" : 12, "Magieresistenz" : -5, "Initiative-Basis" : 2 },
-		"Vorteile" : { "Dämmerungssicht" : {}, "Flink" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
+		"Vorteile" : { "Dämmerungssicht" : {}, "Flink" : { "Stufe" : 1 }, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
 		"Nachteile" : { "Kleinwüchsig" : {}, "Randgruppe" : {}, "Unstet" : {} },
 		"Empfohlene Vorteile" : { "Balance" : {}, "Herausragende Balance" : {}, "Beidhändig" : {}, "Eisern" : {}, "Entfernungssinn" : {}, "Glück" : {}, "Herausragendes Gehör" : {}, "Herausragende Sicht" : {}, "Herausragender Tastsinn" : {}, "Herausragender Geruchssinn" : {}, "Magiegespür" : {}, "Resistenz gegen Gift" : [{}], "Immunität gegen Gift" : [{}], "Resistenz gegen Krankheiten" : {}, "Richtungssinn" : {}, "Schlangenmensch" : {}, "Zäher Hund" : {} },
 		"Empfohlene Nachteile" : { "Neugier" : {}, "Niedrige Magieresistenz" : {}, "Übler Geruch" : {}, "Unangenehme Stimme" : {}, "Unansehnlich" : {} },
@@ -424,7 +424,7 @@
 				"Kosten" : 4,
 				"Voraussetzungen" : { "Geschlecht" : "weiblich" },
 				"Eigenschaften" : { "IN" : 1 },
-				"Vorteile" : { "Flink" : {}, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Nachtsicht" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
+				"Vorteile" : { "Flink" : { "Stufe" : 1 }, "Gefahreninstinkt" : {}, "Kälteresistenz" : {}, "Nachtsicht" : {}, "Natürliche Waffe (Biss)" : { "Stufe" : 1 }, "Natürlicher Rüstungsschutz" : { "Stufe" : 1 }, "Wahl" : [{ "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {} }] },
 				"Talente" : { "Zechen" : -2 }
 			}
 		}
