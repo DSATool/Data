@@ -11,7 +11,7 @@
 	"Kampftalent" : { "Pfade" : [["Talente", "Nahkampftalente"], ["Talente", "Fernkampftalente"]] },
 	"Waffenloses Kampftalent" : { "Zusätzlich:Start" : ["Raufen", "Ringen"] },
 	"Profession" : { "Pfade" : [["Professionen"]] },
-	"Repräsentation" : { "Pfade" : [["Repraesentationen", "/Name"]] },
+	"Repräsentation" : { "Pfade" : [["Repraesentationen", "*", "/Name"]] },
 	"Ritualkenntnis" : { "Pfade" : [["Talente", "Ritualkenntnis"]] },
 	"Kirche" : { "Pfade" : [["Talente", "Liturgiekenntnis"]], "Zusätzlich:Ende" : ["Bund des wahren Glaubens"] }
 }
