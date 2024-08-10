@@ -711,7 +711,7 @@
 		"Empfohlene Nachteile" : { "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] },
 		"Ungeeignete Vorteile" : { "Kampfrausch" : {} },
 		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Fettleibig" : {}, "Glasknochen" : {}, "Schlechte Regeneration" : {}, "Unansehnlich" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [5] }], "Raufen" : 3, "Ringen" : 3, "Athletik" : 2, "Körperbeherrschung" : 3, "Reiten" : 2, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : 1, "Betören" : 1, "Etikette" : 4, "Lehren" : 1, "Menschenkenntnis" : 4, "Überreden" : 2, "Orientierung" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 2, "Kriegskunst" : 2, "Rechnen" : 2, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Muttersprache" : 2, "Muttersprache:Schrift" : 4, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 2 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [5] }], "Raufen" : 3, "Ringen" : 3, "Athletik" : 2, "Klettern" : 1, "Körperbeherrschung" : 3, "Reiten" : 2, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 2, "Tanzen" : 1, "Zechen" : 1, "Betören" : 1, "Etikette" : 4, "Lehren" : 1, "Menschenkenntnis" : 4, "Überreden" : 2, "Orientierung" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 2, "Kriegskunst" : 2, "Rechnen" : 2, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Muttersprache" : 2, "Muttersprache:Schrift" : 4, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 2 },
 		"Besonderer Besitz" : "persönliche Waffe",
 		"Varianten" : {
 			"Schwertgeselle nach Adersin" : {
