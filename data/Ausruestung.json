@@ -897,7 +897,7 @@
 	"Efferdbart" : {
 		"Bücher" : { "Aventurisches Arsenal" : 54, "Wege des Schwerts" : 118, "Meisterschirm" : 21 },
 		"Typ" : "Efferdbart",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4, "Geweihter Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 13, "Schadensschritte" : 3 },
 		"Gewicht" : 2.25,
 		"Länge" : 120,
@@ -1935,7 +1935,7 @@
 	"Magierstab" : {
 		"Bücher" : { "Aventurisches Arsenal" : 56, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Magierstab",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1, "Magischer Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
 		"Gewicht" : 2.25,
 		"Länge" : 150,
@@ -1950,7 +1950,7 @@
 	"Magierstab mit Kristallkugel" : {
 		"Bücher" : { "Aventurisches Arsenal" : 56, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Magierstab mit Kristallkugel",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 1, "Magischer Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
 		"Gewicht" : 3.75,
 		"Länge" : 150,
@@ -1965,7 +1965,7 @@
 	"Kurzer Magierstab" : {
 		"Bücher" : { "Aventurisches Arsenal" : 57, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kurzer Magierstab",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Magischer Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 4 },
 		"Gewicht" : 1.75,
 		"Länge" : 100,
@@ -1979,7 +1979,7 @@
 	"Sehr kurzer Magierstab" : {
 		"Bücher" : { "Aventurisches Arsenal" : 57, "Wege des Schwerts" : 120, "Meisterschirm" : 22 },
 		"Typ" : "Kurzer Magierstab",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : -1, "Magischer Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 11, "Schadensschritte" : 5 },
 		"Gewicht" : 1,
 		"Länge" : 60,
@@ -2476,7 +2476,7 @@
 	"Rondrakamm" : {
 		"Bücher" : { "Aventurisches Arsenal" : 58, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Rondrakamm",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Trefferpunkte" : 2, "Geweihter Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
 		"Gewicht" : 3.25,
 		"Länge" : 130,
@@ -2597,7 +2597,7 @@
 	"Schmiedehammer" : {
 		"Bücher" : { "Aventurisches Arsenal" : 58, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Schmiedehammer",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 4, "Geweihter Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 14, "Schadensschritte" : 2 },
 		"Gewicht" : 3.75,
 		"Länge" : 90,
@@ -2749,7 +2749,7 @@
 	"Sonnenszepter" : {
 		"Bücher" : { "Aventurisches Arsenal" : 59, "Wege des Schwerts" : 122, "Meisterschirm" : 22 },
 		"Typ" : "Sonnenszepter",
-		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3 },
+		"Trefferpunkte" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Trefferpunkte" : 3, "Geweihter Schaden" : true },
 		"Trefferpunkte/Körperkraft" : { "Schwellenwert" : 12, "Schadensschritte" : 3 },
 		"Gewicht" : 2.25,
 		"Länge" : 70,
