@@ -1588,7 +1588,7 @@
 				"Eigenschaften" : { "MU" : 1 },
 				"Sozialstatus:Maximum" : 5,
 				"Professionen" : ["Großwildjäger", "Jäger", "Kundschafter", "Sklaven-Aufseher", "Orkischer Stammeskrieger"],
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }], "Raufen" : 1 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Säbel", "Hiebwaffen"], "Werte" : [1] }], "Raufen" : 1 },
 				"Varianten" : {
 					"Korogai" : {
 						"Kosten" : 8,
@@ -1638,7 +1638,7 @@
 				"Eigenschaften" : { "MU" : 1, "KL" : 1 },
 				"Sozialstatus:Maximum" : 5,
 				"Professionen" : ["Orkischer Stammeskrieger", "Gravesh-Priester", "Rikai-Priester", "Tairach-Priester"],
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [1] }], "Raufen" : 1, "Überreden" : 1 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Säbel", "Hiebwaffen"], "Werte" : [1] }], "Raufen" : 1, "Überreden" : 1 },
 				"Varianten" : {
 					"Korogai" : {
 						"Kosten" : 11,
