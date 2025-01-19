@@ -8,7 +8,7 @@
 	"Echo der Steine" : { "Bücher" : { "Elementare Gewalten" : 155 }, "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Petromantie" } } } } } },
 	"Ergochai Tairachi" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister binden" } } } } } },
 	"Erzkraft" : { "Bücher" : { "Elementare Gewalten" : 155 }, "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Petromantie" } } } } } },
-	"Exorzismus (Ritual)" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister bannen" } } } } } },
+	"Exorzismus" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister bannen" } } } } } },
 	"Farben des Krieges" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Wahl" : ["Geister binden", "Petromantie"] } } } } } },
 	"Fluch der Verwirrung" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister rufen" } } } } } },
 	"Freie Seelenfahrt" : { "Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Ritualkenntnis" : { "Auswahl" : { "Muss" : "Geister rufen" } } } } } },
