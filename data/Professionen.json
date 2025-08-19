@@ -441,6 +441,20 @@
 				"Sozialstatus:Maximum" : 11,
 				"Talente" : { "Anderthalbhänder" : 6, "Lanzenreiten" : 5, "Raufen" : 1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Orientierung" : -1, "Geschichtswissen" : 1, "Götter/Kulte" : 2, "Heraldik" : 1, "Kriegskunst" : 1, "Magiekunde" : 1 }
 			},
+			"Birkholter Krieger" : {
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 20,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Schwerter"], "Werte" : [7, 5] }, { "Wahl" : ["Anderthalbhänder", "Säbel", "Zweihandschwerter/-säbel"], "Werte" : [2, 1] }, { "Wahl" : ["Hauswirtschaft", "Holzbearbeitung"], "Werte" : [2, 1] }, { "Wahl" : ["Wettervorhersage", "Pflanzenkunde", "Tierkunde", "Heilkunde Wunden", "Kochen", "Lederarbeiten"], "Werte" : [3, 2, 1, 1] }], "Lanzenreiten" : 1, "Raufen" : 1, "Klettern" : 2, "Körperbeherrschung" : 3, "Reiten" : -2, "Etikette" : -1, "Fährtensuchen" : 2, "Orientierung" : 4, "Wildnisleben" : 3, "Kriegskunst" : 2, "Magiekunde" : 2, "Bosparano" : 4, "Kusliker Zeichen" : 3, "Schneidern" : 3 },
+				"Verbilligte Sonderfertigkeiten" : { "Schildkampf II" : {} }
+			},
+			"Festumer Krieger der Kavalliersschule" : {
+				"Weiblich" : "Festumer Kriegerin der Kavalliersschule",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 26,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Schwerter"], "Werte" : [6, 4] }], "Anderthalbhänder" : 3, "Lanzenreiten" : 5, "Körperbeherrschung" : 1, "Reiten" : 2, "Etikette" : 2, "Überreden" : 2, "Orientierung" : 1, "Wildnisleben" : 1, "Geschichtswissen" : 1, "Kriegskunst" : 3, "Staatskunst" : 2, "Tierkunde" : 3, "Alaani" : 4, "Tulamidya" : 4, "Kusliker Zeichen" : 4 },
+				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Staatskunst", "Freitext" : "Diplomatie" }] }
+			},
 			"Krieger aus Baburin" : {
 				"Weiblich" : "Kriegerin aus Baburin",
 				"Kosten" : 23,
@@ -460,6 +474,16 @@
 				"Talente" : { "Hiebwaffen" : 4, "Kettenwaffen" : 4, "Lanzenreiten" : 7, "Raufen" : 1, "Ringen" : -1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Reiten" : 2, "Selbstbeherrschung" : -2, "Sinnenschärfe" : -1, "Zechen" : 3, "Geschichtswissen" : -1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Sagen/Legenden" : 3, "Heilkunde Wunden" : -1, "Lederarbeiten" : -2 },
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Turnierreiterei" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {} }
+			},
+			"Krieger aus Baliho (alternativ)" : {
+				"Weiblich" : "Kriegerin aus Baliho",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 27,
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 13 } },
+				"Basiswerte" : { "Sozialstatus" : 1 },
+				"Talente" : { "Hiebwaffen" : 4, "Kettenwaffen" : 4, "Lanzenreiten" : 7, "Raufen" : 1, "Ringen" : -1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Reiten" : 2, "Selbstbeherrschung" : -2, "Sinnenschärfe" : -1, "Zechen" : 3, "Fährtensuchen" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Geschichtswissen" : -1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Sagen/Legenden" : 3, "Abrichten" : 1, "Heilkunde Wunden" : -1, "Lederarbeiten" : 1 },
+				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}] },
+				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {}, "Turnierreiterei" : {} }
 			},
 			"Krieger aus Elenvina" : {
 				"Weiblich" : "Kriegerin aus Elenvina",
@@ -626,6 +650,22 @@
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 13, "KO" : 13, "KK" : 12 } },
 				"Talente" : { "Bogen" : 3, "Dolche" : 2, "Schwerter" : 6, "Wurfspeere" : 2, "Zweihandschwerter/-säbel" : 4, "Athletik" : 2, "Klettern" : 1, "Körperbeherrschung" : 2, "Schwimmen" : 1, "Zechen" : 2, "Wildnisleben" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 2, "Boote Fahren" : 1, "Heilkunde Wunden" : -1 },
 				"Sonderfertigkeiten" : { "Kampfreflexe" : {}, "Linkhand" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {} },
+			},
+			"Methumiser Krieger" : {
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 24,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Anderthalbhänder", "Fechtwaffen", "Infanteriewaffen", "Säbel", "Schwerter", "Zweihandschwerter/-säbel"], "Werte" : [6, 4, 3, 3] }, { "Wahl" : ["Singen", "Anatomie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Philosophie", "Rechnen", "Rechtskunde", "Sprachenkunde", "Staatskunst", "Sternkunde", "Tierkunde", "Alchimie", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden", "Malen/Zeichnen", "Musizieren", "Seefahrt"], "Punkte" : 11, "Maximum" : 4, "Anzahl:Maximum" : 8 }], "Raufen" : 1, "Körperbeherrschung" : 2, "Lehren" : 2, "Geschichtswissen" : 1, "Sternkunde" : 1, "Orientierung" : 1, "Kriegskunst" : 3, "Bosparano" : 5, "Tulamidya" : 4, "Kusliker Zeichen" : 4 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Parierwaffen I" : {}, "Schildkampf I" : {} }], "Linkhand" : {}, "Rüstungsgewöhnung I" : [{}] }
+			},
+			"Neethaner Krieger" : {
+				"Weiblich" : "Neethaner Kriegerin",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 24,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {} }] } },
+				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 9 },
+				"Vorteile" : { "Akademische Ausbildung (Krieger)" : {}, "Besonderer Besitz" : [{ "Stufe" : 1, "Freitext" : "eigenes Pferd" }] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [6, 3] }, { "Wahl" : ["Lanzenreiten", "Zweihandschwerter/-säbel"], "Werte" : [3] }, { "Wahl" : ["Mohisch", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Reiten" : 2, "Schwimmen" : 3, "Selbstbeherrschung" : 1, "Tanzen" : 2, "Etikette" : 1, "Menschenkenntnis" : 2, "Kriegskunst" : -1, "Tierkunde" : 4, "Abrichten" : 5, "Heilkunde Wunden" : -1 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Rüstungsgewöhnung I" : [{ "Freitext" : "Kettenweste" }, { "Freitext" : "Tuchrüstung" }] }], "Linkhand" : {}, "Reiterkampf" : {}, "Schildkampf I" : {} }
 			},
 			"Schule des Drachenkampfes zu Xorlosch" : {
 				"Kosten" : 18,
