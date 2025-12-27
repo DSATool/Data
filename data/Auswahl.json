@@ -13,5 +13,5 @@
 	"Profession" : { "Pfade" : [["Professionen"]] },
 	"Repräsentation" : { "Pfade" : [["Repraesentationen", "*", "/Name"]] },
 	"Ritualkenntnis" : { "Pfade" : [["Talente", "Ritualkenntnis"]] },
-	"Kirche" : { "Pfade" : [["Talente", "Liturgiekenntnis"]], "Zusätzlich:Ende" : ["Bund des wahren Glaubens"] }
+	"Kirche" : { "Pfade" : [["Talente", "Liturgiekenntnis"]], "Zusätzlich:Ende" : ["Bund des wahren Glaubens", "Marbiden-Orden"] }
 }
