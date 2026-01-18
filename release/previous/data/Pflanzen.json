@@ -126,6 +126,17 @@
 		"Bestimmung" : 15,
 		"Anmerkungen" : "Auf mageren Moorböden"
 	},
+	"Braunschlinge" : {
+		"Bücher" : { "Wege der Alchimie" : 192 },
+		"Typ" : ["Gefährliche Pflanze", "Nutzpflanze"],
+		"Gebiet" : ["RivaNeetha"],
+		"Verbreitung" : { "Sumpf und Moor" : "gelegentlich", "Wald" : "gelegentlich", "Waldrand" : "selten", "Grasland, Wiesen" : "selten", "Steppe" : "selten" },
+		"Bestimmung" : 6,
+		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 3, "Art" : "Ranken" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Einheit" : "Monat" },
+		"Preis" : 20
+	},
 	"Carlog" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 232 },
 		"Typ" : ["Nutzpflanze"],
@@ -158,6 +169,18 @@
 		"Grundmenge" : { "Würfel:Typ" : 20, "Würfel:Anzahl" : 1, "Art" : "Blätter" },
 		"Haltbarkeit" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Additiv" : 24, "Einheit" : "Stunde" },
 		"Preis" : 0.8
+	},
+	"Dergolasch" : {
+		"Bücher" : { "Wege der Alchimie" : 193 },
+		"Typ" : ["Nutzpflanze"],
+		"Gebiet" : ["GanzAventurien"],
+		"Verbreitung" : { "Höhlen" : "selten" },
+		"Bestimmung" : 8,
+		"Ernte" : ["Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm"],
+		"Grundmenge" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Art" : "Pilzhüte" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Einheit" : "Stunde" },
+		"Preis" : 1,
+		"Anmerkungen" : "Bestimmung nur +4 bei Kulturkunde (Zwerge)"
 	},
 	"Disdychonda" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 233 },
@@ -204,9 +227,9 @@
 		"Bücher" : { "Zoo-Botanica Aventurica" : 235 },
 		"Typ" : ["Gefährliche Pflanze"],
 		"Gebiet" : ["Nordaventurien", "Mittelaventurien"],
-		"Verbreitung" : { "Wald" : "selten" },
+		"Verbreitung" : { "Höhlen" : "gelegentlich", "Wald" : "selten" },
 		"Bestimmung" : 4,
-		"Anmerkungen" : "Auch gelegentlich in Höhleneingängen und Ruinen"
+		"Anmerkungen" : "Auch gelegentlich in Ruinen"
 	},
 	"Egelschreck" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 235 },
@@ -235,17 +258,27 @@
 		"Bücher" : { "Zoo-Botanica Aventurica" : 236 },
 		"Typ" : ["Gefährliche Pflanze"],
 		"Gebiet" : ["Nordaventurien", "Mittelaventurien"],
-		"Verbreitung" : {},
-		"Bestimmung" : 15,
-		"Anmerkungen" : "Gelegentlich in feuchten Höhlen"
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
+		"Bestimmung" : 15
 	},
 	"Efferdsmoos" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 236 },
 		"Typ" : ["Gefährliche Pflanze"],
 		"Gebiet" : ["Nordaventurien", "Mittelaventurien"],
-		"Verbreitung" : {},
-		"Bestimmung" : 15,
-		"Anmerkungen" : "Gelegentlich in feuchten Höhlen"
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
+		"Bestimmung" : 15
+	},
+	"Felsenmilch" : {
+		"Bücher" : { "Wege der Alchimie" : 193 },
+		"Typ" : ["Nutzpflanze"],
+		"Gebiet" : ["GanzAventurien"],
+		"Verbreitung" : { "Höhlen" : "selten" },
+		"Bestimmung" : 4,
+		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Additiv" : 1, "Art" : "Schank" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 2, "Einheit" : "Woche" },
+		"Preis" : 5,
+		"Anmerkungen" : "Nur Höhlen ab 100 Schritt Tiefe"
 	},
 	"Feuerschlick" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 237 },
@@ -270,6 +303,18 @@
 		"Haltbarkeit" : { "Würfel:Typ" : 3, "Würfel:Anzahl" : 1, "Additiv" : 3, "Einheit" : "Monat" },
 		"Preis" : 0.86,
 		"Anmerkungen" : "Triebe nur im Peraine, sonst Bast"
+	},
+	"Grüner Schleimpilz" : {
+		"Bücher" : { "Wege der Alchimie" : 193 },
+		"Typ" : ["Nutzpflanze", "Giftpflanze"],
+		"Gebiet" : ["SuedlichThorwalFestum"],
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
+		"Bestimmung" : 6,
+		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Würfel:Typ" : 20, "Würfel:Anzahl" : 1, "Art" : "Unzen" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Einheit" : "Tag" },
+		"Preis" : 5,
+		"Anmerkungen" : "Nur Höhlen ab 50 Schritt Tiefe (selten), gelegentlich nur in Höhlen ab 100 Schritt Tiefe"
 	},
 	"Grüne Schleimschlange" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 238 },
@@ -427,6 +472,29 @@
 		"Grundmenge" : { "Würfel:Typ" : 3, "Würfel:Anzahl" : 1, "Multiplikativ" : 20, "Art" : "Blätter" },
 		"Haltbarkeit" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Additiv" : 1, "Einheit" : "Tag" },
 		"Preis" : 50
+	},
+	"Libellengras" : {
+		"Bücher" : { "Wege der Alchimie" : 194 },
+		"Typ" : ["Nutzpflanze"],
+		"Gebiet" : ["DonnerbachRashdul"],
+		"Verbreitung" : { "Fluss- und Seeufer, Teiche" : "gelegentlich", "Flussauen" : "gelegentlich", "Sumpf und Moor" : "selten", "Grasland, Wiesen" : "selten" },
+		"Bestimmung" : 5,
+		"Ernte" : ["Rondra", "Efferd", "Ingerimm", "Rahja"],
+		"Grundmenge" : { "Additiv" : 1, "Art" : "Früchte" },
+		"Haltbarkeit" : {  "Additiv" : 1, "Einheit" : "Woche" },
+		"Preis" : 10
+	},
+	"Lichtnebler" : {
+		"Bücher" : { "Wege der Alchimie" : 194 },
+		"Typ" : ["Gefährliche Pflanze"],
+		"Gebiet" : ["NördlichNeethaKhunchom"],
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
+		"Bestimmung" : 10,
+		"Ernte" : ["Praios", "Efferd", "Travia", "Boron", "Hesinde", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Additiv" : 1, "Art" : "Skrupel Sporen" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Einheit" : "Tag" },
+		"Preis" : 20,
+		"Anmerkungen" : "Nur Höhlen ab 75 Schritt Tiefe; Bestimmung nur 4 nach Freisetzung der Sporen durch Licht"
 	},
 	"Färberlotos" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 246 },
@@ -751,13 +819,13 @@
 		"Bücher" : { "Zoo-Botanica Aventurica" : 258 },
 		"Typ" : ["Nutzpflanze"],
 		"Gebiet" : ["Orkland", "Finsterkamm"],
-		"Verbreitung" : {},
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
 		"Bestimmung" : -3,
 		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
 		"Grundmenge" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Art" : "Stein" },
 		"Haltbarkeit" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Einheit" : "Spielrunde" },
 		"Preis" : 0.4,
-		"Anmerkungen" : "Gelegentlich in feuchten Höhlen, selten in trockenen Höhlen"
+		"Anmerkungen" : "In trockenen Höhlen selten"
 	},
 	"Quasselwurz" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 259 },
@@ -926,6 +994,17 @@
 		"Preis" : 10,
 		"Anmerkungen" : "Nur Moghulat Oron"
 	},
+	"Seelenhauch" : {
+		"Bücher" : { "Wege der Alchimie" : 195 },
+		"Typ" : ["Übernatürliche Pflanze", "Giftpflanze"],
+		"Gebiet" : ["GanzAventurien"],
+		"Verbreitung" : { "Grasland, Wiesen" : "selten", "Steppe" : "selten", "Hochland" : "selten", "Fluss- und Seeufer, Teiche" : "sehr selten", "Küste, Strand" : "sehr selten", "Flussauen" : "sehr selten", "Sumpf und Moor" : "sehr selten", "Regenwald" : "sehr selten", "Wald" : "sehr selten", "Waldrand" : "sehr selten" },
+		"Bestimmung" : 3,
+		"Ernte" : ["Praios", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Additiv" : 1, "Art" : "Blüten" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 3, "Würfel:Anzahl" : 1, "Additiv" : 3, "Einheit" : "Tag" },
+		"Preis" : 20
+	},
 	"Shurinstrauch" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 267 },
 		"Typ" : ["Giftpflanze"],
@@ -936,6 +1015,18 @@
 		"Grundmenge" : { "Würfel:Typ" : 20, "Würfel:Anzahl" : 1, "Art" : "Knollen" },
 		"Haltbarkeit" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Additiv" : 4, "Einheit" : "Tag" },
 		"Preis" : 26.67
+	},
+	"Steinrinde" : {
+		"Bücher" : { "Wege der Alchimie" : 195 },
+		"Typ" : ["Nutzpflanze"],
+		"Gebiet" : ["GanzAventurien"],
+		"Verbreitung" : { "Höhlen" : "gelegentlich" },
+		"Bestimmung" : 12,
+		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Art" : "Stein" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 6, "Würfel:Anzahl" : 1, "Einheit" : "Tag" },
+		"Preis" : 5,
+		"Anmerkungen" : "Nur Höhlen ab 100 Schritt Tiefe (selten), gelegentlich nur in Höhlen ab 300 Schritt Tiefe"
 	},
 	"Talaschin" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 268 },
@@ -1052,6 +1143,18 @@
 		"Gebiet" : ["GanzAventurien"],
 		"Verbreitung" : { "Wald" : "gelegentlich" },
 		"Bestimmung" : 9
+	},
+	"Wandermoos" : {
+		"Bücher" : { "Wege der Alchimie" : 196 },
+		"Typ" : ["Nutzpflanze"],
+		"Gebiet" : ["SuedlichOlportFestum"],
+		"Verbreitung" : { "Höhlen" : "selten" },
+		"Bestimmung" : 14,
+		"Ernte" : ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
+		"Grundmenge" : { "Additiv" : 1, "Art" : "Moosballen" },
+		"Haltbarkeit" : {  "Würfel:Typ" : 20, "Würfel:Anzahl" : 1, "Einheit" : "Monat" },
+		"Preis" : 20,
+		"Anmerkungen" : "In trockenen Höhlen und Gängen sehr selten"
 	},
 	"Wasserrauch" : {
 		"Bücher" : { "Zoo-Botanica Aventurica" : 273 },

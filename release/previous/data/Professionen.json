@@ -441,6 +441,20 @@
 				"Sozialstatus:Maximum" : 11,
 				"Talente" : { "Anderthalbhänder" : 6, "Lanzenreiten" : 5, "Raufen" : 1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Orientierung" : -1, "Geschichtswissen" : 1, "Götter/Kulte" : 2, "Heraldik" : 1, "Kriegskunst" : 1, "Magiekunde" : 1 }
 			},
+			"Birkholter Krieger" : {
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 20,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Schwerter"], "Werte" : [7, 5] }, { "Wahl" : ["Anderthalbhänder", "Säbel", "Zweihandschwerter/-säbel"], "Werte" : [2, 1] }, { "Wahl" : ["Hauswirtschaft", "Holzbearbeitung"], "Werte" : [2, 1] }, { "Wahl" : ["Wettervorhersage", "Pflanzenkunde", "Tierkunde", "Heilkunde Wunden", "Kochen", "Lederarbeiten"], "Werte" : [3, 2, 1, 1] }], "Lanzenreiten" : 1, "Raufen" : 1, "Klettern" : 2, "Körperbeherrschung" : 3, "Reiten" : -2, "Etikette" : -1, "Fährtensuchen" : 2, "Orientierung" : 4, "Wildnisleben" : 3, "Kriegskunst" : 2, "Magiekunde" : 2, "Bosparano" : 4, "Kusliker Zeichen" : 3, "Schneidern" : 3 },
+				"Verbilligte Sonderfertigkeiten" : { "Schildkampf II" : {} }
+			},
+			"Festumer Krieger der Kavalliersschule" : {
+				"Weiblich" : "Festumer Kriegerin der Kavalliersschule",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 26,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Schwerter"], "Werte" : [6, 4] }], "Anderthalbhänder" : 3, "Lanzenreiten" : 5, "Körperbeherrschung" : 1, "Reiten" : 2, "Etikette" : 2, "Überreden" : 2, "Orientierung" : 1, "Wildnisleben" : 1, "Geschichtswissen" : 1, "Kriegskunst" : 3, "Staatskunst" : 2, "Tierkunde" : 3, "Alaani" : 4, "Tulamidya" : 4, "Kusliker Zeichen" : 4 },
+				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Talentspezialisierung" : [{ "Auswahl" : "Staatskunst", "Freitext" : "Diplomatie" }] }
+			},
 			"Krieger aus Baburin" : {
 				"Weiblich" : "Kriegerin aus Baburin",
 				"Kosten" : 23,
@@ -460,6 +474,16 @@
 				"Talente" : { "Hiebwaffen" : 4, "Kettenwaffen" : 4, "Lanzenreiten" : 7, "Raufen" : 1, "Ringen" : -1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Reiten" : 2, "Selbstbeherrschung" : -2, "Sinnenschärfe" : -1, "Zechen" : 3, "Geschichtswissen" : -1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Sagen/Legenden" : 3, "Heilkunde Wunden" : -1, "Lederarbeiten" : -2 },
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Turnierreiterei" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {} }
+			},
+			"Krieger aus Baliho (alternativ)" : {
+				"Weiblich" : "Kriegerin aus Baliho",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 27,
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 13 } },
+				"Basiswerte" : { "Sozialstatus" : 1 },
+				"Talente" : { "Hiebwaffen" : 4, "Kettenwaffen" : 4, "Lanzenreiten" : 7, "Raufen" : 1, "Ringen" : -1, "Schwerter" : 6, "Zweihandschwerter/-säbel" : 4, "Reiten" : 2, "Selbstbeherrschung" : -2, "Sinnenschärfe" : -1, "Zechen" : 3, "Fährtensuchen" : 1, "Orientierung" : 1, "Wildnisleben" : 2, "Geschichtswissen" : -1, "Götter/Kulte" : 1, "Heraldik" : 1, "Kriegskunst" : 1, "Sagen/Legenden" : 3, "Abrichten" : 1, "Heilkunde Wunden" : -1, "Lederarbeiten" : 1 },
+				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}] },
+				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {}, "Turnierreiterei" : {} }
 			},
 			"Krieger aus Elenvina" : {
 				"Weiblich" : "Kriegerin aus Elenvina",
@@ -627,16 +651,31 @@
 				"Talente" : { "Bogen" : 3, "Dolche" : 2, "Schwerter" : 6, "Wurfspeere" : 2, "Zweihandschwerter/-säbel" : 4, "Athletik" : 2, "Klettern" : 1, "Körperbeherrschung" : 2, "Schwimmen" : 1, "Zechen" : 2, "Wildnisleben" : 1, "Sagen/Legenden" : 1, "Tierkunde" : 2, "Boote Fahren" : 1, "Heilkunde Wunden" : -1 },
 				"Sonderfertigkeiten" : { "Kampfreflexe" : {}, "Linkhand" : {}, "Rüstungsgewöhnung I" : [{}], "Schildkampf I" : {} },
 			},
+			"Methumiser Krieger" : {
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 24,
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Anderthalbhänder", "Fechtwaffen", "Infanteriewaffen", "Säbel", "Schwerter", "Zweihandschwerter/-säbel"], "Werte" : [6, 4, 3, 3] }, { "Wahl" : ["Singen", "Anatomie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Philosophie", "Rechnen", "Rechtskunde", "Sprachenkunde", "Staatskunst", "Sternkunde", "Tierkunde", "Alchimie", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden", "Malen/Zeichnen", "Musizieren", "Seefahrt"], "Punkte" : 11, "Maximum" : 4, "Anzahl:Maximum" : 8 }], "Raufen" : 1, "Körperbeherrschung" : 2, "Lehren" : 2, "Geschichtswissen" : 1, "Sternkunde" : 1, "Orientierung" : 1, "Kriegskunst" : 3, "Bosparano" : 5, "Tulamidya" : 4, "Kusliker Zeichen" : 4 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Parierwaffen I" : {}, "Schildkampf I" : {} }], "Linkhand" : {}, "Rüstungsgewöhnung I" : [{}] }
+			},
+			"Neethaner Krieger" : {
+				"Weiblich" : "Neethaner Kriegerin",
+				"Bücher" : { "Klingentänzer" : 178 },
+				"Kosten" : 24,
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {} }] } },
+				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 9 },
+				"Vorteile" : { "Akademische Ausbildung (Krieger)" : {}, "Besonderer Besitz" : [{ "Stufe" : 1, "Freitext" : "eigenes Pferd" }] },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [6, 3] }, { "Wahl" : ["Lanzenreiten", "Zweihandschwerter/-säbel"], "Werte" : [3] }, { "Wahl" : ["Mohisch", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Reiten" : 2, "Schwimmen" : 3, "Selbstbeherrschung" : 1, "Tanzen" : 2, "Etikette" : 1, "Menschenkenntnis" : 2, "Kriegskunst" : -1, "Tierkunde" : 4, "Abrichten" : 5, "Heilkunde Wunden" : -1 },
+				"Sonderfertigkeiten" : { "Wahl" : [{ "Rüstungsgewöhnung I" : [{ "Freitext" : "Kettenweste" }, { "Freitext" : "Tuchrüstung" }] }], "Linkhand" : {}, "Reiterkampf" : {}, "Schildkampf I" : {} }
+			},
 			"Schule des Drachenkampfes zu Xorlosch" : {
 				"Kosten" : 18,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 11, "KO" : 13, "KK" : 13 }, "Rassen" : { "Muss" : { "Zwerg" : {} } }, "Kulturen" : { "Wahl" : [{ "Ambosszwerge" : {}, "Erzzwerge" : {}, "Hügelzwerge" : {}, "Brillantzwerge" : {} }] } },
 				"Basiswerte" : { "Lebensenergie" : -1 },
 				"Nachteile" : { "Einbildungen" : [{ "Freitext" : "leichter Verfolgungswahn gegenüber 'Drachengezücht'" }], "Prinzipientreue" : [{ "Freitext" : "Loyalität, Ehrenhaftigkeit, Schutz der Schwachen", "Stufe" : 10 }], "Vorurteile" : [{ "Freitext" : "geschuppte Wesen", "Stufe" : 6 }], "Weltfremd" : [{ "Freitext" : "menschliche Ansiedlungen und Gewohnheiten", "Stufe" : 5 }]},
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Infanteriewaffen", "Speere"], "Werte" : [5, 2] }, { "Wahl" : ["Kettenwaffen", "Zweihandflegel"], "Werte" : [3] }], "Armbrust" : 5, "Belagerungswaffen" : 3, "Hiebwaffen" : 3, "Raufen" : 1, "Ringen" : -1, "Zweihand-Hiebwaffen" : 6, "Zweihandschwerter/-säbel" : 3 },
-				"Talente" : { "Athletik" : 2, "Klettern" : 1, "Reiten" : -5, "Zechen" : 1, "Etikette" : -1, "Fährtensuchen" : 2, "Geschichtswissen" : 1, "Heraldik" : -2, "Magiekunde" : 3, "Mechanik" : 3, "Rechtskunde" : -1, "Sagen/Legenden" : 3, "Tierkunde" : 4, "Kusliker Zeichen" : -4, "Rogolan (Schrift)" : -4 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Infanteriewaffen", "Speere"], "Werte" : [5, 2] }, { "Wahl" : ["Kettenwaffen", "Zweihandflegel"], "Werte" : [3] }], "Armbrust" : 5, "Belagerungswaffen" : 3, "Hiebwaffen" : 3, "Raufen" : 1, "Ringen" : -1, "Zweihand-Hiebwaffen" : 6, "Zweihandschwerter/-säbel" : 3, "Athletik" : 2, "Klettern" : 1, "Reiten" : -5, "Zechen" : 1, "Etikette" : -1, "Fährtensuchen" : 2, "Geschichtswissen" : 1, "Heraldik" : -2, "Magiekunde" : 3, "Mechanik" : 3, "Rechtskunde" : -1, "Sagen/Legenden" : 3, "Tierkunde" : 4, "Kusliker Zeichen" : -4, "Rogolan (Schrift)" : 4 },
 				"Sonderfertigkeiten" : { "Rüstungsgewöhnung I" : [{}], "Talentspezialisierung" : [{ "Auswahl" : "Kriegskunst", "Freitext" : "Kampf gegen Drachen" }, { "Auswahl" : "Magiekunde", "Freitext" : "Drachenmagie" }, { "Auswahl" : "Tierkunde", "Freitext" : "Drachen" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Hammerschlag" : {}, "Niederwerfen" : {}, "Spießgespann" :{}, "Sturmangriff" : {}, "Wuchtschlag" : {} },
-				"Ausrüstung" : { "Wahl" : [{ "Langes Kettenhemd" : {}, "andere ortsübliche Rüstung" : {} }], "hochwertige Kleidung" : { "Kategorien" : ["Kleidung"] }, "Stiefel" : { "Wahl" : [{ "Zwergenschägel" : {}, "andere Zwergenwaffe" : {} }], "Kategorien" : ["Kleidung"] }, "Wurmspieß" : {}, "Drachenzahn" : {}, "Armbrust" : {}, "Gürtelköcher mit 15 Bolzen" : {}, "Feldflasche mit Schnaps" : {}, "Schild" : {}, "Helm" : {}, "Waffenpflegeset" : {}, "Kriegerbrief" : {} },
+				"Ausrüstung" : { "Wahl" : [{ "Langes Kettenhemd" : {}, "andere ortsübliche Rüstung" : {} }, { "Zwergenschägel" : {}, "andere Zwergenwaffe" : {} }], "hochwertige Kleidung" : { "Kategorien" : ["Kleidung"] }, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Wurmspieß" : {}, "Drachenzahn" : {}, "Armbrust" : {}, "Gürtelköcher mit 15 Bolzen" : {}, "Feldflasche mit Schnaps" : {}, "Schild" : {}, "Helm" : {}, "Waffenpflegeset" : {}, "Kriegerbrief" : {} },
 				"Besonderer Besitz" : null
 			}
 		}
@@ -2589,7 +2628,7 @@
 				"Weiblich" : "Kalligraphin",
 				"Kosten" : 4,
 				"Voraussetzungen" : { "Eigenschaften" : { "KL" : 11, "IN" : 13, "CH" : 12, "FF" : 13 } },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [-6] }, { "Wahl" : ["Garethi", "Zelemja"], "Werte" : [6] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)", "Geheiligte Glyphen von Unau", "Isdira (Schrift)", "Rogolan (Schrift)"], "Werte" : [-6] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [6] }, { "Wahl" : ["Bosparano", "Ur-Tulamidya"], "Werte" : [-8] }], "Sinnenschärfe" : 2, "Schriftlicher Ausdruck" : 6, "Brett-/Kartenspiel" : 2, "Geschichtswissen" : 2, "Heraldik" : 2, "Magiekunde" : 3, "Sagen/Legenden" : 2, "Sprachenkunde" : 3, "Tulamidya (Schrift)" : 8, "Ur-Tulamidya" : 10, "Tulamidya" : 2, "Alchimie" : 2, "Holzbearbeitung" : 2, "Malen/Zeichnen" : 6 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [-6] }, { "Wahl" : ["Garethi", "Zelemja"], "Werte" : [6] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)", "Geheiligte Glyphen von Unau", "Isdira (Schrift)", "Rogolan (Schrift)"], "Werte" : [-6] }, { "Wahl" : ["Kusliker Zeichen", "Chrmk"], "Werte" : [6] }, { "Wahl" : ["Bosparano", "Ur-Tulamidya"], "Werte" : [-8] }], "Sinnenschärfe" : 2, "Schriftlicher Ausdruck" : 6, "Brett-/Kartenspiel" : 2, "Geschichtswissen" : 2, "Heraldik" : 2, "Magiekunde" : 3, "Sagen/Legenden" : 2, "Sprachenkunde" : 3, "Tulamidya (Schrift)" : 8, "Ur-Tulamidya (Schrift)" : 8, "Tulamidya" : 2, "Alchimie" : 2, "Holzbearbeitung" : 2, "Malen/Zeichnen" : 6 },
 				"Verbilligte Sonderfertigkeiten" : { "Talentspezialisierung" : [{ "Auswahl" : "Magiekunde", "Freitext" : "Zauberzeichen" }] }
 			},
 			"Maler" : {
@@ -2618,7 +2657,7 @@
 		"Empfohlene Nachteile" : { "Arroganz" : {}, "Eitelkeit" : {}, "Schulden" : {}, "Verpflichtungen" : [{ "Freitext" : "Dienstherr" }], "Vorurteile" : [{ "Freitext" : "Nicht-Adlige" }] },
 		"Ungeeignete Vorteile" : { "Koboldfreund" : {} },
 		"Ungeeignete Nachteile" : { "Blutrausch" : {}, "Randgruppe" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [1] }, { "Wahl" : ["Fechtwaffen", "Hiebwaffen", "Schwerter"], "Werte" : [3] }, { "Wahl" : ["Fremdsprache"], "Werte" : [4] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)", "Geheiligte Glyphen von Unau", "Isdira (Schrift)", "Rogolan (Schrift)"], "Werte" : [6] }, { "Wahl" : ["Bosparano", "Ur-Tulamidya"], "Werte" : [6] }, { "Wahl" : ["Betören", "Schriftlicher Ausdruck", "Brett-/Kartenspiel", "Kriegskunst", "Magiekunde", "Sprachenkunde", "Abrichten", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Malen/Zeichnen", "Musizieren"], "Werte" : [4, 3, 2] }], "Dolche" : 3, "Raufen" : 1, "Reiten" : 3, "Schleichen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Tanzen" : 3, "Zechen" : 1, "Betören" : 1, "Etikette" : 5, "Menschenkenntnis" : 4, "Überreden" : 3, "Überzeugen" : 1, "Orientierung" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 4, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 1, "Schätzen" : 2, "Staatskunst" : 5, "Malen/Zeichnen" : 6 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Armbrust", "Bogen"], "Werte" : [1] }, { "Wahl" : ["Fechtwaffen", "Hiebwaffen", "Schwerter"], "Werte" : [3] }, { "Wahl" : ["Fremdsprache"], "Werte" : [4] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)", "Geheiligte Glyphen von Unau", "Isdira (Schrift)", "Rogolan (Schrift)"], "Werte" : [6] }, { "Wahl" : ["Bosparano", "Ur-Tulamidya"], "Werte" : [6] }, { "Wahl" : ["Betören", "Schriftlicher Ausdruck", "Brett-/Kartenspiel", "Kriegskunst", "Magiekunde", "Sprachenkunde", "Abrichten", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Malen/Zeichnen", "Musizieren"], "Werte" : [4, 3, 2] }], "Dolche" : 3, "Raufen" : 1, "Reiten" : 3, "Schleichen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 1, "Tanzen" : 3, "Zechen" : 1, "Betören" : 1, "Etikette" : 5, "Menschenkenntnis" : 4, "Überreden" : 3, "Überzeugen" : 1, "Orientierung" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 4, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 1, "Schätzen" : 2, "Staatskunst" : 5 },
 		"Ausrüstung" : { "Kleidung (Luxus)" : { "Kategorien" : ["Kleidung"] }, "Kleidung (teuer)" : { "Kategorien" : ["Kleidung"] }, "verzierte Nahkampfwaffe" : {}, "Schmuck für 10 Dukaten" : {}, "verzierte Ledermappe für offiziellen Schriftverkehr" : {}, "Flakon mit teurem Branntwein" : {} },
 		"Besonderer Besitz" : "Reittier oder weiterer Luxus"
 	},
@@ -2800,7 +2839,7 @@
 		"Ungeeignete Nachteile" : { "Randgruppe" : {} },
 		"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Hiebwaffen", "Säbel", "Schwerter"], "Werte" : [3] }, { "Wahl" : ["Fremdsprache"], "Werte" : [3] }], "Dolche" : 2, "Raufen" : 1, "Ringen" : 2, "Wurfmesser" : 2, "Gaukeleien" : 2, "Körperbeherrschung" : 1, "Reiten" : 3, "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sich Verstecken" : 2, "Sinnenschärfe" : 2, "Tanzen" : 4, "Taschendiebstahl" : 2, "Zechen" : 2, "Betören" : 4, "Etikette" : 5, "Gassenwissen" : 3, "Menschenkenntnis" : 5, "Sich Verkleiden" : 2, "Überreden" : 4, "Brett-/Kartenspiel" : 2, "Götter/Kulte" : 2, "Rechnen" : 3, "Sagen/Legenden" : 2, "Schätzen" : 3, "Staatskunst" : 1, "Muttersprache:Schrift" : 4, "Füchsisch" : 2, "Falschspiel" : 3, "Schlösser Knacken" : 1 },
 		"Sonderfertigkeiten" : { "Wahl" : [{ "Aufmerksamkeit" : {}, "Meister der Improvisation" : {}, "Nandusgefälliges Wissen" : {} }] },
-		"Ausrüstung" : { "Wahl" : [{ "gezinkte Spielkarten" : {}, "gezinkte Würfel" : {} }, { "Flasche mit Hochprozentigem" : {}, "Beutelchen mit Rauschkraut" : {} }, { "Degen" : {}, "Säbel" : {}, "Axt" : {}, "Schwert" : {} }], "aufwendige, auffällige und teure Kleidung" : { "Kategorien" : ["Kleidung"] }, "ein Satz zusätzlicher 'Straßenkleidung'" : { "Kategorien" : ["Kleidung"] }, "Federhut" : { "Kategorien" : ["Kleidung"] }, "weiter Mantel" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "Schnupftüchlein" : {}, "Dolch" : {}, "Schlafsack" : {}, "Feldflasche" : {}, "Tornister" : {} },
+		"Ausrüstung" : { "aufwendige, auffällige und teure Kleidung" : { "Kategorien" : ["Kleidung"] }, "ein Satz zusätzlicher 'Straßenkleidung'" : { "Kategorien" : ["Kleidung"] }, "Federhut" : { "Kategorien" : ["Kleidung"] }, "weiter Mantel" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "Schnupftüchlein" : {}, "Dolch" : {}, "Schlafsack" : {}, "Feldflasche" : {}, "Tornister" : {} },
 		"Besonderer Besitz" : "ein unpassendes, aber wertvolles Familienerbstück (um es 'irgendwann einmal zu versilbern'), ein mysteriöses (und völlig ungeklärtes) Artefakt oder dergleichen",
 		"Varianten" : {
 			"Taugenichts" : {},
@@ -5448,8 +5487,7 @@
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Schauspielerei", "Schriftlicher Ausdruck" , "Sich Verkleiden", "Baukunst", "Mechanik", "Drucker", "Feinmechanik", "Glaskunst", "Holzbearbeitung", "Instrumentenbauer", "Kristallzucht", "Musizieren", "Steinmetz", "Stoffe Färben", "Tätowieren", "Töpfern", "Webkunst"], "Werte" : [3, 3], "aktiviert" : false }], "Stäbe" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 2, "Etikette" : 2, "Lehren" : 3, "Menschenkenntnis" : 4, "Überreden" : 4, "Überzeugen" : 2, "Geographie" : 4, "Geschichtswissen" : 3, "Götter/Kulte" : 3, "Magiekunde" : 6, "Pflanzenkunde" : 3, "Philosophie" : 6, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 4, "Sternkunde" : 3, "Tierkunde" : 2, "Tulamidya" : 4, "Nujuka" : 3, "Bosparano" : 5, "Ur-Tulamidya" : 4, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 5, "Alchimie" : 2, "Heilkunde Wunden" : 3, "Malen/Zeichnen" : 5 },
 				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Wahl" : [{ "Merkmalskenntnis" : [{ "Auswahl" : "Objekt" }, { "Auswahl" : "Elementar (Eis)" }, { "Auswahl" : "Elementar (Erz)" }, { "Auswahl" : "Elementar (Feuer)" }, { "Auswahl" : "Elementar (Humus)" }, { "Auswahl" : "Elementar (Luft)" }, { "Auswahl" : "Elementar (Wasser)" }, { "Auswahl" : "Umwelt" }] }], "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {} },
-				"Verbilligte Sonderfertigkeiten" : {
-				 "Wahl" : [{ "Merkmalskenntnis" : [{ "Auswahl" : "Objekt" }, { "Auswahl" : "Elementar (Eis)" }, { "Auswahl" : "Elementar (Erz)" }, { "Auswahl" : "Elementar (Feuer)" }, { "Auswahl" : "Elementar (Humus)" }, { "Auswahl" : "Elementar (Luft)" }, { "Auswahl" : "Elementar (Wasser)" }, { "Auswahl" : "Umwelt" }] }], "Regeneration I" : {}, "Regeneration II" : {} },
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Merkmalskenntnis" : [{ "Auswahl" : "Objekt" }, { "Auswahl" : "Elementar (Eis)" }, { "Auswahl" : "Elementar (Erz)" }, { "Auswahl" : "Elementar (Feuer)" }, { "Auswahl" : "Elementar (Humus)" }, { "Auswahl" : "Elementar (Luft)" }, { "Auswahl" : "Elementar (Wasser)" }, { "Auswahl" : "Umwelt" }] }], "Regeneration I" : {}, "Regeneration II" : {} },
 				"Hauszauber" : { "Adamantium Erzstruktur" : { "Mag" : 6 }, "Aeolitus Windgebraus" : { "Mag" : 7 }, "Caldofrigo heiß und kalt" : { "Mag" : 6 }, "Nebelwand und Morgendunst" : { "Mag" : 5 }, "Nihilogravo Schwerelos" : { "Mag" : 5 }, "Objectofixo" : { "Mag" : 5 }, "Silentium Schweigekreis" : { "Mag" : 6 } },
 				"Zauber" : { "Abvenenum reine Speise" : { "Mag" : 3 }, "Accuratum Zaubernadel" : { "Mag" : 3 }, "Analys Arcanstruktur" : { "Mag" : 3 }, "Balsam Salabunde" : { "Mag" : 4 }, "Claudibus Clavistibor" : { "Mag" : 3 }, "Dunkelheit" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 6 }, "Hartes schmelze!" : { "Mag" : 3 }, "Leib des Windes" : { "Elf" : 4 }, "Objekt entzaubern" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 5 }, "Sapefacta Zauberschwamm" : { "Mag" : 3 }, "Unitatio Geistesbund" : { "Mag" : 4 }, "Veränderung aufheben" : { "Mag" : 3 } }
 			},
@@ -6917,7 +6955,7 @@
 				"Vorteile" : { "Geweiht" : [{ "Auswahl" : "Boron (Punin)" }] },
 				"Nachteile" : { "Moralkodex" : [{ "Auswahl" : "Boron (Punin)", "Stufe" : 6 }], "Verpflichtungen" : [{ "Freitext" : "Puniner Boron-Kirche" }] },
 				"Ungeeignete Vorteile" : { "Adliges Erbe" : {}, "Affinität zu Dämonen" : {}, "Besonderer Besitz" : [{}], "Feenfreund" : {}, "Kampfrausch" : {}, "Koboldfreund" : {} },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Magiekunde", "Philosophie", "Sternkunde"], "Werte" : [2, 1, 1] }], "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Kryptographie" : 3, "Rechnen" : 1, "Sprachenkunde" : 4, "Aureliani" : 4, "Imperiale Zeichen" : 4, "Heilkunde Krankheiten" : 2, "Malen/Zeichnen" : 2, "Boron (Punin)" : 2 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Magiekunde", "Philosophie", "Sternkunde"], "Werte" : [1, 1] }], "Schleichen" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Kryptographie" : 3, "Rechnen" : 1, "Sprachenkunde" : 4, "Aureliani" : 4, "Imperiale Zeichen" : 4, "Heilkunde Krankheiten" : 2, "Malen/Zeichnen" : 2, "Boron (Punin)" : 2 },
 				"Sonderfertigkeiten" : { "Karmalqueste" : {}, "Liturgiekenntnis" : [{ "Auswahl" : "Boron (Punin)" }], "Eidsegen" : {}, "Feuersegen" : {}, "Geburtssegen" : {}, "Glückssegen" : {}, "Grabsegen" : {}, "Harmoniesegen" : {}, "Heilungssegen" : {}, "Märtyrersegen" : {}, "Schutzsegen" : {}, "Speisesegen" : {}, "Tranksegen" : {}, "Weisheitssegen" : {}, "Objektsegen" : {}, "Schlaf des Gesegneten" : {}, "Initiation" : {}, "Hauch Borons" : {}, "Kleine Liturgie des Heiligen Nemekath" : {}, "Siegel Borons" : {} },
 				"Varianten" : {
 					"Puniner Ritus" : {},
