@@ -1,5 +1,6 @@
 {
 	"Merkmal" : { "Pfade" : [["Merkmale"]] },
+	"Element" : { "Zusätzlich:Start" : ["Elementar (Eis)", "Elementar (Erz)", "Elementar (Feuer)", "Elementar (Humus)", "Elementar (Luft)", "Elementar (Wasser)"] },
 	"Ritual" : { "Pfade" : [["Rituale", "*"]] },
 	"Talentgruppe" : { "Zusätzlich:Start" : ["Kampftalente"], "Pfade" : [["Talentgruppen"]], "Entfernen" : ["Gaben", "Ritualkenntnis", "Liturgiekenntnis"] },
 	"Sonderfertigkeit" : { "Pfade" : [["Sonderfertigkeiten", "*"], ["Liturgien"], ["Rituale", "*"], ["Schamanenrituale"]] },
