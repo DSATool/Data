@@ -26,11 +26,12 @@
 			"Siedlerstädte des Nordens" : {
 				"kombinierbar" : true,
 				"Kosten" : 1,
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Nujuka", "Alaani", "Oloarkh"], "Werte" : [3] }], "Wildnisleben" : 1, "Ackerbau" : 1, "Viehzucht" : 1 }			},
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Tulamidya", "Rogolan", "Thorwalsch"], "Werte" : [-3] }, { "Wahl" : ["Nujuka", "Alaani", "Oloarkh"], "Werte" : [3] }], "Wildnisleben" : 1, "Ackerbau" : 1, "Viehzucht" : 1 }
+			},
 			"Städtischer Adel" : {
 				"kombinierbar" : true,
 				"Kosten" : 1,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Gassenwissen" : -1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
 			},
 			"Kannemünde/Mhanerhaven" : {
@@ -103,7 +104,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 3,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Infanteriewaffen", "Zweihand-Hiebwaffen"], "Werte" : [-1] }], "Schwerter" : 1, "Reiten" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
 			},
 			"Jilaskan" : {
@@ -173,7 +174,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 3,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Schwerter", "Hiebwaffen"], "Werte" : [1] }], "Speere" : -1, "Reiten" : 2, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
 			}
 		}
@@ -204,7 +205,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 5,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Professionen" : ["Fähnrich", "Stadtgardist", "Dorfbüttel", "Straßenwächter", "Schließer", "Akademiegardist", "Ritter", "Krieger", "Soldat", "Söldner", "Botenreiter", "Entdecker", "Fernhändler", "Fischer", "Fuhrmann", "Grenzjäger", "Großwildjäger", "Hirte", "Jäger", "Karawanenführer", "Kundschafter", "Prospektor", "Schiffer", "Schmuggler", "Seefahrer", "Straßenräuber", "Ausrufer", "Barde", "Bettler", "Dieb", "Einbrecher", "Gaukler", "Händler", "Herold", "Hofkünstler", "Höfling", "Gesellschafter", "Privatlehrer", "Schriftsteller", "Spitzel", "Streuner", "Taugenichts", "Wirt", "Bader", "Bauer", "Bergmann", "Domestik", "Edelhandwerker", "Gelehrter", "Handwerker", "Rattenfänger", "Schreiber", "Tagelöhner", "Tierbändiger", "Wundarzt", "Haindruide", "Hüter der Macht", "Hexe", "Magier", "Scharlatan", "Schelm", "Geweihter des Praios", "Bannstrahler", "Geweihter der Rondra", "Geweihter des Efferd", "Geweihter der Travia", "Boron-Geweihter", "Ordenskrieger der Golgariten", "Geweihter der Hesinde", "Geweihter des Firun", "Geweihter der Tsa", "Geweihter des Phex", "Geweihter der Peraine", "Geweihter des Ingerimm", "Geweihter der Rahja"],
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Schwerter"], "Werte" : [1] }], "Bogen" : 1, "Reiten" : 2, "Zechen" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 2, "Hauswirtschaft" : 1 }
 			}
@@ -288,7 +289,7 @@
 			"Städtischer Adel" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Geschichtswissen" : 1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
 			},
 			"An einer wichtigen Handelsroute" : {
@@ -304,7 +305,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Schwerter" : 1, "Infanteriewaffen" : -1, "Reiten" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 4 }
 			}
 		}
@@ -336,7 +337,7 @@
 			"Städtischer Adel" : {
 				"kombinierbar" : true,
 				"Kosten" : 1,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fechtwaffen", "Schwerter"], "Werte" : [1] }], "Infanteriewaffen" : -1, "Etikette" : 2, "Geschichtswissen" : 1, "Heraldik" : 2, "Kusliker Zeichen" : 2 }
 			},
 			"Dörfer an der Küste oder an großen Flüssen" : {
@@ -362,7 +363,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Schwerter" : 1, "Infanteriewaffen" : -1, "Reiten" : 2, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
 			}
 		}
@@ -383,7 +384,7 @@
 			"Landadel" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Bogen" : 1, "Schleuder" : -1, "Hiebwaffen" : 1, "Etikette" : 1, "Geschichtswissen" : 1, "Heraldik" : 1, "Rechtskunde" : 1, "Kusliker Zeichen" : 2 }
 			}
 		}
@@ -438,7 +439,7 @@
 			"Adel" : {
 				"kombinierbar" : true,
 				"Kosten" : 2,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] }, "Basiswerte" : { "Sozialstatus" : 7 } },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Reiten", "Fahrzeug Lenken"], "Werte" : [1] }, { "Wahl" : ["Kusliker Zeichen", "Tulamidya (Schrift)"], "Werte" : [2] }], "Säbel" : 1, "Etikette" : 2, "Geschichtswissen" : 1, "Rechtskunde" : 1 }
 			}
 		}

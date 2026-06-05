@@ -475,8 +475,8 @@
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Turnierreiterei" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {} }
 			},
-			"Krieger aus Baliho (alternativ)" : {
-				"Weiblich" : "Kriegerin aus Baliho",
+			"Krieger aus Baliho (Klingentänzer)" : {
+				"Weiblich" : "Kriegerin aus Baliho (Klingentänzer)",
 				"Bücher" : { "Klingentänzer" : 178 },
 				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 13 } },
@@ -531,7 +531,7 @@
 			"Krieger aus Neersand" : {
 				"Weiblich" : "Kriegerin aus Neersand",
 				"Kosten" : 20,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Muss" : { "Bornland" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Muss" : { "Bornland" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Ausdauer" : 1 },
 				"Talente" : { "Bogen" : 4, "Hiebwaffen" : 4, "Raufen" : 4, "Ringen" : 1, "Schwerter" : 6, "Wurfmesser" : 2, "Athletik" : 2, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : -4, "Schwimmen" : 1, "Selbstbeherrschung" : -2, "Sinnenschärfe" : 1, "Skifahren" : 3, "Zechen" : 3, "Etikette" : -1, "Fährtensuchen" : 2, "Fischen/Angeln" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 3, "Götter/Kulte" : -1, "Heraldik" : -1, "Magiekunde" : 1, "Pflanzenkunde" : 1, "Rechnen" : -1, "Rechtskunde" : -1, "Sagen/Legenden" : 1, "Tierkunde" : 3, "Heilkunde Krankheiten" : 1, "Holzbearbeitung" : 1, "Kochen" : 1, "Schneidern" : 2 },
 				"Sonderfertigkeiten" : { "Rüstungsgewöhnung I" : [{}] },
@@ -661,7 +661,7 @@
 				"Weiblich" : "Neethaner Kriegerin",
 				"Bücher" : { "Klingentänzer" : 178 },
 				"Kosten" : 24,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {} }] } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Adlige Abstammung" : {} } } },
 				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 9 },
 				"Vorteile" : { "Akademische Ausbildung (Krieger)" : {}, "Besonderer Besitz" : [{ "Stufe" : 1, "Freitext" : "eigenes Pferd" }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [6, 3] }, { "Wahl" : ["Lanzenreiten", "Zweihandschwerter/-säbel"], "Werte" : [3] }, { "Wahl" : ["Mohisch", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Reiten" : 2, "Schwimmen" : 3, "Selbstbeherrschung" : 1, "Tanzen" : 2, "Etikette" : 1, "Menschenkenntnis" : 2, "Kriegskunst" : -1, "Tierkunde" : 4, "Abrichten" : 5, "Heilkunde Wunden" : -1 },
@@ -685,7 +685,7 @@
 		"Bücher" : { "Wege der Helden" : 107 },
 		"Kosten" : 21,
 		"Zeitaufwendig" : true,
-		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KO" : 12, "KK" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KO" : 12, "KK" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 3, "Sozialstatus" : 8 },
 		"Sozialstatus:Maximum" : 13,
 		"Nachteile" : { "Prinzipientreue" : [{ "Freitext" : "Ritterkodex: Loyalität, Schutz der Schwachen und des Glaubens, Ehrenhaftigkeit", "Stufe" : 10 }], "Verpflichtungen" : [{ "Freitext" : "Lehnsherr oder Schutzbefohlene" }] },
@@ -859,7 +859,7 @@
 			"Almadanischer Caballero aus Dom Talfans Schule" : {
 				"Weiblich" : "Almadanische Caballera aus Dom Talfans Schule",
 				"Kosten" : 19,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 12, "GE" : 13, "KO" : 11, "KK" : 12 }, "Kulturen" : { "Muss" : { "Almada" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 12, "GE" : 13, "KO" : 11, "KK" : 12 }, "Kulturen" : { "Muss" : { "Almada" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 13,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Pflanzenkunde", "Staatskunst", "Tierkunde"], "Werte" : [2] }], "Armbrust" : 2, "Dolche" : 3, "Fechtwaffen" : 2, "Schwerter" : 7, "Athletik" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Betören" : 1, "Etikette" : 1, "Brett-/Kartenspiel" : 2, "Heraldik" : 1 },
@@ -1613,7 +1613,7 @@
 		"Empfohlene Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Gefahreninstinkt" : {}, "Gutes Gedächtnis" : {}, "Innerer Kompass" : {}, "Richtungssinn" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{ "Freitext" : "Geld- oder Auftraggeber" }], "Zwergennase" : {} },
 		"Empfohlene Nachteile" : { "Schulden" : {}, "Verpflichtungen" : [{ "Freitext" : "Geld- oder Auftraggeber" }], "Weltfremd" : [{}] },
 		"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Raumangst" : {}, "Unstet" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [5, 4, 2, 2, 4, 3, 5, 3, 1, 1, 3, 2], "Ausgewählt" : [-1, -1, -1, 4, 5, 7, 9, 10, 11, 13, 14, 15] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4, 4] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [1] }], "Armbrust" : 1, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : 3, "Schwimmen" : 1, "Sinnenschärfe" : 4, "Etikette" : 3, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 2, "Orientierung" : 3, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Heraldik" : 1, "Rechnen" : 4, "Sagen/Legenden" : 2, "Schätzen" : 3, "Muttersprache:Schrift" : 6, "Boote Fahren" : 1, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 4 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [5, 4, 2, 2, 4, 3, 5, 3, 1, 1, 3, 2], "Ausgewählt" : [-1, -1, -1, 4, 5, 7, 9, 10, 11, 13, 14, 15] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4, 4] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [1] }], "Armbrust" : 1, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : 3, "Schwimmen" : 1, "Sinnenschärfe" : 4, "Etikette" : 3, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 2, "Orientierung" : 3, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 2, "Geschichtswissen" : 4, "Götter/Kulte" : 3, "Heraldik" : 1, "Magiekunde" : 3, "Mechanik" : 1, "Rechnen" : 4, "Rechtskunde" : 1, "Sagen/Legenden" : 2, "Schätzen" : 3, "Sprachenkunde" : 3, "Sternkunde" : 2, "Muttersprache:Schrift" : 6, "Boote Fahren" : 1, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 2, "Kartographie" : 5, "Malen/Zeichnen" : 4 },
 		"Verbilligte Sonderfertigkeiten" : { "Nandusgefälliges Wissen" : {}, "Kulturkunde" : [{ "Auswahl" : "nach Wahl" }] },
 		"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Lupe" : {} },
 		"Besonderer Besitz" : "Maultier mit Sattel und Zaumzeug oder kleines Boot",
@@ -1628,10 +1628,10 @@
 				"Basiswerte" : { "Sozialstatus" : -1 },
 				"Sozialstatus:Maximum" : 10,
 				"Vorteile" : { "Akademische Ausbildung (Gelehrter)" : {} },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [-5, -4, -2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6, -2, -2, 3, 3] }, { "Wahl" : ["Fremdschrift"], "Werte" : [-4, -4, 3, 3] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [-1] }], "Armbrust" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : -1, "Schwimmen" : 1, "Etikette" : -2, "Überreden" : -2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 2, "Wildnisleben" :1, "Geographie" : 4, "Geschichtswissen" : 2, "Heraldik" : -1, "Magiekunde" : 1, "Pflanzenkunde" : 1, "Rechnen" : 3, "Schätzen" : -3, "Sternkunde" : 4, "Tierkunde" : 2, "Fahrzeug Lenken" : 1, "Feinmechanik" : 2, "Heilkunde Gift" : -1, "Holzbearbeitung" : 1, "Kartographie" : 7, "Kochen" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1, "Schneidern" : 1 },
-					"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }] },
-					"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Kompass" : {}, "weitere Schreibgeräte" : {} },
-					"Besonderer Besitz" : "Fernglas, Landvermessungs-Geräte"
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [-5, -4, -2, -2, -4, -3, -5, -3, -1, -1, -3, -2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6, -2, -2, 3, 3] }, { "Wahl" : ["Fremdschrift"], "Werte" : [-4, -4, 3, 3] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [-1] }], "Armbrust" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : -1, "Schwimmen" : 1, "Etikette" : -2, "Überreden" : -2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 2, "Wildnisleben" :1, "Geographie" : 2, "Geschichtswissen" : -2, "Gesteinskunde" : 2, "Götter/Kulte" : -3, "Heraldik" : -1, "Magiekunde" : -2, "Mechanik" : -1, "Pflanzenkunde" : 1, "Rechnen" : 3, "Rechtskunde" : -1, "Schätzen" : -3, "Sprachenkunde" : -3, "Sternkunde" : 2, "Tierkunde" : 2, "Fahrzeug Lenken" : 1, "Feinmechanik" : 2, "Heilkunde Gift" : -1, "Holzbearbeitung" : 1, "Kartographie" : 2, "Kochen" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1, "Schneidern" : 1 },
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }] },
+				"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Kompass" : {}, "weitere Schreibgeräte" : {} },
+				"Besonderer Besitz" : "Fernglas, Landvermessungs-Geräte"
 			}
 		}
 	},
@@ -1646,7 +1646,7 @@
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Gutes Gedächtnis" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Schulden" : {} },
 		"Ungeeignete Nachteile" : { "Platzangst" : {}, "Unansehnlich" : {}, "Widerwärtiges Aussehen" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Raufen", "Ringen"], "Werte" : [2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [4, 2, 2, 1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11] }], "Armbrust" : 1, "Dolche" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : 3, "Schleichen" : 1, "Schwimmen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 3, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Schriftlicher Ausdruck" : 1, "Sich Verkleiden" : 1, "Überreden" : 4, "Fährtensuchen" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 3, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 1, "Magiekunde" : 1, "Rechnen" : 5, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 4, "Sternkunde" : 1, "Muttersprache:Schrift" : 6, "Handel" : 7, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Kartographie" : 3, "Lederarbeiten" : 1, "Malen/Zeichnen" : 4, "Schlösser Knacken" : 1, "Schneidern" : 1 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Raufen", "Ringen"], "Werte" : [2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [4, 2, 2, 1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11] }], "Armbrust" : 1, "Dolche" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : 3, "Schleichen" : 1, "Schwimmen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 3, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Schriftlicher Ausdruck" : 1, "Sich Verkleiden" : 1, "Überreden" : 4, "Fährtensuchen" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 3, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 1, "Magiekunde" : 1, "Rechnen" : 5, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 4, "Sternkunde" : 1, "Muttersprache:Schrift" : 6, "Handel" : 7, "Hauswirtschaft" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Kartographie" : 3, "Lederarbeiten" : 1, "Malen/Zeichnen" : 4, "Schlösser Knacken" : 1, "Schneidern" : 1 },
 		"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{}, "Ortskenntnis" : [{ "Freitext" : "nach Wahl" }] }] },
 		"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "zusätzlicher Satz repräsentative Kleidung" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Feinwaage" : {}, "Arbeitsmesser" : {}, "Wasserflasche" : {} },
 		"Besonderer Besitz" : "Maultier mit (Pack-)Sattel und Zaumzeug oder kleines Boot oder Schutzbrief (für ein Land etwa in Größe einer Grafschaft)",
@@ -1655,7 +1655,7 @@
 				"Weiblich" : "Kauffahrerin",
 				"kombinierbar" : true,
 				"Kosten" : 4,
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11, 5, 17] }], "Körperbeherrschung" : 1, "Schwimmen" : 1, "Fährtensuchen" : -1, "Orientierung" : 1, "Wildnisleben" : -1, "Boote Fahren" : 1 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11, 5, 17] }], "Körperbeherrschung" : 1, "Schwimmen" : 1, "Fährtensuchen" : -1, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wildnisleben" : -1, "Boote Fahren" : 1, "Seefahrt" : 2 },
 				"Sonderfertigkeiten" : { "Standfest" : {} },
 				"Besonderer Besitz" : "Maultier mit (Pack-)Sattel und Zaumzeug oder kleines Boot oder Schutzbrief (für ein Land etwa in Größe einer Grafschaft) oder kleine Beteiligung an einem Handelsschiff"
 			}
@@ -2934,7 +2934,7 @@
 			"Gutsherr" : {
 				"Weiblich" : "Gutsherrin",
 				"Kosten" : 7,
-				"Voraussetzungen" : { "Eigenschaften" : { "KO" : 11, "KK" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "KO" : 11, "KK" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Kettenwaffen", "Zweihandflegel"], "Werte" : [-2] }], "Schwerter" : 2, "Reiten" : 2, "Etikette" : 2, "Rechnen" : 4, "Muttersprache:Schrift" : 3, "Hauswirtschaft" : 2 }
@@ -5510,7 +5510,7 @@
 			"Akademie der Magischen Rüstung zu Gareth" : {
 				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 26,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
 				"Vorteile" : { "Akademische Ausbildung (Magier)" : {}, "Ausdauernder Zauberer" : {}, "Vollzauberer" : {} },

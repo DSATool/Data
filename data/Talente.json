@@ -309,7 +309,7 @@
 		},
 		"Efferd" : {
 			"Mirakel+" : { "Eigenschaften" : ["IN", "GE", "KO", "KK"], "Talente" : ["Schwimmen", "Sinnenschärfe", "Überzeugen", "Fesseln/Entfesseln", "Fischen/Angeln", "Orientierung", "Wettervorhersage", "Boote Fahren", "Seefahrt", "Zimmermann"] },
-			"Mirakel-" : { "Talente": ["Alchimie", "Glaskunst", "Grobschmied", "Hüttenkunde", "Kochen", "Metallguss"] },
+			"Mirakel-" : { "Talente" : ["Alchimie", "Glaskunst", "Grobschmied", "Hüttenkunde", "Kochen", "Metallguss"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Efferd" } } } } }]
 		},
 		"Travia" : {
@@ -344,7 +344,7 @@
 		},
 		"Phex" : {
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "FF", "GE"], "Talente" : ["Körperbeherrschung", "Schleichen", "Sich Verstecken", "Gassenwissen", "Menschenkenntnis", "Überreden", "Mechanik", "Rechtskunde", "Sternkunde", "Handel", "2 aus Betören, Falschspiel, Gaukeleien, Klettern, Schlösser Knacken, Sich Verkleiden, Taschendiebstahl"] },
-			"Mirakel-" : { "Talente": ["Talent:                 ", "Talent:                 ", "Talent:                 "] },
+			"Mirakel-" : { "Talente" : ["Talent:                 ", "Talent:                 ", "Talent:                 "] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Phex" } } } } }]
 		},
 		"Peraine" : {
