@@ -5223,6 +5223,7 @@
 		"Varianten" : {
 			"Universität von Al'Anfa" : {
 				"Bücher" : { "Wege der Helden" : 174 },
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5254,6 +5255,7 @@
 			"Kampfseminar Andergast" : {
 				"Bücher" : { "Wege der Helden" : 175 },
 				"Kosten" : 28,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5271,6 +5273,7 @@
 			"Akademie der Geistreisen zu Belhanka" : {
 				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5288,6 +5291,7 @@
 			"Halle des vollendeten Kampfes zu Bethana" : {
 				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 12,
@@ -5306,6 +5310,7 @@
 			"Dunkle Halle der Geister zu Brabak" : {
 				"Bücher" : { "Wege der Helden" : 177 },
 				"Kosten" : 30,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Astralenergie" : -2, "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
@@ -5351,6 +5356,7 @@
 			},
 			"Konzil der Elemente zu Drakonia" : {
 				"Bücher" : { "Wege der Helden" : 178 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 10,
@@ -5422,6 +5428,7 @@
 			"Akademie der Herrschaft zu Elenvina" : {
 				"Bücher" : { "Wege der Helden" : 179 },
 				"Kosten" : 26,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12 }, "KL" : 13, "IN" : 11, "CH" : 13, "FF" : 11 },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5436,6 +5443,7 @@
 			},
 			"Akademie der geistigen Kraft zu Fasar" : {
 				"Bücher" : { "Wege der Helden" : 180 },
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5478,6 +5486,7 @@
 			"Halle des Quecksilbers zu Festum" : {
 				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5493,6 +5502,7 @@
 			"Akademie Schwert und Stab zu Gareth" : {
 				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KK" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5510,6 +5520,7 @@
 			"Akademie der Magischen Rüstung zu Gareth" : {
 				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 26,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5526,6 +5537,7 @@
 			"Schule des direkten Weges zu Gerasim" : {
 				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 30,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12, "GE" : 13 } },
 				"Basiswerte" : { "Sozialstatus" : 4 },
 				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 7 }, "Prinzipientreue" : [{ "Freitext" : "Frieden bewahren und Konflikte vermeiden, Verständigung zwischen den Völkern und Rassen fördern", "Stufe" : 6 }] },
@@ -5543,6 +5555,7 @@
 			"Akademie der Erscheinungen zu Grangor" : {
 				"Bücher" : { "Wege der Helden" : 183 },
 				"Kosten" : 23,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Wahl" : [{ "Eigenschaften" : { "MU" : 10, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 10, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 11, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } }] },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5559,6 +5572,7 @@
 			},
 			"Drachenei-Akademie zu Khunchom" : {
 				"Bücher" : { "Wege der Helden" : 183 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Empfohlene Nachteile" : { "Stubenhocker" : {} },
 				"Sprachen" : { "Lehrsprache" : [["Tulamidya"]] },
 				"Varianten" : {
@@ -5597,6 +5611,7 @@
 			"Halle der Antimagie zu Kuslik" : {
 				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 31,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Unansehnlich" : {}, "Widerwärtiges Aussehen" : {}, "Stubenhocker" : {}, "Weltfremd" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 12,
@@ -5613,6 +5628,7 @@
 			"Halle der Metamorphosen zu Kuslik" : {
 				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 23,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5628,6 +5644,7 @@
 			"Halle der Macht zu Lowangen" : {
 				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 29,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5642,6 +5659,7 @@
 			"Akademie der Verformungen zu Lowangen" : {
 				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5656,6 +5674,7 @@
 			"Akademie des Magischen Wissens zu Methumis" : {
 				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 24,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5671,6 +5690,7 @@
 			"Zauberschule des Kalifen zu Mherwed" : {
 				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 23,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5691,6 +5711,7 @@
 			"Schule der variablen Form zu Mirham" : {
 				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 24,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5705,6 +5726,7 @@
 			"Schule der Beherrschung zu Neersand" : {
 				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 22,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 11,
@@ -5721,6 +5743,7 @@
 			"Halle des Lebens zu Norburg" : {
 				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 23,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5736,6 +5759,7 @@
 			"Akademie von Licht und Dunkelheit zu Nostria" : {
 				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 25,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5780,6 +5804,7 @@
 			"Schule der Austreibung zu Perricum" : {
 				"Bücher" : { "Wege der Helden" : 191 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5793,6 +5818,7 @@
 			},
 			"Akademie der hohen Magie & arcanes Institut zu Punin" : {
 				"Bücher" : { "Wege der Helden" : 191 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 14, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 13,
@@ -5821,6 +5847,7 @@
 			},
 			"Pentagramm-Akademie zu Rashdul" : {
 				"Bücher" : { "Wege der Helden" : 192 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5854,6 +5881,7 @@
 			},
 			"Stoerrebrandt-Kolleg zu Riva" : {
 				"Bücher" : { "Wege der Helden" : 193 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 11,
@@ -5893,6 +5921,7 @@
 			"Informations-Institut Rommilys" : {
 				"Bücher" : { "Wege der Helden" : 193 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Einbildungen" : [{}], "Kurzsichtig" : {}, "Schwerhörig" : {}, "Eingeschränkter Geruchssinn" : {}, "Eingeschränkter Tastsinn" : {}, "Farbenblind" : {}, "Fluch der Finsternis I" : {}, "Fluch der Finsternis II" : {}, "Fluch der Finsternis III" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Medium" : {}, "Rachsucht" : {}, "Schulden" : {}, "Spruchhemmung" : {}, "Stigma" : [{}], "Sucht" : [{}], "Unstet" : {}, "Vergesslichkeit" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5909,6 +5938,7 @@
 			"Schule der Vierfachen Verwandlung zu Sinoda" : {
 				"Bücher" : { "Wege der Helden" : 194 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 11,
@@ -5927,6 +5957,7 @@
 			"Schule der Hellsicht zu Thorwal" : {
 				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 26,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
@@ -5944,6 +5975,7 @@
 			"Anatomische Akademie zu Vinsalt" : {
 				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 22,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5960,6 +5992,7 @@
 			"Schule des Seienden Scheins zu Zorgan" : {
 				"Bücher" : { "Wege der Helden" : 196 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 11,
@@ -6466,6 +6499,17 @@
 						}
 					}
 				}
+			},
+			"Institut der Arkanen Analysen zu Kuslik" : {
+				"Generierung" : false,
+				"Bücher" : { "Wege der Zauberei" : 290 },
+				"Kosten" : 20,
+				"Voraussetzungen" : { "Talente" : { "Muss" : { "Menschenkenntnis" : 8, "Magiekunde" : 14, "Rechnen" : 8, "Sprachenkunde" : 4,  "Kusliker Zeichen" : 8 } } },
+				"Sonderfertigkeiten" : { "Merkmalskenntnis" : [{ "Auswahl" : "Metamagie" }], "Eiserner Wille I" : {}, "Konzentrationsstärke" : {} },
+				"Talente" : { "Lehren" : 1, "Überzeugen" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Kryptographie" : 1, "Magiekunde" : 1, "Sagen/Legenden" : 1, "Sternkunde" : 1, "Aureliani" : 1, "Bosparano" : 1, "Isdira" : 1, "Ur-Tulamidya" : 1,  "Zhayad" : 1, "Arkanil" : 1, "Imperiale Zeichen" : 1, "Nanduria" : 1, "Ur-Tulamidya (Schrift)" : 1, "Zhayad (Schrift)" : 1, "Alchimie" : 1 },
+				"Sprachen" : { "Lehrsprache" : [["Bosparano"]]},
+				"Hauszauber" : { "Analys Arcanstruktur" : { "Mag" : 1 }, "Arcanovi Artefakt" : { "Mag" : 1 }, "Destructibo Arcanitas" : { "Mag" : 1 }, "Invercano Spiegeltrick" : { "Mag" : 1 }, "Oculus Astralis" : { "Mag" : 1 }, "Reversalis Revidum" : { "Mag" : 1 }, "Unitatio Geistesbund" : { "Mag" : 1 } },
+				"Zauber" : { "Auge des Limbus" : { "Mag" : 1 }, "Blick aufs Wesen" : { "Mag" : 1 }, "Cryptographo Zauberschrift" : { "Mag" : 1 }, "Einfluss bannen" : { "Mag" : 1 }, "Gardianum Zauberschild" : { "Mag" : 1 }, "Geisterbann" : { "Mag" : 1 }, "Memorans Gedächtniskraft" : { "Mag" : 1 }, "Objekt entzaubern" : { "Mag" : 1 }, "Odem Arcanum" : { "Mag" : 1 }, "Protectionis Kontrabann" : { "Mag" : 1 }, "Psychostabilis" : { "Mag" : 1 }, "Schleier der Unwissenheit" : { "Mag" : 1 }, "Xenographus Schriftenkunde" : { "Mag" : 1 } }
 			}
 		}
 	},
@@ -7695,6 +7739,17 @@
 		"Verbilligte Sonderfertigkeiten" : { "Mondsilberzunge" : {}, "Rahjas Freiheit" : {} },
 		"Ausrüstung" : { "Wahl" : [{ "Robe" : { "Kategorien" : ["Kleidung"] }, "einfache Kleidung" : { "Kategorien" : ["Kleidung"] } }, { "Dolch" : {}, "Wanderstab" : {} }] },
 		"Besonderer Besitz" : "Pferd oder Boot oder Kamel oder Schlitten oder Kompass oder Vergleichbares"
+	},
+	"Geweihter des Kor" : {
+		"Generierung" : false,
+		"Weiblich" : "Geweihte des Kor",
+		"Bücher" : { "Wege der Helden" : 227 },
+		"Kosten" : 11,
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "CH" : 11, "GE" : 12, "KO" : 14, "KK" : 12 }, "Basiswerte" : { "Sozialstatus" : 5 }, "Professionen" : { "Wahl" : { "Gladiator" : {}, "Schaukämpfer" : {}, "Soldat" : {}, "Söldner" : {}, "Fähnrich" : {}, "Gardist" : {}, "Jahrmarktskämpfer" : {}, "Krieger" : {}, "Ritter" : {}, "Schwertgeselle" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Halbzauberer" : {}, "Viertelzauberer" : {}, "Vollzauberer" : {}, "Angst vor" : [{ "Freitext" : "Blut" }, { "Freitext" : "Kampf" }], "Angst vor (häufiger Auslöser)" : [{ "Freitext" : "Blut" }, { "Freitext" : "Kampf" }], "Einbeinig" : {}, "Gesucht III" : [{}], "Glasknochen" : {}, "Lahm" : {}, "Nachtblind" : {}, "Prinzipientreue" : [{ "Freitext" : "Pazifismus" }], "Speisegebote" : [{ "Freitext" : "Vegetarismus" }], "Stubenhocker" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Kampftalente" }], "Wahnvorstellungen" : [{}] } }, "Talente" : { "Wahl" : [{ "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }, { "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }, { "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }], "Athletik" : 4, "Körperbeherrschung" : 10, "Selbstbeherrschung" : 7, "Götter/Kulte" : 4 }, "Sonderfertigkeiten AP": { "Muss" : { "Kampf-Sonderfertigkeiten" : 1000 } } },
+		"Basiswerte" : { "Ausdauer" : 2, "Magieresistenz" : 1 },
+		"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Moralkodex" : [{ "Auswahl" : "Kor", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Kor-Kirche" }] },
+		"Talente" : { "Infanteriewaffen" : 1, "Selbstbeherrschung" : 3, "Menschenkenntnis" : 2, "Überzeugen" : 1, "Götter/Kulte" : 4, "Kriegskunst" : 4, "Muttersprache:Schrift" : 5, "Heilkunde Wunden" :1 },
+		"Sonderfertigkeiten" : { "Spätweihe" : [{ "Auswahl" : "Kor" }], "Waffenspezialisierung" : [{ "Auswahl" : "Infanteriewaffen", "Freitext" : "Korspieß" }], "Eidsegen" : {}, "Grabsegen" : {}, "Märtyrersegen" : {}, "Schutzsegen" : {}, "Speisesegen" : {}, "Tranksegen" : {}, "Neun Streiche in Einem" : {}, "Objektsegen" : {} }
 	},
 	"Geweihter des Nandus" : {
 		"Weiblich" : "Geweihte des Nandus",

@@ -298,66 +298,79 @@
 	},
 	"Liturgiekenntnis" : {
 		"Praios" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "MR"], "Talente" : ["Selbstbeherrschung", "Etikette", "Lehren", "Menschenkenntnis", "Überzeugen", "Götter/Kulte", "Rechtskunde", "Staatskunst", "4 aus: Abrichten, Baukunst, Brett-/Kartenspiel, Hauswirtschaft, Heilkunde Seele, Heraldik, Magiekunde"] },
 			"Mirakel-" : { "Talente" : ["Fliegen", "Gaukeleien", "Schleichen", "Sich Verstecken", "Stimmen Imitieren", "Taschendiebstahl", "Überreden (Betteln)", "Überreden (Lügen)", "Sich Verkleiden", "Falschspiel", "Schlösser Knacken"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Praios" } } } } }]
 		},
 		"Rondra" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Athletik", "Körperbeherrschung", "Reiten", "Selbstbeherrschung", "Kriegskunst", "5 aus Brett-/Kartenspiel, Fahrzeug Lenken, Grobschmied, Heilkunde Wunden, Heraldik, Rechtskunde, Sinnenschärfe, Staatskunst, Überzeugen", "2 Nahkampftalente:                 "] },
 			"Mirakel-" : { "Talente" : ["Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Schleichen", "Sich Verstecken", "Sich Verkleiden", "Überreden", "Bogenbau", "Falschspiel"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Rondra" } } } } }]
 		},
 		"Efferd" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["IN", "GE", "KO", "KK"], "Talente" : ["Schwimmen", "Sinnenschärfe", "Überzeugen", "Fesseln/Entfesseln", "Fischen/Angeln", "Orientierung", "Wettervorhersage", "Boote Fahren", "Seefahrt", "Zimmermann"] },
 			"Mirakel-" : { "Talente" : ["Alchimie", "Glaskunst", "Grobschmied", "Hüttenkunde", "Kochen", "Metallguss"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Efferd" } } } } }]
 		},
 		"Travia" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "FF"], "Talente" : ["Selbstbeherrschung", "Sinnenschärfe", "Zechen", "Lehren", "Menschenkenntnis", "Überzeugen", "Sagen/Legenden", "Hauswirtschaft", "Heilkunde Krankheiten", "Heilkunde Seele", "Kochen", "Viehzucht"] },
 			"Mirakel-" : { "Talente" : ["Schleichen", "Taschendiebstahl", "Betören", "Überreden (Lügen)", "Bogenbau", "Falschspiel"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Travia" } } } } }]
 		},
 		"Boron (Punin)" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH", "MR"], "Talente" : ["Prophezeien", "Schleichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Pflanzenkunde", "Alchimie", "Heilkunde Krankheiten", "Heilkunde Seele"] },
 			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Stimmen Imitieren", "Tanzen", "Betören", "Schauspielerei", "Instrumentenbauer", "Musizieren"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Boron (Punin)" } } } } }]
 		},
 		"Boron (Al'Anfa)" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH", "MR"], "Talente" : ["Prophezeien", "Schleichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Pflanzenkunde", "Alchimie", "Heilkunde Krankheiten", "Heilkunde Seele"] },
 			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Stimmen Imitieren", "Tanzen", "Betören", "Schauspielerei", "Instrumentenbauer", "Musizieren"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Boron (Al'Anfa)" } } } } }]
 		},
 		"Hesinde" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["KL", "IN", "CH", "MR"], "Talente" : ["Etikette", "Lehren", "Menschenkenntnis", "Überzeugen", "Geschichtswissen", "Götter/Kulte", "Magiekunde", "Pflanzenkunde", "Sternkunde", "Tierkunde", "Alchimie", "Wissenstalent:                 "] },
 			"Mirakel-" : { "Talente" : ["Zechen", "Überreden (Lügen)"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Hesinde" } } } } }]
 		},
 		"Firun" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "GE", "KO", "KK"], "Talente" : ["Gefahreninstinkt", "Fernkampftalent:                 ", "Körperbeherrschung", "Schleichen", "Selbstbeherrschung", "Sich Verstecken", "Sinnenschärfe", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben", "1 aus Fischen/Angeln, Pflanzenkunde, Tierkunde, Abrichten, Bogenbau, Boote Fahren, Fahrzeug Lenken, Feuersteinbearbeitung, Gerber/Kürschner, Heilkunde Wunden, Holzbearbeitung, Lederarbeiten, Seefahrt, Zimmermann"] },
 			"Mirakel-" : { "Talente" : ["Gaukeleien", "Singen", "Tanzen", "Betören", "Etikette", "Gassenwissen", "Menschenkenntnis", "Schauspielerei", "Schriftlicher Ausdruck", "Sich Verkleiden", "Überreden", "Überzeugen", "Falschspiel", "Musizieren"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Firun" } } } } }]
 		},
 		"Tsa" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["IN", "CH", "FF", "GE"], "Talente" : ["Sich Verkleiden", "Singen", "Tanzen", "Menschenkenntnis", "Überreden", "Überzeugen", "Philosophie", "Sagen/Legenden", "4 aus Abrichten, Brauer, Feinmechanik, Glaskunst, Grobschmied, Heilkunde Gifte, Heilkunde Krankheiten, Heilkunde Seele, Heilkunde Wunden, Holzbearbeitung, Instrumentenbauer, Lehren, Malen/Zeichnen, Maurer, Metallguss, Pflanzenkunde, Schätzen, Schnaps Brennen, Schneidern, Seiler, Steinmetz, Steinschneider/Juwelier, Stellmacher, Stoffe Färben, Tätowieren, Tierkunde, Töpfern, Webkunst, Winzer, Zimmermann"] },
 			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Fallenstellen", "Fischen/Angeln", "Anatomie", "Kriegskunst", "Fleischer", "Gerber/Kürschner", "alle waffenherstellenden Handwerkstalente"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Tsa" } } } } }]
 		},
 		"Phex" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "FF", "GE"], "Talente" : ["Körperbeherrschung", "Schleichen", "Sich Verstecken", "Gassenwissen", "Menschenkenntnis", "Überreden", "Mechanik", "Rechtskunde", "Sternkunde", "Handel", "2 aus Betören, Falschspiel, Gaukeleien, Klettern, Schlösser Knacken, Sich Verkleiden, Taschendiebstahl"] },
 			"Mirakel-" : { "Talente" : ["Talent:                 ", "Talent:                 ", "Talent:                 "] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Phex" } } } } }]
 		},
 		"Peraine" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["KL", "IN", "CH", "FF", "Ausweichen"], "Talente" : ["Lehren", "Menschenkenntnis", "Überzeugen", "Pflanzenkunde", "Tierkunde", "Ackerbau", "Hauswirtschaft", "Heilkunde Krankheiten", "Heilkunde Wunden", "Kochen", "Viehzucht"] },
 			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Betören", "Fallenstellen", "Kriegskunst", "Falschspiel", "Schlösser Knacken"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Peraine" } } } } }]
 		},
 		"Ingerimm" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Lehren", "Überzeugen", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "Bergbau", "Steinmetz", "2 aus Alchimie, Baukunst, Bogenbau, Feinmechanik, Glaskunst, Grobschmied, Holzbearbeitung, Instrumentenbauer, Maurer, Metallguss, Steinschneider/Juwelier, Zimmermann"] },
 			"Mirakel-" : { "Talente" : ["Fischen/Angeln", "Gaukeleien", "Schwimmen", "Seefahrt"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Ingerimm" } } } } }]
 		},
 		"Rahja" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "GE", "Ausweichen"], "Talente" : ["Körperbeherrschung", "Reiten", "Sinnenschärfe", "Zechen", "Betören", "Lehren", "Menschenkenntnis", "Überreden", "Überzeugen", "2 aus Abrichten, Akrobatik, Brauer, Etikette, Gaukeleien, Heilkunde Seele, Musizieren, Schnaps Brennen, Singen, Steinmetz, Steinschneider/Juwelier, Stoffe Färben, Tanzen, Tätowieren, Winzer"] },
 			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere", "Kriegskunst", "Grobes und Unschönes"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Rahja" } } } } }]
@@ -388,37 +401,44 @@
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Swafnir" } } } } }]
 		},
 		"Angrosch" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["KL", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Menschenkenntnis", "Überzeugen", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "4 aus Baukunst, Bogenbau, Feinmechanik, Feuersteinbearbeitung, Glaskunst, Grobschmied, Holzbearbeitung, Kristallzucht, Metallguss, Steinmetz, Steinschneider/Juwelier, Zimmermann"] },
 			"Mirakel-" : { "Talente" : ["Akrobatik", "Fliegen", "Gaukeleien", "Schwimmen", "Boote Fahren", "Seefahrt"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Angrosch" } } } } }]
 		},
 		"H'Szint" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "KL", "IN", "CH"], "Talente" : ["Lehren", "Menschenkenntnis", "Überzeugen", "Götter/Kulte", "Magiekunde", "Pflanzenkunde", "Rechnen", "Sternkunde", "Tierkunde", "3 aus Geschichtswissen, Gesteinskunde, Kryptographie, Alchimie, Heilkunde Gift, Heilkunde Krankheiten, Heilkunde Wunden, Holzbearbeitung, Lederarbeiten, Steinschneider/Juwelier, Töpfern"] },
 			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Raufen", "Ringen", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Überreden (Lügen)"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "H'Szint" } } } } }]
 		},
 		"Zsahh" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "KO"], "Talente" : ["Ausweichen", "Selbstbeherrschung", "Lehren", "Menschenkenntnis", "Überzeugen", "Anatomie", "Magiekunde", "Pflanzenkunde", "Tierkunde", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden"] },
 			"Mirakel-" : { "Talente" : ["Anderthalbhänder", "Dolche", "Fechtwaffen", "Hiebwaffen", "Infanteriewaffen", "Kettenstäbe", "Kettenwaffen", "Lanzenreiten", "Peitsche", "Raufen", "Ringen", "Säbel", "Schwerter", "Speere", "Stäbe", "Zweihandflegel", "Zweihand-Hiebwaffen", "Zweihandschwerter/-säbel", "Armbrust", "Belagerungswaffen", "Blasrohr", "Bogen", "Diskus", "Schleuder", "Wurfbeile", "Wurfmesser", "Wurfspeere"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Zsahh" } } } } }]
 		},
 		"Gravesh" : {
+			"alveranisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["IN", "FF", "KO", "KK"], "Talente" : ["Selbstbeherrschung", "Überreden", "Gesteinskunde", "Hüttenkunde", "Mechanik", "Rechnen", "Schätzen", "Feuersteinbearbeitung", "Grobschmied", "Holzbearbeitung", "Lederarbeiten", "Steinmetz"] },
 			"Mirakel-" : { "Talente" : ["Gaukeleien", "Etikette", "Falschspiel"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Gravesh" } } } } }]
 		},
 		"Himmelswölfe" : {
+			"schamanisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "GE", "KK"], "Talente" : ["Gefahreninstinkt", "Selbstbeherrschung", "Sinnenschärfe", "Stimmen Imitieren", "Lehren", "Menschenkenntnis", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben", "Sagen/Legenden", "Abrichten"] },
 			"Mirakel-" : { "Talente" : ["Falschspiel", "Kriegskunst", "Gerber/Kürschner", "Nivesen unbekannte Handwerkstalente"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Himmelswölfe" } } } } }]
 		},
 		"Kamaluq" : {
+			"schamanisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "IN", "CH", "KO"], "Talente" : ["Gefahreninstinkt", "Schleichen", "Selbstbeherrschung", "Sich Verstecken", "Sinnenschärfe", "Lehren", "Menschenkenntnis", "Überzeugen", "Fährtensuchen", "Orientierung", "Wettervorhersage", "Wildnisleben"] },
 			"Mirakel-" : { "Talente" : ["Betören", "Falschspiel", "Überreden (Lügen)", "Feinmechanik", "Drucker", "technisch fortgeschrittene Handwerkstalente"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Kamaluq" } } } } }]
 		},
 		"Namenloser" : { "Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Namenloser" } } } } }] },
 		"Tairach" : {
+			"schamanisch" : true,
 			"Mirakel+" : { "Eigenschaften" : ["MU", "CH", "KO", "KK"], "Talente" : ["Hiebwaffen o. Zweihand-Hiebwaffen", "Athletik", "Selbstbeherrschung", "Sinnenschärfe", "Lehren", "Menschenkenntnis", "Überzeugen", "Orientierung", "Wettervorhersage", "Pflanzenkunde", "Sagen/Legenden", "Tierkunde"] },
 			"Mirakel-" : { "Talente" : ["Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Heilkunde Wunden", "Überreden (Lügen)"] },
 			"Voraussetzungen" : [{ "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Liturgiekenntnis" : { "Auswahl" : { "Muss" : "Tairach" } } } } }]
