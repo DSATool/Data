@@ -4,15 +4,15 @@
 	<property name="PluginName" value="Data"/>
 	<property name="Includes" value="data/**"/>
     <target name="deploy" description="Deploys data to DSATool data directory">
-    	<copy todir="${DSATool.location}">
+    	<copy todir="${DSATool.location}" overwrite="true">
     		<fileset dir="." includes="${Includes}"/>        	
     	</copy>
-		<copy file="release/previous/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json"/>
+		<copy file="release/previous/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json" overwrite="true"/>
     </target>
 	<target name="update" description="Creates a zip file for release" depends="deploy">
 		<delete dir="release/current"/>
 		<mkdir dir="release/current"/>
-		<copy todir="release/current" includeEmptyDirs="false">
+		<copy todir="release/current" includeEmptyDirs="false" overwrite="true">
 			<fileset dir="." includes="${Includes}">
 			    <different targetdir="release/previous"/>
 			</fileset>
@@ -42,11 +42,11 @@
 				<striplinebreaks/>
 			</filterchain>
 		</loadfile>
-		<copy file="release/release-info.template" tofile="release/current/release-info.json"/>
+		<copy file="release/release-info.template" tofile="release/current/release-info.json" overwrite="true"/>
 		<replace file="release/current/release-info.json" token="@releaseDate@" value="${releaseDate}"/>
 		<replace file="release/current/release-info.json" token="@previousReleaseDate@" value="${previousReleaseDate}"/>
-		<copy file="release/current/release-info.json" tofile="release/current/update/${PluginName}.json"/>
-		<copy file="release/current/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json"/>
+		<copy file="release/current/release-info.json" tofile="release/current/update/${PluginName}.json" overwrite="true"/>
+		<copy file="release/current/release-info.json" tofile="${DSATool.location}/update/${PluginName}.json" overwrite="true"/>
 		<copy file="release/update-info.template" tofile="release/update-info.json" overwrite="true"/>
 		<replace file="release/update-info.json" token="@releaseDate@" value="${releaseDate}"/>
 		<java jar="${DSATool.location}/update/SignatureTool.jar" fork="true">
@@ -59,15 +59,15 @@
 			<arg value="SHA512withECDSA"/>
 		</java>
 		<delete dir="release/previous"/>
-		<copy todir="release/previous" includeEmptyDirs="false">
+		<copy todir="release/previous" includeEmptyDirs="false" overwrite="true">
 			<fileset dir="." includes="${Includes}"/>
 		</copy>
-		<copy file="release/current/release-info.json" todir="release/previous"/>
+		<copy file="release/current/release-info.json" todir="release/previous" overwrite="true"/>
 		<delete dir="release/current"/>
 	</target>
 	<target name="release" description="Creates a full release as well as an update" depends="update">
 		<mkdir dir="update"/>
-		<copy file="release/release-info.template" tofile="update/${PluginName}.json"/>
+		<copy file="release/release-info.template" tofile="update/${PluginName}.json" overwrite="true"/>
 		<replace file="update/${PluginName}.json" token="@releaseDate@" value="${releaseDate}"/>
 		<replace file="update/${PluginName}.json" token="@previousReleaseDate@" value="${previousReleaseDate}"/>
 		<zip destfile="release/${PluginName}_${releaseDate}_full.zip">

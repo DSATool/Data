@@ -475,8 +475,8 @@
 				"Sonderfertigkeiten" : { "Linkhand" : {}, "Reiterkampf" : {}, "Rüstungsgewöhnung I" : [{}], "Turnierreiterei" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Kriegsreiterei" : {}, "Niederwerfen" : {}, "Schildkampf I" : {}, "Wuchtschlag" : {} }
 			},
-			"Krieger aus Baliho (alternativ)" : {
-				"Weiblich" : "Kriegerin aus Baliho",
+			"Krieger aus Baliho (Klingentänzer)" : {
+				"Weiblich" : "Kriegerin aus Baliho (Klingentänzer)",
 				"Bücher" : { "Klingentänzer" : 178 },
 				"Kosten" : 27,
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 13 } },
@@ -531,7 +531,7 @@
 			"Krieger aus Neersand" : {
 				"Weiblich" : "Kriegerin aus Neersand",
 				"Kosten" : 20,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Muss" : { "Bornland" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "GE" : 12, "KO" : 13, "KK" : 12 }, "Kulturen" : { "Muss" : { "Bornland" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Ausdauer" : 1 },
 				"Talente" : { "Bogen" : 4, "Hiebwaffen" : 4, "Raufen" : 4, "Ringen" : 1, "Schwerter" : 6, "Wurfmesser" : 2, "Athletik" : 2, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : -4, "Schwimmen" : 1, "Selbstbeherrschung" : -2, "Sinnenschärfe" : 1, "Skifahren" : 3, "Zechen" : 3, "Etikette" : -1, "Fährtensuchen" : 2, "Fischen/Angeln" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 3, "Götter/Kulte" : -1, "Heraldik" : -1, "Magiekunde" : 1, "Pflanzenkunde" : 1, "Rechnen" : -1, "Rechtskunde" : -1, "Sagen/Legenden" : 1, "Tierkunde" : 3, "Heilkunde Krankheiten" : 1, "Holzbearbeitung" : 1, "Kochen" : 1, "Schneidern" : 2 },
 				"Sonderfertigkeiten" : { "Rüstungsgewöhnung I" : [{}] },
@@ -661,7 +661,7 @@
 				"Weiblich" : "Neethaner Kriegerin",
 				"Bücher" : { "Klingentänzer" : 178 },
 				"Kosten" : 24,
-				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {} }] } },
+				"Voraussetzungen" : { "Vorteile/Nachteile/Sonderfertigkeiten" : { "Muss" : { "Adlige Abstammung" : {} } } },
 				"Basiswerte" : { "Lebensenergie" : 1, "Ausdauer" : 3, "Sozialstatus" : 9 },
 				"Vorteile" : { "Akademische Ausbildung (Krieger)" : {}, "Besonderer Besitz" : [{ "Stufe" : 1, "Freitext" : "eigenes Pferd" }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel"], "Werte" : [6, 3] }, { "Wahl" : ["Lanzenreiten", "Zweihandschwerter/-säbel"], "Werte" : [3] }, { "Wahl" : ["Mohisch", "Tulamidya"], "Werte" : [3] }], "Dolche" : 1, "Reiten" : 2, "Schwimmen" : 3, "Selbstbeherrschung" : 1, "Tanzen" : 2, "Etikette" : 1, "Menschenkenntnis" : 2, "Kriegskunst" : -1, "Tierkunde" : 4, "Abrichten" : 5, "Heilkunde Wunden" : -1 },
@@ -685,7 +685,7 @@
 		"Bücher" : { "Wege der Helden" : 107 },
 		"Kosten" : 21,
 		"Zeitaufwendig" : true,
-		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KO" : 12, "KK" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KO" : 12, "KK" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 		"Basiswerte" : { "Lebensenergie" : 2, "Ausdauer" : 3, "Sozialstatus" : 8 },
 		"Sozialstatus:Maximum" : 13,
 		"Nachteile" : { "Prinzipientreue" : [{ "Freitext" : "Ritterkodex: Loyalität, Schutz der Schwachen und des Glaubens, Ehrenhaftigkeit", "Stufe" : 10 }], "Verpflichtungen" : [{ "Freitext" : "Lehnsherr oder Schutzbefohlene" }] },
@@ -859,7 +859,7 @@
 			"Almadanischer Caballero aus Dom Talfans Schule" : {
 				"Weiblich" : "Almadanische Caballera aus Dom Talfans Schule",
 				"Kosten" : 19,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 12, "GE" : 13, "KO" : 11, "KK" : 12 }, "Kulturen" : { "Muss" : { "Almada" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "IN" : 12, "GE" : 13, "KO" : 11, "KK" : 12 }, "Kulturen" : { "Muss" : { "Almada" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Ausdauer" : 1, "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 13,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Pflanzenkunde", "Staatskunst", "Tierkunde"], "Werte" : [2] }], "Armbrust" : 2, "Dolche" : 3, "Fechtwaffen" : 2, "Schwerter" : 7, "Athletik" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Betören" : 1, "Etikette" : 1, "Brett-/Kartenspiel" : 2, "Heraldik" : 1 },
@@ -1613,7 +1613,7 @@
 		"Empfohlene Vorteile" : { "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Gefahreninstinkt" : {}, "Gutes Gedächtnis" : {}, "Innerer Kompass" : {}, "Richtungssinn" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{ "Freitext" : "Geld- oder Auftraggeber" }], "Zwergennase" : {} },
 		"Empfohlene Nachteile" : { "Schulden" : {}, "Verpflichtungen" : [{ "Freitext" : "Geld- oder Auftraggeber" }], "Weltfremd" : [{}] },
 		"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Raumangst" : {}, "Unstet" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [5, 4, 2, 2, 4, 3, 5, 3, 1, 1, 3, 2], "Ausgewählt" : [-1, -1, -1, 4, 5, 7, 9, 10, 11, 13, 14, 15] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4, 4] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [1] }], "Armbrust" : 1, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : 3, "Schwimmen" : 1, "Sinnenschärfe" : 4, "Etikette" : 3, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 2, "Orientierung" : 3, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Heraldik" : 1, "Rechnen" : 4, "Sagen/Legenden" : 2, "Schätzen" : 3, "Muttersprache:Schrift" : 6, "Boote Fahren" : 1, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 4 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [5, 4, 2, 2, 4, 3, 5, 3, 1, 1, 3, 2], "Ausgewählt" : [-1, -1, -1, 4, 5, 7, 9, 10, 11, 13, 14, 15] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4, 4] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [1] }], "Armbrust" : 1, "Klettern" : 2, "Körperbeherrschung" : 1, "Reiten" : 3, "Schwimmen" : 1, "Sinnenschärfe" : 4, "Etikette" : 3, "Menschenkenntnis" : 1, "Überreden" : 2, "Fährtensuchen" : 2, "Orientierung" : 3, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 2, "Geschichtswissen" : 4, "Götter/Kulte" : 3, "Heraldik" : 1, "Magiekunde" : 3, "Mechanik" : 1, "Rechnen" : 4, "Rechtskunde" : 1, "Sagen/Legenden" : 2, "Schätzen" : 3, "Sprachenkunde" : 3, "Sternkunde" : 2, "Muttersprache:Schrift" : 6, "Boote Fahren" : 1, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 2, "Kartographie" : 5, "Malen/Zeichnen" : 4 },
 		"Verbilligte Sonderfertigkeiten" : { "Nandusgefälliges Wissen" : {}, "Kulturkunde" : [{ "Auswahl" : "nach Wahl" }] },
 		"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Lupe" : {} },
 		"Besonderer Besitz" : "Maultier mit Sattel und Zaumzeug oder kleines Boot",
@@ -1628,10 +1628,10 @@
 				"Basiswerte" : { "Sozialstatus" : -1 },
 				"Sozialstatus:Maximum" : 10,
 				"Vorteile" : { "Akademische Ausbildung (Gelehrter)" : {} },
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [-5, -4, -2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6, -2, -2, 3, 3] }, { "Wahl" : ["Fremdschrift"], "Werte" : [-4, -4, 3, 3] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [-1] }], "Armbrust" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : -1, "Schwimmen" : 1, "Etikette" : -2, "Überreden" : -2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 2, "Wildnisleben" :1, "Geographie" : 4, "Geschichtswissen" : 2, "Heraldik" : -1, "Magiekunde" : 1, "Pflanzenkunde" : 1, "Rechnen" : 3, "Schätzen" : -3, "Sternkunde" : 4, "Tierkunde" : 2, "Fahrzeug Lenken" : 1, "Feinmechanik" : 2, "Heilkunde Gift" : -1, "Holzbearbeitung" : 1, "Kartographie" : 7, "Kochen" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1, "Schneidern" : 1 },
-					"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }] },
-					"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Kompass" : {}, "weitere Schreibgeräte" : {} },
-					"Besonderer Besitz" : "Fernglas, Landvermessungs-Geräte"
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Anatomie", "Alchimie", "Bergbau", "Feinmechanik", "Geographie", "Geschichtswissen", "Gesteinskunde", "Götter/Kulte", "Heraldik", "Kartographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Rechtskunde", "Sprachenkunde", "Sternkunde", "Tierkunde"], "Werte" : [-5, -4, -2, -2, -4, -3, -5, -3, -1, -1, -3, -2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6, -2, -2, 3, 3] }, { "Wahl" : ["Fremdschrift"], "Werte" : [-4, -4, 3, 3] }, { "Wahl" : ["Feinmechanik", "Schlösser Knacken"], "Werte" : [-1] }], "Armbrust" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : -1, "Schwimmen" : 1, "Etikette" : -2, "Überreden" : -2, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wettervorhersage" : 2, "Wildnisleben" :1, "Geographie" : 2, "Geschichtswissen" : -2, "Gesteinskunde" : 2, "Götter/Kulte" : -3, "Heraldik" : -1, "Magiekunde" : -2, "Mechanik" : -1, "Pflanzenkunde" : 1, "Rechnen" : 3, "Rechtskunde" : -1, "Schätzen" : -3, "Sprachenkunde" : -3, "Sternkunde" : 2, "Tierkunde" : 2, "Fahrzeug Lenken" : 1, "Feinmechanik" : 2, "Heilkunde Gift" : -1, "Holzbearbeitung" : 1, "Kartographie" : 2, "Kochen" : 1, "Lederarbeiten" : 1, "Malen/Zeichnen" : 1, "Schneidern" : 1 },
+				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{} }] },
+				"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }, { "Kampfstab" : {}, "Keule" : {}, "Säbel" : {} }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Kompass" : {}, "weitere Schreibgeräte" : {} },
+				"Besonderer Besitz" : "Fernglas, Landvermessungs-Geräte"
 			}
 		}
 	},
@@ -1646,7 +1646,7 @@
 		"Empfohlene Vorteile" : { "Ausrüstungsvorteil" : {}, "Begabung für Talentgruppe" : [{ "Auswahl" : "Sprachen und Schriften" }], "Gutes Gedächtnis" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verbindungen" : [{}] },
 		"Empfohlene Nachteile" : { "Schulden" : {} },
 		"Ungeeignete Nachteile" : { "Platzangst" : {}, "Unansehnlich" : {}, "Widerwärtiges Aussehen" : {} },
-		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Raufen", "Ringen"], "Werte" : [2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [4, 2, 2, 1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11] }], "Armbrust" : 1, "Dolche" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : 3, "Schleichen" : 1, "Schwimmen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 3, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Schriftlicher Ausdruck" : 1, "Sich Verkleiden" : 1, "Überreden" : 4, "Fährtensuchen" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 3, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 1, "Magiekunde" : 1, "Rechnen" : 5, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 4, "Sternkunde" : 1, "Muttersprache:Schrift" : 6, "Handel" : 7, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Kartographie" : 3, "Lederarbeiten" : 1, "Malen/Zeichnen" : 4, "Schlösser Knacken" : 1, "Schneidern" : 1 },
+		"Talente" : { "Wahl" : [{ "Wahl" : ["Hiebwaffen", "Säbel", "Stäbe"], "Werte" : [2] }, { "Wahl" : ["Raufen", "Ringen"], "Werte" : [2] }, { "Wahl" : ["Fremdsprache"], "Werte" : [6, 6, 2, 2] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4] }, { "Wahl" : ["Boote Fahren", "Fahrzeug Lenken"], "Werte" : [2] }, { "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [4, 2, 2, 1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11] }], "Armbrust" : 1, "Dolche" : 1, "Klettern" : 1, "Körperbeherrschung" : 1, "Reiten" : 3, "Schleichen" : 1, "Schwimmen" : 1, "Sich Verstecken" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 3, "Gassenwissen" : 1, "Menschenkenntnis" : 2, "Schriftlicher Ausdruck" : 1, "Sich Verkleiden" : 1, "Überreden" : 4, "Fährtensuchen" : 1, "Orientierung" : 2, "Wettervorhersage" : 2, "Wildnisleben" : 2, "Geographie" : 3, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 1, "Magiekunde" : 1, "Rechnen" : 5, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 4, "Sternkunde" : 1, "Muttersprache:Schrift" : 6, "Handel" : 7, "Hauswirtschaft" : 2, "Heilkunde Gift" : 1, "Heilkunde Wunden" : 1, "Holzbearbeitung" : 1, "Kartographie" : 3, "Lederarbeiten" : 1, "Malen/Zeichnen" : 4, "Schlösser Knacken" : 1, "Schneidern" : 1 },
 		"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Dschungelkundig" : {}, "Eiskundig" : {}, "Gebirgskundig" : {}, "Höhlenkundig" : {}, "Maraskankundig" : {}, "Meereskundig" : {}, "Steppenkundig" : {}, "Sumpfkundig" : {}, "Waldkundig" : {}, "Wüstenkundig" :{}, "Ortskenntnis" : [{ "Freitext" : "nach Wahl" }] }] },
 		"Ausrüstung" : { "Wahl" : [{ "gewachster Mantel" : { "Kategorien" : ["Kleidung"] }, "gewachster Umhang" : { "Kategorien" : ["Kleidung"] } }], "stabile und wetterfeste Kleidung" : { "Kategorien" : ["Kleidung"] }, "feste Stiefel" : { "Kategorien" : ["Kleidung"] }, "zusätzlicher Satz repräsentative Kleidung" : { "Kategorien" : ["Kleidung"] }, "passende Nahkampfwaffe" : {}, "Dolch" : {}, "Rucksack" : {}, "wasserdichte Lederrolle für Landkarten oder Aufzeichnungen" : {}, "Schreibzeug" : {}, "Kohlestift" : {}, "20 Blatt einfaches Papier" : {}, "Tagebuch" : {}, "Feinwaage" : {}, "Arbeitsmesser" : {}, "Wasserflasche" : {} },
 		"Besonderer Besitz" : "Maultier mit (Pack-)Sattel und Zaumzeug oder kleines Boot oder Schutzbrief (für ein Land etwa in Größe einer Grafschaft)",
@@ -1655,7 +1655,7 @@
 				"Weiblich" : "Kauffahrerin",
 				"kombinierbar" : true,
 				"Kosten" : 4,
-				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11, 5, 17] }], "Körperbeherrschung" : 1, "Schwimmen" : 1, "Fährtensuchen" : -1, "Orientierung" : 1, "Wildnisleben" : -1, "Boote Fahren" : 1 },
+				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Bergbau", "Brauer", "Brett-/Kartenspiel", "Feinmechanik", "Fischen/Angeln", "Fleischer", "Gerber/Kürschner", "Gesteinskunde", "Glaskunst", "Grobschmied", "Hauswirtschaft", "Hüttenkunde", "Kochen", "Mechanik", "Pflanzenkunde", "Schnaps Brennen", "Seefahrt", "Staatskunst", "Steinschneider/Juwelier", "Stoffe Färben", "Tierkunde", "Viehzucht", "Webkunst", "Winzer"], "Werte" : [1, 2], "Ausgewählt" : [-1, -1, -1, -1, 11, 5, 17] }], "Körperbeherrschung" : 1, "Schwimmen" : 1, "Fährtensuchen" : -1, "Fischen/Angeln" : 1, "Orientierung" : 1, "Wildnisleben" : -1, "Boote Fahren" : 1, "Seefahrt" : 2 },
 				"Sonderfertigkeiten" : { "Standfest" : {} },
 				"Besonderer Besitz" : "Maultier mit (Pack-)Sattel und Zaumzeug oder kleines Boot oder Schutzbrief (für ein Land etwa in Größe einer Grafschaft) oder kleine Beteiligung an einem Handelsschiff"
 			}
@@ -2934,7 +2934,7 @@
 			"Gutsherr" : {
 				"Weiblich" : "Gutsherrin",
 				"Kosten" : 7,
-				"Voraussetzungen" : { "Eigenschaften" : { "KO" : 11, "KK" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }] } },
+				"Voraussetzungen" : { "Eigenschaften" : { "KO" : 11, "KK" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Adlige Abstammung" : {}, "Amtsadel" : {} }] } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Kettenwaffen", "Zweihandflegel"], "Werte" : [-2] }], "Schwerter" : 2, "Reiten" : 2, "Etikette" : 2, "Rechnen" : 4, "Muttersprache:Schrift" : 3, "Hauswirtschaft" : 2 }
@@ -4290,7 +4290,7 @@
 						"Vorteile" : { "Akademische Ausbildung (Gelehrter)" : {}, "Viertelzauberer" : {}, "Meisterhandwerk" : [{ "Auswahl" : "Alchimie" }, {}, {}], "Übernatürliche Begabung" : [{ "Auswahl" : "Analys Arcanstruktur" }, { "Auswahl" : "Odem Arcanum" }, {}, {}, {}] },
 						"Nachteile" : { "Goldgier" : { "Stufe" : 7 }, "Verpflichtungen" : [{ "Freitext" : "Universität und Herzog" }] },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Götter/Kulte", "Rechnen", "Sagen/Legenden", "Anatomie", "Baukunst", "Brett-/Kartenspiel", "Geographie", "Geschichtswissen", "Gesteinskunde", "Heraldik", "Hüttenkunde", "Kriegskunst", "Kryptographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Philosophie", "Rechtskunde", "Schätzen", "Sprachenkunde", "Staatskunst", "Sternkunde", "Tierkunde", "Heilkunde Wunden", "Holzbearbeitung", "Kochen", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Abrichten", "Ackerbau", "Alchimie", "Bergbau", "Bogenbau", "Boote Fahren", "Brauer", "Drucker", "Fahrzeug Lenken", "Falschspiel", "Feinmechanik", "Feuersteinbearbeitung", "Fleischer", "Gerber/Kürschner", "Glaskunst", "Grobschmied", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Instrumentenbauer", "Kartographie", "Kristallzucht", "Maurer", "Metallguss", "Musizieren", "Schlösser Knacken", "Schnaps Brennen", "Seefahrt", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Punkte" : -8, "Maximum" : 2, "aktiviert" : true }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6] }, { "Wahl" : ["Brauer", "Gerber/Kürschner", "Schnaps Brennen"], "Werte" : [-2] }], "Etikette" : 1, "Schriftlicher Ausdruck" : 2, "Überzeugen" : 2, "Geschichtswissen" : 2, "Gesteinskunde" : -1, "Götter/Kulte" : 2, "Mechanik" : 3, "Rechnen" : 1, "Rechtskunde" : 1, "Sagen/Legenden" : 1, "Tierkunde" : -1, "Muttersprache" : -1, "Muttersprache:Schrift" : -6, "Aureliani" : 4, "Bosparano" : 8, "Imperiale Zeichen" : 6, "Kusliker Zeichen" : 9, "Nanduria" : 1, "Glaskunst" : 1, "Malen/Zeichnen" : 1 },
-						"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+						"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 						"Varianten" : {
 							"Quadrivium Arithmetik" : {
 								"Kosten" : 16,
@@ -4330,7 +4330,7 @@
 						"Vorteile" : { "Akademische Ausbildung (Gelehrter)" : {}, "Viertelzauberer" : {}, "Meisterhandwerk" : [{ "Auswahl" : "Alchimie" }, {}, {}], "Übernatürliche Begabung" : [{ "Auswahl" : "Analys Arcanstruktur" }, { "Auswahl" : "Odem Arcanum" }, {}, {}, {}] },
 						"Nachteile" : { "Goldgier" : { "Stufe" : 7 }, "Schulden" : { "Stufe" : 1500 } },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Götter/Kulte", "Rechnen", "Sagen/Legenden", "Anatomie", "Baukunst", "Brett-/Kartenspiel", "Geographie", "Geschichtswissen", "Gesteinskunde", "Heraldik", "Hüttenkunde", "Kriegskunst", "Kryptographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Philosophie", "Rechtskunde", "Schätzen", "Sprachenkunde", "Staatskunst", "Sternkunde", "Tierkunde", "Heilkunde Wunden", "Holzbearbeitung", "Kochen", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Abrichten", "Ackerbau", "Alchimie", "Bergbau", "Bogenbau", "Boote Fahren", "Brauer", "Drucker", "Fahrzeug Lenken", "Falschspiel", "Feinmechanik", "Feuersteinbearbeitung", "Fleischer", "Gerber/Kürschner", "Glaskunst", "Grobschmied", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Instrumentenbauer", "Kartographie", "Kristallzucht", "Maurer", "Metallguss", "Musizieren", "Schlösser Knacken", "Schnaps Brennen", "Seefahrt", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Punkte" : -8, "Maximum" : 2, "aktiviert" : true }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6] }, { "Wahl" : ["Ur-Tulamidya", "Alaani"], "Werte" : [2] }, { "Wahl" : ["Schriftlicher Ausdruck", "Baukunst", "Brett-/Kartenspiel", "Heraldik", "Kryptographie", "Sprachenkunde", "Staatskunst", "Holzbearbeitung", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Drucker", "Feinmechanik", "Gerber/Kürschner", "Glaskunst", "Instrumentenbauer", "Kartographie", "Metallguss", "Musizieren", "Steinmetz", "Steinschneider/Juwelier", "Stoffe Färben", "Tätowieren", "Töpfern", "Webkunst"], "Werte" : [2, 2] }], "Selbstbeherrschung" : -1, "Etikette" : 1, "Überreden" : 1, "Überzeugen" : 1, "Geographie" : 1, "Geschichtswissen" : 1, "Gesteinskunde" : 2, "Götter/Kulte" : 1, "Hüttenkunde" : 2, "Magiekunde" : 2, "Mechanik" : 1, "Philosophie" : 1, "Sagen/Legenden" : 2, "Muttersprache" : -1, "Muttersprache:Schrift" : -6, "Tulamidya" : 4, "Nujuka" : 3, "Bosparano" : 5, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 4, "Alchimie" : 1, "Heilkunde Gift" : -1, "Heilkunde Wunden" : 1, "Kochen" : -1, "Metallguss" : 1 },
-						"Sprachen" : { "Lehrsprache" : [["Isdira"]] }
+						"Sprachen" : { "Lehrsprache" : [["Garethi"]] }
 					},
 					"Kammerjäger" : {
 						"Weiblich" : "Kammerjägerin",
@@ -4387,7 +4387,7 @@
 				"Vorteile" : { "Akademische Ausbildung (Gelehrter)" : {} },
 				"Nachteile" : { "Goldgier" : { "Stufe" : 7 }, "Verpflichtungen" : [{ "Freitext" : "Universität und Herzog" }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Götter/Kulte", "Rechnen", "Sagen/Legenden", "Anatomie", "Baukunst", "Brett-/Kartenspiel", "Geographie", "Geschichtswissen", "Gesteinskunde", "Heraldik", "Hüttenkunde", "Kriegskunst", "Kryptographie", "Magiekunde", "Mechanik", "Pflanzenkunde", "Philosophie", "Rechtskunde", "Schätzen", "Sprachenkunde", "Staatskunst", "Sternkunde", "Tierkunde", "Heilkunde Wunden", "Holzbearbeitung", "Kochen", "Lederarbeiten", "Malen/Zeichnen", "Schneidern", "Abrichten", "Ackerbau", "Alchimie", "Bergbau", "Bogenbau", "Boote Fahren", "Brauer", "Drucker", "Fahrzeug Lenken", "Falschspiel", "Feinmechanik", "Feuersteinbearbeitung", "Fleischer", "Gerber/Kürschner", "Glaskunst", "Grobschmied", "Handel", "Hauswirtschaft", "Heilkunde Gift", "Heilkunde Krankheiten", "Heilkunde Seele", "Instrumentenbauer", "Kartographie", "Kristallzucht", "Maurer", "Metallguss", "Musizieren", "Schlösser Knacken", "Schnaps Brennen", "Seefahrt", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Viehzucht", "Webkunst", "Winzer", "Zimmermann"], "Punkte" : -8, "Maximum" : 2, "aktiviert" : true }, { "Wahl" : ["Fremdsprache"], "Werte" : [-6] }, { "Wahl" : ["Brauer", "Gerber/Kürschner", "Schnaps Brennen"], "Werte" : [-2] }], "Etikette" : 1, "Schriftlicher Ausdruck" : 2, "Überzeugen" : 2, "Geschichtswissen" : 2, "Gesteinskunde" : -1, "Götter/Kulte" : 2, "Mechanik" : 3, "Rechnen" : 1, "Rechtskunde" : 1, "Sagen/Legenden" : 1, "Tierkunde" : -1, "Muttersprache" : -1, "Muttersprache:Schrift" : -6, "Aureliani" : 4, "Bosparano" : 8, "Imperiale Zeichen" : 6, "Kusliker Zeichen" : 9, "Nanduria" : 1, "Glaskunst" : 1, "Malen/Zeichnen" : 1 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Varianten" : {
 					"Quadrivium Arithmetik" : {
 						"Kosten" : 10,
@@ -5223,17 +5223,18 @@
 		"Varianten" : {
 			"Universität von Al'Anfa" : {
 				"Bücher" : { "Wege der Helden" : 174 },
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
 				"Nachteile" : { "Eitelkeit" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 7 }, "Schulden" : { "Stufe" : 1000 }, "Verpflichtungen" : [{ "Freitext" : "Akademie und Mäzene oder Familie" }] },
 				"Empfohlene Nachteile" : { "Arroganz" : {}, "Artefaktgebunden" : {}, "Autoritätsgläubig" : {}, "Eitelkeit" : {}, "Feste Gewohnheit" : [{}], "Festgefügtes Denken" : {}, "Goldgier" : {}, "Lästige Mindergeister" : {}, "Neid" : {}, "Neugier" : {}, "Prinzipientreue" : [{}], "Schulden" : {}, "Sucht" : [{}], "Thesisgebunden" : [{}], "Verpflichtungen" : [{}], "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}], "Weltfremd" : [{}] },
 				"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Meeresangst" : {}, "Niedrige Magieresistenz" : {}, "Stubenhocker" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Varianten" : {
 					"Leibmagier-Zweig" : {
 						"Kosten" : 25,
 						"Talente" : { "Raufen" : 1, "Ringen" : 2, "Stäbe" : 2, "Körperbeherrschung" : 1, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 3, "Tanzen" : 2, "Betören" : 2, "Etikette" : 4, "Lehren" : 2, "Menschenkenntnis" : 4, "Schriftlicher Ausdruck" : 2, "Sich Verkleiden" : 3, "Überreden" : 2, "Überzeugen" : 1, "Brett-/Kartenspiel" : 1, "Geographie" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 3, "Magiekunde" : 5, "Pflanzenkunde" : 4, "Philosophie" : 2, "Rechnen" : 4, "Rechtskunde" : 4, "Sagen/Legenden" : 3, "Sternkunde" : 2, "Tierkunde" : 3, "Bosparano" : 5, "Mohisch" : 5, "Tulamidya" : 5, "Ur-Tulamidya" : 3, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 4, "Alchimie" : 5, "Heilkunde Wunden" : 1, "Malen/Zeichnen" : 4, "Gildenmagisch" : 1 },
-						"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
 						"Hauszauber" : { "Abvenenum reine Speise" : { "Mag" : 5 }, "Balsam Salabunde" : { "Mag" : 6 }, "Blick aufs Wesen" : { "Mag" : 5 }, "Blick in die Gedanken" : { "Mag" : 6 }, "Fulminictus Donnerkeil" : { "Mag" : 6 }, "Gardianum Zauberschild" : { "Mag" : 5 }, "Klarum Purum" : { "Mag" : 7 } },
 						"Zauber" : { "Wahl" : [{ "Wahl" : { "Claudibus Clavistibor" : "Mag", "Paralysis starr wie Stein" : "Mag" }, "Werte" : [4] }, { "Wahl" : { "Favilludo Funkentanz" : "Mag", "Vogelzwitschern Glockenspiel" : "Mag", "Weihrauchwolke Wohlgeruch" : "Mag" }, "Werte" : [3] }, { "Wahl" : { "Horriphobus Schreckgestalt" : "Mag", "Sensattacco Meisterstreich" : "Mag" }, "Werte" : [2] }], "Attributo" : { "Mag" : 4 }, "Aureolus Güldenglanz" : { "Mag" : 5 }, "Bannbaladin" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 4 }, "Cryptographo Zauberschrift" : { "Mag" : 4 }, "Custodosigil Diebesbann" : { "Mag" : 3 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Foramen Foraminor" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 6 }, "Penetrizzel Tiefenblick" : { "Mag" : 3 }, "Psychostabilis" : { "Mag" : 3 }, "Sensibar Empathicus" : { "Mag" : 5 } },
 						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Hellsicht" }], "Verbotene Pforten" : {} },
@@ -5243,7 +5244,6 @@
 					"Seekriegs-Zweig" : {
 						"Kosten" : 26,
 						"Talente" : { "Raufen" : 2, "Ringen" : 2, "Stäbe" : 3, "Körperbeherrschung" : 3, "Schwimmen" : 2, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 3, "Etikette" : 3, "Lehren" : 2, "Menschenkenntnis" : 2, "Überreden" : 2, "Orientierung" : 3, "Geographie" : 4, "Geschichtswissen" : 2, "Götter/Kulte" : 3, "Kriegskunst" : 3, "Magiekunde" : 5, "Pflanzenkunde" : 2, "Rechnen" : 5, "Rechtskunde" : 3, "Sagen/Legenden" : 3, "Sternkunde" : 4, "Tierkunde" : 2, "Bosparano" : 5, "Mohisch" : 3, "Tulamidya" : 4, "Ur-Tulamidya" : 4, "Kusliker Zeichen" : 7, "Tulamidya (Schrift)" : 4, "Alchimie" : 5, "Boote Fahren" : 2, "Malen/Zeichnen" : 4, "Seefahrt" : 4, "Gildenmagisch" : 1 },
-						"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
 						"Hauszauber" : { "Armatrutz" : { "Mag" : 5 }, "Fortifex arkane Wand" : { "Mag" : 6 }, "Horriphobus Schreckgestalt" : { "Mag" : 7 }, "Ignifaxius Flammenstrahl" : { "Mag" : 6 }, "Ignisphaero Feuerball" : { "Mag" : 5 }, "Invocatio minor" : { "Mag" : 6 }, "Schwarzer Schrecken" : { "Mag" : 5 } },
 						"Zauber" : { "Wahl" : [{ "Wahl" : { "Fulminictus Donnerkeil" : "Mag", "Paralysis starr wie Stein" : "Mag" }, "Werte" : [4] }, { "Wahl" : { "Applicatus Zauberspeicher" : "Mag", "Dunkelheit" : "Mag" }, "Werte" : [3] }], "Abvenenum reine Speise" : { "Mag" : 4 }, "Attributo" : { "Mag" : 3 }, "Auris Nasus Oculus" : { "Mag" : 4 }, "Balsam Salabunde" : { "Mag" : 4 }, "Custodosigil Diebesbann" : { "Mag" : 3 }, "Desintegratus Pulverstaub" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 5 }, "Gardianum Zauberschild" : { "Mag" : 3 }, "Hartes schmelze!" : { "Mag" : 3 }, "Motoricus Geisteshand" : { "Mag" : 2 }, "Odem Arcanum" : { "Mag" : 4 }, "Weiches erstarre!" : { "Mag" : 4 } },
 						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Fernzauberei" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Schaden" }], "Verbotene Pforten" : {} },
@@ -5255,6 +5255,7 @@
 			"Kampfseminar Andergast" : {
 				"Bücher" : { "Wege der Helden" : 175 },
 				"Kosten" : 28,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5263,7 +5264,7 @@
 				"Ungeeignete Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Feenfreund" : {}, "Kampfrausch" : {}, "Koboldfreund" : {}, "Prophezeien" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {} },
 				"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Blutrausch" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Stubenhocker" : {}, "Thesisgebunden" : [{}], "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} },
 				"Talente" : { "Dolche" : 2, "Raufen" : 2, "Ringen" : 2, "Stäbe" : 4, "Athletik" : 3, "Klettern" : 1, "Körperbeherrschung" : 4, "Schleichen" : 2, "Schwimmen" : 1, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 3, "Zechen" : 1, "Etikette" : 1, "Lehren" : 2, "Menschenkenntnis" : 2, "Überreden" : 2, "Orientierung" : 4, "Wildnisleben" : 3, "Anatomie" : 2, "Geographie" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Heraldik" : 2, "Kriegskunst" : 4, "Magiekunde" : 3, "Pflanzenkunde" : 3, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 3, "Sternkunde" : 2, "Tierkunde" : 3, "Bosparano" : 6, "Kusliker Zeichen" : 8, "Alchimie" : 2, "Heilkunde Krankheiten" : 1, "Heilkunde Wunden" : 4, "Holzbearbeitung" : 2, "Kochen" : 2, "Lederarbeiten" : 2, "Malen/Zeichnen" : 4, "Schneidern" : 1 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Hauszauber" : { "Armatrutz" : { "Mag" : 6 }, "Balsam Salabunde" : { "Mag" : 5 }, "Blitz dich find" : { "Mag" : 7 }, "Eisenrost und Patina" : { "Mag" : 6 }, "Fulminictus Donnerkeil" : { "Mag" : 6 }, "Ignifaxius Flammenstrahl" : { "Mag" : 6 }, "Plumbumbarum schwerer Arm" : { "Mag" : 6 } },
 				"Zauber" : { "Attributo" : { "Mag" : 4 }, "Bannbaladin" : { "Mag" : 2 }, "Duplicatus Doppelbild" : { "Mag" : 3 }, "Falkenauge Meisterschuss" : { "Elf" : 2 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Gardianum Zauberschild" : { "Mag" : 4 }, "Horriphobus Schreckgestalt" : { "Mag" : 4 }, "Ignisphaero Feuerball" : { "Mag" : 2 }, "Klarum Purum" : { "Mag" : 3 }, "Motoricus Geisteshand" : { "Mag" : 1 }, "Odem Arcanum" : { "Mag" : 6 }, "Paralysis starr wie Stein" : { "Mag" : 2 }, "Sensibar Empathicus" : { "Mag" : 2 }, "Visibili Vanitar" : { "Mag" : 3 } },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Aufmerksamkeit" : {}, "Ausweichen I" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Schaden" }], "Waldkundig" : {} },
@@ -5272,6 +5273,7 @@
 			"Akademie der Geistreisen zu Belhanka" : {
 				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "KO" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5289,6 +5291,7 @@
 			"Halle des vollendeten Kampfes zu Bethana" : {
 				"Bücher" : { "Wege der Helden" : 176 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KO" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 12,
@@ -5299,7 +5302,7 @@
 				"Talente" : { "Dolche" : 3, "Fechtwaffen" : 3, "Raufen" : 4, "Ringen" : 4, "Stäbe" : 4, "Athletik" : 1, "Körperbeherrschung" : 3, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 2, "Tanzen" : 3, "Etikette" : 4, "Lehren" : 2, "Menschenkenntnis" : 2, "Orientierung" : 1, "Wildnisleben" : 1, "Anatomie" : 1, "Geographie" : 1, "Geschichtswissen" : 3, "Götter/Kulte" : 3, "Heraldik" : 1, "Kriegskunst" : 2, "Magiekunde" : 5, "Rechnen" : 5, "Rechtskunde" : 3, "Sagen/Legenden" : 4, "Sternkunde" : 2, "Tierkunde" : 2, "Bosparano" : 6, "Aureliani" : 4, "Kusliker Zeichen" : 8, "Imperiale Zeichen" : 4, "Alchimie" : 2, "Heilkunde Wunden" : 4, "Malen/Zeichnen" : 4 },
 				"Hauszauber" : { "Armatrutz" : { "Mag" : 6 }, "Balsam Salabunde" : { "Mag" : 6 }, "Corpofesso Gliederschmerz" : { "Mag" : 6 }, "Desintegratus Pulverstaub" : { "Mag" : 5 }, "Fulminictus Donnerkeil" : { "Mag" : 6 }, "Ignifaxius Flammenstrahl" : { "Mag" : 7 }, "Unitatio Geistesbund" : { "Mag" : 5 } },
 				"Zauber" : { "Wahl" : [{ "Wahl" : { "Höllenpein zerreiße dich!" : "Mag", "Motoricus Geisteshand" : "Mag" }, "Werte" : [3] }], "Attributo" : { "Mag" : 3 }, "Blitz dich find" : { "Mag" : 4 }, "Corpofrigo Kälteschock" : { "Mag" : 4 }, "Eisenrost und Patina" : { "Mag" : 2 }, "Gardianum Zauberschild" : { "Mag" : 5 }, "Horriphobus Schreckgestalt" : { "Mag" : 4 }, "Ignisphaero Feuerball" : { "Mag" : 3 }, "Odem Arcanum" : { "Mag" : 5 }, "Paralysis starr wie Stein" : { "Mag" : 4 }, "Pentagramma Sphärenbann" : { "Mag" : 2 }, "Plumbumbarum schwerer Arm" : { "Mag" : 3 }, "Psychostabilis" : { "Mag" : 4 }, "Schadenszauber bannen" : { "Mag" : 2 } },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Schaden" }], "Verbotene Pforten" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Mercenario" : {}, "Unauer Schule" : {} }], "Eiserner Wille I" : {}, "Konzentrationsstärke" : {}, "Regeneration I" : {}, "Regeneration II" : {} },
 				"Ausrüstung" : { "Wahl" : [{ "Tinte" : {}, "Tusche" : {} }, { "Vademecum" : {}, "Diarium" : {} }, { "Rapier" : {}, "Degen" : {}, "Säbel" : {}, "Zweililie" : {} }], "(Reise-)Kleidung" : { "Kategorien" : ["Kleidung"] }, "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "Konventsgewand" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Rituale" : { "Bindung des Stabes" : {} } } }, "Gänsekiele" : {}, "Federmesser" : {}, "Sand" : {}, "Löschbims" : {}, "20 Blatt Pergament" : {}, "Umhängetasche" : {}, "stabiler Gürtel mit Gürteltaschen" : {} }
@@ -5307,6 +5310,7 @@
 			"Dunkle Halle der Geister zu Brabak" : {
 				"Bücher" : { "Wege der Helden" : 177 },
 				"Kosten" : 30,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Astralenergie" : -2, "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
@@ -5352,6 +5356,7 @@
 			},
 			"Konzil der Elemente zu Drakonia" : {
 				"Bücher" : { "Wege der Helden" : 178 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 10,
@@ -5423,6 +5428,7 @@
 			"Akademie der Herrschaft zu Elenvina" : {
 				"Bücher" : { "Wege der Helden" : 179 },
 				"Kosten" : 26,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12 }, "KL" : 13, "IN" : 11, "CH" : 13, "FF" : 11 },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5437,6 +5443,7 @@
 			},
 			"Akademie der geistigen Kraft zu Fasar" : {
 				"Bücher" : { "Wege der Helden" : 180 },
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5479,6 +5486,7 @@
 			"Halle des Quecksilbers zu Festum" : {
 				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Vorurteile" : [{}], "Vorurteile (große Gruppe)" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5494,6 +5502,7 @@
 			"Akademie Schwert und Stab zu Gareth" : {
 				"Bücher" : { "Wege der Helden" : 181 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11, "GE" : 11, "KK" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5511,7 +5520,8 @@
 			"Akademie der Magischen Rüstung zu Gareth" : {
 				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 26,
-				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Adliges Erbe" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
+				"Gilde" : "Bund des Weißen Pentagramms",
+				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Wahl" : [{ "Verbindungen" : [{}], "Adlige Abstammung" : {}, "Amtsadel" : {} }], "Nicht" : { "Feenfreund" : {}, "Koboldfreund" : {}, "Soziale Anpassungsfähigkeit" : {}, "Veteran" : {}, "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
 				"Vorteile" : { "Akademische Ausbildung (Magier)" : {}, "Ausdauernder Zauberer" : {}, "Vollzauberer" : {} },
@@ -5527,6 +5537,7 @@
 			"Schule des direkten Weges zu Gerasim" : {
 				"Bücher" : { "Wege der Helden" : 182 },
 				"Kosten" : 30,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12, "GE" : 13 } },
 				"Basiswerte" : { "Sozialstatus" : 4 },
 				"Nachteile" : { "Arroganz" : { "Stufe" : 5 }, "Neugier" : { "Stufe" : 7 }, "Prinzipientreue" : [{ "Freitext" : "Frieden bewahren und Konflikte vermeiden, Verständigung zwischen den Völkern und Rassen fördern", "Stufe" : 6 }] },
@@ -5544,6 +5555,7 @@
 			"Akademie der Erscheinungen zu Grangor" : {
 				"Bücher" : { "Wege der Helden" : 183 },
 				"Kosten" : 23,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Wahl" : [{ "Eigenschaften" : { "MU" : 10, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 12, "IN" : 11, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 10, "CH" : 12, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 11, "FF" : 12 } }, { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } }] },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5552,7 +5564,7 @@
 				"Empfohlene Nachteile" : { "Stubenhocker" : {} },
 				"Ungeeignete Vorteile" : { "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Baukunst", "Brauer", "Drucker", "Feinmechanik", "Fleischer", "Glaskunst", "Handel", "Hauswirtschaft", "Instrumentenbauer", "Maurer", "Seiler", "Steinschneider/Juwelier", "Stellmacher", "Webkunst", "Zimmermann"] }], "Raufen" : 1, "Stäbe" : 2, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 3, "Tanzen" : 1, "Zechen" : 1, "Etikette" : 2, "Gassenwissen" : 2, "Lehren" : 3, "Menschenkenntnis" : 2, "Schriftlicher Ausdruck" : 1, "Überreden" : 3, "Brett-/Kartenspiel" : 2, "Geographie" : 1, "Geschichtswissen" : 2, "Götter/Kulte" : 2, "Magiekunde" : 6, "Philosophie" : 2, "Rechnen" : 6, "Rechtskunde" : 2, "Sagen/Legenden" : 3, "Schätzen" : 2, "Sternkunde" : 4, "Tierkunde" : 2, "Tulamidya" : 6, "Bosparano" : 5, "Ur-Tulamidya" : 2, "Kusliker Zeichen" : 7, "Nanduria" : 3, "Tulamidya (Schrift)" : 6, "Ur-Tulamidya (Schrift)" : 2, "Alchimie" : 2, "Malen/Zeichnen" : 5 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Illusion" }], "Simultanzaubern" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Merkmalskenntnis" : [{ "Auswahl" : "Geisterwesen" }], "Regeneration I" : {}, "Regeneration II" : {} },
 				"Hauszauber" : { "Auris Nasus Oculus" : { "Mag" : 7 }, "Duplicatus Doppelbild" : { "Mag" : 5 }, "Geisterruf" : { "Mag" : 6 }, "Ignorantia Ungesehn" : { "Mag" : 5 }, "Illusion auflösen" : { "Mag" : 5 }, "Menetekel Flammenschrift" : { "Mag" : 5 }, "Projektimago Ebenbild" : { "Mag" : 5 } },
@@ -5560,7 +5572,9 @@
 			},
 			"Drachenei-Akademie zu Khunchom" : {
 				"Bücher" : { "Wege der Helden" : 183 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Empfohlene Nachteile" : { "Stubenhocker" : {} },
+				"Sprachen" : { "Lehrsprache" : [["Tulamidya"]] },
 				"Varianten" : {
 					"Drachenei-Akademie zu Khunchom" : {
 						"Kosten" : 29,
@@ -5569,7 +5583,6 @@
 						"Sozialstatus:Maximum" : 13,
 						"Nachteile" : { "Goldgier" : { "Stufe" : 7 }, "Neugier" : { "Stufe" : 7 }, "Schulden" : { "Stufe" : 1500 }, "Vorurteile" : [{ "Freitext" : "echsische Wesen", "Stufe" : 6 }] },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Baukunst", "Gesteinskunde", "Hüttenkunde", "Kryptographie"], "Werte" : [3] }, { "Wahl" : ["Feinmechanik", "Glaskunst", "Grobschmied", "Metallguss", "Steinmetz", "Steinschneider/Juwelier", "Webkunst"], "Werte" : [3] }], "Stäbe" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 3, "Gassenwissen" : 1, "Lehren" : 2, "Menschenkenntnis" : 2, "Überreden" : 3, "Geschichtswissen" : 3, "Götter/Kulte" : 3, "Magiekunde" : 6, "Mechanik" : 3, "Pflanzenkunde" : 4, "Philosophie" : 2, "Rechnen" : 6, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 2, "Sternkunde" : 5, "Tierkunde" : 2, "Garethi" : 4, "Zhayad" : 4, "Bosparano" : 4, "Ur-Tulamidya" : 6, "Kusliker Zeichen" : 6, "Tulamidya (Schrift)" : 8, "Ur-Tulamidya (Schrift)" : 5, "Alchimie" : 7, "Holzbearbeitung" : 2, "Kochen" : 3, "Malen/Zeichnen" : 5, "Gildenmagisch" : 2 },
-						"Spracher" : { "Lehrsprache" : [["Tulamidya"]] },
 						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Objekt" }], "Tanz der Mada" : {}, "Weihe der Schale" : {} },
 						"Verbilligte Sonderfertigkeiten" : { "Merkmalskenntnis" : [{ "Auswahl" : "Telekinese" }], "Regeneration I" : {}, "Matrixregeneration I" : {}, "Zauberzeichen" : {} },
 						"Hauszauber" : { "Abvenenum reine Speise" : { "Mag" : 5 }, "Animatio stummer Diener" : { "Mag" : 5 }, "Applicatus Zauberspeicher" : { "Mag" : 6 }, "Arcanovi Artefakt" : { "Mag" : 7 }, "Destructibo Arcanitas" : { "Mag" : 4 }, "Foramen Foraminor" : { "Mag" : 5 }, "Motoricus Geisteshand" : { "Mag" : 6 } },
@@ -5587,7 +5600,6 @@
 						"Empfohlene Vorteile" : { "Astrale Regeneration I" : {}, "Astrale Regeneration II" : {}, "Astrale Regeneration III" : {}, "Astralmacht" : {}, "Ausdauernder Zauberer" : {}, "Feste Matrix" : {}, "Gebildet" : {}, "Gutes Gedächtnis" : {}, "Hohe Magieresistenz" : {}, "Verbindungen" : [{}], "Balance" : {}, "Richtungssinn" : {} },
 						"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {}, "Unfähigkeit für Talent" : [{ "Auswahl" : "Schwimmen" }] },
 						"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [4] }], "Stäbe" : 1, "Klettern" : 2, "Körperbeherrschung" : 2, "Schwimmen" : 4, "Selbstbeherrschung" : 1, "Sinnenschärfe" : 2, "Zechen" : 1, "Etikette" : 2, "Lehren" : 2, "Menschenkenntnis" : 2, "Überreden" : 2, "Orientierung" : 2, "Wettervorhersage" : 2, "Geschichtswissen" : 3, "Götter/Kulte" : 3, "Magiekunde" : 6, "Mechanik" : 4, "Pflanzenkunde" : 2, "Philosophie" : 2, "Rechnen" : 6, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Schätzen" : 1, "Sternkunde" : 5, "Tierkunde" : 2, "Garethi" : 4, "Ur-Tulamidya" : 6, "Bosparano" : 4, "Kusliker Zeichen" :6, "Tulamidya (Schrift)" : 8, "Ur-Tulamidya (Schrift)" : 5, "Alchimie" : 4, "Holzbearbeitung" : 4, "Kochen" : 3, "Malen/Zeichnen" : 7, "Seefahrt" : 3, "Gildenmagisch" : 2 },
-						"Sprachen" : { "Lehrsprache" : [["Tulamidya"]] },
 						"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Objekt" }], "Standfest" : {}, "Tanz der Mada" : {}, "Zauberzeichen" : {}, "Weihe der Schale" : {} },
 						"Verbilligte Sonderfertigkeiten" : { "Wahl" : [{ "Merkmalskenntnis" : [{ "Auswahl" : "Telekinese" }, { "Auswahl" : "Umwelt" }, { "Auswahl" : "Elementar (gesamt)" }] }], "Regeneration I" : {}, "Matrixregeneration I" : {} },
 						"Hauszauber" : { "Animatio stummer Diener" : { "Mag" : 7 }, "Applicatus Zauberspeicher" : { "Mag" : 7 }, "Arcanovi Artefakt" : { "Mag" : 5 }, "Destructibo Arcanitas" : { "Mag" : 4 }, "Dschinnenruf" : { "Mag" : 5 }, "Motoricus Geisteshand" : { "Mag" : 6 }, "Unitatio Geistesbund" : { "Mag" : 7 } },
@@ -5599,6 +5611,7 @@
 			"Halle der Antimagie zu Kuslik" : {
 				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 31,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Unansehnlich" : {}, "Widerwärtiges Aussehen" : {}, "Stubenhocker" : {}, "Weltfremd" : [{}] } } },
 				"Basiswerte" : { "Sozialstatus" : 9 },
 				"Sozialstatus:Maximum" : 12,
@@ -5606,6 +5619,7 @@
 				"Empfohlene Vorteile" : { "Adlige Abstammung" : {}, "Ausrüstungsvorteil" : {}, "Besonderer Besitz" : [{}], "Herausragender Sechster Sinn" : {} },
 				"Ungeeignete Nachteile" : { "Stubenhocker" : {}, "Weltfremd" : [{}] },
 				"Talente" : { "Dolche" : 1, "Fechtwaffen" : 3, "Raufen" : 2, "Stäbe" : 2, "Reiten" : 2, "Selbstbeherrschung" : 3, "Sinnenschärfe" : 3, "Tanzen" : 2, "Zechen" : 1, "Betören" : 2, "Etikette" : 5, "Lehren" : 2, "Menschenkenntnis" : 4, "Überreden" : 2, "Überzeugen" : 2, "Brett-/Kartenspiel" : 2, "Geographie" : 1, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Heraldik" : 2, "Magiekunde" : 5, "Pflanzenkunde" : 1, "Rechnen" : 4, "Rechtskunde" : 4, "Sagen/Legenden" : 2, "Staatskunst" : 3, "Sternkunde" : 2, "Tierkunde" : 2, "Tulamidya" : 6, "Aureliani" : 4, "Bosparano" : 6, "Imperiale Zeichen" : 4, "Kusliker Zeichen" : 8, "Nanduria" : 4, "Tulamidya (Schrift)" : 4, "Alchimie" : 2, "Heilkunde Gift" : 2, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 4 },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Antimagie" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Eiserner Wille I" : {}, "Regeneration I" : {}, "Regeneration II" : {}, "Zauber bereithalten" : {}, "Zauberkontrolle" : {} },
 				"Hauszauber" : { "Beherrschung brechen" : { "Mag" : 5 }, "Bewegung stören" : { "Mag" : 4 }, "Destructibo Arcanitas" : { "Mag" : 5 }, "Gardianum Zauberschild" : { "Mag" : 7 }, "Hellsicht trüben" : { "Mag" : 5 }, "Illusion auflösen" : { "Mag" : 5 }, "Sensibar Empathicus" : { "Mag" : 6 } },
@@ -5614,6 +5628,7 @@
 			"Halle der Metamorphosen zu Kuslik" : {
 				"Bücher" : { "Wege der Helden" : 185 },
 				"Kosten" : 23,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5629,12 +5644,13 @@
 			"Halle der Macht zu Lowangen" : {
 				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 29,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Schulden" : { "Stufe" : 1000 }, "Verpflichtungen" : [{ "Freitext" : "Akademie, Akademieleiter und Stadt Lowangen" }] },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Isdira", "Rogolan", "Ologhaijan"], "Werte" : [5, 3, 3] }], "Dolche" : 1, "Raufen" : 2, "Stäbe" : 3, "Körperbeherrschung" : 2, "Selbstbeherrschung" : 5, "Sinnenschärfe" : 2, "Etikette" : 2, "Lehren" : 3, "Menschenkenntnis" : 4, "Schriftlicher Ausdruck" : 2, "Überreden" : 2, "Überzeugen" : 2, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Kriegskunst" : 1, "Magiekunde" : 4, "Pflanzenkunde" : 3, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Sternkunde" : 2, "Tierkunde" : 3, "Bosparano" : 6, "Ur-Tulamidya" : 4, "Zhayad" : 5, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 6, "Zhayad (Schrift)" : 5, "Alchimie" : 2, "Heilkunde Krankheiten" : 3, "Heilkunde Seele" : 4, "Heilkunde Wunden" : 4, "Holzbearbeitung" : 3, "Lederarbeiten" : 2, "Malen/Zeichnen" : 4, "Schneidern" : 2 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Eiserner Wille I" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Herrschaft" }, { "Auswahl" : "Einfluss" }], "Zauberkontrolle" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Gedankenschutz" : {}, "Regeneration I" : {}, "Regeneration II" : {}, "Tanz der Mada" : {} },
 				"Hauszauber" : { "Band und Fessel" : { "Mag" : 5 }, "Bannbaladin" : { "Mag" : 6 }, "Beherrschung brechen" : { "Mag" : 5 }, "Horriphobus Schreckgestalt" : { "Mag" : 7 }, "Respondami Wahrheitszwang" : { "Mag" : 5 }, "Sensibar Empathicus" : { "Mag" : 6 }, "Somnigravis tiefer Schlaf" : { "Mag" : 6 } },
@@ -5643,12 +5659,13 @@
 			"Akademie der Verformungen zu Lowangen" : {
 				"Bücher" : { "Wege der Helden" : 186 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Schulden" : { "Stufe" : 1000 }, "Verpflichtungen" : [{ "Freitext" : "Akademie und Stadt Lowangen" }] },
 				"Talente" : { "Raufen" : 1, "Stäbe" : 3, "Körperbeherrschung" : 2, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 2, "Etikette" : 3, "Lehren" : 4, "Menschenkenntnis" : 4, "Schriftlicher Ausdruck" : 2, "Orientierung" : 2, "Wildnisleben" : 2, "Anatomie" : 3, "Geographie" : 3, "Geschichtswissen" : 2, "Götter/Kulte" : 4, "Magiekunde" : 6, "Pflanzenkunde" : 5, "Rechnen" : 4, "Rechtskunde" : 2, "Sagen/Legenden" : 2, "Sternkunde" : 2, "Tierkunde" : 5, "Isdira" : 4, "Thorwalsch" : 3, "Ologhaijan" : 2, "Bosparano" : 8, "Ur-Tulamidya" : 5, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 6, "Nanduria" : 3, "Isdira (Schrift)" : 1, "Alchimie" : 5, "Heilkunde Gift" : 3, "Heilkunde Krankheiten" : 3, "Heilkunde Wunden" : 4, "Kochen" : 2, "Malen/Zeichnen" : 5 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Wahl" : [{ "Merkmalskenntnis" : [{ "Auswahl" : "Form" }, { "Auswahl" : "Eigenschaften" }] }], "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Merkmalskenntnis" : [{ "Auswahl" : "Eigenschaften" }, { "Auswahl" : "Form" }], "Regeneration I" : {}, "Regeneration II" : {}, "Zauberkontrolle" : {} },
 				"Hauszauber" : { "Adlerschwinge Wolfsgestalt" : { "Mag" : [6] }, "Armatrutz" : { "Mag" : 6 }, "Attributo" : { "Mag" : 7 }, "Paralysis starr wie Stein" : { "Mag" : 7 }, "Salander Mutander" : { "Mag" : 5 }, "Visibili Vanitar" : { "Mag" : 6 }, "Wasseratem" : { "Mag" : 6 } },
@@ -5657,6 +5674,7 @@
 			"Akademie des Magischen Wissens zu Methumis" : {
 				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 24,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5672,6 +5690,7 @@
 			"Zauberschule des Kalifen zu Mherwed" : {
 				"Bücher" : { "Wege der Helden" : 187 },
 				"Kosten" : 23,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Geschlecht" : "männlich" },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5692,6 +5711,7 @@
 			"Schule der variablen Form zu Mirham" : {
 				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 24,
+				"Gilde" : "Bruderschaft der Wissenden",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
@@ -5706,6 +5726,7 @@
 			"Schule der Beherrschung zu Neersand" : {
 				"Bücher" : { "Wege der Helden" : 188 },
 				"Kosten" : 22,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 11,
@@ -5713,7 +5734,7 @@
 				"Empfohlene Nachteile" : { "Prinzipientreue" : [{}], "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Kampftalente" }], "Unfähigkeit für Merkmal" : [{ "Auswahl" : "Schaden" }] },
 				"Ungeeignete Nachteile" : { "Arroganz" : {} },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [4] }, { "Wahl" : ["Ackerbau", "Viehzucht"], "Werte" : [2] }], "Stäbe" : 3, "Athletik" : 1, "Körperbeherrschung" : 1, "Reiten" : 1, "Selbstbeherrschung" : 3, "Sinnenschärfe" : 4, "Zechen" : 1, "Etikette" : 1, "Lehren" : 5, "Menschenkenntnis" : 4, "Überreden" : 2, "Überzeugen" : 2, "Orientierung" : 2, "Wildnisleben" : 1, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Heraldik" : 1, "Magiekunde" : 4, "Pflanzenkunde" : 2, "Rechnen" : 6, "Rechtskunde" : 3, "Sagen/Legenden" : 3, "Sternkunde" : 2, "Tierkunde" : 3, "Bosparano" : 6, "Tulamidya" : 4, "Alaani" : 4, "Kusliker Zeichen" : 7, "Tulamidya (Schrift)" : 2, "Nanduria" : 6, "Alchimie" : 2, "Heilkunde Gift" : 2, "Heilkunde Seele" : 2, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 1, "Kochen" : 1, "Lederarbeiten" : 2, "Malen/Zeichnen" : 4, "Schneidern" : 1 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Einfluss" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Eiserner Wille I" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Herrschaft" }], "Regeneration I" : {}, "Regeneration II" : {} },
 				"Hauszauber" : { "Bannbaladin" : { "Mag" : 7 }, "Beherrschung brechen" : { "Mag" : 5 }, "Horriphobus Schreckgestalt" : { "Mag" : 6 }, "Imperavi Handlungszwang" : { "Mag" : 6 }, "Respondami Wahrheitszwang" : { "Mag" : 5 }, "Sensibar Empathicus" : { "Mag" : 7 }, "Somnigravis tiefer Schlaf" : { "Mag" : 6 } },
@@ -5722,6 +5743,7 @@
 			"Halle des Lebens zu Norburg" : {
 				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 23,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5737,6 +5759,7 @@
 			"Akademie von Licht und Dunkelheit zu Nostria" : {
 				"Bücher" : { "Wege der Helden" : 189 },
 				"Kosten" : 25,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 12,
@@ -5745,7 +5768,7 @@
 				"Empfohlene Nachteile" : { "Weltfremd" : [{ "Freitext" : "Politik" }, { "Freitext" : "städtisches Treiben" }] },
 				"Ungeeignete Nachteile" : { "Arroganz" : {}, "Dunkelangst" : {}, "Einbildungen" : [{}], "Eitelkeit" : {}, "Goldgier" : {}, "Stubenhocker" : {} },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Baukunst", "Brauer", "Gerber/Kürschner", "Heilkunde Krankheiten", "Instrumentenbauer", "Kochen", "Maurer", "Schnaps Brennen", "Schneidern", "Seefahrt", "Seiler", "Steinmetz", "Steinschneider/Juwelier", "Stellmacher", "Stoffe Färben", "Tätowieren", "Töpfern", "Viehzucht", "Webkunst", "Zimmermann"], "Werte" : [4, 3] }], "Dolche" : 2, "Raufen" : 3, "Stäbe" : 3, "Körperbeherrschung" : 1, "Schwimmen" : 1, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 2, "Etikette" : 2, "Lehren" : 2, "Überreden" : 1, "Fährtensuchen" : 1, "Orientierung" : 2, "Wettervorhersage" : 1, "Wildnisleben" : 2, "Geographie" : 1, "Geschichtswissen" : 4, "Götter/Kulte" : 4, "Magiekunde" : 5, "Pflanzenkunde" : 4, "Rechnen" : 5, "Rechtskunde" : 4, "Sagen/Legenden" : 5, "Schätzen" : 2, "Sternkunde" : 3, "Tierkunde" : 3, "Bosparano" : 6, "Aureliani" : 5, "Kusliker Zeichen" : 8, "Imperiale Zeichen" : 6, "Ackerbau" : 2, "Alchimie" : 2, "Boote Fahren" : 1, "Hauswirtschaft" : 3, "Heilkunde Wunden" : 2, "Holzbearbeitung" : 2, "Malen/Zeichnen" : 4 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Umwelt" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Regeneration I" : {}, "Regeneration II" : {} },
 				"Hauszauber" : { "Caldofrigo heiß und kalt" : { "Mag" : 5 }, "Dunkelheit" : { "Mag" : 7 }, "Nebelwand und Morgendunst" : { "Mag" : 7 }, "Nihilogravo Schwerelos" : { "Mag" : 6 }, "Objectofixo" : { "Mag" : 5 }, "Silentium Schweigekreis" : { "Mag" : 7 }, "Veränderung aufheben" : { "Mag" : 5 } },
@@ -5781,12 +5804,13 @@
 			"Schule der Austreibung zu Perricum" : {
 				"Bücher" : { "Wege der Helden" : 191 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 13, "KL" : 13, "IN" : 11, "CH" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 12,
 				"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Verpflichtungen" : [{ "Freitext" : "Akademie, Reich und Gilde" }] },
 				"Talente" : { "Raufen" : 3, "Ringen" : 2, "Stäbe" : 2, "Selbstbeherrschung" : 4, "Sinnenschärfe" : 3, "Etikette" : 1, "Lehren" : 3, "Menschenkenntnis" : 4, "Schriftlicher Ausdruck" : 1, "Überreden" : 2, "Überzeugen" : 4, "Fesseln/Entfesseln" : 2, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Magiekunde" : 6, "Pflanzenkunde" : 2, "Rechnen" : 4, "Rechtskunde" : 3, "Sagen/Legenden" : 3, "Sternkunde" : 2, "Tierkunde" : 2, "Bosparano" : 6, "Zhayad" : 4, "Kusliker Zeichen" : 8, "Nanduria" : 4, "Zhayad (Schrift)" : 4, "Alchimie" : 2, "Heilkunde Seele" : 4, "Malen/Zeichnen" : 5 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Antimagie" }, { "Auswahl" : "Geisterwesen" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Eiserner Wille I" : {}, "Eiserner Wille II" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Hellsicht" }], "Regeneration I" : {}, "Regeneration II" : {}, "Verbotene Pforten" : {}, "Bannschwert" : {} },
 				"Hauszauber" : { "Beherrschung brechen" : { "Mag" : 7 }, "Einfluss bannen" : { "Mag" : 6 }, "Geisterbann" : { "Mag" : 7 }, "Illusion auflösen" : { "Mag" : 6 }, "Pentagramma Sphärenbann" : { "Mag" : 6 }, "Reversalis Revidum" : { "Mag" : 4 }, "Verwandlung beenden" : { "Mag" : 6 } },
@@ -5794,6 +5818,7 @@
 			},
 			"Akademie der hohen Magie & arcanes Institut zu Punin" : {
 				"Bücher" : { "Wege der Helden" : 191 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 14, "IN" : 12, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Jähzorn" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 13,
@@ -5802,6 +5827,7 @@
 				"Ungeeignete Vorteile" : { "Eisern" : {}, "Zäher Hund" : {} },
 				"Ungeeignete Nachteile" : { "Jähzorn" : {} },
 				"Talente" : { "Selbstbeherrschung" : 3, "Sinnenschärfe" : 2, "Etikette" : 2, "Lehren" : 4, "Schriftlicher Ausdruck" : 3, "Wildnisleben" : -1, "Geschichtswissen" : 4, "Götter/Kulte" : 4, "Magiekunde" : 8, "Pflanzenkunde" : 4, "Philosophie" : 3, "Rechnen" : 6, "Rechtskunde" : 3, "Sagen/Legenden" : 2, "Sternkunde" : 4, "Tierkunde" : 4, "Tulamidya" : 6, "Isdira" : 5, "Zhayad" : 5, "Ur-Tulamidya" : 5, "Aureliani" : 4, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 5, "Zhayad (Schrift)" : 5, "Imperiale Zeichen" : 4, "Ur-Tulamidya (Schrift)" : 5, "Nanduria" : 4, "Alchimie" : 6, "Malen/Zeichnen" : 4 },
+				"Sprachen" : { "Lehrsprache" : [["Bosparano"]] },
 				"Varianten" : {
 					"Punin I" : {
 						"Kosten" : 28,
@@ -5821,6 +5847,7 @@
 			},
 			"Pentagramm-Akademie zu Rashdul" : {
 				"Bücher" : { "Wege der Helden" : 192 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 13,
@@ -5854,6 +5881,7 @@
 			},
 			"Stoerrebrandt-Kolleg zu Riva" : {
 				"Bücher" : { "Wege der Helden" : 193 },
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 12, "CH" : 12, "FF" : 11 } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 11,
@@ -5863,7 +5891,7 @@
 				"Ungeeignete Vorteile" : {},
 				"Ungeeignete Nachteile" : { "Meeresangst" : {} },
 				"Talente" : { "Dolche" : 1, "Stäbe" : 2, "Wurfmesser" : 2, "Reiten" : 2, "Schwimmen" : 3, "Selbstbeherrschung" : 2, "Sinnenschärfe" : 2, "Etikette" : 4, "Lehren" : 2, "Menschenkenntnis" : 4, "Überreden" : 2, "Orientierung" : 2, "Geographie" : 3, "Geschichtswissen" : 3, "Götter/Kulte" : 3, "Magiekunde" : 4, "Pflanzenkunde" : 1, "Rechnen" : 6, "Rechtskunde" : 3, "Sagen/Legenden" : 3, "Schätzen" : 2, "Sternkunde" : 2, "Tierkunde" : 2, "Bosparano" : 6, "Kusliker Zeichen" : 8, "Alchimie" : 2, "Handel" : 1, "Malen/Zeichnen" : 4 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Hauszauber" : { "Attributo" : { "Mag" : 6 } },
 				"Zauber" : { "Accuratum Zaubernadel" : { "Mag" : 2 }, "Flim Flam Funkel" : { "Mag" : 4 }, "Impersona Maskenbild" : { "Mag" : 2 }, "Manifesto Element" : { "Mag" : 4 }, "Odem Arcanum" : { "Mag" : 5 }, "Psychostabilis" : { "Mag" : 4 }, "Sapefacta Zauberschwamm" : { "Mag" : 2 }, "Unitatio Geistesbund" : { "Mag" : 3 } },
 				"Ausrüstung" : { "Reisegewand" : { "Kategorien" : ["Kleidung"] }, "spitzer Hut" : { "Kategorien" : ["Kleidung"] }, "Stiefel" : { "Kategorien" : ["Kleidung"] }, "Wollmantel" : { "Kategorien" : ["Kleidung"] }, "Magierstab" : { "Magierstab" : { "Material" : "Steineiche", "Rituale" : { "Bindung des Stabes" : {} } } }, "Dolch" : {}, "gute Ersatzkleidung" : { "Kategorien" : ["Kleidung"] }, "Umhängetasche" : {}, "Schreibfeder" : {}, "Tinte" : {}, "Tagebuch" : {}, "Geldbeutel mit 10 Dukaten" : {} },
@@ -5893,6 +5921,7 @@
 			"Informations-Institut Rommilys" : {
 				"Bücher" : { "Wege der Helden" : 193 },
 				"Kosten" : 29,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Angst vor" : [{}], "Angst vor (häufiger Auslöser)" : [{}], "Dunkelangst" : {}, "Höhenangst" : {}, "Meeresangst" : {}, "Platzangst" : {}, "Raumangst" : {}, "Totenangst" : {}, "Einbildungen" : [{}], "Kurzsichtig" : {}, "Schwerhörig" : {}, "Eingeschränkter Geruchssinn" : {}, "Eingeschränkter Tastsinn" : {}, "Farbenblind" : {}, "Fluch der Finsternis I" : {}, "Fluch der Finsternis II" : {}, "Fluch der Finsternis III" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Medium" : {}, "Rachsucht" : {}, "Schulden" : {}, "Spruchhemmung" : {}, "Stigma" : [{}], "Sucht" : [{}], "Unstet" : {}, "Vergesslichkeit" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5900,7 +5929,7 @@
 				"Empfohlene Vorteile" : { "Adlige Abstammung" : {}, "Ausrüstungsvorteil" : {}, "Herausragender Sechster Sinn" : {}, "Herausragende Sicht" : {}, "Herausragendes Gehör" : {}, "Herausragender Geruchssinn" : {}, "Herausragender Tastsinn" : {}, "Magiegespür" : {}, "Soziale Anpassungsfähigkeit" : {}, "Verhüllte Aura" : {}, "Zeitgefühl" : {} },
 				"Ungeeignete Nachteile" : { "Einbildungen" : [{}], "Kurzsichtig" : {}, "Schwerhörig" : {}, "Eingeschränkter Geruchssinn" : {}, "Eingeschränkter Tastsinn" : {}, "Farbenblind" : {}, "Fluch der Finsternis I" : {}, "Fluch der Finsternis II" : {}, "Fluch der Finsternis III" : {}, "Gesucht I" : [{}], "Gesucht II" : [{}], "Gesucht III" : {}, "Goldgier" : {}, "Medium" : {}, "Rachsucht" : {}, "Schulden" : {}, "Spruchhemmung" : {}, "Stigma" : [{}], "Sucht" : [{}], "Unstet" : {}, "Vergesslichkeit" : {} },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Fremdsprache"], "Werte" : [5] }, { "Wahl" : ["Fremdschrift"], "Werte" : [4] }], "Dolche" : 1, "Stäbe" : 2, "Selbstbeherrschung" : 3, "Sinnenschärfe" : 4, "Etikette" : 4, "Lehren" : 3, "Menschenkenntnis" : 4, "Schriftlicher Ausdruck" : 2, "Überreden" : 2, "Überzeugen" : 3, "Fesseln/Entfesseln" : 2, "Anatomie" : 2, "Geographie" : 1, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Heraldik" : 2, "Kryptographie" : 4, "Magiekunde" : 5, "Mechanik" : 1, "Pflanzenkunde" : 3, "Rechnen" : 6, "Rechtskunde" : 6, "Sagen/Legenden" : 2, "Sprachenkunde" : 4, "Staatskunst" : 2, "Sternkunde" : 2, "Tierkunde" : 2, "Tulamidya" : 8, "Bosparano" : 8, "Kusliker Zeichen" : 7, "Tulamidya (Schrift)" : 4, "Alchimie" : 4, "Heilkunde Gift" : 3, "Heilkunde Wunden" : 3, "Malen/Zeichnen" : 4 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Hellsicht" }], "Bindung der Kugel" : {} },
 				"Verbilligte Sonderfertigkeiten" : { "Eiserner Wille I" : {}, "Konzentrationsstärke" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Antimagie" }], "Regeneration I" : {}, "Regeneration II" : {}, "Signaturkenntnis" : {} },
 				"Hauszauber" : { "Analys Arcanstruktur" : { "Mag" : 6 }, "Blick aufs Wesen" : { "Mag" : 7 }, "Blick in die Gedanken" : { "Mag" : 7 }, "Cryptographo Zauberschrift" : { "Mag" : 5 }, "Objectovoco" : { "Mag" : 5 }, "Penetrizzel Tiefenblick" : { "Mag" : 5 }, "Sensibar Empathicus" : { "Mag" : 6 } },
@@ -5909,6 +5938,7 @@
 			"Schule der Vierfachen Verwandlung zu Sinoda" : {
 				"Bücher" : { "Wege der Helden" : 194 },
 				"Kosten" : 27,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 11,
@@ -5927,6 +5957,7 @@
 			"Schule der Hellsicht zu Thorwal" : {
 				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 26,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 6 },
 				"Sozialstatus:Maximum" : 10,
@@ -5944,6 +5975,7 @@
 			"Anatomische Akademie zu Vinsalt" : {
 				"Bücher" : { "Wege der Helden" : 195 },
 				"Kosten" : 22,
+				"Gilde" : "Bund des Weißen Pentagramms",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 12, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 11 }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Totenangst" : {} } } },
 				"Basiswerte" : { "Sozialstatus" : 8 },
 				"Sozialstatus:Maximum" : 12,
@@ -5960,6 +5992,7 @@
 			"Schule des Seienden Scheins zu Zorgan" : {
 				"Bücher" : { "Wege der Helden" : 196 },
 				"Kosten" : 25,
+				"Gilde" : "Große Graue Gilde des Geistes",
 				"Voraussetzungen" : { "Eigenschaften" : { "MU" : 11, "KL" : 13, "IN" : 11, "CH" : 12, "FF" : 12 } },
 				"Basiswerte" : { "Sozialstatus" : 7 },
 				"Sozialstatus:Maximum" : 11,
@@ -6015,7 +6048,7 @@
 				"Empfohlene Nachteile" : { "Arroganz" : {}, "Artefaktgebunden" : {}, "Autoritätsgläubig" : {}, "Eitelkeit" : {}, "Feste Gewohnheit" : [{}], "Festgefügtes Denken" : {}, "Lästige Mindergeister" : {}, "Neid" : {}, "Neugier" : {}, "Prinzipientreue" : [{}], "Schulden" : {}, "Sucht" : [{}], "Thesisgebunden" : [{}], "Verpflichtungen" : [{}], "Vorurteile" : [{}, { "Freitext" : "Nichtmenschen" }], "Weltfremd" : [{}] },
 				"Ungeeignete Nachteile" : { "Aberglaube" : [{}], "Animalische Magie" : {}, "Arkanophobie" : {}, "Eitelkeit" : {}, "Medium" : {}, "Niedrige Magieresistenz" : {}, "Stubenhocker" : {}, "Unfrei" : {}, "Ungebildet" : {}, "Unstet" : {}, "Unverträglichkeit mit verarbeitetem Metall" : {}, "Wilde Magie" : {} },
 				"Talente" : { "Wahl" : [{ "Wahl" : ["Ackerbau", "Boote Fahren", "Holzbearbeitung", "Kochen", "Maurer", "Seiler", "Töpfern", "Zimmermann"], "Werte" : [2, 2, 2] }], "Dolche" : 1, "Raufen" : 2, "Stäbe" : 3, "Körperbeherrschung" : 1, "Selbstbeherrschung" : 3, "Sinnenschärfe" : 3, "Tanzen" : 1, "Zechen" : 2, "Etikette" : 1, "Gassenwissen" : 1, "Lehren" : 3, "Menschenkenntnis" : 3, "Wildnisleben" : 2, "Geschichtswissen" : 3, "Götter/Kulte" : 4, "Magiekunde": 5, "Mechanik" : 1, "Pflanzenkunde" : 2, "Rechnen" : 4, "Rechtskunde" : 3, "Sagen/Legenden" : 4, "Sternkunde" : 2, "Tierkunde" : 3, "Bosparano" : 7, "Tulamidya" : 4, "Ur-Tulamidya" : 3, "Kusliker Zeichen" : 8, "Tulamidya (Schrift)" : 4, "Alchimie" : 3, "Heilkunde Wunden" : 2, "Malen/Zeichnen" : 4 },
-				"Sprachen" : { "Lehrsprache" : [["Isdira"]] },
+				"Sprachen" : { "Lehrsprache" : [["Garethi"]] },
 				"Sonderfertigkeiten" : { "Repräsentation" : [{ "Auswahl" : "Gildenmagisch" }], "Ritualkenntnis" : [{ "Auswahl" : "Gildenmagisch" }], "Astrale Meditation" : {}, "Große Meditation" : {}, "Merkmalskenntnis" : [{ "Auswahl" : "Antimagie" }] },
 				"Verbilligte Sonderfertigkeiten" : { "Eiserner Wille I" : {}, "Regeneration I" : {}, "Regeneration II" : {}, "Bannschwert" : {} },
 				"Hauszauber" : { "Beherrschung brechen" : { "Mag" : 6 }, "Destructibo Arcanitas" : { "Mag" : 5 }, "Eigenschaft wiederherstellen" : { "Mag" : 5 }, "Gardianum Zauberschild" : { "Mag" : 5 }, "Geisterbann" : { "Mag" : 5 }, "Illusion auflösen" : { "Mag" : 7 }, "Psychostabilis" : { "Mag" : 7 } },
@@ -6466,6 +6499,17 @@
 						}
 					}
 				}
+			},
+			"Institut der Arkanen Analysen zu Kuslik" : {
+				"Generierung" : false,
+				"Bücher" : { "Wege der Zauberei" : 290 },
+				"Kosten" : 20,
+				"Voraussetzungen" : { "Talente" : { "Muss" : { "Menschenkenntnis" : 8, "Magiekunde" : 14, "Rechnen" : 8, "Sprachenkunde" : 4,  "Kusliker Zeichen" : 8 } } },
+				"Sonderfertigkeiten" : { "Merkmalskenntnis" : [{ "Auswahl" : "Metamagie" }], "Eiserner Wille I" : {}, "Konzentrationsstärke" : {} },
+				"Talente" : { "Lehren" : 1, "Überzeugen" : 1, "Geschichtswissen" : 1, "Götter/Kulte" : 1, "Kryptographie" : 1, "Magiekunde" : 1, "Sagen/Legenden" : 1, "Sternkunde" : 1, "Aureliani" : 1, "Bosparano" : 1, "Isdira" : 1, "Ur-Tulamidya" : 1,  "Zhayad" : 1, "Arkanil" : 1, "Imperiale Zeichen" : 1, "Nanduria" : 1, "Ur-Tulamidya (Schrift)" : 1, "Zhayad (Schrift)" : 1, "Alchimie" : 1 },
+				"Sprachen" : { "Lehrsprache" : [["Bosparano"]]},
+				"Hauszauber" : { "Analys Arcanstruktur" : { "Mag" : 1 }, "Arcanovi Artefakt" : { "Mag" : 1 }, "Destructibo Arcanitas" : { "Mag" : 1 }, "Invercano Spiegeltrick" : { "Mag" : 1 }, "Oculus Astralis" : { "Mag" : 1 }, "Reversalis Revidum" : { "Mag" : 1 }, "Unitatio Geistesbund" : { "Mag" : 1 } },
+				"Zauber" : { "Auge des Limbus" : { "Mag" : 1 }, "Blick aufs Wesen" : { "Mag" : 1 }, "Cryptographo Zauberschrift" : { "Mag" : 1 }, "Einfluss bannen" : { "Mag" : 1 }, "Gardianum Zauberschild" : { "Mag" : 1 }, "Geisterbann" : { "Mag" : 1 }, "Memorans Gedächtniskraft" : { "Mag" : 1 }, "Objekt entzaubern" : { "Mag" : 1 }, "Odem Arcanum" : { "Mag" : 1 }, "Protectionis Kontrabann" : { "Mag" : 1 }, "Psychostabilis" : { "Mag" : 1 }, "Schleier der Unwissenheit" : { "Mag" : 1 }, "Xenographus Schriftenkunde" : { "Mag" : 1 } }
 			}
 		}
 	},
@@ -7695,6 +7739,17 @@
 		"Verbilligte Sonderfertigkeiten" : { "Mondsilberzunge" : {}, "Rahjas Freiheit" : {} },
 		"Ausrüstung" : { "Wahl" : [{ "Robe" : { "Kategorien" : ["Kleidung"] }, "einfache Kleidung" : { "Kategorien" : ["Kleidung"] } }, { "Dolch" : {}, "Wanderstab" : {} }] },
 		"Besonderer Besitz" : "Pferd oder Boot oder Kamel oder Schlitten oder Kompass oder Vergleichbares"
+	},
+	"Geweihter des Kor" : {
+		"Generierung" : false,
+		"Weiblich" : "Geweihte des Kor",
+		"Bücher" : { "Wege der Helden" : 227 },
+		"Kosten" : 11,
+		"Voraussetzungen" : { "Eigenschaften" : { "MU" : 14, "CH" : 11, "GE" : 12, "KO" : 14, "KK" : 12 }, "Basiswerte" : { "Sozialstatus" : 5 }, "Professionen" : { "Wahl" : { "Gladiator" : {}, "Schaukämpfer" : {}, "Soldat" : {}, "Söldner" : {}, "Fähnrich" : {}, "Gardist" : {}, "Jahrmarktskämpfer" : {}, "Krieger" : {}, "Ritter" : {}, "Schwertgeselle" : {} } }, "Vorteile/Nachteile/Sonderfertigkeiten" : { "Nicht" : { "Halbzauberer" : {}, "Viertelzauberer" : {}, "Vollzauberer" : {}, "Angst vor" : [{ "Freitext" : "Blut" }, { "Freitext" : "Kampf" }], "Angst vor (häufiger Auslöser)" : [{ "Freitext" : "Blut" }, { "Freitext" : "Kampf" }], "Einbeinig" : {}, "Gesucht III" : [{}], "Glasknochen" : {}, "Lahm" : {}, "Nachtblind" : {}, "Prinzipientreue" : [{ "Freitext" : "Pazifismus" }], "Speisegebote" : [{ "Freitext" : "Vegetarismus" }], "Stubenhocker" : {}, "Unfähigkeit für Talentgruppe" : [{ "Auswahl" : "Kampftalente" }], "Wahnvorstellungen" : [{}] } }, "Talente" : { "Wahl" : [{ "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }, { "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }, { "Anderthalbhänder" : 7, "Dolche" : 7, "Fechtwaffen" : 7, "Hiebwaffen" : 7, "Infanteriewaffen" : 7, "Kettenstäbe" : 7, "Kettenwaffen" : 7, "Lanzenreiten" : 7, "Peitsche" : 7, "Säbel" : 7, "Schwerter" : 7, "Speere" : 7, "Stäbe" : 7, "Zweihandflegel" : 7, "Zweihand-Hiebwaffen" : 7, "Zweihandschwerter/-säbel" : 7 }], "Athletik" : 4, "Körperbeherrschung" : 10, "Selbstbeherrschung" : 7, "Götter/Kulte" : 4 }, "Sonderfertigkeiten AP": { "Muss" : { "Kampf-Sonderfertigkeiten" : 1000 } } },
+		"Basiswerte" : { "Ausdauer" : 2, "Magieresistenz" : 1 },
+		"Nachteile" : { "Neugier" : { "Stufe" : 7 }, "Moralkodex" : [{ "Auswahl" : "Kor", "Stufe" : 3 }], "Verpflichtungen" : [{ "Freitext" : "Kor-Kirche" }] },
+		"Talente" : { "Infanteriewaffen" : 1, "Selbstbeherrschung" : 3, "Menschenkenntnis" : 2, "Überzeugen" : 1, "Götter/Kulte" : 4, "Kriegskunst" : 4, "Muttersprache:Schrift" : 5, "Heilkunde Wunden" :1 },
+		"Sonderfertigkeiten" : { "Spätweihe" : [{ "Auswahl" : "Kor" }], "Waffenspezialisierung" : [{ "Auswahl" : "Infanteriewaffen", "Freitext" : "Korspieß" }], "Eidsegen" : {}, "Grabsegen" : {}, "Märtyrersegen" : {}, "Schutzsegen" : {}, "Speisesegen" : {}, "Tranksegen" : {}, "Neun Streiche in Einem" : {}, "Objektsegen" : {} }
 	},
 	"Geweihter des Nandus" : {
 		"Weiblich" : "Geweihte des Nandus",

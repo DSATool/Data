@@ -487,7 +487,7 @@
 	"Lichtnebler" : {
 		"Bücher" : { "Wege der Alchimie" : 194 },
 		"Typ" : ["Gefährliche Pflanze"],
-		"Gebiet" : ["NördlichNeethaKhunchom"],
+		"Gebiet" : ["NoerdlichNeethaKhunchom"],
 		"Verbreitung" : { "Höhlen" : "gelegentlich" },
 		"Bestimmung" : 10,
 		"Ernte" : ["Praios", "Efferd", "Travia", "Boron", "Hesinde", "Peraine", "Ingerimm", "Rahja", "Namenloser"],
